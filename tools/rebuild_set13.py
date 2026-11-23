@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build Attack of the Vine v1.6 from the source-registered SVG."""
+"""Build Attack of the Vine v07 from the source-registered SVG."""
 
 import argparse
 import json
@@ -18,18 +18,18 @@ from rebuild_set04 import boundary_loops, orient
 from rebuild_set07 import registered, relief, sample
 from rebuild_set09 import SOURCE as PREVIEW_TEMPLATE, preview
 from refine_loops_and_underline import write_project
-from repair_v1_1 import NS, read_parts
+from repair_v02 import NS, read_parts
 from standardize_loop_diameters import bounds, centre, digest, package
 
 ROOT = Path(__file__).resolve().parents[1]
 SET = ROOT / 'sets/Set_13_Attack_of_the_Vine'
-VERSION = 'v1.6'
+VERSION = 'v07'
 RELEASE_DATE = '2026-11-22'
 NAME = SET.name + '_' + VERSION
-DEST = SET / VERSION
-SOURCE = SET / 'v1.5' / (SET.name + '_v1.5.3mf')
+DEST = SET / (VERSION + '_approved')
+SOURCE = SET / 'v06' / (SET.name + '_v06.3mf')
 VECTOR = DEST / 'Sources/set13_clean_artwork.svg'
-ARTWORK = ROOT / 'collection/v1.0/Sources/lorcana-keychains/sources/13.png'
+ARTWORK = ROOT / 'collection/v01/Sources/lorcana-keychains/sources/13.png'
 SVG = {'s': 'http://www.w3.org/2000/svg'}
 SETTINGS = 'Metadata/project_settings.config'
 MODEL = '3D/3dmodel.model'
@@ -146,8 +146,8 @@ def comparison(old, new, target):
     with tempfile.TemporaryDirectory() as temp:
         panel = Path(temp) / 'panel.png'
         canvas = None
-        for i, (parts, title) in enumerate(((old, 'v1.5 · Raster trace and split colour'),
-                                             (new, 'v1.6 · Redrawn contours and solid lime'))):
+        for i, (parts, title) in enumerate(((old, 'v06 · Raster trace and split colour'),
+                                             (new, 'v07 · Redrawn contours and solid lime'))):
             preview(parts, panel, width=1500, frame=frame)
             with Image.open(panel) as im:
                 if canvas is None:
@@ -188,7 +188,7 @@ def main():
         template = Path(temp) / 'template.3mf'
         two_filament_template(data, parts, template)
         write_project(template, project, parts, {0, 1},
-                      'v1.6; source-traced lettering and vine in solid lime on purple; '
+                      'v07; source-traced lettering and vine in solid lime on purple; '
                       '6.5 mm bore, 10.5 mm nominal eyelet, 2 mm backing and 2.8 mm overall height.')
     saved = read_parts(package(project))
     isometric(saved, dest / (NAME + '_isometric.png'))
@@ -197,8 +197,8 @@ def main():
 
     scripts = ('rebuild_set13', 'validate_set13', 'full_height_narrow_rims', 'rebuild_set04',
                'rebuild_set05', 'rebuild_set06', 'rebuild_set07', 'rebuild_set09',
-               'rebuild_set12', 'refine_loops_and_underline', 'repair_v1_1',
-               'standardize_loop_diameters', 'validate_bambu', 'validate_set06',
+               'rebuild_set12', 'refine_loops_and_underline', 'repair_v02',
+               'standardize_loop_diameters', 'set_versions', 'validate_bambu', 'validate_set06',
                'validate_set09', 'validate_set12')
     inputs = [SOURCE, ARTWORK, VECTOR] + [ROOT / 'tools' / (name + '.py') for name in scripts]
     snapshot = dest / 'Source_snapshot.zip'

@@ -2,7 +2,7 @@
 """Rebuild Set 05's continuous colour panel and reinforced star connections.
 
 Requires NumPy and Pillow, plus the existing system Cairo/GLU libraries.
-v1.3 replaces the red mesh; v1.4 adds rounded supports to the purple backing.
+v04 replaces the red mesh; v05 adds rounded supports to the purple backing.
 Ivory artwork, placement, filaments and process settings are retained.
 No STL files are generated.
 """
@@ -20,13 +20,13 @@ import numpy as np
 from PIL import Image, ImageDraw
 
 from rebuild_set04 import area, boundary_loops, extrude, inside, orient, simplify_open
-from repair_v1_1 import IDENTITY, NS, read_parts, thumbnail
+from repair_v02 import IDENTITY, NS, read_parts, thumbnail
 
 ROOT = Path(__file__).resolve().parents[1]
 SET = ROOT / 'sets/Set_05_Shimmering_Skies'
-SOURCE = SET / 'v1.3/Set_05_Shimmering_Skies_v1.3.3mf'
-ARTWORK = ROOT / 'collection/v1.0/Sources/lorcana-keychains/sources/05.png'
-VERSION = 'v1.4'
+SOURCE = SET / 'v04/Set_05_Shimmering_Skies_v04.3mf'
+ARTWORK = ROOT / 'collection/v01/Sources/lorcana-keychains/sources/05.png'
+VERSION = 'v05'
 DEST = SET / VERSION
 NAME = f'Set_05_Shimmering_Skies_{VERSION}'
 PROJECT = DEST / (NAME + '.3mf')
@@ -56,8 +56,8 @@ ET.register_namespace('p', PROD)
 def configure(version):
     global VERSION, SOURCE, DEST, NAME, PROJECT
     VERSION = version
-    SOURCE = SET / ('v1.2/Set_05_Shimmering_Skies_v1.2.3mf' if version == 'v1.3'
-                    else 'v1.3/Set_05_Shimmering_Skies_v1.3.3mf')
+    SOURCE = SET / ('v03/Set_05_Shimmering_Skies_v03.3mf' if version == 'v04'
+                    else 'v04/Set_05_Shimmering_Skies_v04.3mf')
     DEST = SET / version
     NAME = f'Set_05_Shimmering_Skies_{version}'
     PROJECT = DEST / (NAME + '.3mf')
@@ -155,8 +155,8 @@ def contours(mask, step=STEP, origin=(-PAD, 43.)):
 def main_panel():
     """Use the complete title silhouette, independent of its RGB gradient.
 
-    Register it using the v1.1 builder's crop, scale and backing offsets,
-    also used by v1.2. Detached stars and the added keyring stay purple.
+    Register it using the v02 builder's crop, scale and backing offsets,
+    also used by v03. Detached stars and the added keyring stay purple.
     """
     artwork = Image.open(ARTWORK).convert('RGBA')
     a = np.asarray(artwork)
@@ -249,7 +249,7 @@ def write_mesh(obj, part):
 def main():
     data = project_data(SOURCE)
     original = read_parts(data)
-    if VERSION == 'v1.3':
+    if VERSION == 'v04':
         red, loops = build_red(original)
         parts = [original[0], red, original[2]]
         changed = 1
@@ -278,7 +278,7 @@ def main():
     root.find("m:metadata[@name='Description']", NS).text = (
         f'{VERSION}; continuous red inset across both words; purple outer border and '
         '0.45 mm letter keylines; 2 mm backing; 0.4 mm red relief; 1 mm ivory relief; '
-        + ('original v1.2 backing and eyelet; ' if VERSION == 'v1.3' else
+        + ('original v03 backing and eyelet; ' if VERSION == 'v04' else
            'six rounded purple star supports; nominal 3.4 mm necks and 4.5 mm feet; ')
         + 'original ivory artwork; 0.20 mm layers.')
     if not any(k.startswith('{'+PROD+'}') for e in mesh_root.iter() for k in e.attrib):
@@ -303,7 +303,7 @@ def main():
                   source_sha256=hashlib.sha256(SOURCE.read_bytes()).hexdigest(),
                   output_sha256=hashlib.sha256(PROJECT.read_bytes()).hexdigest(),
                   design=('Uniform red inset across the complete title, with purple border and letter keylines'
-                          if VERSION == 'v1.3' else
+                          if VERSION == 'v04' else
                           'Six broad rounded star supports, retaining the continuous red panel and ivory artwork'),
                   raster_step_mm=STEP, contour_simplification_mm=.025,
                   nominal_purple_letter_outline_mm=PURPLE_OUTLINE,
@@ -314,7 +314,7 @@ def main():
                   dimensions_mm=[round(max(v[k] for p in parts for v in p['vertices'])
                                        - min(v[k] for p in parts for v in p['vertices']), 5) for k in range(3)],
                   parts=[dict(name=p['name'], slot=p['slot'], triangles=len(p['faces'])) for p in loaded])
-    if VERSION == 'v1.4':
+    if VERSION == 'v05':
         report['star_supports'] = dict(connections=STAR_SUPPORTS,
                                       nominal_neck_width_mm=2*STAR_RADIUS,
                                       nominal_anchor_width_mm=2*ANCHOR_RADIUS,
@@ -326,6 +326,6 @@ def main():
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--version', choices=['v1.3', 'v1.4'], default='v1.4')
+    parser.add_argument('--version', choices=['v04', 'v05'], default='v05')
     configure(parser.parse_args().version)
     main()

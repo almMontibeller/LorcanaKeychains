@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build and slice Into the Inkdark v1.0 from the saved artwork paths."""
+"""Build and slice Into the Inkdark v01 from the saved artwork paths."""
 
 import argparse
 import json
@@ -24,7 +24,7 @@ from rebuild_set04 import orient
 from rebuild_set05 import dilate
 from rebuild_set07 import registered, relief, sample
 from refine_loops_and_underline import read_toolpaths, render_slice, toolpath_checks, write_project
-from repair_v1_1 import NS, read_parts
+from repair_v02 import NS, read_parts
 from standardize_loop_diameters import bounds, digest, mesh_stats, package
 from validate_bambu import bambu_command
 from validate_set09 import regions
@@ -32,12 +32,12 @@ from validate_set12 import STEP, coverage, deposit, dimensions, outlines, raster
 
 ROOT = Path(__file__).resolve().parents[1]
 SET = ROOT / 'sets/Set_15_Into_the_Inkdark'
-VERSION = 'v1.0'
+VERSION = 'v01'
 DEST = SET / VERSION
 NAME = SET.name + '_' + VERSION
 VECTOR = DEST / 'Sources/set15_artwork.svg'
 ARTWORK = SET / 'originals/en_jbs83nhsz6.webp'
-TEMPLATE = ROOT / 'sets/Set_14_Hyperia_City/v1.5/Set_14_Hyperia_City_v1.5.3mf'
+TEMPLATE = ROOT / 'sets/Set_14_Hyperia_City/v06/Set_14_Hyperia_City_v06.3mf'
 TITLE = 'Into the Inkdark'
 DATE = '2026-11-22'
 SOURCE_URL = 'https://disneylorcana.com/en/product/into-the-inkdark/'
@@ -58,7 +58,7 @@ EXPECTED_COUNTERS = ('into-o', 'inkdark-d', 'inkdark-a')
 BEAD_TOLERANCE = .075
 SOURCE_SCRIPTS = ('rebuild_set15', 'full_height_narrow_rims', 'rebuild_set04', 'rebuild_set05',
                   'rebuild_set06', 'rebuild_set07', 'rebuild_set09', 'rebuild_set12',
-                  'refine_loops_and_underline', 'repair_v1_1', 'standardize_loop_diameters',
+                  'refine_loops_and_underline', 'repair_v02', 'standardize_loop_diameters', 'set_versions',
                   'validate_bambu', 'validate_set06', 'validate_set09', 'validate_set12')
 
 
@@ -133,7 +133,7 @@ def export(parts, data, target, work):
         for key, value in data.items():
             archive.writestr(key, value)
     write_project(template, target, parts, {0, 1, 2},
-                  'v1.0; silver-gray and teal title on a 2 mm navy backing; '
+                  'v01; silver-gray and teal title on a 2 mm navy backing; '
                   '6.5 mm bore and 10.5 mm nominal eyelet.')
 
 
@@ -292,7 +292,7 @@ def main():
                       toolpaths=toolpaths, bambu_studio=version,
                       plate_warning=result['sliced_plates'][0]['warning_message'],
                       physical_print_verified=False)
-        (work / 'Validation_v1.0.json').write_text(json.dumps(report, indent=2) + '\n')
+        (work / 'Validation_v01.json').write_text(json.dumps(report, indent=2) + '\n')
 
         sources = [VECTOR, *(ROOT / 'tools' / (name + '.py') for name in SOURCE_SCRIPTS)]
         snapshot = work / 'Source_snapshot.zip'

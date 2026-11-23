@@ -1,0 +1,86 @@
+{
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 33,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 73.68272399902344,
+                "Bridge": 85.0003662109375,
+                "Custom": 369.4761047363281,
+                "Flush": 340.8865661621094,
+                "Gap infill": 15.15463638305664,
+                "Inner wall": 205.66172790527344,
+                "Internal solid infill": 250.41151428222656,
+                "Outer wall": 197.2112579345703,
+                "Prime tower": 168.5320281982422,
+                "Sparse infill": 16.778865814208984,
+                "Top surface": 89.60269927978516,
+                "Travel": 244.9893341064453,
+                "Undefined": 228.09988403320313
+            },
+            "filament_change_times": 4,
+            "filaments": [
+                {
+                    "filament_id": "GFA00",
+                    "id": 1,
+                    "main_used_g": 5.895572662353516,
+                    "total_used_g": 6.886794567108154
+                },
+                {
+                    "filament_id": "GFA00",
+                    "id": 2,
+                    "main_used_g": 0.33334997296333313,
+                    "total_used_g": 0.8843666315078735
+                },
+                {
+                    "filament_id": "GFA01",
+                    "id": 3,
+                    "main_used_g": 1.0925003290176392,
+                    "total_used_g": 2.283207654953003
+                }
+            ],
+            "generate_support_material_time": 57,
+            "id": 1,
+            "infill_time": 487,
+            "layer_filament_change": 0,
+            "main_predication": 1153.5096435546875,
+            "make_perimeters_time": 377,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 38.20000457763672,
+                        "height": 3.0,
+                        "width": 94.95000457763672,
+                        "x": 80.51749420166016,
+                        "y": 108.90249633789063,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "Set_05_Shimmering_Skies_v07",
+                    "triangle_count": 18692
+                }
+            ],
+            "sliced_time": 1400,
+            "sliced_time_with_cache": 433,
+            "total_predication": 2040.5147705078125,
+            "triangle_count": 18692,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+}

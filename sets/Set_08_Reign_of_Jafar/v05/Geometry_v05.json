@@ -1,0 +1,61 @@
+{
+  "project": "sets/Set_08_Reign_of_Jafar/v05/Set_08_Reign_of_Jafar_v05.3mf",
+  "filename": "Set_08_Reign_of_Jafar_v05.3mf",
+  "source": "sets/Set_08_Reign_of_Jafar/v04/Set_08_Reign_of_Jafar_v04.3mf",
+  "source_sha256": "efb2453e1e88ece1b86f173132e80131d362ce4e8555c6316f0fbca02d82d224",
+  "output_sha256": "eb2104415f6d74000ff064d0702e73a9cae695fad2b00f55cad209620efa22ab",
+  "geometry": {
+    "backing_footprint_and_bore_preserved": true,
+    "artwork_clear_of_thinned_region": true,
+    "print_settings_byte_identical": true,
+    "plate_placement_preserved": true,
+    "attachment": {
+      "loop_thickness_mm": 1.6,
+      "backing_thickness_mm": 2.0,
+      "junction_x_mm": 10.135002800000002,
+      "junction": "vertical step; no sloped transition",
+      "tessellation_axis_rotation_degrees": 0
+    },
+    "parts": [
+      {
+        "name": "Charcoal",
+        "volume_mm3": 4058.3531301737435,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Pumpkin Orange",
+        "volume_mm3": 160.06211734723595,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Sunflower Yellow",
+        "volume_mm3": 126.96974813476307,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Red",
+        "volume_mm3": 276.29078708416256,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      }
+    ],
+    "reinforced_star_check": null
+  },
+  "underline": null,
+  "toolpath_checks": {
+    "loop_top_layer_mm": 1.6,
+    "loop_top_segments": 149,
+    "loop_segments_above_target_height": 0
+  },
+  "used_filament_slots": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "bambu_version": "02.08.02.61",
+  "physical_print_verified": false
+}

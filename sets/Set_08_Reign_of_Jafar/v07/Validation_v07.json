@@ -1,0 +1,522 @@
+{
+  "project": "sets/Set_08_Reign_of_Jafar/v07/Set_08_Reign_of_Jafar_v07.3mf",
+  "sha256": "8e4fa01199682716438bf6105ca7ff181af5a2de9fef1fec875ec599f47e6cee",
+  "source": "sets/Set_08_Reign_of_Jafar/v06/Set_08_Reign_of_Jafar_v06.3mf",
+  "source_sha256": "21e477731da40d4829a29b8f3d2bd81a06391c77040bc0c569a82159ff05ed1e",
+  "vector": "tools/set08_clean_artwork.svg",
+  "vector_sha256": "a9a7a9f9282b7d7200c248b1a45258479d5dc4ed75736acafef087deaca4b59e",
+  "artwork_reference": "collection/v01/Sources/lorcana-keychains/sources/08.png",
+  "geometry": {
+    "parts": [
+      {
+        "name": "Charcoal",
+        "slot": 1,
+        "closed_manifold": true,
+        "degenerate_triangles": 0,
+        "volume_mm3": 4064.827521896721
+      },
+      {
+        "name": "Sunflower Yellow \u2014 continuous rim, Reign of and Jafar keylines",
+        "slot": 3,
+        "closed_manifold": true,
+        "degenerate_triangles": 0,
+        "volume_mm3": 533.7801872672344
+      },
+      {
+        "name": "Red \u2014 uniform Jafar faces and snake eyes",
+        "slot": 4,
+        "closed_manifold": true,
+        "degenerate_triangles": 0,
+        "volume_mm3": 67.54812517412029
+      }
+    ],
+    "native_backing_and_loop_exactly_preserved": true,
+    "filament_and_process_settings_byte_identical": true,
+    "plate_placement_preserved": true,
+    "eyelet": {
+      "bore_diameters_xy_mm": [
+        6.5,
+        6.5
+      ],
+      "nominal_outer_diameter_mm": 10.5,
+      "nominal_radial_rim_mm": 2.0,
+      "height_mm": 2.0
+    },
+    "active_filament_slots": [
+      1,
+      3,
+      4
+    ],
+    "unused_preserved_filament_slot": 2,
+    "continuous_frame_components": 1,
+    "solid_upper_letter_components": 7,
+    "outlined_jafar_letters": 5,
+    "red_snake_eyes": 2,
+    "open_letter_counters": 3,
+    "jafar_keyline_nominal_mm": 0.45,
+    "sampled_keyline_widths_mm": {
+      "J": [
+        0.42267132988365436,
+        0.47336354424873156
+      ],
+      "a_first": [
+        0.4224452726065882,
+        0.47788870924845567
+      ],
+      "f_jafar": [
+        0.42197147440001265,
+        0.4778503842813384
+      ],
+      "a_second": [
+        0.422474700427092,
+        0.47750703101207936
+      ],
+      "r_last": [
+        0.42233850579658083,
+        0.47769871358794525
+      ]
+    },
+    "gold_keyline_top_mm": 2.4,
+    "gold_title_and_frame_top_mm": 2.8,
+    "red_top_mm": 2.8,
+    "volumetric_colour_overlap": false,
+    "unsupported_relief": false,
+    "raster_resolution_mm": 0.025,
+    "shared_boundary_raster_tolerance_mm": 0.025
+  },
+  "toolpath_checks": {
+    "gold_layers": {
+      "2.2": {
+        "frame": {
+          "connected": true,
+          "core_coverage": 0.9997167429212708,
+          "core_coverage_without_bead_edge_tolerance": 0.997771710980663
+        },
+        "R": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 0.9961061752769551
+        },
+        "E": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 0.9963892056252376
+        },
+        "I": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 0.9895861291534704
+        },
+        "G": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 0.9976220870566443
+        },
+        "N": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 0.9919176820259678
+        },
+        "o": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 1.0
+        },
+        "f_small": {
+          "connected": true,
+          "core_coverage": 0.9997912753078689,
+          "core_coverage_without_bead_edge_tolerance": 0.9824671258609894
+        },
+        "J": {
+          "connected": true,
+          "core_coverage": 0.9994011854498214,
+          "core_coverage_without_bead_edge_tolerance": 0.9921748132510555
+        },
+        "a_first": {
+          "connected": true,
+          "core_coverage": 0.9974587230459234,
+          "core_coverage_without_bead_edge_tolerance": 0.9767225045863283
+        },
+        "f_jafar": {
+          "connected": true,
+          "core_coverage": 0.999821416306065,
+          "core_coverage_without_bead_edge_tolerance": 0.9946562263891751
+        },
+        "a_second": {
+          "connected": true,
+          "core_coverage": 0.997452709322481,
+          "core_coverage_without_bead_edge_tolerance": 0.9766523475770593
+        },
+        "r_last": {
+          "connected": true,
+          "core_coverage": 0.9998689870515536,
+          "core_coverage_without_bead_edge_tolerance": 0.9926851103784091
+        }
+      },
+      "2.4": {
+        "frame": {
+          "connected": true,
+          "core_coverage": 0.9997167429212708,
+          "core_coverage_without_bead_edge_tolerance": 0.997739338743094
+        },
+        "R": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 0.9961061752769551
+        },
+        "E": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 0.9963892056252376
+        },
+        "I": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 0.9895861291534704
+        },
+        "G": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 0.9976220870566443
+        },
+        "N": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 0.9919003006969913
+        },
+        "o": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 1.0
+        },
+        "f_small": {
+          "connected": true,
+          "core_coverage": 0.9997912753078689,
+          "core_coverage_without_bead_edge_tolerance": 0.9806929659778751
+        },
+        "J": {
+          "connected": true,
+          "core_coverage": 0.9995331276388438,
+          "core_coverage_without_bead_edge_tolerance": 0.9923879506333225
+        },
+        "a_first": {
+          "connected": true,
+          "core_coverage": 0.9980301344320471,
+          "core_coverage_without_bead_edge_tolerance": 0.9786171844455805
+        },
+        "f_jafar": {
+          "connected": true,
+          "core_coverage": 0.9998488907205165,
+          "core_coverage_without_bead_edge_tolerance": 0.9947661240469813
+        },
+        "a_second": {
+          "connected": true,
+          "core_coverage": 0.997045745723114,
+          "core_coverage_without_bead_edge_tolerance": 0.9760645112668627
+        },
+        "r_last": {
+          "connected": true,
+          "core_coverage": 0.9998689870515536,
+          "core_coverage_without_bead_edge_tolerance": 0.9927287813612246
+        }
+      },
+      "2.6": {
+        "frame": {
+          "connected": true,
+          "core_coverage": 0.9997167429212708,
+          "core_coverage_without_bead_edge_tolerance": 0.9977204549378453
+        },
+        "R": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 0.9961198859273884
+        },
+        "E": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 0.9963892056252376
+        },
+        "I": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 0.9895861291534704
+        },
+        "G": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 0.9976220870566443
+        },
+        "N": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 0.9919003006969913
+        },
+        "o": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 1.0
+        },
+        "f_small": {
+          "connected": true,
+          "core_coverage": 0.9997912753078689,
+          "core_coverage_without_bead_edge_tolerance": 0.9809016906700062
+        }
+      },
+      "2.8": {
+        "frame": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 0.9984461325966851
+        },
+        "R": {
+          "connected": true,
+          "core_coverage": 0.9998903147965339,
+          "core_coverage_without_bead_edge_tolerance": 0.9951052977953274
+        },
+        "E": {
+          "connected": true,
+          "core_coverage": 0.9986380337007476,
+          "core_coverage_without_bead_edge_tolerance": 0.9880273660205245
+        },
+        "I": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 0.9959740190026303
+        },
+        "G": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 0.9987484668719181
+        },
+        "N": {
+          "connected": true,
+          "core_coverage": 0.9992873655119671,
+          "core_coverage_without_bead_edge_tolerance": 0.9919176820259678
+        },
+        "o": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 1.0
+        },
+        "f_small": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 0.9950949697349196
+        }
+      }
+    },
+    "red_layers": {
+      "2.2": {
+        "snake_left_eye": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 1.0
+        },
+        "snake_right_eye": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 0.9904761904761905
+        }
+      },
+      "2.4": {
+        "snake_left_eye": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 1.0
+        },
+        "snake_right_eye": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 0.9904761904761905
+        }
+      },
+      "2.6": {
+        "J": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 0.997026918441141
+        },
+        "a_first": {
+          "connected": true,
+          "core_coverage": 0.9986462371546366,
+          "core_coverage_without_bead_edge_tolerance": 0.9700941480524276
+        },
+        "f_jafar": {
+          "connected": true,
+          "core_coverage": 0.9999037196315671,
+          "core_coverage_without_bead_edge_tolerance": 0.99274687891139
+        },
+        "a_second": {
+          "connected": true,
+          "core_coverage": 0.9935659490225192,
+          "core_coverage_without_bead_edge_tolerance": 0.9633444691907943
+        },
+        "r_last": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 0.9931547873705827
+        },
+        "snake_left_eye": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 1.0
+        },
+        "snake_right_eye": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 0.9904761904761905
+        }
+      },
+      "2.8": {
+        "J": {
+          "connected": true,
+          "core_coverage": 0.9993893129770992,
+          "core_coverage_without_bead_edge_tolerance": 0.9938288469264766
+        },
+        "a_first": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 0.9922773983139499
+        },
+        "f_jafar": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 0.9967264674732822
+        },
+        "a_second": {
+          "connected": true,
+          "core_coverage": 0.9999072011878248,
+          "core_coverage_without_bead_edge_tolerance": 0.9894209354120267
+        },
+        "r_last": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 0.9955506117908788
+        },
+        "snake_left_eye": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 1.0
+        },
+        "snake_right_eye": {
+          "connected": true,
+          "core_coverage": 1.0,
+          "core_coverage_without_bead_edge_tolerance": 0.9904761904761905
+        }
+      }
+    },
+    "visible_gold_keyline_core_coverage": {
+      "J": 1.0,
+      "a_first": 1.0,
+      "f_jafar": 1.0,
+      "a_second": 1.0,
+      "r_last": 1.0
+    },
+    "detached_deposit_pixels": 0,
+    "open_counters": {
+      "o": true,
+      "a_first": true,
+      "a_second": true
+    },
+    "continuous_frame_on_all_four_relief_layers": true,
+    "uniform_red_jafar_on_both_face_layers": true,
+    "no_orange_toolpaths": true,
+    "loop_top_layer_mm": 2.0,
+    "loop_segments_above_backing": 0,
+    "loop_top_segments": 112,
+    "bead_edge_raster_tolerance_mm": 0.075
+  },
+  "used_filament_slots": [
+    1,
+    3,
+    4
+  ],
+  "bambu_version": "02.08.02.61",
+  "physical_print_verified": false,
+  "slice_result": {
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 101,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "feature_type_times": {
+          "Bottom surface": 59.76029586791992,
+          "Bridge": 21.822711944580078,
+          "Custom": 369.3941650390625,
+          "Flush": 397.0438537597656,
+          "Gap infill": 15.552295684814453,
+          "Inner wall": 94.77776336669922,
+          "Internal solid infill": 226.5169677734375,
+          "Outer wall": 70.56897735595703,
+          "Prime tower": 183.8746337890625,
+          "Sparse infill": 7.758452892303467,
+          "Top surface": 93.42584228515625,
+          "Travel": 229.59368896484375,
+          "Undefined": 212.71267700195312
+        },
+        "filament_change_times": 5,
+        "filaments": [
+          {
+            "filament_id": "GFA01",
+            "id": 1,
+            "main_used_g": 5.258687973022461,
+            "total_used_g": 6.2971110343933105
+          },
+          {
+            "filament_id": "GFA00",
+            "id": 3,
+            "main_used_g": 0.642354428768158,
+            "total_used_g": 1.73631751537323
+          },
+          {
+            "filament_id": "GFA00",
+            "id": 4,
+            "main_used_g": 0.08015038073062897,
+            "total_used_g": 0.8177886009216309
+          }
+        ],
+        "generate_support_material_time": 19,
+        "id": 1,
+        "infill_time": 192,
+        "layer_filament_change": 0,
+        "main_predication": 794.799072265625,
+        "make_perimeters_time": 121,
+        "obj_cached_cnt": 0,
+        "objects": [
+          {
+            "bbox": {
+              "depth": 41.53999710083008,
+              "height": 2.799999713897705,
+              "width": 71.90499877929688,
+              "x": 92.05000305175781,
+              "y": 107.2300033569336,
+              "z": 0.0
+            },
+            "id": 5,
+            "name": "Set_08_Reign_of_Jafar_v07",
+            "triangle_count": 18468
+          }
+        ],
+        "sliced_time": 724,
+        "sliced_time_with_cache": 365,
+        "total_predication": 1753.2305908203125,
+        "triangle_count": 18468,
+        "warning_message": ""
+      }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+      "Bambu Lab H2D 0.4 nozzle",
+      "Bambu Lab H2D Pro 0.4 nozzle",
+      "Bambu Lab H2S 0.4 nozzle",
+      "Bambu Lab P2S 0.4 nozzle",
+      "Bambu Lab H2C 0.4 nozzle",
+      "Bambu Lab X2D 0.4 nozzle",
+      "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+  }
+}

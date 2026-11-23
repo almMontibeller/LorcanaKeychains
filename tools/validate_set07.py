@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate Set 07 v1.6 geometry and actual Bambu A1 / 0.4 mm toolpaths."""
+"""Validate Set 07 v07 geometry and actual Bambu A1 / 0.4 mm toolpaths."""
 import argparse
 import json
 import re
@@ -14,7 +14,8 @@ import rebuild_set07 as build
 from rebuild_set04 import area, boundary_loops
 from full_height_narrow_rims import bore_index, isometric
 from refine_loops_and_underline import draw_bead, read_toolpaths, render_slice, toolpath_checks
-from repair_v1_1 import NS, read_parts
+from repair_v02 import NS, read_parts
+from set_versions import saved_project
 from standardize_loop_diameters import digest, mesh_stats, package
 from validate_bambu import bambu_command
 from validate_set06 import assert_simple
@@ -185,7 +186,7 @@ def comparison(parts):
     font = ImageFont.truetype('/usr/share/fonts/TTF/DejaVuSans.ttf', 28)
     old = read_parts(package(build.SOURCE))
     panels = []
-    for label, meshes in [('v1.5', old), ('v1.6 — restored frame and owl', parts)]:
+    for label, meshes in [('v06', old), ('v07 — restored frame and owl', parts)]:
         temporary = build.DEST/'comparison_panel.png'
         build.preview(meshes, temporary, 1200)
         im = Image.open(temporary).convert('RGB')
@@ -202,6 +203,8 @@ def comparison(parts):
 
 
 def main():
+    build.PROJECT = saved_project(build.SET, build.VERSION)
+    build.DEST = build.PROJECT.parent
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--reuse-slice', action='store_true')
     args = parser.parse_args()

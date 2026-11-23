@@ -2,7 +2,7 @@
 """Rebuild Azurite Sea's relief from clean source-registered vector contours.
 
 Keep the native backing, eyelet, placement, colours and A1 0.4 mm profiles.
-v1.6 refines the artwork; v1.7 thickens only the blue wave bodies.
+v07 refines the artwork; v08 thickens only the blue wave bodies.
 Requires NumPy, Pillow and the system Cairo/GLU libraries. No STL export.
 """
 from pathlib import Path
@@ -17,19 +17,19 @@ import zipfile
 from PIL import Image
 
 from rebuild_set04 import area, extrude, orient
-from repair_v1_1 import IDENTITY, NS, read_parts, thumbnail
+from repair_v02 import IDENTITY, NS, read_parts, thumbnail
 from standardize_loop_diameters import bounds, digest, mesh_stats, package, write_mesh
 
 ROOT = Path(__file__).resolve().parents[1]
 SET = ROOT / 'sets/Set_06_Azurite_Sea'
-VERSION = 'v1.7'
-SOURCE = SET / 'v1.6/Set_06_Azurite_Sea_v1.6.3mf'
+VERSION = 'v08'
+SOURCE = SET / 'v07/Set_06_Azurite_Sea_v07.3mf'
 DEST = SET / VERSION
 NAME = f'Set_06_Azurite_Sea_{VERSION}'
 PROJECT = DEST / (NAME + '.3mf')
 VECTOR = Path(__file__).with_name('set06_clean_artwork.svg')
 WAVE_VECTOR = Path(__file__).with_name('set06_thicker_waves.svg')
-ARTWORK = ROOT / 'collection/v1.0/Sources/lorcana-keychains/sources/06.png'
+ARTWORK = ROOT / 'collection/v01/Sources/lorcana-keychains/sources/06.png'
 SVG = {'s': 'http://www.w3.org/2000/svg'}
 PROD = 'http://schemas.microsoft.com/3dmanufacturing/production/2015/06'
 TAG = lambda name: '{' + NS['m'] + '}' + name
@@ -40,7 +40,7 @@ ET.register_namespace('p', PROD)
 def configure(version):
     global VERSION, SOURCE, DEST, NAME, PROJECT
     VERSION = version
-    previous = 'v1.5' if version == 'v1.6' else 'v1.6'
+    previous = 'v06' if version == 'v07' else 'v07'
     SOURCE = SET / previous / f'Set_06_Azurite_Sea_{previous}.3mf'
     DEST = SET / VERSION
     NAME = f'Set_06_Azurite_Sea_{VERSION}'
@@ -108,7 +108,7 @@ def artwork():
     art = {group: {p.get('id'): sample_path(p.get('d'))
                    for p in root.findall(f"s:g[@id='{group}']/s:path", SVG)}
            for group in ('gold', 'ice')}
-    if VERSION == 'v1.7':
+    if VERSION == 'v08':
         waves = ET.parse(WAVE_VECTOR).getroot()
         art['ice'] = {p.get('id'): sample_path(p.get('d'))
                       for p in waves.findall("s:g[@id='ice']/s:path", SVG)}
@@ -154,14 +154,14 @@ def main():
     original = read_parts(data)
     art = artwork()
     parts = [original[0], relief(art['ice'], .4, original[1]),
-             original[2] if VERSION == 'v1.7' else relief(art['gold'], .8, original[2])]
+             original[2] if VERSION == 'v08' else relief(art['gold'], .8, original[2])]
 
     root = ET.fromstring(data['3D/3dmodel.model'])
     config = ET.fromstring(data['Metadata/model_settings.config'])
     obj = config.find('object')
     assembly = root.find(f"m:resources/m:object[@id='{obj.get('id')}']", NS)
     resources = {}
-    for index in ((1,) if VERSION == 'v1.7' else (1, 2)):
+    for index in ((1,) if VERSION == 'v08' else (1, 2)):
         component = assembly.find('m:components', NS)[index]
         oid = component.get('objectid')
         path = component.get('{'+PROD+'}path').lstrip('/')
@@ -174,7 +174,7 @@ def main():
             if md.get('key', '').startswith('source_'):
                 cfg.remove(md)
         cfg.find("metadata[@key='name']").set('value',
-            ('Ice Blue — fuller swept wave accents' if VERSION == 'v1.7' else
+            ('Ice Blue — fuller swept wave accents' if VERSION == 'v08' else
              'Ice Blue — two swept wave accents') if index == 1 else
             'Sunflower Yellow — clean Azurite Sea letters')
         cfg.find("metadata[@key='matrix']").set('value', '1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1')
@@ -189,8 +189,8 @@ def main():
         f'{VERSION}; source-traced smooth lettering with ten independent letters, elongated '
         'A counter, triangular SEA counter and open R bowl; no texture holes or '
         'letter bridges; two swept foam ribbons, no upper ice-blue fleck; '
-        + ('fuller wave bodies beneath the preserved v1.6 crests; original v1.6 gold mesh; '
-           if VERSION == 'v1.7' else '') + 'unchanged '
+        + ('fuller wave bodies beneath the preserved v07 crests; original v07 gold mesh; '
+           if VERSION == 'v08' else '') + 'unchanged '
         '2 mm backing/loop, 6.5 mm bore, 2 mm nominal radial rim; 0.4 mm ice relief, '
         '0.8 mm gold relief; original A1 0.4 mm nozzle / 0.20 mm Arachne profiles.')
     for path, resource in resources.items():
@@ -208,13 +208,13 @@ def main():
             archive.writestr(path, raw)
     loaded = read_parts(package(PROJECT))
     assert loaded[0] == original[0], 'native backing must remain exact'
-    if VERSION == 'v1.7':
-        assert loaded[2] == original[2], 'v1.6 lettering must remain exact'
+    if VERSION == 'v08':
+        assert loaded[2] == original[2], 'v07 lettering must remain exact'
     assert package(PROJECT)['Metadata/project_settings.config'] == data['Metadata/project_settings.config']
     preview(loaded, DEST/(NAME+'_preview.png'))
     print(json.dumps(dict(project=str(PROJECT.relative_to(ROOT)), sha256=digest(PROJECT),
                           source_sha256=digest(SOURCE), vector_sha256=digest(VECTOR),
-                          wave_vector_sha256=digest(WAVE_VECTOR) if VERSION == 'v1.7' else None,
+                          wave_vector_sha256=digest(WAVE_VECTOR) if VERSION == 'v08' else None,
                           shapes={g: list(shapes) for g, shapes in art.items()},
                           areas_mm2={g: sum(area(c) for loops in shapes.values() for c in loops)
                                      for g, shapes in art.items()}), indent=2))
@@ -222,6 +222,6 @@ def main():
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--version', choices=['v1.6', 'v1.7'], default='v1.7')
+    parser.add_argument('--version', choices=['v07', 'v08'], default='v08')
     configure(parser.parse_args().version)
     main()

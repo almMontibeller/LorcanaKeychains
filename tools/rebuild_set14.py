@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build Hyperia City v1.6 from its editable, source-registered lettering."""
+"""Build Hyperia City v07 from its editable, source-registered lettering."""
 
 import argparse
 import copy
@@ -20,18 +20,18 @@ from rebuild_set07 import registered, relief, sample
 from rebuild_set09 import preview
 from rebuild_set13 import bore_loop, contours
 from refine_loops_and_underline import write_project
-from repair_v1_1 import NS, read_parts
+from repair_v02 import NS, read_parts
 from standardize_loop_diameters import bounds, centre, digest, package
 from validate_set12 import outlines
 
 ROOT = Path(__file__).resolve().parents[1]
 SET = ROOT / 'sets/Set_14_Hyperia_City'
-VERSION = 'v1.6'
+VERSION = 'v07'
 NAME = SET.name + '_' + VERSION
 DEST = SET / VERSION
-SOURCE = SET / 'v1.5' / (SET.name + '_v1.5.3mf')
+SOURCE = SET / 'v06' / (SET.name + '_v06.3mf')
 VECTOR = DEST / 'Sources/set14_clean_artwork.svg'
-ARTWORK = ROOT / 'collection/v1.0/Sources/lorcana-keychains/sources/14.png'
+ARTWORK = ROOT / 'collection/v01/Sources/lorcana-keychains/sources/14.png'
 MODEL = '3D/3dmodel.model'
 PARTS = '3D/Objects/object_1.model'
 CONFIG = 'Metadata/model_settings.config'
@@ -171,8 +171,8 @@ def comparison(old, new, target):
     with tempfile.TemporaryDirectory() as temp:
         panel = Path(temp) / 'panel.png'
         canvas = None
-        for i, (parts, label) in enumerate(((old, 'v1.5 · Raster trace'),
-                                             (new, 'v1.6 · Redrawn lettering and Ice Blue trim'))):
+        for i, (parts, label) in enumerate(((old, 'v06 · Raster trace'),
+                                             (new, 'v07 · Redrawn lettering and Ice Blue trim'))):
             preview(parts, panel, width=1500, frame=frame)
             with Image.open(panel) as im:
                 if canvas is None:
@@ -214,7 +214,7 @@ def main():
         template = Path(temp) / 'template.3mf'
         four_filament_template(data, template)
         write_project(template, project, parts, set(range(4)),
-                      'v1.6; redrawn Hyperia City lettering in Ivory White and Ice Blue, '
+                      'v07; redrawn Hyperia City lettering in Ivory White and Ice Blue, '
                       'Caramel relief on Cocoa Brown; 6.5 mm bore, 2 mm backing and 3 mm overall.')
     saved = read_parts(package(project))
     isometric(saved, dest / (NAME + '_isometric.png'))

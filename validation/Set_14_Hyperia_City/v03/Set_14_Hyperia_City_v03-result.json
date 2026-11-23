@@ -1,0 +1,86 @@
+{
+  "error_string": "Success.",
+  "export_time": 0,
+  "layer_height": 0.20000000298023224,
+  "plate_index": 1,
+  "prepare_time": 28,
+  "return_code": 0,
+  "sliced_plates": [
+    {
+      "feature_type_times": {
+        "Bottom surface": 61.00224304199219,
+        "Bridge": 74.3609619140625,
+        "Custom": 369.44964599609375,
+        "Flush": 328.5538330078125,
+        "Gap infill": 14.963566780090332,
+        "Inner wall": 193.70077514648438,
+        "Internal solid infill": 229.27748107910156,
+        "Outer wall": 179.85147094726562,
+        "Prime tower": 171.2542724609375,
+        "Sparse infill": 11.011491775512695,
+        "Top surface": 76.78083801269531,
+        "Travel": 239.58255004882812,
+        "Undefined": 222.71954345703125
+      },
+      "filament_change_times": 4,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 1,
+          "main_used_g": 4.623279571533203,
+          "total_used_g": 5.614501953125
+        },
+        {
+          "filament_id": "GFA01",
+          "id": 2,
+          "main_used_g": 0.3674360513687134,
+          "total_used_g": 0.9829714894294739
+        },
+        {
+          "filament_id": "GFA01",
+          "id": 3,
+          "main_used_g": 0.7369802594184875,
+          "total_used_g": 1.713845133781433
+        }
+      ],
+      "generate_support_material_time": 21,
+      "id": 1,
+      "infill_time": 255,
+      "layer_filament_change": 0,
+      "main_predication": 1055.572021484375,
+      "make_perimeters_time": 269,
+      "obj_cached_cnt": 0,
+      "objects": [
+        {
+          "bbox": {
+            "depth": 40.78999710083008,
+            "height": 3.0,
+            "width": 71.91500091552734,
+            "x": 92.04000091552734,
+            "y": 107.6050033569336,
+            "z": 0.0
+          },
+          "id": 5,
+          "name": "Hyperia City v03",
+          "triangle_count": 15464
+        }
+      ],
+      "sliced_time": 1072,
+      "sliced_time_with_cache": 497,
+      "total_predication": 1932.966796875,
+      "triangle_count": 15464,
+      "warning_message": ""
+    }
+  ],
+  "sparse_infill_density": 15.0,
+  "upward_compatible_machine": [
+    "Bambu Lab H2D 0.4 nozzle",
+    "Bambu Lab H2D Pro 0.4 nozzle",
+    "Bambu Lab H2S 0.4 nozzle",
+    "Bambu Lab P2S 0.4 nozzle",
+    "Bambu Lab H2C 0.4 nozzle",
+    "Bambu Lab X2D 0.4 nozzle",
+    "Bambu Lab A2L 0.4 nozzle"
+  ],
+  "wall_loops": 3
+}

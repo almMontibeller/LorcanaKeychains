@@ -1,0 +1,281 @@
+{
+  "project": "sets/Set_06_Azurite_Sea/v07/Set_06_Azurite_Sea_v07.3mf",
+  "sha256": "62f0848a9dac91f0a12c14c95ff407cccdb5645fecfc2ed33c3186087457cae0",
+  "source": "sets/Set_06_Azurite_Sea/v06/Set_06_Azurite_Sea_v06.3mf",
+  "source_sha256": "1cf2daf79bd7f9147cfd855f4074d682b6eaadcabc1a826a7f4347428b49e6af",
+  "vector": "tools/set06_clean_artwork.svg",
+  "vector_sha256": "fa77d5e0d5469e17c77c23cc86aebbe6e753336c0e7ab85da5c5c962ab45fe2b",
+  "artwork_reference": "collection/v01/Sources/lorcana-keychains/sources/06.png",
+  "geometry": {
+    "parts": [
+      {
+        "name": "Marine Blue",
+        "slot": 1,
+        "volume_mm3": 4559.121758915465,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Ice Blue \u2014 two swept wave accents",
+        "slot": 2,
+        "volume_mm3": 8.880135507526575,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Sunflower Yellow \u2014 clean Azurite Sea letters",
+        "slot": 3,
+        "volume_mm3": 645.6159265690172,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      }
+    ],
+    "backing_xml_and_coordinates_exactly_preserved": true,
+    "eyelet": {
+      "bore_diameter_mm": 6.5,
+      "nominal_outer_diameter_mm": 10.5,
+      "nominal_radial_rim_mm": 2.0,
+      "height_mm": 2.0
+    },
+    "plate_placement_preserved": true,
+    "filament_and_process_settings_byte_identical": true,
+    "self_intersections": 0,
+    "unsupported_relief_pixels": 0,
+    "relief_overlap_pixels": 0,
+    "raster_check_resolution_mm": 0.025,
+    "gold_letter_components": 10,
+    "gold_counters": 3,
+    "ice_components": 2,
+    "minimum_letter_clearance_mm": 0.46011,
+    "close_letter_pairs": [
+      {
+        "letters": [
+          "azurite_Z",
+          "azurite_U"
+        ],
+        "gap_mm": 0.48
+      },
+      {
+        "letters": [
+          "azurite_R",
+          "azurite_I"
+        ],
+        "gap_mm": 0.46011
+      },
+      {
+        "letters": [
+          "azurite_R",
+          "sea_S"
+        ],
+        "gap_mm": 0.48454
+      },
+      {
+        "letters": [
+          "azurite_I",
+          "azurite_T"
+        ],
+        "gap_mm": 0.51988
+      },
+      {
+        "letters": [
+          "azurite_T",
+          "azurite_E"
+        ],
+        "gap_mm": 0.4946
+      },
+      {
+        "letters": [
+          "sea_S",
+          "sea_E"
+        ],
+        "gap_mm": 0.67361
+      },
+      {
+        "letters": [
+          "sea_E",
+          "sea_A"
+        ],
+        "gap_mm": 0.64549
+      }
+    ],
+    "counters": {
+      "azurite_A": {
+        "area_mm2": 9.7152,
+        "previous_area_mm2": 4.8418
+      },
+      "azurite_R": {
+        "area_mm2": 8.4732,
+        "previous_area_mm2": 6.054
+      },
+      "sea_A": {
+        "area_mm2": 1.984,
+        "previous_area_mm2": 0.6654
+      }
+    },
+    "relief_heights_mm": {
+      "ice": 0.4,
+      "gold": 0.8
+    }
+  },
+  "nozzle_diameter_mm": 0.4,
+  "layer_height_mm": 0.2,
+  "wall_generator": "arachne",
+  "toolpath_checks": {
+    "loop_top_layer_mm": 2.0,
+    "loop_top_segments": 118,
+    "loop_segments_above_target_height": 0,
+    "relief_layers": {
+      "2.2": {
+        "gold": {
+          "continuous_components": 10,
+          "detached_deposit_pixels": 0
+        },
+        "counters_open": {
+          "elongated_A": true,
+          "elongated_A_upper": true,
+          "R_bowl": true,
+          "triangular_SEA_A": true
+        },
+        "ice": {
+          "continuous_components": 2,
+          "detached_deposit_pixels": 0
+        }
+      },
+      "2.4": {
+        "gold": {
+          "continuous_components": 10,
+          "detached_deposit_pixels": 0
+        },
+        "counters_open": {
+          "elongated_A": true,
+          "elongated_A_upper": true,
+          "R_bowl": true,
+          "triangular_SEA_A": true
+        },
+        "ice": {
+          "continuous_components": 2,
+          "detached_deposit_pixels": 0
+        }
+      },
+      "2.6": {
+        "gold": {
+          "continuous_components": 10,
+          "detached_deposit_pixels": 0
+        },
+        "counters_open": {
+          "elongated_A": true,
+          "elongated_A_upper": true,
+          "R_bowl": true,
+          "triangular_SEA_A": true
+        }
+      },
+      "2.8": {
+        "gold": {
+          "continuous_components": 10,
+          "detached_deposit_pixels": 0
+        },
+        "counters_open": {
+          "elongated_A": true,
+          "elongated_A_upper": true,
+          "R_bowl": true,
+          "triangular_SEA_A": true
+        }
+      }
+    },
+    "deposition_check_resolution_mm": 0.025
+  },
+  "used_filament_slots": [
+    1,
+    2,
+    3
+  ],
+  "bambu_version": "02.08.02.61",
+  "slice_result": {
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 21,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "feature_type_times": {
+          "Bottom surface": 69.75892639160156,
+          "Bridge": 47.48851776123047,
+          "Custom": 369.466552734375,
+          "Flush": 326.5360412597656,
+          "Gap infill": 15.735386848449707,
+          "Inner wall": 151.45986938476562,
+          "Internal solid infill": 278.6242370605469,
+          "Outer wall": 91.2252197265625,
+          "Prime tower": 168.32119750976562,
+          "Sparse infill": 6.720714569091797,
+          "Top surface": 121.9011459350586,
+          "Travel": 227.7943878173828,
+          "Undefined": 210.9144744873047
+        },
+        "filament_change_times": 4,
+        "filaments": [
+          {
+            "filament_id": "GFA01",
+            "id": 1,
+            "main_used_g": 5.9363017082214355,
+            "total_used_g": 6.974725723266602
+          },
+          {
+            "filament_id": "GFA01",
+            "id": 2,
+            "main_used_g": 0.010873835533857346,
+            "total_used_g": 0.9022892713546753
+          },
+          {
+            "filament_id": "GFA00",
+            "id": 3,
+            "main_used_g": 0.7836443781852722,
+            "total_used_g": 1.4137063026428223
+          }
+        ],
+        "generate_support_material_time": 20,
+        "id": 1,
+        "infill_time": 280,
+        "layer_filament_change": 0,
+        "main_predication": 985.727783203125,
+        "make_perimeters_time": 125,
+        "obj_cached_cnt": 0,
+        "objects": [
+          {
+            "bbox": {
+              "depth": 41.275001525878906,
+              "height": 2.799999713897705,
+              "width": 79.26499938964844,
+              "x": 88.37000274658203,
+              "y": 107.36000061035156,
+              "z": 0.0
+            },
+            "id": 5,
+            "name": "Azurite Sea v07",
+            "triangle_count": 10468
+          }
+        ],
+        "sliced_time": 795,
+        "sliced_time_with_cache": 337,
+        "total_predication": 1858.171630859375,
+        "triangle_count": 10468,
+        "warning_message": ""
+      }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+      "Bambu Lab H2D 0.4 nozzle",
+      "Bambu Lab H2D Pro 0.4 nozzle",
+      "Bambu Lab H2S 0.4 nozzle",
+      "Bambu Lab P2S 0.4 nozzle",
+      "Bambu Lab H2C 0.4 nozzle",
+      "Bambu Lab X2D 0.4 nozzle",
+      "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+  },
+  "physical_print_verified": false,
+  "environment_notes": "Installed Flatpak CLI uses embedded settings despite missing /app preset-resource messages."
+}

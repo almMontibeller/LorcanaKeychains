@@ -1,0 +1,75 @@
+{
+  "parts": [
+    {
+      "name": "Dark Blue \u00b7 backing and eyelet",
+      "slot": 1,
+      "volume_mm3": 3479.5187604738553,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    },
+    {
+      "name": "Dark Blue \u00b7 title field",
+      "slot": 1,
+      "volume_mm3": 589.7259793779837,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    },
+    {
+      "name": "Sunflower Yellow \u00b7 lettering",
+      "slot": 2,
+      "volume_mm3": 372.28023054713657,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    },
+    {
+      "name": "Ice Blue \u00b7 snow on lettering",
+      "slot": 3,
+      "volume_mm3": 17.522144707858388,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    }
+  ],
+  "total_dimensions_mm": [
+    94.9371,
+    27.2337,
+    3.4
+  ],
+  "backing_and_letters_match_v08": true,
+  "field_matches_v07": true,
+  "bore_mm": 6.5,
+  "cap_height_mm": 0.4,
+  "cap_z_mm": [
+    3.0,
+    3.4
+  ],
+  "caps": {
+    "W-scroll": {
+      "letter": "W",
+      "area_mm2": 11.814
+    },
+    "W-crown": {
+      "letter": "W",
+      "area_mm2": 5.497
+    },
+    "T-left": {
+      "letter": "T",
+      "area_mm2": 5.842
+    },
+    "R-crown": {
+      "letter": "R",
+      "area_mm2": 5.217
+    },
+    "S-curl": {
+      "letter": "S",
+      "area_mm2": 6.63
+    },
+    "P-crown": {
+      "letter": "P",
+      "area_mm2": 3.518
+    },
+    "L-scroll": {
+      "letter": "L1",
+      "area_mm2": 5.288
+    }
+  }
+}

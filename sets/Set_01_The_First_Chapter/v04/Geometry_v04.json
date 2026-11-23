@@ -1,0 +1,45 @@
+{
+  "filename": "Set_01_The_First_Chapter_v04.3mf",
+  "project": "sets/Set_01_The_First_Chapter/v04/Set_01_The_First_Chapter_v04.3mf",
+  "source": "sets/Set_01_The_First_Chapter/v03/Set_01_The_First_Chapter_v03.3mf",
+  "source_sha256": "3a7c32d158597de20088a073ec45d93962ccd4f552cd51d53fe1539c1bdb056c",
+  "output_sha256": "5ae33fcfdecff76dd4282576525e0127dd71be9675dc805a5aeb5cba3c1ab1aa",
+  "reference": "sets/Set_04_Ursulas_Return/v05_printed/Set_04_Ursulas_Return_v05_printed.3mf",
+  "attachment": {
+    "bore_diameters_xy_mm": [
+      5.5,
+      5.5
+    ],
+    "bore_centre_mm": [
+      5.2500014,
+      12.30000062
+    ],
+    "bore_centre_preserved": true,
+    "outer_diameter_nominal_mm": 10.5,
+    "rim_width_nominal_mm": 2.5,
+    "backing_and_loop_thickness_mm": 2.0,
+    "non_bore_contours_preserved": true,
+    "non_bore_contour_max_deviation_mm": 4.00007138523506e-10,
+    "overall_dimensions_preserved": true
+  },
+  "artwork_meshes_exactly_preserved": true,
+  "filament_and_process_settings_byte_identical": true,
+  "volume_removed_mm3": 15.882616869238063,
+  "tessellation_axis_rotation_degrees": 17,
+  "parts": [
+    {
+      "name": "Purple",
+      "slot": 1,
+      "volume_mm3": 3151.918591619382,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    },
+    {
+      "name": "Ivory White",
+      "slot": 2,
+      "volume_mm3": 529.148046209857,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    }
+  ]
+}

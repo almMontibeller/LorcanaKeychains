@@ -20,7 +20,7 @@ from PIL import Image, ImageDraw
 
 import rebuild_set05 as build
 from rebuild_set04 import area, boundary_loops
-from repair_v1_1 import NS, read_parts
+from repair_v02 import NS, read_parts
 from validate_bambu import bambu_command
 
 LOGS = build.ROOT / 'validation' / build.SET.name / build.VERSION
@@ -29,7 +29,7 @@ LOGS = build.ROOT / 'validation' / build.SET.name / build.VERSION
 def mesh_checks():
     data, source_data = map(build.project_data, (build.PROJECT, build.SOURCE))
     parts, original = map(read_parts, (data, source_data))
-    unchanged = (0, 2) if build.VERSION == 'v1.3' else (1, 2)
+    unchanged = (0, 2) if build.VERSION == 'v04' else (1, 2)
     for i in unchanged:
         assert parts[i] == original[i], f'original mesh {i} changed'
     assert data['Metadata/project_settings.config'] == source_data['Metadata/project_settings.config']
@@ -78,7 +78,7 @@ def mesh_checks():
                        red_ivory_overlap_pixels=0, footprint_resolution_mm=build.STEP,
                        red_area_by_region_mm2=red_area_by_band,
                        red_footprint_area_mm2=round(sum(area(c) for c in build.orient(red_loops)), 4))
-    if build.VERSION == 'v1.4':
+    if build.VERSION == 'v05':
         geometry['star_connections'] = star_connection_checks(parts[0], original[0])
         old_bore, new_bore = [next(c for c in boundary_loops(p) if 15.7 < abs(area(c)) < 15.9)
                               for p in (original[0], parts[0])]
@@ -223,7 +223,7 @@ def main():
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--version', choices=['v1.3', 'v1.4'], default='v1.4')
+    parser.add_argument('--version', choices=['v04', 'v05'], default='v05')
     build.configure(parser.parse_args().version)
     LOGS = build.ROOT / 'validation' / build.SET.name / build.VERSION
     main()

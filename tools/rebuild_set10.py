@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build Set 10 v1.6 with smooth contours and a solid charcoal background."""
+"""Build Set 10 v07 with smooth contours and a solid charcoal background."""
 from pathlib import Path
 import argparse
 import json
@@ -14,19 +14,19 @@ from rebuild_set04 import area, boundary_loops, orient
 from rebuild_set09 import preview
 from full_height_narrow_rims import bore_index, isometric
 from refine_loops_and_underline import write_project
-from repair_v1_1 import read_parts
+from repair_v02 import read_parts
 from standardize_loop_diameters import bounds, centre, digest, mesh_stats, package
 
 ROOT = next(p for p in Path(__file__).resolve().parents
-            if (p/'sets/Set_10_Whispers_in_the_Well/v1.5/Set_10_Whispers_in_the_Well_v1.5.3mf').is_file())
+            if (p/'sets/Set_10_Whispers_in_the_Well/v06/Set_10_Whispers_in_the_Well_v06.3mf').is_file())
 SET = ROOT/'sets/Set_10_Whispers_in_the_Well'
-VERSION = 'v1.6'
+VERSION = 'v07'
 NAME = SET.name+'_'+VERSION
-SOURCE = SET/'v1.5'/(SET.name+'_v1.5.3mf')
+SOURCE = SET/'v06'/(SET.name+'_v06.3mf')
 DEST = SET/VERSION
 PROJECT = DEST/(NAME+'.3mf')
 VECTOR = Path(__file__).with_name('set10_clean_artwork.svg')
-ARTWORK = ROOT/'collection/v1.0/Sources/lorcana-keychains/sources/10.png'
+ARTWORK = ROOT/'collection/v01/Sources/lorcana-keychains/sources/10.png'
 SCALE = 40/288
 STEP, ORIGIN = .025, (-1., 41.)
 SIZE = (2360, 1680)
@@ -104,7 +104,7 @@ def comparison(old, new):
     frame = [(min(bounds(p[0])[k][0] for p in (old, new)),
               max(bounds(p[0])[k][1] for p in (old, new))) for k in range(3)]
     panels = []
-    for label, parts in [('v1.5 — previous', old), ('v1.6 — smooth contours and solid background', new)]:
+    for label, parts in [('v06 — previous', old), ('v07 — smooth contours and solid background', new)]:
         temp = DEST/'comparison_panel.png'
         preview(parts, temp, 1300, frame)
         im = Image.open(temp).convert('RGB')
@@ -148,9 +148,9 @@ def main():
     old = read_parts(package(SOURCE))
     parts = geometry(old)
     write_project(SOURCE, PROJECT, parts, {0, 1, 2},
-        'v1.6; explicit smooth source-traced WHISPERS / IN THE / WELL lettering; '
+        'v07; explicit smooth source-traced WHISPERS / IN THE / WELL lettering; '
         'complete upper gold wisp and continuous grey underline; solid Charcoal background '
-        'with 7 mm eyelet neck; exact v1.5 bore coordinates and centre; 6.5 mm bore, '
+        'with 7 mm eyelet neck; exact v06 bore coordinates and centre; 6.5 mm bore, '
         'nominal 10.5 mm eyelet, 2 mm backing and loop, relief 2–2.8 mm; '
         'three original filament profiles, process settings and placement retained.')
     loaded = read_parts(package(PROJECT))
@@ -163,8 +163,8 @@ def main():
     sources = [Path(__file__), VECTOR, ARTWORK, Path(__file__).with_name('validate_set10.py')]+[
         Path(__file__).with_name(n+'.py') for n in
         ('rebuild_set04', 'rebuild_set05', 'rebuild_set06', 'rebuild_set07', 'rebuild_set09',
-         'full_height_narrow_rims', 'refine_loops_and_underline', 'repair_v1_1',
-         'standardize_loop_diameters', 'validate_bambu', 'validate_set06', 'validate_set09')]
+         'full_height_narrow_rims', 'refine_loops_and_underline', 'repair_v02',
+         'standardize_loop_diameters', 'set_versions', 'validate_bambu', 'validate_set06', 'validate_set09')]
     for src in sources:
         shutil.copy2(src, snapshots/src.name)
     manifest = dict(project=str(PROJECT.relative_to(ROOT)) if PROJECT.is_relative_to(ROOT) else str(PROJECT),

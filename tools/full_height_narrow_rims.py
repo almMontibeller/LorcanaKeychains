@@ -7,7 +7,6 @@ reinforced stars. Requires NumPy, Pillow, GLU/Cairo and local Bambu Studio.
 import argparse
 import json
 import math
-import re
 import subprocess
 import tempfile
 import xml.etree.ElementTree as ET
@@ -18,7 +17,8 @@ import numpy as np
 from rebuild_set04 import area, boundary_loops, orient
 from PIL import Image
 
-from repair_v1_1 import NS, read_parts
+from repair_v02 import NS, read_parts
+from set_versions import saved_project
 from standardize_loop_diameters import ROOT, bounds, centre, digest, extrude_native, mesh_stats, package
 from refine_loops_and_underline import write_project, read_toolpaths, render_slice, toolpath_checks
 from validate_bambu import bambu_command
@@ -132,10 +132,8 @@ def isometric(parts, output):
 
 def build_one(folder, command):
     number = int(folder.name[4:6])
-    previous, version = ('v1.5', 'v1.6') if number == 4 else ('v1.6', 'v1.7') if number == 5 else ('v1.4', 'v1.5')
-    sources = list((folder/previous).glob('*.3mf'))
-    assert len(sources) == 1
-    source = sources[0]
+    previous, version = ('v06', 'v07') if number == 4 else ('v07', 'v08') if number == 5 else ('v05', 'v06')
+    source = saved_project(folder, previous)
     target = folder/version/(folder.name+'_'+version+'.3mf')
     source_hash = digest(source)
     old = read_parts(package(source))
@@ -221,7 +219,8 @@ def main():
     command = bambu_command()
     outputs = []
     for folder in sorted((ROOT/'sets').glob('Set_*')):
-        if args.sets and int(folder.name[4:6]) not in args.sets:
+        number = int(folder.name[4:6])
+        if number > 14 or (args.sets and number not in args.sets):
             continue
         print(folder.name+': restoring uniform height and enlarging hole to 6.5 mm', flush=True)
         outputs.append(build_one(folder, command))
@@ -250,29 +249,10 @@ def main():
                 'retains its four pre-existing degenerate faces; all rebuilt backings have '
                 'none. Physical printing and chain fit have not been tested.\n\n'
                 '| Set | Current project |\n| --- | --- |\n')
-    root_readme = (ROOT/'README.md').read_text()
-    for target, source, _ in outputs:
+    for target, _, _ in outputs:
         overview += f'| {target.parent.parent.name[4:].replace("_", " ")} | [{target.name}](../../{target.relative_to(ROOT)}) |\n'
-        root_readme = root_readme.replace(str(source.relative_to(ROOT)), str(target.relative_to(ROOT))).replace(source.name, target.name)
     overview += '\n[Manifest.json](Manifest.json) records source/output hashes and per-project validation reports.\n'
     (COLLECTION/'README.md').write_text(overview)
-    root_readme = re.sub(r'The latest projects have.*?\n\n',
-        'The latest projects have **uniform 2 mm loop and backing height**, '
-        '**6.5 mm holes**, **10.5 mm nominal outer diameters**, and **2 mm radial rims**. '
-        'See [current projects and validation](collection/full_height_narrow_rims/README.md).\n\n',
-        root_readme, count=1, flags=re.S)
-    start = next(root_readme.index(marker) for marker in
-                 ('Run current tools from the project root:',
-                  'Reproduce the current collection from the project root:')
-                 if marker in root_readme)
-    end = root_readme.index('Historical manifests, reports, and logs', start)
-    root_readme = (root_readme[:start]+'Reproduce the current collection from the project root:\n\n'
-                   '```sh\npython3 tools/full_height_narrow_rims.py\n```\n\n'
-                   'Requires NumPy, Pillow, the system Cairo/GLU libraries and local Bambu Studio. '
-                   'Older repair and rebuild scripts in `tools/` reproduce historical revisions. '
-                   'Set 05 retains its continuous underline and reinforced stars.\n\n'+root_readme[end:])
-    root_readme = root_readme.replace('contains `v1.0/` through `v1.5/`', 'contains `v1.0/` through `v1.6/`')
-    (ROOT/'README.md').write_text(root_readme)
     archive = ROOT/'archives/Lorcana_Keychains_Full_Height_Narrow_Rims.zip'
     with zipfile.ZipFile(archive, 'w', zipfile.ZIP_DEFLATED) as z:
         for target, _, _ in outputs:

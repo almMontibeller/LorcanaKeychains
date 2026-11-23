@@ -1,0 +1,52 @@
+{
+  "filename": "Set_07_Archazias_Island_v04.3mf",
+  "project": "sets/Set_07_Archazias_Island/v04/Set_07_Archazias_Island_v04.3mf",
+  "source": "sets/Set_07_Archazias_Island/v03/Set_07_Archazias_Island_v03.3mf",
+  "source_sha256": "14447dd899601f5fdc489bb0f354325fac37ba2bde70abf345354144873a507f",
+  "output_sha256": "61c63f0dcd5f0428a851d8049ad6b4cb161bfc0b246c649d2bd197011c097d87",
+  "reference": "sets/Set_04_Ursulas_Return/v05_printed/Set_04_Ursulas_Return_v05_printed.3mf",
+  "attachment": {
+    "bore_diameters_xy_mm": [
+      5.5,
+      5.5
+    ],
+    "bore_centre_mm": [
+      5.250000050000001,
+      20.407500255
+    ],
+    "bore_centre_preserved": true,
+    "outer_diameter_nominal_mm": 10.5,
+    "rim_width_nominal_mm": 2.5,
+    "backing_and_loop_thickness_mm": 2.0,
+    "non_bore_contours_preserved": true,
+    "non_bore_contour_max_deviation_mm": 3.999929277319008e-10,
+    "overall_dimensions_preserved": true
+  },
+  "artwork_meshes_exactly_preserved": true,
+  "filament_and_process_settings_byte_identical": true,
+  "volume_removed_mm3": 15.880862076394806,
+  "tessellation_axis_rotation_degrees": 0,
+  "parts": [
+    {
+      "name": "Dark Green",
+      "slot": 1,
+      "volume_mm3": 4809.361023510457,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    },
+    {
+      "name": "Caramel",
+      "slot": 2,
+      "volume_mm3": 53.67571143700633,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    },
+    {
+      "name": "Ivory White",
+      "slot": 3,
+      "volume_mm3": 558.3255953448165,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    }
+  ]
+}

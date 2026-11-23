@@ -1,0 +1,141 @@
+{
+  "filename": "Set_09_Fabled_v04.3mf",
+  "sha256": "bef2c897c945dd6db372640dca6ec4115de2bdb945d4f5862fe82692bfcb19d8",
+  "attachment": {
+    "bore_diameters_xy_mm": [
+      5.5,
+      5.5
+    ],
+    "bore_centre_mm": [
+      5.24999995,
+      16.69000006
+    ],
+    "bore_centre_preserved": true,
+    "outer_diameter_nominal_mm": 10.5,
+    "rim_width_nominal_mm": 2.5,
+    "backing_and_loop_thickness_mm": 2.0,
+    "non_bore_contours_preserved": true,
+    "non_bore_contour_max_deviation_mm": 4.999982652152952e-10,
+    "overall_dimensions_preserved": true
+  },
+  "geometry": [
+    {
+      "name": "Marine Blue",
+      "slot": 1,
+      "volume_mm3": 3909.486655739461,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    },
+    {
+      "name": "Sunflower Yellow",
+      "slot": 2,
+      "volume_mm3": 340.91959019894915,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    },
+    {
+      "name": "Purple",
+      "slot": 3,
+      "volume_mm3": 508.79662923383586,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    }
+  ],
+  "artwork_xml_and_meshes_preserved": true,
+  "plate_placement_preserved": true,
+  "filament_and_process_settings_byte_identical": true,
+  "used_filament_slots": [
+    1,
+    2,
+    3
+  ],
+  "bambu_version": "02.08.02.61",
+  "slice_result": {
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 29,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "feature_type_times": {
+          "Bottom surface": 71.43119049072266,
+          "Bridge": 28.90435028076172,
+          "Custom": 369.6363220214844,
+          "Flush": 413.4867858886719,
+          "Gap infill": 9.15423583984375,
+          "Inner wall": 298.9632873535156,
+          "Internal solid infill": 230.0885009765625,
+          "Outer wall": 249.50946044921875,
+          "Prime tower": 182.9827117919922,
+          "Sparse infill": 16.14715003967285,
+          "Top surface": 49.89134216308594,
+          "Travel": 272.6312561035156,
+          "Undefined": 255.5815887451172
+        },
+        "filament_change_times": 5,
+        "filaments": [
+          {
+            "filament_id": "GFA01",
+            "id": 1,
+            "main_used_g": 4.913642406463623,
+            "total_used_g": 5.952065944671631
+          },
+          {
+            "filament_id": "GFA00",
+            "id": 2,
+            "main_used_g": 0.40737488865852356,
+            "total_used_g": 1.743316888809204
+          },
+          {
+            "filament_id": "GFA00",
+            "id": 3,
+            "main_used_g": 0.6152172088623047,
+            "total_used_g": 1.3407952785491943
+          }
+        ],
+        "generate_support_material_time": 26,
+        "id": 1,
+        "infill_time": 292,
+        "layer_filament_change": 0,
+        "main_predication": 1201.73193359375,
+        "make_perimeters_time": 282,
+        "obj_cached_cnt": 0,
+        "objects": [
+          {
+            "bbox": {
+              "depth": 33.375003814697266,
+              "height": 3.0,
+              "width": 94.69000244140625,
+              "x": 80.65499877929688,
+              "y": 111.30999755859375,
+              "z": 0.0
+            },
+            "id": 5,
+            "name": "Fabled v04",
+            "triangle_count": 16876
+          }
+        ],
+        "sliced_time": 1020,
+        "sliced_time_with_cache": 375,
+        "total_predication": 2175.7880859375,
+        "triangle_count": 16876,
+        "warning_message": ""
+      }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+      "Bambu Lab H2D 0.4 nozzle",
+      "Bambu Lab H2D Pro 0.4 nozzle",
+      "Bambu Lab H2S 0.4 nozzle",
+      "Bambu Lab P2S 0.4 nozzle",
+      "Bambu Lab H2C 0.4 nozzle",
+      "Bambu Lab X2D 0.4 nozzle",
+      "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+  },
+  "physical_print_verified": false,
+  "environment_notes": "Installed Flatpak CLI uses embedded settings despite missing /app preset-resource messages."
+}

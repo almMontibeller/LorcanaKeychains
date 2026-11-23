@@ -1,0 +1,40 @@
+{
+  "filename": "Set_04_Ursulas_Return_v05.3mf",
+  "source_sha256": "85bf1d7ebdb156ba461de1adbc6fe258feaeb911e8c58cb8384306b97b7b3e0d",
+  "output_sha256": "6824cb195e07f61733010c892d41bafd8ddf5f610065aa63dae8b81116148f48",
+  "vector_source": "tools/set04_clean_letters_v05.svg",
+  "tiny_backing_holes_removed": 1,
+  "attachment": {
+    "bore_diameter_mm": 5.5,
+    "nominal_rim_width_mm": 2.5,
+    "eyelet_thickness_mm": 1.6,
+    "backing_thickness_mm": 2.0,
+    "thickness_transition_x_mm": [
+      10.5,
+      13.0
+    ]
+  },
+  "settings_unchanged": true,
+  "dimensions_mm": [
+    86.465,
+    41.0,
+    2.8
+  ],
+  "parts": [
+    {
+      "name": "Purple",
+      "slot": 1,
+      "triangles": 5088
+    },
+    {
+      "name": "Sunflower Yellow",
+      "slot": 2,
+      "triangles": 37784
+    },
+    {
+      "name": "Ice Blue",
+      "slot": 3,
+      "triangles": 12980
+    }
+  ]
+}

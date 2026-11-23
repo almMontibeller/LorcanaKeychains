@@ -21,7 +21,8 @@ from rebuild_set04 import area, boundary_loops, inside, orient
 from rebuild_set05 import footprint, STEP, xy_pixel
 from refine_loops_and_underline import draw_bead, read_toolpaths, render_slice, toolpath_checks
 from full_height_narrow_rims import bore_index, isometric
-from repair_v1_1 import NS, read_parts
+from repair_v02 import NS, read_parts
+from set_versions import saved_project
 from standardize_loop_diameters import bounds, digest, mesh_stats, package
 from validate_bambu import bambu_command
 
@@ -80,8 +81,8 @@ def mesh_checks():
     data, old_data = package(build.PROJECT), package(build.SOURCE)
     parts, old_parts = read_parts(data), read_parts(old_data)
     assert parts[0] == old_parts[0], 'backing or attachment changed'
-    if build.VERSION == 'v1.7':
-        assert parts[2] == old_parts[2], 'v1.6 gold lettering changed'
+    if build.VERSION == 'v08':
+        assert parts[2] == old_parts[2], 'v07 gold lettering changed'
     assert data['Metadata/project_settings.config'] == old_data['Metadata/project_settings.config']
     settings = json.loads(data['Metadata/project_settings.config'])
     assert settings['nozzle_diameter'] == ['0.4']
@@ -97,7 +98,7 @@ def mesh_checks():
     meshpath = f"m:resources/m:object[@id='{comp.get('objectid')}']/m:mesh"
     assert ET.tostring(ET.fromstring(old_data[resource]).find(meshpath, NS)) == ET.tostring(
         ET.fromstring(data[resource]).find(meshpath, NS)), 'backing XML changed'
-    if build.VERSION == 'v1.7':
+    if build.VERSION == 'v08':
         goldcomp = roots[0].findall('.//m:component', NS)[2]
         goldpath = f"m:resources/m:object[@id='{goldcomp.get('objectid')}']/m:mesh"
         goldresource = goldcomp.get('{'+build.PROD+'}path').lstrip('/')
@@ -155,7 +156,7 @@ def mesh_checks():
                     ice_components=2, minimum_letter_clearance_mm=min(p['gap_mm'] for p in pairs),
                     close_letter_pairs=pairs, counters=counters,
                     relief_heights_mm=dict(ice=.4, gold=.8))
-    if build.VERSION == 'v1.7':
+    if build.VERSION == 'v08':
         # Check that thickening only replaces the underside of each ribbon:
         # the initial M + three C commands describe its original upper crests.
         oldroot = ET.parse(build.VECTOR).getroot()
@@ -241,7 +242,7 @@ def comparison(parts):
     draw = ImageDraw.Draw(canvas)
     font = ImageFont.truetype('/usr/share/fonts/TTF/DejaVuSans.ttf', 28)
     labels = (f'{build.SOURCE.parent.name} — previous',
-              f'{build.VERSION} — fuller waves' if build.VERSION == 'v1.7' else 'v1.6 — refined contours')
+              f'{build.VERSION} — fuller waves' if build.VERSION == 'v08' else 'v07 — refined contours')
     for i, (panel, label) in enumerate(zip(panels, labels)):
         panel.thumbnail((w, h-60), Image.Resampling.LANCZOS)
         canvas.paste(panel, (i*w+(w-panel.width)//2, 55+(h-60-panel.height)//2))
@@ -254,10 +255,12 @@ def comparison(parts):
 def main():
     global LOGS
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--version', choices=['v1.6', 'v1.7'], default='v1.7')
+    parser.add_argument('--version', choices=['v07', 'v08'], default='v08')
     parser.add_argument('--reuse-slice', action='store_true', help='Inspect existing slicer evidence without re-slicing')
     args = parser.parse_args()
     build.configure(args.version)
+    build.PROJECT = saved_project(build.SET, build.VERSION)
+    build.DEST = build.PROJECT.parent
     LOGS = build.ROOT / 'validation' / build.SET.name / build.VERSION
     parts, geometry, bore = mesh_checks()
     LOGS.mkdir(parents=True, exist_ok=True)
@@ -279,8 +282,8 @@ def main():
     report = dict(project=str(build.PROJECT.relative_to(build.ROOT)), sha256=digest(build.PROJECT),
                   source=str(build.SOURCE.relative_to(build.ROOT)), source_sha256=digest(build.SOURCE),
                   vector=str(build.VECTOR.relative_to(build.ROOT)), vector_sha256=digest(build.VECTOR),
-                  wave_vector=(str(build.WAVE_VECTOR.relative_to(build.ROOT)) if build.VERSION == 'v1.7' else None),
-                  wave_vector_sha256=digest(build.WAVE_VECTOR) if build.VERSION == 'v1.7' else None,
+                  wave_vector=(str(build.WAVE_VECTOR.relative_to(build.ROOT)) if build.VERSION == 'v08' else None),
+                  wave_vector_sha256=digest(build.WAVE_VECTOR) if build.VERSION == 'v08' else None,
                   artwork_reference=str(build.ARTWORK.relative_to(build.ROOT)),
                   geometry=geometry, nozzle_diameter_mm=.4, layer_height_mm=.2,
                   wall_generator='arachne', toolpath_checks=toolpaths, used_filament_slots=[1, 2, 3],

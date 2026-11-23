@@ -6,19 +6,19 @@ All fourteen projects pass Bambu slicing with every intended filament and no pla
 
 | Set | Current project |
 | --- | --- |
-| 01 The First Chapter | [Set_01_The_First_Chapter_v1.5.3mf](../../sets/Set_01_The_First_Chapter/v1.5/Set_01_The_First_Chapter_v1.5.3mf) |
-| 02 Rise of the Floodborn | [Set_02_Rise_of_the_Floodborn_v1.5.3mf](../../sets/Set_02_Rise_of_the_Floodborn/v1.5/Set_02_Rise_of_the_Floodborn_v1.5.3mf) |
-| 03 Into the Inklands | [Set_03_Into_the_Inklands_v1.5.3mf](../../sets/Set_03_Into_the_Inklands/v1.5/Set_03_Into_the_Inklands_v1.5.3mf) |
-| 04 Ursulas Return | [Set_04_Ursulas_Return_v1.6.3mf](../../sets/Set_04_Ursulas_Return/v1.6/Set_04_Ursulas_Return_v1.6.3mf) |
-| 05 Shimmering Skies | [Set_05_Shimmering_Skies_v1.7.3mf](../../sets/Set_05_Shimmering_Skies/v1.7/Set_05_Shimmering_Skies_v1.7.3mf) |
-| 06 Azurite Sea | [Set_06_Azurite_Sea_v1.5.3mf](../../sets/Set_06_Azurite_Sea/v1.5/Set_06_Azurite_Sea_v1.5.3mf) |
-| 07 Archazias Island | [Set_07_Archazias_Island_v1.5.3mf](../../sets/Set_07_Archazias_Island/v1.5/Set_07_Archazias_Island_v1.5.3mf) |
-| 08 Reign of Jafar | [Set_08_Reign_of_Jafar_v1.5.3mf](../../sets/Set_08_Reign_of_Jafar/v1.5/Set_08_Reign_of_Jafar_v1.5.3mf) |
-| 09 Fabled | [Set_09_Fabled_v1.5.3mf](../../sets/Set_09_Fabled/v1.5/Set_09_Fabled_v1.5.3mf) |
-| 10 Whispers in the Well | [Set_10_Whispers_in_the_Well_v1.5.3mf](../../sets/Set_10_Whispers_in_the_Well/v1.5/Set_10_Whispers_in_the_Well_v1.5.3mf) |
-| 11 Winterspell | [Set_11_Winterspell_v1.5.3mf](../../sets/Set_11_Winterspell/v1.5/Set_11_Winterspell_v1.5.3mf) |
-| 12 Wilds Unknown | [Set_12_Wilds_Unknown_v1.5.3mf](../../sets/Set_12_Wilds_Unknown/v1.5/Set_12_Wilds_Unknown_v1.5.3mf) |
-| 13 Attack of the Vine | [Set_13_Attack_of_the_Vine_v1.5.3mf](../../sets/Set_13_Attack_of_the_Vine/v1.5/Set_13_Attack_of_the_Vine_v1.5.3mf) |
-| 14 Hyperia City | [Set_14_Hyperia_City_v1.5.3mf](../../sets/Set_14_Hyperia_City/v1.5/Set_14_Hyperia_City_v1.5.3mf) |
+| 01 The First Chapter | [Set_01_The_First_Chapter_v06.3mf](../../sets/Set_01_The_First_Chapter/v06/Set_01_The_First_Chapter_v06.3mf) |
+| 02 Rise of the Floodborn | [Set_02_Rise_of_the_Floodborn_v06.3mf](../../sets/Set_02_Rise_of_the_Floodborn/v06/Set_02_Rise_of_the_Floodborn_v06.3mf) |
+| 03 Into the Inklands | [Set_03_Into_the_Inklands_v06.3mf](../../sets/Set_03_Into_the_Inklands/v06/Set_03_Into_the_Inklands_v06.3mf) |
+| 04 Ursulas Return | [Set_04_Ursulas_Return_v07.3mf](../../sets/Set_04_Ursulas_Return/v07/Set_04_Ursulas_Return_v07.3mf) |
+| 05 Shimmering Skies | [Set_05_Shimmering_Skies_v08.3mf](../../sets/Set_05_Shimmering_Skies/v08_printed/Set_05_Shimmering_Skies_v08_printed.3mf) |
+| 06 Azurite Sea | [Set_06_Azurite_Sea_v06.3mf](../../sets/Set_06_Azurite_Sea/v06/Set_06_Azurite_Sea_v06.3mf) |
+| 07 Archazias Island | [Set_07_Archazias_Island_v06.3mf](../../sets/Set_07_Archazias_Island/v06/Set_07_Archazias_Island_v06.3mf) |
+| 08 Reign of Jafar | [Set_08_Reign_of_Jafar_v06.3mf](../../sets/Set_08_Reign_of_Jafar/v06/Set_08_Reign_of_Jafar_v06.3mf) |
+| 09 Fabled | [Set_09_Fabled_v06.3mf](../../sets/Set_09_Fabled/v06/Set_09_Fabled_v06.3mf) |
+| 10 Whispers in the Well | [Set_10_Whispers_in_the_Well_v06.3mf](../../sets/Set_10_Whispers_in_the_Well/v06/Set_10_Whispers_in_the_Well_v06.3mf) |
+| 11 Winterspell | [Set_11_Winterspell_v06.3mf](../../sets/Set_11_Winterspell/v06/Set_11_Winterspell_v06.3mf) |
+| 12 Wilds Unknown | [Set_12_Wilds_Unknown_v06.3mf](../../sets/Set_12_Wilds_Unknown/v06/Set_12_Wilds_Unknown_v06.3mf) |
+| 13 Attack of the Vine | [Set_13_Attack_of_the_Vine_v06.3mf](../../sets/Set_13_Attack_of_the_Vine/v06/Set_13_Attack_of_the_Vine_v06.3mf) |
+| 14 Hyperia City | [Set_14_Hyperia_City_v06.3mf](../../sets/Set_14_Hyperia_City/v06/Set_14_Hyperia_City_v06.3mf) |
 
 [Manifest.json](Manifest.json) records source/output hashes and per-project validation reports.

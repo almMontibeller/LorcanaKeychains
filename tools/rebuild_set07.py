@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build Set 07 v1.6 from source-registered vectors; native four-colour 3MF.
+"""Build Set 07 v07 from source-registered vectors; native four-colour 3MF.
 
 Requires NumPy, Pillow and system GLU/Cairo. Existing projects are untouched.
 """
@@ -18,18 +18,18 @@ from PIL import Image, ImageDraw
 
 from rebuild_set04 import area, extrude, orient
 from rebuild_set05 import contours, dilate, erode
-from repair_v1_1 import IDENTITY, NS, read_parts, thumbnail
+from repair_v02 import IDENTITY, NS, read_parts, thumbnail
 from standardize_loop_diameters import bounds, digest, mesh_stats, package, write_mesh
 
 ROOT = Path(__file__).resolve().parents[1]
 SET = ROOT/'sets/Set_07_Archazias_Island'
-VERSION = 'v1.6'
+VERSION = 'v07'
 NAME = SET.name+'_'+VERSION
-SOURCE = SET/'v1.5'/(SET.name+'_v1.5.3mf')
+SOURCE = SET/'v06'/(SET.name+'_v06.3mf')
 DEST = SET/VERSION
 PROJECT = DEST/(NAME+'.3mf')
 VECTOR = Path(__file__).with_name('set07_clean_artwork.svg')
-ARTWORK = ROOT/'collection/v1.0/Sources/lorcana-keychains/sources/07.png'
+ARTWORK = ROOT/'collection/v01/Sources/lorcana-keychains/sources/07.png'
 PROD = 'http://schemas.microsoft.com/3dmanufacturing/production/2015/06'
 TAG = lambda name: '{'+NS['m']+'}'+name
 SVG = {'s': 'http://www.w3.org/2000/svg'}
@@ -253,7 +253,7 @@ def main():
     obj.find("metadata[@key='name']").set('value', NAME)
     obj.find('metadata[@face_count]').set('face_count', str(sum(len(p['faces']) for p in parts)))
     root.find("m:metadata[@name='Description']", NS).text = (
-        'v1.6; source-registered smooth lettering, feathered light-green frame with caramel trim; '
+        'v07; source-registered smooth lettering, feathered light-green frame with caramel trim; '
         'owl head with engraved brow/beak and shaped ivory eyes in green sockets; '
         'native 2 mm backing/loop and 6.5 mm bore retained; four matte PLA slots; '
         'caramel top 2.6 mm, green top 2.8 mm, ivory top 3.0 mm; native A1 0.4 mm Arachne profile.')

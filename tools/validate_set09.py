@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate Set 09 v1.6 meshes and actual Bambu A1 / 0.4 mm toolpaths."""
+"""Validate Set 09 v07 meshes and actual Bambu A1 / 0.4 mm toolpaths."""
 import argparse
 import json
 import math
@@ -16,7 +16,7 @@ from rebuild_set04 import area, boundary_loops
 from rebuild_set05 import dilate, erode
 from full_height_narrow_rims import bore_index
 from refine_loops_and_underline import draw_bead, read_toolpaths, render_slice, toolpath_checks
-from repair_v1_1 import NS, read_parts
+from repair_v02 import NS, read_parts
 from standardize_loop_diameters import bounds, centre, digest, mesh_stats, package
 from validate_bambu import bambu_command
 from validate_set06 import assert_simple

@@ -1,0 +1,86 @@
+{
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 32,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 61.75860595703125,
+                "Bridge": 70.4844741821289,
+                "Custom": 369.61541748046875,
+                "Flush": 314.2834777832031,
+                "Gap infill": 18.816926956176758,
+                "Inner wall": 196.01885986328125,
+                "Internal solid infill": 188.78924560546875,
+                "Outer wall": 215.51101684570313,
+                "Prime tower": 170.6946563720703,
+                "Sparse infill": 8.20958137512207,
+                "Top surface": 62.87686538696289,
+                "Travel": 251.9021453857422,
+                "Undefined": 234.87335205078125
+            },
+            "filament_change_times": 4,
+            "filaments": [
+                {
+                    "filament_id": "GFA01",
+                    "id": 1,
+                    "main_used_g": 4.302164077758789,
+                    "total_used_g": 5.340587615966797
+                },
+                {
+                    "filament_id": "GFA01",
+                    "id": 2,
+                    "main_used_g": 0.5147597789764404,
+                    "total_used_g": 1.256698489189148
+                },
+                {
+                    "filament_id": "GFA01",
+                    "id": 3,
+                    "main_used_g": 0.62865149974823,
+                    "total_used_g": 1.2702362537384033
+                }
+            ],
+            "generate_support_material_time": 21,
+            "id": 1,
+            "infill_time": 212,
+            "layer_filament_change": 0,
+            "main_predication": 1049.3800048828125,
+            "make_perimeters_time": 305,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 26.80000114440918,
+                        "height": 3.0,
+                        "width": 95.01499938964844,
+                        "x": 80.49500274658203,
+                        "y": 114.5999984741211,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "Winterspell v04",
+                    "triangle_count": 17912
+                }
+            ],
+            "sliced_time": 943,
+            "sliced_time_with_cache": 367,
+            "total_predication": 1911.94482421875,
+            "triangle_count": 17912,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+}

@@ -1,0 +1,52 @@
+{
+  "filename": "Set_10_Whispers_in_the_Well_v04.3mf",
+  "project": "sets/Set_10_Whispers_in_the_Well/v04/Set_10_Whispers_in_the_Well_v04.3mf",
+  "source": "sets/Set_10_Whispers_in_the_Well/v03/Set_10_Whispers_in_the_Well_v03.3mf",
+  "source_sha256": "4ea89d020bf06436a950b7b8749b9c676fdcc79a8a0975f7b0b24169c57798d3",
+  "output_sha256": "5e29e965dcfecccebcea8c3746f010ab9e1eb7eae5785b08802169b6ed4d4bea",
+  "reference": "sets/Set_04_Ursulas_Return/v05_printed/Set_04_Ursulas_Return_v05_printed.3mf",
+  "attachment": {
+    "bore_diameters_xy_mm": [
+      5.5,
+      5.5
+    ],
+    "bore_centre_mm": [
+      5.24999995,
+      19.6875
+    ],
+    "bore_centre_preserved": true,
+    "outer_diameter_nominal_mm": 10.5,
+    "rim_width_nominal_mm": 2.5,
+    "backing_and_loop_thickness_mm": 2.0,
+    "non_bore_contours_preserved": true,
+    "non_bore_contour_max_deviation_mm": 2.00003569261753e-10,
+    "overall_dimensions_preserved": true
+  },
+  "artwork_meshes_exactly_preserved": true,
+  "filament_and_process_settings_byte_identical": true,
+  "volume_removed_mm3": 15.877906878547492,
+  "tessellation_axis_rotation_degrees": 17,
+  "parts": [
+    {
+      "name": "Charcoal",
+      "slot": 1,
+      "volume_mm3": 2627.895874786705,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    },
+    {
+      "name": "Ash Gray",
+      "slot": 2,
+      "volume_mm3": 199.26195514071006,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    },
+    {
+      "name": "Sunflower Yellow",
+      "slot": 3,
+      "volume_mm3": 196.18058277303325,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    }
+  ]
+}

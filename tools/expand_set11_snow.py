@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Add selected source-art frost patches to the v1.9 Winterspell keychain."""
+"""Add selected source-art frost patches to the v10 Winterspell keychain."""
 
 import argparse
 import json
@@ -16,15 +16,15 @@ from shapely.ops import unary_union
 
 import flatten_set11 as flat
 import snow_set11 as snow
-from repair_v1_1 import NS, PROD, read_parts, thumbnail
+from repair_v02 import NS, PROD, read_parts, thumbnail
 from standardize_loop_diameters import bounds, digest, mesh_stats, package, write_mesh
 
 ROOT = snow.ROOT
 SET = snow.trace.SET
-VERSION = 'v1.10'
+VERSION = 'v11'
 NAME = SET.name + '_' + VERSION
 SOURCE = flat.DEST / (flat.NAME + '.3mf')
-DEST = SET / VERSION
+DEST = SET / (VERSION + '_approved')
 VECTOR = Path(__file__).with_name('set11_extra_snow_caps.svg')
 MODEL, CONFIG, SETTINGS = snow.colors.MODEL, snow.colors.CONFIG, snow.colors.SETTINGS
 
@@ -57,7 +57,7 @@ def write_project(data, source_parts, caps, target):
     obj.find('metadata[@face_count]').set('face_count', str(sum(len(p['faces']) for p in parts)))
     obj.find("metadata[@key='name']").set('value', target.stem)
     model.find("m:metadata[@name='Description']", NS).text = (
-        'Winterspell v1.10. Flat 2 mm Dark Blue backing, gold lettering and thirteen raised '
+        'Winterspell v11. Flat 2 mm Dark Blue backing, gold lettering and thirteen raised '
         'Ice Blue snow patches. Earlier lettering, backing, loop and snow patches retained.')
     for key, document in ((MODEL, model), (CONFIG, config), (path, child)):
         snow.colors.put_xml(data, key, document)
@@ -113,8 +113,8 @@ def comparison(old, new, output):
     height = panels[0].height+52
     canvas = Image.new('RGB', (1500, height*2), '#f5f5f5')
     draw = ImageDraw.Draw(canvas)
-    for i, (panel, label) in enumerate(zip(panels, ('v1.9 · Seven snow patches',
-                                                   'v1.10 · Thirteen snow patches'))):
+    for i, (panel, label) in enumerate(zip(panels, ('v10 · Seven snow patches',
+                                                   'v11 · Thirteen snow patches'))):
         draw.text((30, i*height+16), label, fill='#193d58', font=font)
         canvas.paste(panel, (0, i*height+52))
     canvas.save(output)
@@ -189,7 +189,7 @@ def main():
     with ZipFile(snapshot, 'w', ZIP_DEFLATED) as archive:
         for path in inputs:
             archive.write(path, path.relative_to(ROOT))
-    inputs += [SOURCE, snow.trace.ARTWORK, ROOT/'sets/Set_09_Fabled/v1.5/Set_09_Fabled_v1.5.3mf']
+    inputs += [SOURCE, snow.trace.ARTWORK, ROOT/'sets/Set_09_Fabled/v06/Set_09_Fabled_v06.3mf']
     manifest = dict(project=project.name, sha256=digest(project),
                     source_snapshot_sha256=digest(snapshot),
                     inputs_sha256={str(p.relative_to(ROOT)): digest(p) for p in inputs})

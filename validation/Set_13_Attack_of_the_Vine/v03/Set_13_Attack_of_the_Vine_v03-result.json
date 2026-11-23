@@ -1,0 +1,86 @@
+{
+  "error_string": "Success.",
+  "export_time": 0,
+  "layer_height": 0.20000000298023224,
+  "plate_index": 1,
+  "prepare_time": 22,
+  "return_code": 0,
+  "sliced_plates": [
+    {
+      "feature_type_times": {
+        "Bottom surface": 52.83910369873047,
+        "Bridge": 36.61178207397461,
+        "Custom": 369.4356384277344,
+        "Flush": 391.37176513671875,
+        "Gap infill": 19.296588897705078,
+        "Inner wall": 187.41258239746094,
+        "Internal solid infill": 217.6389923095703,
+        "Outer wall": 162.3819580078125,
+        "Prime tower": 183.03564453125,
+        "Sparse infill": 8.108612060546875,
+        "Top surface": 96.47684478759766,
+        "Travel": 254.83921813964844,
+        "Undefined": 237.99020385742188
+      },
+      "filament_change_times": 5,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 1,
+          "main_used_g": 4.221734046936035,
+          "total_used_g": 5.212956428527832
+        },
+        {
+          "filament_id": "GFA00",
+          "id": 2,
+          "main_used_g": 0.31320396065711975,
+          "total_used_g": 1.1214021444320679
+        },
+        {
+          "filament_id": "GFA00",
+          "id": 3,
+          "main_used_g": 0.41280195116996765,
+          "total_used_g": 1.3706839084625244
+        }
+      ],
+      "generate_support_material_time": 27,
+      "id": 1,
+      "infill_time": 376,
+      "layer_filament_change": 0,
+      "main_predication": 1010.6431274414062,
+      "make_perimeters_time": 194,
+      "obj_cached_cnt": 0,
+      "objects": [
+        {
+          "bbox": {
+            "depth": 40.90499496459961,
+            "height": 2.799999952316284,
+            "width": 68.01000213623047,
+            "x": 93.99500274658203,
+            "y": 107.55000305175781,
+            "z": 0.0
+          },
+          "id": 5,
+          "name": "Attack of the Vine! v03",
+          "triangle_count": 11340
+        }
+      ],
+      "sliced_time": 1044,
+      "sliced_time_with_cache": 414,
+      "total_predication": 1962.63720703125,
+      "triangle_count": 11340,
+      "warning_message": ""
+    }
+  ],
+  "sparse_infill_density": 15.0,
+  "upward_compatible_machine": [
+    "Bambu Lab H2D 0.4 nozzle",
+    "Bambu Lab H2D Pro 0.4 nozzle",
+    "Bambu Lab H2S 0.4 nozzle",
+    "Bambu Lab P2S 0.4 nozzle",
+    "Bambu Lab H2C 0.4 nozzle",
+    "Bambu Lab X2D 0.4 nozzle",
+    "Bambu Lab A2L 0.4 nozzle"
+  ],
+  "wall_loops": 3
+}

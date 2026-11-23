@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Build Set 09 v1.6: clean lettering and a solid book-shaped backing.
+"""Build Set 09 v07: clean lettering and a solid book-shaped backing.
 
-Uses the v1.5 native Bambu project, explicit source-registered SVG curves,
+Uses the v06 native Bambu project, explicit source-registered SVG curves,
 NumPy/Pillow and system Cairo/GLU. No historical releases are rebuilt.
 """
 from pathlib import Path
@@ -20,19 +20,19 @@ from rebuild_set04 import area, boundary_loops, orient
 from rebuild_set05 import contours, erode
 from full_height_narrow_rims import bore_index, isometric
 from refine_loops_and_underline import write_project
-from repair_v1_1 import read_parts, thumbnail
+from repair_v02 import read_parts, thumbnail
 from standardize_loop_diameters import bounds, centre, digest, mesh_stats, package
 
 ROOT = next(p for p in Path(__file__).resolve().parents
-            if (p/'sets/Set_09_Fabled/v1.5/Set_09_Fabled_v1.5.3mf').is_file())
+            if (p/'sets/Set_09_Fabled/v06/Set_09_Fabled_v06.3mf').is_file())
 SET = ROOT/'sets/Set_09_Fabled'
-VERSION = 'v1.6'
+VERSION = 'v07'
 NAME = SET.name+'_'+VERSION
-SOURCE = SET/'v1.5'/(SET.name+'_v1.5.3mf')
-DEST = SET/VERSION
+SOURCE = SET/'v06'/(SET.name+'_v06.3mf')
+DEST = SET/(VERSION+'_approved')
 PROJECT = DEST/(NAME+'.3mf')
 VECTOR = Path(__file__).with_name('set09_clean_artwork.svg')
-ARTWORK = ROOT/'collection/v1.0/Sources/lorcana-keychains/sources/09.png'
+ARTWORK = ROOT/'collection/v01/Sources/lorcana-keychains/sources/09.png'
 SCALE = 84/653
 STEP, ORIGIN = .025, (-1., 35.)
 SIZE = (3920, 1440)
@@ -79,7 +79,7 @@ def backing(old, art):
     """Splice an exact circular eyelet into the field's straight left edge.
 
     The 7 mm wide neck and 10.5 mm outer circle form one contour with the
-    background. Preserve every v1.5 bore coordinate, avoiding raster offsets.
+    background. Preserve every v06 bore coordinate, avoiding raster offsets.
     """
     previous = boundary_loops(old)
     hole = previous[bore_index(previous, 6.5)]
@@ -130,7 +130,7 @@ def comparison(old, new):
     frame = [(min(bounds(p[0])[k][0] for p in (old, new)),
               max(bounds(p[0])[k][1] for p in (old, new))) for k in range(3)]
     panels = []
-    for label, parts in [('v1.5 — previous', old), ('v1.6 — clean contours and solid background', new)]:
+    for label, parts in [('v06 — previous', old), ('v07 — clean contours and solid background', new)]:
         temp = DEST/'comparison_panel.png'
         preview(parts, temp, 1300, frame)
         im = Image.open(temp).convert('RGB')
@@ -175,9 +175,9 @@ def main():
     old = read_parts(package(SOURCE))
     parts = geometry(old)
     write_project(SOURCE, PROJECT, parts, {0, 1, 2},
-        'v1.6; explicit smooth Fabled lettering with continuous 0.50 mm gold keylines; '
+        'v07; explicit smooth Fabled lettering with continuous 0.50 mm gold keylines; '
         'complete open-book top ornament and continuous underline; solid Marine Blue '
-        'book-shaped background and 7 mm wide eyelet neck; exact v1.5 6.5 mm bore '
+        'book-shaped background and 7 mm wide eyelet neck; exact v06 6.5 mm bore '
         'and centre, nominal 10.5 mm outer eyelet, uniform 2 mm backing/loop; '
         'gold 2–2.6 mm and purple 2.6–3 mm without volumetric overlaps; '
         'all three original filament profiles, process settings and placement retained.')
@@ -192,7 +192,7 @@ def main():
                ARTWORK]+[Path(__file__).with_name(n+'.py') for n in
                    ('rebuild_set04', 'rebuild_set05', 'rebuild_set06', 'rebuild_set07',
                     'full_height_narrow_rims', 'refine_loops_and_underline',
-                    'repair_v1_1', 'standardize_loop_diameters', 'validate_bambu', 'validate_set06')]
+                    'repair_v02', 'standardize_loop_diameters', 'set_versions', 'validate_bambu', 'validate_set06')]
     for src in sources:
         shutil.copy2(src, snapshots/src.name)
     manifest = dict(project=str(PROJECT.relative_to(ROOT)) if PROJECT.is_relative_to(ROOT) else str(PROJECT),

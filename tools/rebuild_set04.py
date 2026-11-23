@@ -2,7 +2,7 @@
 """Rebuild Set 04 from explicit clean vector letters, using stdlib + libGLU.
 
 Run: python3 tools/rebuild_set04.py
-The v1.2 project supplies profiles, colour assignments, placement and backing.
+The v03 project supplies profiles, colour assignments, placement and backing.
 The SVG supplies letter shapes, not an automatically thresholded texture.
 """
 from pathlib import Path
@@ -16,14 +16,15 @@ import re
 import xml.etree.ElementTree as ET
 import zipfile
 
-from repair_v1_1 import read_parts, thumbnail, NS, IDENTITY
+from repair_v02 import read_parts, thumbnail, NS, IDENTITY
+from set_versions import saved_project
 
 ROOT = Path(__file__).resolve().parents[1]
 SET = ROOT / 'sets' / 'Set_04_Ursulas_Return'
-SOURCE = SET / 'v1.2' / 'Set_04_Ursulas_Return_v1.2.3mf'
-VERSION = 'v1.4'
+SOURCE = SET / 'v03' / 'Set_04_Ursulas_Return_v03.3mf'
+VERSION = 'v05'
 DEST = SET / VERSION
-VECTOR = Path(__file__).with_name('set04_clean_letters_v1_4.svg')
+VECTOR = Path(__file__).with_name('set04_clean_letters_v05.svg')
 NAME = f'Set_04_Ursulas_Return_{VERSION}'
 CORE = NS['m']
 PROD = 'http://schemas.microsoft.com/3dmanufacturing/production/2015/06'
@@ -36,19 +37,12 @@ def configure(version):
     global VERSION, DEST, VECTOR, NAME
     VERSION = version
     DEST = SET / VERSION
-    VECTOR = Path(__file__).with_name('set04_clean_letters.svg' if version == 'v1.3' else 'set04_clean_letters_v1_4.svg')
+    VECTOR = Path(__file__).with_name('set04_clean_letters.svg' if version == 'v04' else 'set04_clean_letters_v05.svg')
     NAME = f'Set_04_Ursulas_Return_{VERSION}'
 
 
 def project_path():
-    """Find the revision's project, including a preserved printed filename."""
-    canonical = DEST / (NAME + '.3mf')
-    if canonical.exists():
-        return canonical
-    matches = sorted(DEST.glob(NAME + '*.3mf'))
-    if len(matches) != 1:
-        raise FileNotFoundError(f'Expected one project for {NAME} in {DEST}, found {len(matches)}')
-    return matches[0]
+    return saved_project(SET, VERSION)
 
 
 def area(points):
@@ -107,7 +101,7 @@ def svg_loops(path):
             loops.append(points)
             points = []
     assert not points
-    # Registration against v1.2: top U and lower R swash at their original size.
+    # Registration against v03: top U and lower R swash at their original size.
     scale = 40 / 336 / 2
     return orient([[(14.36 + (x-67)*scale, 2.7 + (665-y)*scale) for x, y in loop] for loop in loops])
 
@@ -408,6 +402,6 @@ def main():
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--version', choices=['v1.3', 'v1.4'], default='v1.4')
+    parser.add_argument('--version', choices=['v04', 'v05'], default='v05')
     configure(parser.parse_args().version)
     main()

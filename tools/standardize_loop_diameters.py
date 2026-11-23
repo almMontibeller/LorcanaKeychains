@@ -20,12 +20,13 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageOps
 
 from rebuild_set04 import area, boundary_loops, extrude, orient
-from repair_v1_1 import IDENTITY, NS, read_parts, thumbnail
+from repair_v02 import IDENTITY, NS, read_parts, thumbnail
+from set_versions import saved_project
 from validate_bambu import bambu_command
 
 ROOT = Path(__file__).resolve().parents[1]
 COLLECTION = ROOT / 'collection/loop_diameters'
-REFERENCE = ROOT / 'sets/Set_04_Ursulas_Return/v1.4/Set_04_Ursulas_Return_v1.4.1_printed.3mf'
+REFERENCE = ROOT / 'sets/Set_04_Ursulas_Return/v05_printed/Set_04_Ursulas_Return_v05_printed.3mf'
 CORE = NS['m']
 PROD = 'http://schemas.microsoft.com/3dmanufacturing/production/2015/06'
 TAG = lambda name: '{'+CORE+'}'+name
@@ -293,15 +294,12 @@ def main():
     command = bambu_command()
     reports, projects = [], []
     previews = {4: (REFERENCE, reference_parts)}
-    readme = (ROOT/'README.md').read_text()
     for folder in sorted((ROOT/'sets').glob('Set_*')):
         n = int(folder.name[4:6])
-        if n == 4:
+        if n == 4 or n > 14:
             continue
-        old_version, version = ('v1.4', 'v1.5') if n == 5 else ('v1.2', 'v1.3')
-        sources = list((folder/old_version).glob('*.3mf'))
-        assert len(sources) == 1
-        source = sources[0]
+        old_version, version = ('v05', 'v06') if n == 5 else ('v03', 'v04')
+        source = saved_project(folder, old_version)
         target = folder/version/(folder.name+'_'+version+'.3mf')
         print(f'{folder.name}: enlarging bore to 5.5 mm; thickness retained', flush=True)
         report, parts = update(source, target, reference_bore)
@@ -313,8 +311,6 @@ def main():
         reports.append(report)
         projects.append(target)
         previews[n] = (target, parts)
-        readme = readme.replace(str(source.relative_to(ROOT)), str(target.relative_to(ROOT)))
-        readme = readme.replace(source.name, target.name)
         print(f'{folder.name}: geometry and Bambu slice passed', flush=True)
     assert len(reports) == 13
     assert digest(REFERENCE) == reference_hash
@@ -359,15 +355,6 @@ def main():
         label = path.parent.parent.name[4:].replace('_', ' ')
         draw.text((x+15, y+12), label+(' (reference)' if n == 4 else ''), fill='#302B35')
     sheet.save(COLLECTION/'Preview.png')
-    note = ('\nThe latest projects share Set 04’s **5.5 mm attachment bore** and '
-            '**10.5 mm nominal outer diameter**, with each set’s existing thickness retained. '
-            'See [all updated projects and validation](collection/loop_diameters/README.md).\n')
-    if 'collection/loop_diameters/README.md' not in readme:
-        readme = readme.replace('\nFor example,', note+'\nFor example,', 1)
-    if 'python3 tools/standardize_loop_diameters.py' not in readme:
-        readme = readme.replace('python3 tools/validate_set05.py\n',
-                                'python3 tools/validate_set05.py\npython3 tools/standardize_loop_diameters.py\n', 1)
-    (ROOT/'README.md').write_text(readme)
     archive = ROOT/'archives/Lorcana_Keychains_Shared_Loop_Diameters.zip'
     with zipfile.ZipFile(archive, 'w', zipfile.ZIP_DEFLATED) as z:
         for path in projects+[REFERENCE, COLLECTION/'README.md', COLLECTION/'Manifest.json', COLLECTION/'Preview.png']:

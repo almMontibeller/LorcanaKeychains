@@ -1,0 +1,54 @@
+{
+  "project": "sets/Set_13_Attack_of_the_Vine/v05/Set_13_Attack_of_the_Vine_v05.3mf",
+  "filename": "Set_13_Attack_of_the_Vine_v05.3mf",
+  "source": "sets/Set_13_Attack_of_the_Vine/v04/Set_13_Attack_of_the_Vine_v04.3mf",
+  "source_sha256": "77e8917cf6a7684b9b28ab18df3c4d2128da8161c4fe9a2dc085939e600cb40a",
+  "output_sha256": "448674af284f267e073164f39328b29beb11ea01fb9a0993202fc097b14ee67c",
+  "geometry": {
+    "backing_footprint_and_bore_preserved": true,
+    "artwork_clear_of_thinned_region": true,
+    "print_settings_byte_identical": true,
+    "plate_placement_preserved": true,
+    "attachment": {
+      "loop_thickness_mm": 1.6,
+      "backing_thickness_mm": 2.0,
+      "junction_x_mm": 10.5,
+      "junction": "vertical step; no sloped transition",
+      "tessellation_axis_rotation_degrees": 0
+    },
+    "parts": [
+      {
+        "name": "Purple",
+        "volume_mm3": 3348.9541607238934,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Mistletoe Green",
+        "volume_mm3": 259.7153132619323,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Sunflower Yellow",
+        "volume_mm3": 343.48912975808315,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      }
+    ],
+    "reinforced_star_check": null
+  },
+  "underline": null,
+  "toolpath_checks": {
+    "loop_top_layer_mm": 1.6,
+    "loop_top_segments": 149,
+    "loop_segments_above_target_height": 0
+  },
+  "used_filament_slots": [
+    1,
+    2,
+    3
+  ],
+  "bambu_version": "02.08.02.61",
+  "physical_print_verified": false
+}

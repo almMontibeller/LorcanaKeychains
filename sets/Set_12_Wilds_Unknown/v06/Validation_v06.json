@@ -1,0 +1,147 @@
+{
+  "project": "sets/Set_12_Wilds_Unknown/v06/Set_12_Wilds_Unknown_v06.3mf",
+  "filename": "Set_12_Wilds_Unknown_v06.3mf",
+  "source": "sets/Set_12_Wilds_Unknown/v05/Set_12_Wilds_Unknown_v05.3mf",
+  "source_sha256": "ff759baef0739c0a73e0a17f64f3930bd4e33d962c0a97cbdc858c7d7243d97b",
+  "output_sha256": "f7c81a11724728707daf860839bb5257290bef910f31ef36c2b63d4a5efc2e98",
+  "geometry": {
+    "loop_and_backing_height_mm": 2.0,
+    "uniform_backing_height": true,
+    "bore_diameters_xy_mm": [
+      6.5,
+      6.5
+    ],
+    "outer_diameter_nominal_mm": 10.5,
+    "radial_rim_width_nominal_mm": 2.0,
+    "sampled_left_outer_arc_radial_rim_mm": [
+      1.9955729982150157,
+      2.0051650717937077
+    ],
+    "hole_centre_preserved": true,
+    "non_bore_contours_preserved": true,
+    "non_bore_contour_max_deviation_mm": 0.0,
+    "artwork_meshes_exactly_preserved": true,
+    "plate_placement_preserved": true,
+    "filament_and_process_settings_byte_identical": true,
+    "parts": [
+      {
+        "name": "Cocoa Brown",
+        "volume_mm3": 4893.430438071955,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Dark Green",
+        "volume_mm3": 72.90424412998232,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Ivory White",
+        "volume_mm3": 1115.1559311935432,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      }
+    ],
+    "tessellation_axis_rotation_degrees": 0
+  },
+  "underline": null,
+  "toolpath_checks": {
+    "loop_top_layer_mm": 2.0,
+    "loop_top_segments": 104,
+    "loop_segments_above_target_height": 0
+  },
+  "used_filament_slots": [
+    1,
+    2,
+    3
+  ],
+  "bambu_version": "02.08.02.61",
+  "slice_result": {
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 26,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "feature_type_times": {
+          "Bottom surface": 107.1936264038086,
+          "Bridge": 22.250240325927734,
+          "Custom": 369.62554931640625,
+          "Flush": 330.7639465332031,
+          "Gap infill": 32.049007415771484,
+          "Inner wall": 461.85540771484375,
+          "Internal solid infill": 374.761474609375,
+          "Outer wall": 319.3479919433594,
+          "Prime tower": 169.67410278320312,
+          "Sparse infill": 11.918740272521973,
+          "Top surface": 122.17881774902344,
+          "Travel": 354.0428466796875,
+          "Undefined": 337.0039367675781
+        },
+        "filament_change_times": 4,
+        "filaments": [
+          {
+            "filament_id": "GFA00",
+            "id": 1,
+            "main_used_g": 6.019167423248291,
+            "total_used_g": 7.010390281677246
+          },
+          {
+            "filament_id": "GFA01",
+            "id": 2,
+            "main_used_g": 0.09120488911867142,
+            "total_used_g": 0.5027409791946411
+          },
+          {
+            "filament_id": "GFA01",
+            "id": 3,
+            "main_used_g": 1.4221563339233398,
+            "total_used_g": 2.657379150390625
+          }
+        ],
+        "generate_support_material_time": 33,
+        "id": 1,
+        "infill_time": 493,
+        "layer_filament_change": 0,
+        "main_predication": 1780.57421875,
+        "make_perimeters_time": 303,
+        "obj_cached_cnt": 0,
+        "objects": [
+          {
+            "bbox": {
+              "depth": 40.90999984741211,
+              "height": 3.0,
+              "width": 82.57500457763672,
+              "x": 86.71499633789062,
+              "y": 107.54499816894531,
+              "z": 0.0
+            },
+            "id": 5,
+            "name": "Set_12_Wilds_Unknown_v06",
+            "triangle_count": 14092
+          }
+        ],
+        "sliced_time": 1378,
+        "sliced_time_with_cache": 500,
+        "total_predication": 2658.598876953125,
+        "triangle_count": 14092,
+        "warning_message": ""
+      }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+      "Bambu Lab H2D 0.4 nozzle",
+      "Bambu Lab H2D Pro 0.4 nozzle",
+      "Bambu Lab H2S 0.4 nozzle",
+      "Bambu Lab P2S 0.4 nozzle",
+      "Bambu Lab H2C 0.4 nozzle",
+      "Bambu Lab X2D 0.4 nozzle",
+      "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+  },
+  "physical_print_verified": false
+}

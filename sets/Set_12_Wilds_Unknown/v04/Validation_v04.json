@@ -1,0 +1,141 @@
+{
+  "filename": "Set_12_Wilds_Unknown_v04.3mf",
+  "sha256": "5067d391df0ccdfdfc8276aac9c459154b451b6101a8202f823f0e4f02736429",
+  "attachment": {
+    "bore_diameters_xy_mm": [
+      5.5,
+      5.5
+    ],
+    "bore_centre_mm": [
+      5.25000135,
+      20.45250032
+    ],
+    "bore_centre_preserved": true,
+    "outer_diameter_nominal_mm": 10.5,
+    "rim_width_nominal_mm": 2.5,
+    "backing_and_loop_thickness_mm": 2.0,
+    "non_bore_contours_preserved": true,
+    "non_bore_contour_max_deviation_mm": 4.999947123014422e-10,
+    "overall_dimensions_preserved": true
+  },
+  "geometry": [
+    {
+      "name": "Cocoa Brown",
+      "slot": 1,
+      "volume_mm3": 4912.27242501724,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    },
+    {
+      "name": "Dark Green",
+      "slot": 2,
+      "volume_mm3": 72.90424412998232,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    },
+    {
+      "name": "Ivory White",
+      "slot": 3,
+      "volume_mm3": 1115.1559311935432,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    }
+  ],
+  "artwork_xml_and_meshes_preserved": true,
+  "plate_placement_preserved": true,
+  "filament_and_process_settings_byte_identical": true,
+  "used_filament_slots": [
+    1,
+    2,
+    3
+  ],
+  "bambu_version": "02.08.02.61",
+  "slice_result": {
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 25,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "feature_type_times": {
+          "Bottom surface": 107.41093444824219,
+          "Bridge": 22.206439971923828,
+          "Custom": 369.62554931640625,
+          "Flush": 330.7639465332031,
+          "Gap infill": 32.312870025634766,
+          "Inner wall": 463.2218322753906,
+          "Internal solid infill": 374.056640625,
+          "Outer wall": 319.5796203613281,
+          "Prime tower": 169.67645263671875,
+          "Sparse infill": 11.829358100891113,
+          "Top surface": 122.43296813964844,
+          "Travel": 352.40545654296875,
+          "Undefined": 335.3665466308594
+        },
+        "filament_change_times": 4,
+        "filaments": [
+          {
+            "filament_id": "GFA00",
+            "id": 1,
+            "main_used_g": 6.042168140411377,
+            "total_used_g": 7.033390522003174
+          },
+          {
+            "filament_id": "GFA01",
+            "id": 2,
+            "main_used_g": 0.09119800478219986,
+            "total_used_g": 0.5027340650558472
+          },
+          {
+            "filament_id": "GFA01",
+            "id": 3,
+            "main_used_g": 1.4221601486206055,
+            "total_used_g": 2.6573829650878906
+          }
+        ],
+        "generate_support_material_time": 33,
+        "id": 1,
+        "infill_time": 492,
+        "layer_filament_change": 0,
+        "main_predication": 1780.435302734375,
+        "make_perimeters_time": 299,
+        "obj_cached_cnt": 0,
+        "objects": [
+          {
+            "bbox": {
+              "depth": 40.90999984741211,
+              "height": 3.0,
+              "width": 82.57500457763672,
+              "x": 86.71499633789062,
+              "y": 107.54499816894531,
+              "z": 0.0
+            },
+            "id": 5,
+            "name": "Wilds Unknown v04",
+            "triangle_count": 14084
+          }
+        ],
+        "sliced_time": 1365,
+        "sliced_time_with_cache": 497,
+        "total_predication": 2658.46240234375,
+        "triangle_count": 14084,
+        "warning_message": ""
+      }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+      "Bambu Lab H2D 0.4 nozzle",
+      "Bambu Lab H2D Pro 0.4 nozzle",
+      "Bambu Lab H2S 0.4 nozzle",
+      "Bambu Lab P2S 0.4 nozzle",
+      "Bambu Lab H2C 0.4 nozzle",
+      "Bambu Lab X2D 0.4 nozzle",
+      "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+  },
+  "physical_print_verified": false,
+  "environment_notes": "Installed Flatpak CLI uses embedded settings despite missing /app preset-resource messages."
+}

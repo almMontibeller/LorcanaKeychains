@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build Winterspell v1.9 on the original flat 2 mm backing."""
+"""Build Winterspell v10 on the original flat 2 mm backing."""
 
 import argparse
 import json
@@ -17,7 +17,7 @@ from PIL import Image, ImageDraw, ImageFont
 import snow_set11 as snow
 
 ROOT = snow.ROOT
-VERSION = 'v1.9'
+VERSION = 'v10'
 NAME = snow.trace.SET.name + '_' + VERSION
 SOURCE = snow.DEST / (snow.NAME + '.3mf')
 DEST = snow.trace.SET / VERSION
@@ -49,7 +49,7 @@ def write_project(data, parts, target):
     obj.find("metadata[@key='name']").set('value', target.stem)
     obj.find('metadata[@face_count]').set('face_count', str(sum(len(p['faces']) for p in parts)))
     root.find("m:metadata[@name='Description']", NS).text = (
-        'Winterspell v1.9. Flat 2 mm Dark Blue backing and eyelet. Original Sunflower Yellow '
+        'Winterspell v10. Flat 2 mm Dark Blue backing and eyelet. Original Sunflower Yellow '
         'lettering and Ice Blue snow caps lowered by 0.4 mm. Maximum height 3 mm.')
     for key, tree in ((REGISTRY.MODEL, root), (REGISTRY.CONFIG, config), (path, child)):
         REGISTRY.put_xml(data, key, tree)
@@ -74,8 +74,8 @@ def compare(before, after, output):
     height = max(p.height for p in panels) + 50
     layout = Image.new('RGB', (panels[0].width, height*2), '#f5f5f5')
     draw = ImageDraw.Draw(layout)
-    for index, (image, label) in enumerate(zip(panels, ('v1.8 · Raised Dark Blue field',
-                                                        'v1.9 · Flat Dark Blue backing'))):
+    for index, (image, label) in enumerate(zip(panels, ('v09 · Raised Dark Blue field',
+                                                        'v10 · Flat Dark Blue backing'))):
         draw.text((35, index*height+16), label, fill='#193d58', font=font)
         layout.paste(image, (0, index*height+50))
     layout.save(output)
@@ -182,7 +182,7 @@ def main():
     with ZipFile(snapshot, 'w', ZIP_DEFLATED) as archive:
         for path in inputs:
             archive.write(path, path.relative_to(ROOT))
-    inputs += [SOURCE, ROOT/'sets/Set_09_Fabled/v1.5/Set_09_Fabled_v1.5.3mf']
+    inputs += [SOURCE, ROOT/'sets/Set_09_Fabled/v06/Set_09_Fabled_v06.3mf']
     manifest = dict(project=project.name, sha256=snow.digest(project),
                     source_snapshot_sha256=snow.digest(snapshot),
                     inputs_sha256={str(p.relative_to(ROOT)): snow.digest(p) for p in inputs})

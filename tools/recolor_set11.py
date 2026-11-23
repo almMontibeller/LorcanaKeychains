@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build and slice Winterspell v1.7 with gold text and three blue tones."""
+"""Build and slice Winterspell v08 with gold text and three blue tones."""
 
 import argparse
 import copy
@@ -25,18 +25,18 @@ import validate_set11 as audit
 from full_height_narrow_rims import isometric
 from rebuild_set09 import preview
 from refine_loops_and_underline import read_toolpaths, render_slice, toolpath_checks
-from repair_v1_1 import NS, PROD, read_parts, thumbnail
+from repair_v02 import NS, PROD, read_parts, thumbnail
 from standardize_loop_diameters import bounds, digest, mesh_stats, package, write_mesh
 from validate_bambu import bambu_command
 from validate_set09 import regions
 
 ROOT = previous.ROOT
-VERSION = 'v1.7'
+VERSION = 'v08'
 NAME = previous.SET.name + '_' + VERSION
 SOURCE = previous.DEST / (previous.NAME + '.3mf')
 DEST = previous.SET / VERSION
 VECTOR = Path(__file__).with_name('set11_frost_bands.svg')
-YELLOW_PRESET = ROOT / 'sets/Set_09_Fabled/v1.7/Set_09_Fabled_v1.7.3mf'
+YELLOW_PRESET = ROOT / 'sets/Set_09_Fabled/v08/Set_09_Fabled_v08.3mf'
 REFERENCE = ('https://i0.wp.com/disneylorcana.com/wp-content/uploads/2026/08/'
              'dlc_s11_logo_en.webp?fit=648%2C300&ssl=1')
 MODEL = '3D/3dmodel.model'
@@ -147,7 +147,7 @@ def write_project(data, parts, project):
     obj.find("metadata[@key='name']").set('value', project.stem)
     obj.find('metadata[@face_count]').set('face_count', str(sum(len(p['faces']) for p in parts)))
     root.find("m:metadata[@name='Description']", NS).text = (
-        'v1.7 Winterspell. Original v1.6 backing and lettering geometry. Dark Blue, Marine Blue '
+        'v08 Winterspell. Original v07 backing and lettering geometry. Dark Blue, Marine Blue '
         'and Ice Blue frost bands with Sunflower Yellow lettering. A1 0.4 mm Arachne at 100% scale.')
     data[SETTINGS] = json.dumps(configure_filaments(json.loads(data[SETTINGS])), indent=4).encode()
     put_xml(data, MODEL, root)
@@ -173,8 +173,8 @@ def compare(original, new, path):
                 panels.append(image.convert('RGB'))
     canvas = Image.new('RGB', (1500, 2 * (panels[0].height + 56)), '#f5f5f5')
     draw = ImageDraw.Draw(canvas)
-    for index, (panel, label) in enumerate(zip(panels, ('v1.6 · Ivory and Ice Blue',
-                                                        'v1.7 · Gold and blue frost bands'))):
+    for index, (panel, label) in enumerate(zip(panels, ('v07 · Ivory and Ice Blue',
+                                                        'v08 · Gold and blue frost bands'))):
         y = index * (panel.height + 56)
         canvas.paste(panel, (0, y + 56))
         draw.text((30, y + 16), label, fill='#193d58', font=font)
@@ -300,7 +300,7 @@ def main():
         for path in files:
             archive.write(path, path.relative_to(ROOT))
     inputs = [*files, SOURCE, YELLOW_PRESET, previous.ARTWORK,
-              ROOT / 'sets/Set_09_Fabled/v1.5/Set_09_Fabled_v1.5.3mf']
+              ROOT / 'sets/Set_09_Fabled/v06/Set_09_Fabled_v06.3mf']
     manifest = dict(project=project.name, sha256=digest(project), artwork_reference=REFERENCE,
                     source_snapshot_sha256=digest(snapshot),
                     inputs_sha256={str(p.relative_to(ROOT)): digest(p) for p in inputs})

@@ -1,0 +1,52 @@
+{
+  "filename": "Set_14_Hyperia_City_v04.3mf",
+  "project": "sets/Set_14_Hyperia_City/v04/Set_14_Hyperia_City_v04.3mf",
+  "source": "sets/Set_14_Hyperia_City/v03/Set_14_Hyperia_City_v03.3mf",
+  "source_sha256": "500d9df4a5b493fc619acbbdb053dc744fd395026505e9427027f3c751cefeae",
+  "output_sha256": "2989665b600d3edfbf56bd5ae2106ed0988f675be586254139a8ab51e8b0d462",
+  "reference": "sets/Set_04_Ursulas_Return/v05_printed/Set_04_Ursulas_Return_v05_printed.3mf",
+  "attachment": {
+    "bore_diameters_xy_mm": [
+      5.5,
+      5.5
+    ],
+    "bore_centre_mm": [
+      5.250000050000001,
+      20.394999545
+    ],
+    "bore_centre_preserved": true,
+    "outer_diameter_nominal_mm": 10.5,
+    "rim_width_nominal_mm": 2.5,
+    "backing_and_loop_thickness_mm": 2.0,
+    "non_bore_contours_preserved": true,
+    "non_bore_contour_max_deviation_mm": 2.2999913129088554e-10,
+    "overall_dimensions_preserved": true
+  },
+  "artwork_meshes_exactly_preserved": true,
+  "filament_and_process_settings_byte_identical": true,
+  "volume_removed_mm3": 15.882612022447574,
+  "tessellation_axis_rotation_degrees": 0,
+  "parts": [
+    {
+      "name": "Cocoa Brown",
+      "slot": 1,
+      "volume_mm3": 3807.6449542685295,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    },
+    {
+      "name": "Caramel",
+      "slot": 2,
+      "volume_mm3": 288.1874964297962,
+      "degenerate_triangles": 4,
+      "closed_manifold": true
+    },
+    {
+      "name": "Ivory White",
+      "slot": 3,
+      "volume_mm3": 581.8000422396009,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    }
+  ]
+}

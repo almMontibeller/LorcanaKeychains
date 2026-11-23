@@ -1,0 +1,86 @@
+{
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 229,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 81.74951934814453,
+                "Bridge": 53.3879508972168,
+                "Custom": 369.60589599609375,
+                "Flush": 396.4743347167969,
+                "Gap infill": 17.951072692871094,
+                "Inner wall": 132.19068908691406,
+                "Internal solid infill": 329.2149658203125,
+                "Outer wall": 81.26908111572266,
+                "Prime tower": 184.17013549804688,
+                "Sparse infill": 9.544418334960938,
+                "Top surface": 135.1302947998047,
+                "Travel": 245.36886596679688,
+                "Undefined": 228.34959411621094
+            },
+            "filament_change_times": 5,
+            "filaments": [
+                {
+                    "filament_id": "GFA00",
+                    "id": 1,
+                    "main_used_g": 6.618865013122559,
+                    "total_used_g": 7.6100873947143555
+                },
+                {
+                    "filament_id": "GFA00",
+                    "id": 2,
+                    "main_used_g": 0.7370791435241699,
+                    "total_used_g": 1.5009225606918335
+                },
+                {
+                    "filament_id": "GFA01",
+                    "id": 3,
+                    "main_used_g": 0.30957385897636414,
+                    "total_used_g": 1.428177833557129
+                }
+            ],
+            "generate_support_material_time": 30,
+            "id": 1,
+            "infill_time": 393,
+            "layer_filament_change": 0,
+            "main_predication": 1060.827880859375,
+            "make_perimeters_time": 227,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 41.0,
+                        "height": 2.799999713897705,
+                        "width": 86.46500396728516,
+                        "x": 84.7699966430664,
+                        "y": 107.5,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "Set_04_Ursulas_Return_v07",
+                    "triangle_count": 55820
+                }
+            ],
+            "sliced_time": 1149,
+            "sliced_time_with_cache": 468,
+            "total_predication": 2019.0589599609375,
+            "triangle_count": 55820,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+}

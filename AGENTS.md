@@ -5,3 +5,8 @@
 - Compare the edited paths with an overlay on the original and the exported model at matched scale. Inspect tight curves, long diagonals, small lettering, and interior openings at high zoom. Inspect both the raised artwork and the backing outline. The first reviewable version should already pass these checks.
 - Design for the intended print size and nozzle. With the usual 0.4 mm nozzle, aim for at least 0.45 mm at critical strokes and clearances, then check the actual toolpaths. Ensure the backing supports every raised feature and the attachment bore stays open.
 - Slice the exported 3MF with its intended profile before presenting the first pass. Check that every letter, counter, punctuation mark, and required ornament survives at the intended layers. Redraw or widen any feature that drops out, breaks, or fuses, then repeat the overlay and slice checks. Save the editable paths, model preview, and sliced preview with the version.
+
+# Version names
+
+- Use whole-number revision labels such as `v01`, `v02`, and `v10` in paths and documentation. Pad to at least two digits so folder views keep single- and double-digit versions in order.
+- Compare the numeric portion when ordering revisions in tools. Keep `_printed` and `_approved` suffixes on existing paths.

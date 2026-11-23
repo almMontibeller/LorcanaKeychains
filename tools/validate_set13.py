@@ -18,7 +18,7 @@ from shapely.ops import unary_union
 import rebuild_set13 as build
 from rebuild_set05 import dilate
 from refine_loops_and_underline import read_toolpaths, render_slice, toolpath_checks
-from repair_v1_1 import NS, read_parts
+from repair_v02 import NS, read_parts
 from standardize_loop_diameters import bounds, centre, digest, mesh_stats, package
 from validate_bambu import bambu_command
 from validate_set09 import regions

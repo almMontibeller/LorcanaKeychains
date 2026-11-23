@@ -1,0 +1,121 @@
+{
+    "error_string": "Success.",
+    "layer_height": 0.20000000298023224,
+    "peak_rss_mb": 511.40234375,
+    "plate_index": 1,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 59.76029586791992,
+                "Bridge": 9.529475212097168,
+                "Custom": 369.4891052246094,
+                "Flush": 512.5260009765625,
+                "Gap infill": 10.693366050720215,
+                "Inner wall": 122.11863708496094,
+                "Internal solid infill": 243.87258911132813,
+                "Outer wall": 97.68167114257813,
+                "Prime tower": 208.0583038330078,
+                "Sparse infill": 6.502429008483887,
+                "Top surface": 118.58335876464844,
+                "Travel": 267.1387023925781,
+                "Undefined": 250.16273498535156
+            },
+            "filament_change_times": 7,
+            "filaments": [
+                {
+                    "filament_id": "GFA01",
+                    "id": 1,
+                    "main_used_g": 5.241281986236572,
+                    "total_used_g": 6.279705047607422
+                },
+                {
+                    "filament_id": "GFA00",
+                    "id": 2,
+                    "main_used_g": 0.04663936048746109,
+                    "total_used_g": 0.6350381970405579
+                },
+                {
+                    "filament_id": "GFA00",
+                    "id": 3,
+                    "main_used_g": 0.5964460968971252,
+                    "total_used_g": 1.4441909790039063
+                },
+                {
+                    "filament_id": "GFA00",
+                    "id": 4,
+                    "main_used_g": 0.14474573731422424,
+                    "total_used_g": 0.8561177253723145
+                }
+            ],
+            "id": 1,
+            "layer_filament_change": 0,
+            "main_predication": 910.8807373046875,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 41.53999710083008,
+                        "height": 3.0,
+                        "width": 71.90499877929688,
+                        "x": 92.05000305175781,
+                        "y": 107.2300033569336,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "Set_08_Reign_of_Jafar_v11",
+                    "triangle_count": 37692
+                }
+            ],
+            "times": {
+                "conflict_check_time": 27,
+                "detect_overhangs_time": 13,
+                "export_gcode_time": 1808,
+                "flush_plan_time": 0,
+                "generate_support_material_time": 76,
+                "infill_generate_time": 275,
+                "infill_time": 1427,
+                "ironing_time": 0,
+                "make_perimeters_time": 392,
+                "multifilament_segment_2d_time": 0,
+                "other_slice_time": 1,
+                "prepare_infill_time": 1152,
+                "region_split_time": 3,
+                "skirt_brim_time": 0,
+                "slice_layers_time": 38,
+                "sliced_time": 3803,
+                "sliced_time_with_cache": 1808,
+                "support_detect_time": 0,
+                "support_interface_time": 0,
+                "support_normal_generate_time": 0,
+                "support_toolpath_time": 0,
+                "support_tree_generate_time": 0,
+                "toolpath_time": 31,
+                "wall_time": 351,
+                "wipe_tower_time": 28
+            },
+            "total_predication": 2008.978271484375,
+            "triangle_count": 37692,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 15.0,
+    "times": {
+        "export_3mf_time": 0,
+        "export_slicedata_time": 0,
+        "export_time": 0,
+        "import_time": 165,
+        "load_slicedata_time": 0,
+        "prepare_time": 167
+    },
+    "upward_compatible_machine": [
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+}

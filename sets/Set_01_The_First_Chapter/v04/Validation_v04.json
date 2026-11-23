@@ -1,0 +1,127 @@
+{
+  "filename": "Set_01_The_First_Chapter_v04.3mf",
+  "sha256": "5ae33fcfdecff76dd4282576525e0127dd71be9675dc805a5aeb5cba3c1ab1aa",
+  "attachment": {
+    "bore_diameters_xy_mm": [
+      5.5,
+      5.5
+    ],
+    "bore_centre_mm": [
+      5.2500014,
+      12.30000062
+    ],
+    "bore_centre_preserved": true,
+    "outer_diameter_nominal_mm": 10.5,
+    "rim_width_nominal_mm": 2.5,
+    "backing_and_loop_thickness_mm": 2.0,
+    "non_bore_contours_preserved": true,
+    "non_bore_contour_max_deviation_mm": 4.00007138523506e-10,
+    "overall_dimensions_preserved": true
+  },
+  "geometry": [
+    {
+      "name": "Purple",
+      "slot": 1,
+      "volume_mm3": 3151.918591619382,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    },
+    {
+      "name": "Ivory White",
+      "slot": 2,
+      "volume_mm3": 529.148046209857,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    }
+  ],
+  "artwork_xml_and_meshes_preserved": true,
+  "plate_placement_preserved": true,
+  "filament_and_process_settings_byte_identical": true,
+  "used_filament_slots": [
+    1,
+    2
+  ],
+  "bambu_version": "02.08.02.61",
+  "slice_result": {
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 16,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "feature_type_times": {
+          "Bottom surface": 68.87133026123047,
+          "Bridge": 17.4080810546875,
+          "Custom": 369.6327819824219,
+          "Flush": 117.86896514892578,
+          "Gap infill": 11.963739395141602,
+          "Inner wall": 251.2574920654297,
+          "Internal solid infill": 237.33505249023438,
+          "Outer wall": 169.5423583984375,
+          "Prime tower": 93.32666778564453,
+          "Sparse infill": 8.043184280395508,
+          "Top surface": 67.6563491821289,
+          "Travel": 197.7535858154297,
+          "Undefined": 180.69119262695312
+        },
+        "filament_change_times": 1,
+        "filaments": [
+          {
+            "filament_id": "GFA00",
+            "id": 1,
+            "main_used_g": 3.9161179065704346,
+            "total_used_g": 4.6239118576049805
+          },
+          {
+            "filament_id": "GFA01",
+            "id": 2,
+            "main_used_g": 0.6678445339202881,
+            "total_used_g": 1.2226402759552002
+          }
+        ],
+        "generate_support_material_time": 18,
+        "id": 1,
+        "infill_time": 249,
+        "layer_filament_change": 0,
+        "main_predication": 1004.8444213867188,
+        "make_perimeters_time": 145,
+        "obj_cached_cnt": 0,
+        "objects": [
+          {
+            "bbox": {
+              "depth": 24.59499740600586,
+              "height": 2.799999952316284,
+              "width": 91.73999786376953,
+              "x": 82.13500213623047,
+              "y": 115.70500183105469,
+              "z": 0.0
+            },
+            "id": 5,
+            "name": "The First Chapter v04",
+            "triangle_count": 7592
+          }
+        ],
+        "sliced_time": 689,
+        "sliced_time_with_cache": 247,
+        "total_predication": 1593.6103515625,
+        "triangle_count": 7592,
+        "warning_message": ""
+      }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+      "Bambu Lab H2D 0.4 nozzle",
+      "Bambu Lab H2D Pro 0.4 nozzle",
+      "Bambu Lab H2S 0.4 nozzle",
+      "Bambu Lab P2S 0.4 nozzle",
+      "Bambu Lab H2C 0.4 nozzle",
+      "Bambu Lab X2D 0.4 nozzle",
+      "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+  },
+  "physical_print_verified": false,
+  "environment_notes": "Installed Flatpak CLI uses embedded settings despite missing /app preset-resource messages."
+}

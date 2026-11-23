@@ -16,15 +16,15 @@ import zipfile
 from PIL import Image, ImageChops, ImageDraw
 
 import rebuild_set04 as build
-from repair_v1_1 import read_parts
+from repair_v02 import read_parts
 from validate_bambu import bambu_command
 
 ROOT = Path(__file__).resolve().parents[1]
 LOGS = ROOT / 'validation' / build.SET.name / build.VERSION
 
 
-def footprints():
-    contours = json.loads((build.DEST/'footprints.json').read_text())
+def footprints(project):
+    contours = json.loads((project.parent/'footprints.json').read_text())
     masks = []
     for loops in contours:
         im = Image.new('1', (4400, 2100))
@@ -68,9 +68,9 @@ def mesh_checks(project):
 
 
 def revision_checks(project):
-    if build.VERSION != 'v1.4':
+    if build.VERSION != 'v05':
         return None
-    previous = build.SET/'v1.3/Set_04_Ursulas_Return_v1.3.3mf'
+    previous = build.SET/'v04/Set_04_Ursulas_Return_v04.3mf'
     packages = []
     for path in (previous, project):
         with zipfile.ZipFile(path) as archive:
@@ -80,7 +80,7 @@ def revision_checks(project):
     assert old_parts[2] == new_parts[2], 'RETURN geometry changed'
     assert packages[0]['Metadata/project_settings.config'] == packages[1]['Metadata/project_settings.config']
     paths = []
-    for name in ('set04_clean_letters.svg', 'set04_clean_letters_v1_4.svg'):
+    for name in ('set04_clean_letters.svg', 'set04_clean_letters_v05.svg'):
         svg = ET.parse(Path(__file__).with_name(name)).getroot()
         paths.append({p.get('id'): p.get('d') for p in svg.findall('.//{http://www.w3.org/2000/svg}path')})
     assert paths[0].keys() == paths[1].keys()
@@ -175,7 +175,7 @@ def main():
     LOGS.mkdir(parents=True, exist_ok=True)
     project = build.project_path()
     report = dict(filename=project.name, sha256=hashlib.sha256(project.read_bytes()).hexdigest(),
-                  geometry=mesh_checks(project), footprints=footprints())
+                  geometry=mesh_checks(project), footprints=footprints(project))
     report['revision_scope'] = revision_checks(project)
     command = bambu_command()
     run = subprocess.run(command+['--datadir', '/tmp/lorcana-set04-settings', '--debug', '2', '--info', '--slice', '1', '--outputdir', str(LOGS), str(project)], capture_output=True, text=True, timeout=180)
@@ -188,17 +188,17 @@ def main():
     assert plate['warning_message'] == ''
     assert [p['id'] for p in plate['filaments']] == [1, 2, 3]
     assert all(p['main_used_g']>0 for p in plate['filaments'])
-    paths = render_toolpaths(LOGS/'plate_1.gcode', build.DEST/(build.NAME+'_sliced_preview.png'))
+    paths = render_toolpaths(LOGS/'plate_1.gcode', project.parent/(build.NAME+'_sliced_preview.png'))
     report.update(bambu_version='02.08.02.61', slice_result=result, used_filament_slots=[1,2,3],
                   rendered_toolpath_segments=paths, physical_print_verified=False,
                   environment_notes='CLI uses embedded project settings. Relocated Flatpak executable reports missing /app preset resources; the slice succeeds without plate warnings.')
-    (build.DEST/f'Validation_{build.VERSION}.json').write_text(json.dumps(report, indent=2))
+    (project.parent/f'Validation_{build.VERSION}.json').write_text(json.dumps(report, indent=2))
     print(json.dumps({k: v for k, v in report.items() if k not in ('slice_result',)}, indent=2))
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--version', choices=['v1.3', 'v1.4'], default='v1.4')
+    parser.add_argument('--version', choices=['v04', 'v05'], default='v05')
     build.configure(parser.parse_args().version)
     LOGS = ROOT / 'validation' / build.SET.name / build.VERSION
     main()

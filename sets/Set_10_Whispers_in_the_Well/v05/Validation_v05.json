@@ -1,0 +1,140 @@
+{
+  "project": "sets/Set_10_Whispers_in_the_Well/v05/Set_10_Whispers_in_the_Well_v05.3mf",
+  "filename": "Set_10_Whispers_in_the_Well_v05.3mf",
+  "source": "sets/Set_10_Whispers_in_the_Well/v04/Set_10_Whispers_in_the_Well_v04.3mf",
+  "source_sha256": "5e29e965dcfecccebcea8c3746f010ab9e1eb7eae5785b08802169b6ed4d4bea",
+  "output_sha256": "702c2954af2c491d2e9d1e7f14f86237747b0b66fb37dd5b7457f5d0747fba4b",
+  "geometry": {
+    "backing_footprint_and_bore_preserved": true,
+    "artwork_clear_of_thinned_region": true,
+    "print_settings_byte_identical": true,
+    "plate_placement_preserved": true,
+    "attachment": {
+      "loop_thickness_mm": 1.6,
+      "backing_thickness_mm": 2.0,
+      "junction_x_mm": 10.389999099999997,
+      "junction": "vertical step; no sloped transition",
+      "tessellation_axis_rotation_degrees": 17
+    },
+    "parts": [
+      {
+        "name": "Charcoal",
+        "volume_mm3": 2601.575407318829,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Ash Gray",
+        "volume_mm3": 199.26195514071006,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Sunflower Yellow",
+        "volume_mm3": 196.18058277303325,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      }
+    ],
+    "reinforced_star_check": null
+  },
+  "underline": null,
+  "toolpath_checks": {
+    "loop_top_layer_mm": 1.6,
+    "loop_top_segments": 145,
+    "loop_segments_above_target_height": 0
+  },
+  "used_filament_slots": [
+    1,
+    2,
+    3
+  ],
+  "bambu_version": "02.08.02.61",
+  "slice_result": {
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 25,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "feature_type_times": {
+          "Bottom surface": 54.13082504272461,
+          "Bridge": 10.707598686218262,
+          "Custom": 369.56219482421875,
+          "Flush": 381.7359313964844,
+          "Gap infill": 14.164819717407227,
+          "Inner wall": 243.43536376953125,
+          "Internal solid infill": 189.147705078125,
+          "Outer wall": 225.55288696289062,
+          "Prime tower": 182.67315673828125,
+          "Sparse infill": 6.003662586212158,
+          "Top surface": 49.14689254760742,
+          "Travel": 267.1903991699219,
+          "Undefined": 250.21484375
+        },
+        "filament_change_times": 5,
+        "filaments": [
+          {
+            "filament_id": "GFA01",
+            "id": 1,
+            "main_used_g": 3.4215879440307617,
+            "total_used_g": 4.4600114822387695
+          },
+          {
+            "filament_id": "GFA01",
+            "id": 2,
+            "main_used_g": 0.25020936131477356,
+            "total_used_g": 1.1840150356292725
+          },
+          {
+            "filament_id": "GFA00",
+            "id": 3,
+            "main_used_g": 0.23780806362628937,
+            "total_used_g": 0.9940911531448364
+          }
+        ],
+        "generate_support_material_time": 31,
+        "id": 1,
+        "infill_time": 238,
+        "layer_filament_change": 0,
+        "main_predication": 1034.5216064453125,
+        "make_perimeters_time": 204,
+        "obj_cached_cnt": 0,
+        "objects": [
+          {
+            "bbox": {
+              "depth": 39.375003814697266,
+              "height": 2.799999952316284,
+              "width": 55.78499984741211,
+              "x": 100.11000061035156,
+              "y": 108.30999755859375,
+              "z": 0.0
+            },
+            "id": 5,
+            "name": "Set_10_Whispers_in_the_Well_v05",
+            "triangle_count": 13216
+          }
+        ],
+        "sliced_time": 959,
+        "sliced_time_with_cache": 450,
+        "total_predication": 1976.5172119140625,
+        "triangle_count": 13216,
+        "warning_message": ""
+      }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+      "Bambu Lab H2D 0.4 nozzle",
+      "Bambu Lab H2D Pro 0.4 nozzle",
+      "Bambu Lab H2S 0.4 nozzle",
+      "Bambu Lab P2S 0.4 nozzle",
+      "Bambu Lab H2C 0.4 nozzle",
+      "Bambu Lab X2D 0.4 nozzle",
+      "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+  },
+  "physical_print_verified": false
+}

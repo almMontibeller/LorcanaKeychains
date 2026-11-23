@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate Set 08 v1.6 geometry and the real A1 / 0.4 mm toolpaths.
+"""Validate Set 08 v07 geometry and the real A1 / 0.4 mm toolpaths.
 
 Uses only Python's standard library, Cairo and the installed Bambu runtime.
 """
@@ -14,7 +14,7 @@ import xml.etree.ElementTree as ET
 
 import rebuild_set08 as build
 from rebuild_set04 import area, boundary_loops, inside
-from repair_v1_1 import NS, read_parts
+from repair_v02 import NS, read_parts
 from validate_bambu import bambu_command
 
 LOGS = build.ROOT/'validation'/build.SET.name/build.VERSION
@@ -262,7 +262,7 @@ def comparison(parts):
         lib.cairo_show_text.argtypes = [build.C.c_void_p, build.C.c_char_p]
         lib.cairo_select_font_face(ctx, b'DejaVu Sans', 0, 0)
         lib.cairo_set_font_size(ctx, 28.)
-        for index, (label, meshes) in enumerate([('v1.5 - gradient fragments', old), ('v1.6 - smooth, solid colours', parts)]):
+        for index, (label, meshes) in enumerate([('v06 - gradient fragments', old), ('v07 - smooth, solid colours', parts)]):
             canvas.color('#363A3B')
             lib.cairo_move_to(ctx, 40+index*panel, 45)
             lib.cairo_show_text(ctx, label.encode())

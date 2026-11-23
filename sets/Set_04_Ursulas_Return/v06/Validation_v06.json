@@ -1,0 +1,140 @@
+{
+  "project": "sets/Set_04_Ursulas_Return/v06/Set_04_Ursulas_Return_v06.3mf",
+  "filename": "Set_04_Ursulas_Return_v06.3mf",
+  "source": "sets/Set_04_Ursulas_Return/v05_printed/Set_04_Ursulas_Return_v05_printed.3mf",
+  "source_sha256": "6824cb195e07f61733010c892d41bafd8ddf5f610065aa63dae8b81116148f48",
+  "output_sha256": "a66c43f0a0a9de8c8dd00343ff1e7fb4b61701292d9ba2fb9c3354ec37b55316",
+  "geometry": {
+    "backing_footprint_and_bore_preserved": true,
+    "artwork_clear_of_thinned_region": true,
+    "print_settings_byte_identical": true,
+    "plate_placement_preserved": true,
+    "attachment": {
+      "loop_thickness_mm": 1.6,
+      "backing_thickness_mm": 2.0,
+      "junction_x_mm": 10.5,
+      "junction": "vertical step; no sloped transition",
+      "tessellation_axis_rotation_degrees": 0
+    },
+    "parts": [
+      {
+        "name": "Purple",
+        "volume_mm3": 5358.896473186537,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Sunflower Yellow",
+        "volume_mm3": 608.502851493179,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Ice Blue",
+        "volume_mm3": 244.15591861277005,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      }
+    ],
+    "reinforced_star_check": null
+  },
+  "underline": null,
+  "toolpath_checks": {
+    "loop_top_layer_mm": 1.6,
+    "loop_top_segments": 146,
+    "loop_segments_above_target_height": 0
+  },
+  "used_filament_slots": [
+    1,
+    2,
+    3
+  ],
+  "bambu_version": "02.08.02.61",
+  "slice_result": {
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 210,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "feature_type_times": {
+          "Bottom surface": 81.9705810546875,
+          "Bridge": 53.31608581542969,
+          "Custom": 369.60589599609375,
+          "Flush": 396.4743347167969,
+          "Gap infill": 17.08016014099121,
+          "Inner wall": 134.78717041015625,
+          "Internal solid infill": 328.6666564941406,
+          "Outer wall": 80.17304229736328,
+          "Prime tower": 184.159912109375,
+          "Sparse infill": 9.616650581359863,
+          "Top surface": 134.08090209960938,
+          "Travel": 244.48681640625,
+          "Undefined": 227.46754455566406
+        },
+        "filament_change_times": 5,
+        "filaments": [
+          {
+            "filament_id": "GFA00",
+            "id": 1,
+            "main_used_g": 6.60960054397583,
+            "total_used_g": 7.600823402404785
+          },
+          {
+            "filament_id": "GFA00",
+            "id": 2,
+            "main_used_g": 0.737078070640564,
+            "total_used_g": 1.5009214878082275
+          },
+          {
+            "filament_id": "GFA01",
+            "id": 3,
+            "main_used_g": 0.30961766839027405,
+            "total_used_g": 1.428221583366394
+          }
+        ],
+        "generate_support_material_time": 28,
+        "id": 1,
+        "infill_time": 383,
+        "layer_filament_change": 0,
+        "main_predication": 1059.19775390625,
+        "make_perimeters_time": 210,
+        "obj_cached_cnt": 0,
+        "objects": [
+          {
+            "bbox": {
+              "depth": 41.0,
+              "height": 2.799999713897705,
+              "width": 86.46500396728516,
+              "x": 84.7699966430664,
+              "y": 107.5,
+              "z": 0.0
+            },
+            "id": 5,
+            "name": "Set_04_Ursulas_Return_v06",
+            "triangle_count": 57816
+          }
+        ],
+        "sliced_time": 1093,
+        "sliced_time_with_cache": 442,
+        "total_predication": 2017.4185791015625,
+        "triangle_count": 57816,
+        "warning_message": ""
+      }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+      "Bambu Lab H2D 0.4 nozzle",
+      "Bambu Lab H2D Pro 0.4 nozzle",
+      "Bambu Lab H2S 0.4 nozzle",
+      "Bambu Lab P2S 0.4 nozzle",
+      "Bambu Lab H2C 0.4 nozzle",
+      "Bambu Lab X2D 0.4 nozzle",
+      "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+  },
+  "physical_print_verified": false
+}

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build Winterspell v1.6 from the Set 11 source-registered SVG."""
+"""Build Winterspell v07 from the Set 11 source-registered SVG."""
 
 import argparse
 import json
@@ -17,17 +17,17 @@ from full_height_narrow_rims import bore_index, isometric
 from rebuild_set04 import boundary_loops, orient
 from rebuild_set09 import preview
 from refine_loops_and_underline import write_project
-from repair_v1_1 import read_parts
+from repair_v02 import read_parts
 from standardize_loop_diameters import bounds, centre, digest, package
 
 ROOT = Path(__file__).resolve().parents[1]
 SET = ROOT / 'sets/Set_11_Winterspell'
-VERSION = 'v1.6'
+VERSION = 'v07'
 NAME = SET.name + '_' + VERSION
-SOURCE = SET / 'v1.5' / (SET.name + '_v1.5.3mf')
+SOURCE = SET / 'v06' / (SET.name + '_v06.3mf')
 DEST = SET / VERSION
 VECTOR = Path(__file__).with_name('set11_clean_artwork.svg')
-ARTWORK = ROOT / 'collection/v1.0/Sources/lorcana-keychains/sources/11.png'
+ARTWORK = ROOT / 'collection/v01/Sources/lorcana-keychains/sources/11.png'
 SOURCE_SCALE = .168
 FIELD_MARGIN = .72
 MARINE_RIM = .85
@@ -37,7 +37,7 @@ SOURCE_FILES = (
     'rebuild_set11.py', 'validate_set11.py', 'set11_clean_artwork.svg',
     'full_height_narrow_rims.py', 'rebuild_set04.py', 'rebuild_set05.py',
     'rebuild_set06.py', 'rebuild_set07.py', 'rebuild_set09.py',
-    'refine_loops_and_underline.py', 'repair_v1_1.py', 'standardize_loop_diameters.py',
+    'refine_loops_and_underline.py', 'repair_v02.py', 'standardize_loop_diameters.py', 'set_versions.py',
     'validate_bambu.py', 'validate_set06.py', 'validate_set09.py',
 )
 
@@ -104,8 +104,8 @@ def comparison(old, new, output):
     canvas = None
     with tempfile.TemporaryDirectory() as folder:
         panel = Path(folder) / 'panel.png'
-        for i, (label, parts) in enumerate((('v1.5 · Original trace', old),
-                                           ('v1.6 · Source-traced lettering', new))):
+        for i, (label, parts) in enumerate((('v06 · Original trace', old),
+                                           ('v07 · Source-traced lettering', new))):
             preview(parts, panel, 1550, frame)
             with Image.open(panel) as im:
                 if canvas is None:
@@ -145,7 +145,7 @@ def main():
     field_draft, letters = artwork()
     parts = geometry(old, field_draft, letters)
     write_project(SOURCE, project, parts, {0, 1, 2},
-                  'v1.6; eleven smooth source-traced Winterspell letters, continuous Ice Blue '
+                  'v07; eleven smooth source-traced Winterspell letters, continuous Ice Blue '
                   'field, and solid Marine Blue backing; 6.5 mm bore and 2 mm loop/backing; '
                   'three original filament slots, settings and placement.')
     saved = read_parts(package(project))
@@ -158,7 +158,7 @@ def main():
     with ZipFile(snapshot, 'w', ZIP_DEFLATED) as archive:
         for path in sources:
             archive.write(path, path.relative_to(ROOT))
-    sources += [SOURCE, ARTWORK, ROOT / 'sets/Set_09_Fabled/v1.5/Set_09_Fabled_v1.5.3mf']
+    sources += [SOURCE, ARTWORK, ROOT / 'sets/Set_09_Fabled/v06/Set_09_Fabled_v06.3mf']
     manifest = dict(project=project.name, output_sha256=digest(project),
                     source_snapshot=snapshot.name, source_snapshot_sha256=digest(snapshot),
                     inputs_sha256={str(p.relative_to(ROOT)): digest(p) for p in sources})

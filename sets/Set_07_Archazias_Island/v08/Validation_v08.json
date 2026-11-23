@@ -1,0 +1,260 @@
+{
+  "project": "sets/Set_07_Archazias_Island/v08/Set_07_Archazias_Island_v08.3mf",
+  "output_sha256": "3d5fed39ff9965e533731d6acddfc082f18e1de21fc831913c072f013a480e26",
+  "previous_project": "sets/Set_07_Archazias_Island/v07_approved/Set_07_Archazias_Island_v07.3mf",
+  "previous_project_sha256": "6ed0049fc7d3508888280d10bdb9f2c879c34d66939a2c4b72c68ced234d0947",
+  "printer_settings_id": "Bambu Lab A1 0.4 nozzle",
+  "filament_settings_ids": [
+    "Bambu PLA Matte @BBL A1",
+    "Bambu PLA Matte @BBL A1",
+    "Bambu PLA Matte @BBL A1",
+    "Bambu PLA Matte @BBL A1"
+  ],
+  "model_archive_entries_byte_identical_to_previous_release": true,
+  "assembly_and_part_settings_preserved": true,
+  "toolpath_checks": {
+    "loop_top_layer_mm": 2.0,
+    "loop_top_segments": 122,
+    "loop_segments_above_target_height": 0,
+    "ivory_layers": {
+      "2.2": {
+        "continuous_lettering_components": 14,
+        "open_counters": 6,
+        "owl_eyes": 0,
+        "detached_deposit_pixels": 0,
+        "core_coverage_by_component": {
+          "archazia_A": 0.9994094758043256,
+          "archazia_R": 1.0,
+          "archazia_C": 0.9999434197125722,
+          "archazia_H_A_swash": 0.9978213687415929,
+          "archazia_Z": 0.9962179317640836,
+          "archazia_I": 1.0,
+          "archazia_A_S_swash": 0.9973837138223044,
+          "apostrophe": 1.0,
+          "island_I": 1.0,
+          "island_S": 0.9988056505086281,
+          "island_L": 0.9996967123620041,
+          "island_A": 0.9962199084819948,
+          "island_N": 0.9996723460026212,
+          "island_D": 1.0
+        }
+      },
+      "2.4": {
+        "continuous_lettering_components": 14,
+        "open_counters": 6,
+        "owl_eyes": 0,
+        "detached_deposit_pixels": 0,
+        "core_coverage_by_component": {
+          "archazia_A": 0.9994094758043256,
+          "archazia_R": 1.0,
+          "archazia_C": 0.9999434197125722,
+          "archazia_H_A_swash": 0.9978213687415929,
+          "archazia_Z": 0.9962179317640836,
+          "archazia_I": 1.0,
+          "archazia_A_S_swash": 0.9973837138223044,
+          "apostrophe": 1.0,
+          "island_I": 1.0,
+          "island_S": 0.9988056505086281,
+          "island_L": 0.9996967123620041,
+          "island_A": 0.9962199084819948,
+          "island_N": 0.9996723460026212,
+          "island_D": 1.0
+        }
+      },
+      "2.6": {
+        "continuous_lettering_components": 14,
+        "open_counters": 6,
+        "owl_eyes": 0,
+        "detached_deposit_pixels": 0,
+        "core_coverage_by_component": {
+          "archazia_A": 0.9994094758043256,
+          "archazia_R": 1.0,
+          "archazia_C": 0.9999434197125722,
+          "archazia_H_A_swash": 0.9978213687415929,
+          "archazia_Z": 0.9962179317640836,
+          "archazia_I": 1.0,
+          "archazia_A_S_swash": 0.9973755633980749,
+          "apostrophe": 1.0,
+          "island_I": 1.0,
+          "island_S": 0.9988056505086281,
+          "island_L": 0.9996967123620041,
+          "island_A": 0.9962199084819948,
+          "island_N": 0.9996723460026212,
+          "island_D": 1.0
+        }
+      },
+      "2.8": {
+        "continuous_lettering_components": 14,
+        "open_counters": 6,
+        "owl_eyes": 0,
+        "detached_deposit_pixels": 0,
+        "core_coverage_by_component": {
+          "archazia_A": 0.9994094758043256,
+          "archazia_R": 1.0,
+          "archazia_C": 0.9999434197125722,
+          "archazia_H_A_swash": 0.9978213687415929,
+          "archazia_Z": 0.9962179317640836,
+          "archazia_I": 1.0,
+          "archazia_A_S_swash": 0.9973755633980749,
+          "apostrophe": 1.0,
+          "island_I": 1.0,
+          "island_S": 0.9988056505086281,
+          "island_L": 0.9996967123620041,
+          "island_A": 0.9962199084819948,
+          "island_N": 0.9996723460026212,
+          "island_D": 1.0
+        }
+      },
+      "3.0": {
+        "continuous_lettering_components": 14,
+        "open_counters": 6,
+        "owl_eyes": 2,
+        "detached_deposit_pixels": 0,
+        "core_coverage_by_component": {
+          "archazia_A": 0.9999894549250773,
+          "archazia_R": 0.9988871506217442,
+          "archazia_C": 1.0,
+          "archazia_H_A_swash": 0.9987373841570595,
+          "archazia_Z": 0.9999206559111347,
+          "archazia_I": 0.9992513902752032,
+          "archazia_A_S_swash": 0.9997228855761943,
+          "apostrophe": 1.0,
+          "island_I": 1.0,
+          "island_S": 0.9938635146822619,
+          "island_L": 1.0,
+          "island_A": 0.9991378738643146,
+          "island_N": 0.9999106398188967,
+          "island_D": 1.0
+        }
+      }
+    },
+    "green_frame_core_coverage": 0.9988713391077775,
+    "green_frame_core_coverage_without_bead_edge_tolerance": 0.9852822619654178,
+    "green_components_deposited": 12,
+    "bead_edge_raster_tolerance_mm": 0.075,
+    "owl_brow_engraving_clear_fraction": 1.0
+  },
+  "bambu_version": "02.09.01.70",
+  "physical_print_verified": false,
+  "slice_result": {
+    "error_string": "Success.",
+    "layer_height": 0.20000000298023224,
+    "peak_rss_mb": 159.32421875,
+    "plate_index": 1,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "feature_type_times": {
+          "Bottom surface": 73.18814849853516,
+          "Bridge": 12.867697715759277,
+          "Custom": 369.5277404785156,
+          "Flush": 519.1671752929688,
+          "Gap infill": 9.484095573425293,
+          "Inner wall": 177.686767578125,
+          "Internal solid infill": 277.01446533203125,
+          "Outer wall": 140.7086181640625,
+          "Prime tower": 198.52389526367188,
+          "Sparse infill": 10.587285041809082,
+          "Top surface": 117.37339782714844,
+          "Travel": 301.7890930175781,
+          "Undefined": 284.8479919433594
+        },
+        "filament_change_times": 6,
+        "filaments": [
+          {
+            "filament_id": "GFA01",
+            "id": 1,
+            "main_used_g": 6.160276412963867,
+            "total_used_g": 7.198700428009033
+          },
+          {
+            "filament_id": "GFA01",
+            "id": 2,
+            "main_used_g": 0.2810605466365814,
+            "total_used_g": 1.0038734674453735
+          },
+          {
+            "filament_id": "GFA01",
+            "id": 3,
+            "main_used_g": 0.7555212378501892,
+            "total_used_g": 2.420842170715332
+          },
+          {
+            "filament_id": "GFA01",
+            "id": 4,
+            "main_used_g": 0.05110146477818489,
+            "total_used_g": 0.7375298142433167
+          }
+        ],
+        "id": 1,
+        "layer_filament_change": 0,
+        "main_predication": 1095.696533203125,
+        "obj_cached_cnt": 0,
+        "objects": [
+          {
+            "bbox": {
+              "depth": 40.814998626708984,
+              "height": 3.0,
+              "width": 80.5250015258789,
+              "x": 87.73500061035156,
+              "y": 107.59500122070312,
+              "z": 0.0
+            },
+            "id": 5,
+            "name": "Set_07_Archazias_Island_v08",
+            "triangle_count": 13588
+          }
+        ],
+        "times": {
+          "conflict_check_time": 14,
+          "detect_overhangs_time": 5,
+          "export_gcode_time": 502,
+          "flush_plan_time": 0,
+          "generate_support_material_time": 35,
+          "infill_generate_time": 164,
+          "infill_time": 622,
+          "ironing_time": 0,
+          "make_perimeters_time": 283,
+          "multifilament_segment_2d_time": 0,
+          "other_slice_time": 0,
+          "prepare_infill_time": 458,
+          "region_split_time": 2,
+          "skirt_brim_time": 0,
+          "slice_layers_time": 30,
+          "sliced_time": 1487,
+          "sliced_time_with_cache": 502,
+          "support_detect_time": 0,
+          "support_interface_time": 0,
+          "support_normal_generate_time": 0,
+          "support_toolpath_time": 0,
+          "support_tree_generate_time": 0,
+          "toolpath_time": 10,
+          "wall_time": 251,
+          "wipe_tower_time": 15
+        },
+        "total_predication": 2190.974365234375,
+        "triangle_count": 13588,
+        "warning_message": ""
+      }
+    ],
+    "sparse_infill_density": 15.0,
+    "times": {
+      "export_3mf_time": 0,
+      "export_slicedata_time": 0,
+      "export_time": 0,
+      "import_time": 35,
+      "load_slicedata_time": 0,
+      "prepare_time": 37
+    },
+    "upward_compatible_machine": [
+      "Bambu Lab H2D 0.4 nozzle",
+      "Bambu Lab H2D Pro 0.4 nozzle",
+      "Bambu Lab H2S 0.4 nozzle",
+      "Bambu Lab P2S 0.4 nozzle",
+      "Bambu Lab H2C 0.4 nozzle",
+      "Bambu Lab X2D 0.4 nozzle",
+      "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+  }
+}

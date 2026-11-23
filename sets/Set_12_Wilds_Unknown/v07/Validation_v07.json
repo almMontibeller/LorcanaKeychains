@@ -1,0 +1,230 @@
+{
+  "project": "Set_12_Wilds_Unknown_v07.3mf",
+  "output_sha256": "3e6e0bf170c0fc29f16461002a41945f0666cde5970fa436c290fcfc66da8a26",
+  "baseline": "sets/Set_12_Wilds_Unknown/v06/Set_12_Wilds_Unknown_v06.3mf",
+  "baseline_sha256": "f7c81a11724728707daf860839bb5257290bef910f31ef36c2b63d4a5efc2e98",
+  "geometry": {
+    "parts": [
+      {
+        "name": "Cocoa Brown",
+        "slot": 1,
+        "volume_mm3": 5292.782191176918,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Dark Green",
+        "slot": 2,
+        "volume_mm3": 72.22382870923805,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Ivory White",
+        "slot": 3,
+        "volume_mm3": 1210.1476808212174,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      }
+    ],
+    "dimensions_before_mm": [
+      82.575,
+      40.91,
+      3.0
+    ],
+    "dimensions_mm": [
+      82.914,
+      40.465,
+      3.0
+    ],
+    "backing_area_before_mm2": 2446.715,
+    "backing_area_mm2": 2646.391,
+    "backing_openings_before": 25,
+    "backing_openings": 1,
+    "backing_connected_components": 1,
+    "backing_thickness_mm": 2.0,
+    "green_components_before": 13,
+    "green_flecks_in_letters_before": 9,
+    "green_flecks_in_letters": 0,
+    "green_foliage_components": 6,
+    "ivory_glyphs": 12,
+    "ivory_counters_before": 11,
+    "ivory_counters": [
+      "wilds-d",
+      "unknown-o"
+    ],
+    "min_relief_gap_mm": 0.47,
+    "min_backing_border_mm": 0.902,
+    "fully_supported_relief": true,
+    "volumetric_colour_overlap": false,
+    "bore_centre_mm": [
+      5.25000135,
+      20.45250032
+    ],
+    "bore_mm": 6.5,
+    "bore_coordinates_exactly_preserved": true,
+    "eyelet_outer_diameter_nominal_mm": 10.5,
+    "plate_placement_preserved": true,
+    "embedded_filament_and_process_settings_byte_identical": true
+  },
+  "toolpaths": {
+    "loop_top_layer_mm": 2.0,
+    "loop_top_segments": 102,
+    "loop_segments_above_target_height": 0,
+    "raster_step_mm": 0.025,
+    "bead_edge_tolerance_mm": 0.075,
+    "brown_backing_layers": {
+      "0.2": {
+        "components": 1,
+        "core_coverage": 0.99993,
+        "open_bore": true
+      },
+      "2.0": {
+        "components": 1,
+        "core_coverage": 0.99799,
+        "open_bore": true
+      }
+    },
+    "foliage_layers": {
+      "2.2": {
+        "components": 6,
+        "core_coverage": {
+          "left-tendril": 0.99983,
+          "left-spray": 0.99328,
+          "left-leaf": 0.99954,
+          "right-tendril": 0.99983,
+          "right-spray": 0.99735,
+          "right-leaf": 0.99791
+        },
+        "clear_counters": 0,
+        "deposits_outside_relief": 0
+      },
+      "2.4": {
+        "components": 6,
+        "core_coverage": {
+          "left-tendril": 0.99983,
+          "left-spray": 0.99347,
+          "left-leaf": 0.99942,
+          "right-tendril": 0.99983,
+          "right-spray": 0.99717,
+          "right-leaf": 0.99791
+        },
+        "clear_counters": 0,
+        "deposits_outside_relief": 0
+      },
+      "2.6": {
+        "components": 6,
+        "core_coverage": {
+          "left-tendril": 0.99983,
+          "left-spray": 0.99998,
+          "left-leaf": 0.99942,
+          "right-tendril": 0.99983,
+          "right-spray": 0.99912,
+          "right-leaf": 0.99791
+        },
+        "clear_counters": 0,
+        "deposits_outside_relief": 0
+      }
+    },
+    "letters_layers": {
+      "2.2": {
+        "components": 12,
+        "core_coverage": {
+          "wilds-w": 0.99882,
+          "wilds-i": 1.0,
+          "wilds-l": 0.99961,
+          "wilds-d": 0.9984,
+          "wilds-s": 0.99971,
+          "unknown-u": 0.99855,
+          "unknown-n-first": 0.99896,
+          "unknown-k": 0.99973,
+          "unknown-n-second": 0.99998,
+          "unknown-o": 1.0,
+          "unknown-w": 0.99993,
+          "unknown-n-last": 0.99916
+        },
+        "clear_counters": 2,
+        "deposits_outside_relief": 0
+      },
+      "2.4": {
+        "components": 12,
+        "core_coverage": {
+          "wilds-w": 0.99882,
+          "wilds-i": 1.0,
+          "wilds-l": 0.99961,
+          "wilds-d": 0.9984,
+          "wilds-s": 0.99971,
+          "unknown-u": 0.99857,
+          "unknown-n-first": 0.99896,
+          "unknown-k": 0.99973,
+          "unknown-n-second": 0.99998,
+          "unknown-o": 1.0,
+          "unknown-w": 0.99993,
+          "unknown-n-last": 0.99918
+        },
+        "clear_counters": 2,
+        "deposits_outside_relief": 0
+      },
+      "2.6": {
+        "components": 12,
+        "core_coverage": {
+          "wilds-w": 0.99882,
+          "wilds-i": 1.0,
+          "wilds-l": 0.99961,
+          "wilds-d": 0.9984,
+          "wilds-s": 0.99971,
+          "unknown-u": 0.99855,
+          "unknown-n-first": 0.99896,
+          "unknown-k": 0.99973,
+          "unknown-n-second": 0.99998,
+          "unknown-o": 1.0,
+          "unknown-w": 0.99993,
+          "unknown-n-last": 0.99918
+        },
+        "clear_counters": 2,
+        "deposits_outside_relief": 0
+      },
+      "2.8": {
+        "components": 12,
+        "core_coverage": {
+          "wilds-w": 0.99942,
+          "wilds-i": 1.0,
+          "wilds-l": 0.99961,
+          "wilds-d": 0.9984,
+          "wilds-s": 0.99971,
+          "unknown-u": 0.99855,
+          "unknown-n-first": 0.99892,
+          "unknown-k": 0.99973,
+          "unknown-n-second": 0.99998,
+          "unknown-o": 1.0,
+          "unknown-w": 0.99995,
+          "unknown-n-last": 0.99918
+        },
+        "clear_counters": 2,
+        "deposits_outside_relief": 0
+      },
+      "3.0": {
+        "components": 12,
+        "core_coverage": {
+          "wilds-w": 1.0,
+          "wilds-i": 0.99954,
+          "wilds-l": 0.99979,
+          "wilds-d": 1.0,
+          "wilds-s": 1.0,
+          "unknown-u": 1.0,
+          "unknown-n-first": 0.99981,
+          "unknown-k": 0.99969,
+          "unknown-n-second": 0.99978,
+          "unknown-o": 1.0,
+          "unknown-w": 1.0,
+          "unknown-n-last": 0.99961
+        },
+        "clear_counters": 2,
+        "deposits_outside_relief": 0
+      }
+    }
+  },
+  "bambu_version": "02.09.01.70",
+  "plate_warnings": "",
+  "physical_print_verified": false
+}

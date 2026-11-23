@@ -1,0 +1,61 @@
+{
+  "project": "sets/Set_02_Rise_of_the_Floodborn/v06/Set_02_Rise_of_the_Floodborn_v06.3mf",
+  "filename": "Set_02_Rise_of_the_Floodborn_v06.3mf",
+  "source": "sets/Set_02_Rise_of_the_Floodborn/v05/Set_02_Rise_of_the_Floodborn_v05.3mf",
+  "source_sha256": "488d40d94c60cc14ebc73d7d2a48a3712cea34e3a7b6dcf7779668a25ffc4601",
+  "output_sha256": "911cf27815aa24af5abdfd9a4fb0a8c069ba0aeaac23dffb337e670ad971fc15",
+  "geometry": {
+    "loop_and_backing_height_mm": 2.0,
+    "uniform_backing_height": true,
+    "bore_diameters_xy_mm": [
+      6.499999999999999,
+      6.500000000000002
+    ],
+    "outer_diameter_nominal_mm": 10.5,
+    "radial_rim_width_nominal_mm": 2.0,
+    "sampled_left_outer_arc_radial_rim_mm": [
+      1.995391608603045,
+      2.0047809213232126
+    ],
+    "hole_centre_preserved": true,
+    "non_bore_contours_preserved": true,
+    "non_bore_contour_max_deviation_mm": 0.0,
+    "artwork_meshes_exactly_preserved": true,
+    "plate_placement_preserved": true,
+    "filament_and_process_settings_byte_identical": true,
+    "parts": [
+      {
+        "name": "Marine Blue",
+        "volume_mm3": 4421.7892839649285,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Ice Blue",
+        "volume_mm3": 203.15755402851337,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Ivory White",
+        "volume_mm3": 743.1134621445918,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      }
+    ],
+    "tessellation_axis_rotation_degrees": 0
+  },
+  "underline": null,
+  "toolpath_checks": {
+    "loop_top_layer_mm": 2.0,
+    "loop_top_segments": 130,
+    "loop_segments_above_target_height": 0
+  },
+  "used_filament_slots": [
+    1,
+    2,
+    3
+  ],
+  "bambu_version": "02.08.02.61",
+  "physical_print_verified": false
+}

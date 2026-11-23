@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check Wilds Unknown v1.6 mesh, colour separation and Bambu Studio toolpaths."""
+"""Check Wilds Unknown v07 mesh, colour separation and Bambu Studio toolpaths."""
 
 import argparse
 import json
@@ -20,7 +20,7 @@ import rebuild_set12 as build
 from rebuild_set04 import area, boundary_loops, orient
 from rebuild_set05 import dilate
 from refine_loops_and_underline import draw_bead, read_toolpaths, render_slice, toolpath_checks
-from repair_v1_1 import NS, read_parts
+from repair_v02 import NS, read_parts
 from standardize_loop_diameters import bounds, centre, digest, mesh_stats, package
 from validate_bambu import bambu_command
 from validate_set09 import regions

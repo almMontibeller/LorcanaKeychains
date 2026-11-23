@@ -8,9 +8,11 @@ import tempfile
 import zipfile
 import sys
 
+from set_versions import saved_project
+
 ROOT = Path(__file__).resolve().parents[1]
 SETS = ROOT / "sets"
-DEST = ROOT / "collection" / "v1.2"
+DEST = ROOT / "collection" / "v03"
 LOGS = ROOT / "validation"
 
 
@@ -29,14 +31,19 @@ def bambu_command():
 def main():
     DEST.mkdir(parents=True, exist_ok=True)
     only = sys.argv[1:]
-    report_path = DEST / "Validation_v1.2.json"
+    report_path = DEST / "Validation_v03.json"
     reports = json.loads(report_path.read_text()) if only and report_path.exists() else []
     command = bambu_command()
-    for path in sorted(SETS.glob("Set_*/v1.2/Set_*.3mf")):
+    for folder in sorted(SETS.glob("Set_*")):
+        if int(folder.name[4:6]) > 14:
+            continue
+        path = saved_project(folder, "v03")
+        if not path.is_file():
+            continue
         if only and path.name[4:6] not in only:
             continue
         reports = [report for report in reports if report["filename"][4:6] != path.name[4:6]]
-        logs = LOGS / path.parent.parent.name / "v1.2"
+        logs = LOGS / path.parent.parent.name / "v03"
         logs.mkdir(parents=True, exist_ok=True)
         with tempfile.TemporaryDirectory(prefix="lorcana-bambu-") as directory:
             work = Path(directory)
@@ -50,7 +57,7 @@ def main():
                 report = {"filename": path.name, "import_exit_code": run.returncode, "slice_result": result}
                 reports.append(report)
                 print(path.name, "SLICE FAILED:", result.get("error_string"), flush=True)
-                (DEST / "Validation_v1.2.json").write_text(json.dumps(reports, indent=2))
+                (DEST / "Validation_v03.json").write_text(json.dumps(reports, indent=2))
                 continue
             plate = result["sliced_plates"][0]
             with zipfile.ZipFile(path) as archive:
@@ -72,11 +79,11 @@ def main():
                 "environment_notes": "CLI used with the installed Flatpak runtime. The desktop display is unavailable in this session. The relocated CLI reports missing /app resources; embedded project settings were used and slicing succeeded.",
             })
             print(path.name, "imported and sliced;", len(channels), "colour channels", flush=True)
-            (DEST / "Validation_v1.2.json").write_text(json.dumps(reports, indent=2))
+            (DEST / "Validation_v03.json").write_text(json.dumps(reports, indent=2))
     reports.sort(key=lambda report: report["filename"])
     assert len(reports) == 14
     assert all(report["slice_result"]["return_code"] == 0 for report in reports)
-    (DEST / "Validation_v1.2.json").write_text(json.dumps(reports, indent=2))
+    (DEST / "Validation_v03.json").write_text(json.dumps(reports, indent=2))
 
 
 if __name__ == "__main__":

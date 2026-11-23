@@ -1,0 +1,86 @@
+{
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 23,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 52.64193344116211,
+                "Bridge": 62.4407958984375,
+                "Custom": 369.4356384277344,
+                "Flush": 391.37176513671875,
+                "Gap infill": 19.177526473999023,
+                "Inner wall": 186.35572814941406,
+                "Internal solid infill": 162.81776428222656,
+                "Outer wall": 162.50721740722656,
+                "Prime tower": 183.03541564941406,
+                "Sparse infill": 4.566476345062256,
+                "Top surface": 94.28390502929688,
+                "Travel": 251.23870849609375,
+                "Undefined": 234.3896942138672
+            },
+            "filament_change_times": 5,
+            "filaments": [
+                {
+                    "filament_id": "GFA00",
+                    "id": 1,
+                    "main_used_g": 4.084782123565674,
+                    "total_used_g": 5.076004505157471
+                },
+                {
+                    "filament_id": "GFA00",
+                    "id": 2,
+                    "main_used_g": 0.3132026493549347,
+                    "total_used_g": 1.1214008331298828
+                },
+                {
+                    "filament_id": "GFA00",
+                    "id": 3,
+                    "main_used_g": 0.41280385851860046,
+                    "total_used_g": 1.3706856966018677
+                }
+            ],
+            "generate_support_material_time": 29,
+            "id": 1,
+            "infill_time": 284,
+            "layer_filament_change": 0,
+            "main_predication": 971.0625610351563,
+            "make_perimeters_time": 194,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 40.90499496459961,
+                        "height": 2.799999952316284,
+                        "width": 68.01000213623047,
+                        "x": 93.99500274658203,
+                        "y": 107.55000305175781,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "Set_13_Attack_of_the_Vine_v05",
+                    "triangle_count": 12344
+                }
+            ],
+            "sliced_time": 977,
+            "sliced_time_with_cache": 438,
+            "total_predication": 1923.0562744140625,
+            "triangle_count": 12344,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+}

@@ -1,0 +1,141 @@
+{
+  "filename": "Set_13_Attack_of_the_Vine_v04.3mf",
+  "sha256": "77e8917cf6a7684b9b28ab18df3c4d2128da8161c4fe9a2dc085939e600cb40a",
+  "attachment": {
+    "bore_diameters_xy_mm": [
+      5.5,
+      5.5
+    ],
+    "bore_centre_mm": [
+      5.250000050000001,
+      20.4524994
+    ],
+    "bore_centre_preserved": true,
+    "outer_diameter_nominal_mm": 10.5,
+    "rim_width_nominal_mm": 2.5,
+    "backing_and_loop_thickness_mm": 2.0,
+    "non_bore_contours_preserved": true,
+    "non_bore_contour_max_deviation_mm": 6.000178132126166e-11,
+    "overall_dimensions_preserved": true
+  },
+  "geometry": [
+    {
+      "name": "Purple",
+      "slot": 1,
+      "volume_mm3": 3375.630988428757,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    },
+    {
+      "name": "Mistletoe Green",
+      "slot": 2,
+      "volume_mm3": 259.7153132619323,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    },
+    {
+      "name": "Sunflower Yellow",
+      "slot": 3,
+      "volume_mm3": 343.48912975808315,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    }
+  ],
+  "artwork_xml_and_meshes_preserved": true,
+  "plate_placement_preserved": true,
+  "filament_and_process_settings_byte_identical": true,
+  "used_filament_slots": [
+    1,
+    2,
+    3
+  ],
+  "bambu_version": "02.08.02.61",
+  "slice_result": {
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 22,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "feature_type_times": {
+          "Bottom surface": 52.66874313354492,
+          "Bridge": 36.699562072753906,
+          "Custom": 369.4356384277344,
+          "Flush": 391.37176513671875,
+          "Gap infill": 19.28592300415039,
+          "Inner wall": 188.2075958251953,
+          "Internal solid infill": 210.1059112548828,
+          "Outer wall": 163.7244110107422,
+          "Prime tower": 183.0357208251953,
+          "Sparse infill": 8.401777267456055,
+          "Top surface": 96.28900146484375,
+          "Travel": 254.3621063232422,
+          "Undefined": 237.51309204101562
+        },
+        "filament_change_times": 5,
+        "filaments": [
+          {
+            "filament_id": "GFA00",
+            "id": 1,
+            "main_used_g": 4.200016975402832,
+            "total_used_g": 5.191239356994629
+          },
+          {
+            "filament_id": "GFA00",
+            "id": 2,
+            "main_used_g": 0.31320783495903015,
+            "total_used_g": 1.1214059591293335
+          },
+          {
+            "filament_id": "GFA00",
+            "id": 3,
+            "main_used_g": 0.41280946135520935,
+            "total_used_g": 1.3706914186477661
+          }
+        ],
+        "generate_support_material_time": 27,
+        "id": 1,
+        "infill_time": 351,
+        "layer_filament_change": 0,
+        "main_predication": 1004.7794799804688,
+        "make_perimeters_time": 195,
+        "obj_cached_cnt": 0,
+        "objects": [
+          {
+            "bbox": {
+              "depth": 40.90499496459961,
+              "height": 2.799999952316284,
+              "width": 68.01000213623047,
+              "x": 93.99500274658203,
+              "y": 107.55000305175781,
+              "z": 0.0
+            },
+            "id": 5,
+            "name": "Attack of the Vine! v04",
+            "triangle_count": 11724
+          }
+        ],
+        "sliced_time": 1040,
+        "sliced_time_with_cache": 433,
+        "total_predication": 1956.7735595703125,
+        "triangle_count": 11724,
+        "warning_message": ""
+      }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+      "Bambu Lab H2D 0.4 nozzle",
+      "Bambu Lab H2D Pro 0.4 nozzle",
+      "Bambu Lab H2S 0.4 nozzle",
+      "Bambu Lab P2S 0.4 nozzle",
+      "Bambu Lab H2C 0.4 nozzle",
+      "Bambu Lab X2D 0.4 nozzle",
+      "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+  },
+  "physical_print_verified": false,
+  "environment_notes": "Installed Flatpak CLI uses embedded settings despite missing /app preset-resource messages."
+}

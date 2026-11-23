@@ -1,0 +1,108 @@
+{
+  "project": "sets/Set_05_Shimmering_Skies/v08_printed/Set_05_Shimmering_Skies_v08_printed.3mf",
+  "filename": "Set_05_Shimmering_Skies_v08.3mf",
+  "source": "sets/Set_05_Shimmering_Skies/v07/Set_05_Shimmering_Skies_v07.3mf",
+  "source_sha256": "5d8de990754e86c1aef2896ab39ea6f91438d8db4ce1574a98252ad27a0b02b1",
+  "output_sha256": "a43e3468e85ba8caa68c98d6e48a77ef96411a01df4710d1f1a1136d45a907e3",
+  "geometry": {
+    "loop_and_backing_height_mm": 2.0,
+    "uniform_backing_height": true,
+    "bore_diameters_xy_mm": [
+      6.5,
+      6.499999999999998
+    ],
+    "outer_diameter_nominal_mm": 10.5,
+    "radial_rim_width_nominal_mm": 2.0,
+    "sampled_left_outer_arc_radial_rim_mm": [
+      1.9872722992319227,
+      2.0449247062684526
+    ],
+    "hole_centre_preserved": true,
+    "non_bore_contours_preserved": true,
+    "non_bore_contour_max_deviation_mm": 0.0,
+    "artwork_meshes_exactly_preserved": true,
+    "plate_placement_preserved": true,
+    "filament_and_process_settings_byte_identical": true,
+    "parts": [
+      {
+        "name": "Purple \u2014 reinforced star supports",
+        "volume_mm3": 4735.828629304655,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Red \u2014 continuous title panel",
+        "volume_mm3": 277.12956250014304,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Ivory White",
+        "volume_mm3": 864.6611140655688,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      }
+    ],
+    "tessellation_axis_rotation_degrees": 0
+  },
+  "underline": {
+    "width_mm": 0.9,
+    "rounded_end_caps": true,
+    "centreline_x_mm": [
+      28.5,
+      48.3
+    ],
+    "centreline_quadratic_coefficients": [
+      -0.0033796260104256154,
+      0.558194487913497,
+      -3.754231782495416
+    ],
+    "old_line_triangles_removed": 520,
+    "unchanged_artwork_triangles": 6956,
+    "new_line_triangles": 596
+  },
+  "toolpath_checks": {
+    "loop_top_layer_mm": 2.0,
+    "loop_top_segments": 134,
+    "loop_segments_above_target_height": 0,
+    "underline_layers": {
+      "2.2": {
+        "continuous": true,
+        "detached_deposits": 0,
+        "sampled_centreline_points": 200,
+        "candidate_segments": 71
+      },
+      "2.4": {
+        "continuous": true,
+        "detached_deposits": 0,
+        "sampled_centreline_points": 200,
+        "candidate_segments": 100
+      },
+      "2.6": {
+        "continuous": true,
+        "detached_deposits": 0,
+        "sampled_centreline_points": 200,
+        "candidate_segments": 96
+      },
+      "2.8": {
+        "continuous": true,
+        "detached_deposits": 0,
+        "sampled_centreline_points": 200,
+        "candidate_segments": 99
+      },
+      "3.0": {
+        "continuous": true,
+        "detached_deposits": 0,
+        "sampled_centreline_points": 200,
+        "candidate_segments": 114
+      }
+    }
+  },
+  "used_filament_slots": [
+    1,
+    2,
+    3
+  ],
+  "bambu_version": "02.08.02.61",
+  "physical_print_verified": false
+}

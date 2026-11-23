@@ -20,7 +20,8 @@ import numpy as np
 from PIL import Image, ImageDraw
 
 from rebuild_set04 import area, boundary_loops, extrude, orient
-from repair_v1_1 import IDENTITY, NS, read_parts, thumbnail
+from repair_v02 import IDENTITY, NS, read_parts, thumbnail
+from set_versions import saved_project
 from standardize_loop_diameters import (
     ROOT, CORE, PROD, TAG, package, digest, bore_index, centre, bounds,
     mesh_stats, extrude_native, write_mesh,
@@ -410,10 +411,8 @@ def render_slice(layers, parts, bbox, colors, output, *, loop_height=LOOP_HEIGHT
 
 def build_one(folder, command):
     number = int(folder.name[4:6])
-    old_version, version = ('v1.4', 'v1.5') if number == 4 else ('v1.5', 'v1.6') if number == 5 else ('v1.3', 'v1.4')
-    sources = list((folder/old_version).glob('*.3mf'))
-    assert len(sources) == 1
-    source = sources[0]
+    old_version, version = ('v05', 'v06') if number == 4 else ('v06', 'v07') if number == 5 else ('v04', 'v05')
+    source = saved_project(folder, old_version)
     target = folder/version/(folder.name+'_'+version+'.3mf')
     source_hash = digest(source)
     original = read_parts(package(source))
@@ -487,6 +486,8 @@ def main():
     command = bambu_command()
     outputs = []
     for folder in sorted((ROOT/'sets').glob('Set_*')):
+        if int(folder.name[4:6]) > 14:
+            continue
         if args.sets and int(folder.name[4:6]) not in args.sets:
             continue
         print(folder.name+': building thin loop'+(' and complete underline' if folder.name.startswith('Set_05_') else ''), flush=True)
@@ -514,20 +515,10 @@ def main():
                 'are preserved. The source Set 14 Caramel mesh retains its four existing '
                 'degenerate faces; all rebuilt backings have none. No physical print or chain-fit '
                 'test was performed.\n\n| Set | Current project |\n| --- | --- |\n')
-    root_readme = (ROOT/'README.md').read_text()
-    for target, source, _ in outputs:
+    for target, _, _ in outputs:
         overview += f'| {target.parent.parent.name[4:].replace("_", " ")} | [{target.name}](../../{target.relative_to(ROOT)}) |\n'
-        root_readme = root_readme.replace(str(source.relative_to(ROOT)), str(target.relative_to(ROOT))).replace(source.name, target.name)
     overview += '\n[Manifest.json](Manifest.json) records source and output hashes and the per-project validation reports.\n'
     (COLLECTION/'README.md').write_text(overview)
-    root_readme = re.sub(r'The latest projects share.*?\n\n',
-        'The latest projects have **1.6 mm attachment loops**, a **2 mm backing**, '
-        '**5.5 mm holes** and a **10.5 mm nominal outer diameter**. '
-        'See [updated projects and validation](collection/thin_loops/README.md).\n\n', root_readme, count=1, flags=re.S)
-    if 'python3 tools/refine_loops_and_underline.py' not in root_readme:
-        root_readme = root_readme.replace('python3 tools/standardize_loop_diameters.py\n',
-                                         'python3 tools/standardize_loop_diameters.py\npython3 tools/refine_loops_and_underline.py\n', 1)
-    (ROOT/'README.md').write_text(root_readme)
     archive = ROOT/'archives/Lorcana_Keychains_Thin_Loops.zip'
     with zipfile.ZipFile(archive, 'w', zipfile.ZIP_DEFLATED) as z:
         for target, _, _ in outputs:

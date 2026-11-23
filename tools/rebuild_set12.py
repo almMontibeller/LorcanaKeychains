@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build Wilds Unknown v1.6 from the editable Set 12 outline paths."""
+"""Build Wilds Unknown v07 from the editable Set 12 outline paths."""
 
 import argparse
 import json
@@ -17,17 +17,17 @@ from rebuild_set04 import boundary_loops, orient
 from rebuild_set07 import registered, relief, sample
 from rebuild_set09 import preview
 from refine_loops_and_underline import write_project
-from repair_v1_1 import read_parts
+from repair_v02 import read_parts
 from standardize_loop_diameters import bounds, centre, digest, package
 
 ROOT = Path(__file__).resolve().parents[1]
 SET = ROOT / 'sets/Set_12_Wilds_Unknown'
-VERSION = 'v1.6'
+VERSION = 'v07'
 NAME = SET.name + '_' + VERSION
-SOURCE = SET / 'v1.5' / (SET.name + '_v1.5.3mf')
+SOURCE = SET / 'v06' / (SET.name + '_v06.3mf')
 DEST = SET / VERSION
 VECTOR = DEST / 'Sources/set12_clean_artwork.svg'
-ARTWORK = ROOT / 'collection/v1.0/Sources/lorcana-keychains/sources/12.png'
+ARTWORK = ROOT / 'collection/v01/Sources/lorcana-keychains/sources/12.png'
 SVG = {'s': 'http://www.w3.org/2000/svg'}
 SOURCE_SCALE = .138
 BORDER = .92
@@ -99,8 +99,8 @@ def comparison(old, new, target):
     panels = []
     with tempfile.TemporaryDirectory() as temp:
         panel = Path(temp) / 'model.png'
-        for parts, title in ((old, 'v1.5 · Previous artwork and backing'),
-                             (new, 'v1.6 · Smooth contours and continuous backing')):
+        for parts, title in ((old, 'v06 · Previous artwork and backing'),
+                             (new, 'v07 · Smooth contours and continuous backing')):
             preview(parts, panel, width=1500, frame=frame)
             with Image.open(panel) as im:
                 canvas = Image.new('RGB', (im.width, im.height + 54), '#f5f5f5')
@@ -123,7 +123,7 @@ def main():
         raise FileExistsError(project)
     old = read_parts(package(SOURCE))
     write_project(SOURCE, project, geometry(old), {0, 1, 2},
-                  'v1.6; smooth source-traced ivory lettering and green foliage; '
+                  'v07; smooth source-traced ivory lettering and green foliage; '
                   'continuous cocoa brown backing; 6.5 mm bore, 10.5 mm nominal eyelet, '
                   '2 mm backing and 3 mm overall height; original filament and process settings.')
     parts = read_parts(package(project))
@@ -133,7 +133,7 @@ def main():
 
     shared = ('full_height_narrow_rims', 'rebuild_set04', 'rebuild_set05',
               'rebuild_set07', 'rebuild_set09', 'refine_loops_and_underline',
-              'repair_v1_1', 'standardize_loop_diameters', 'validate_bambu')
+              'repair_v02', 'standardize_loop_diameters', 'set_versions', 'validate_bambu')
     script = Path(__file__)
     inputs = [SOURCE, VECTOR, ARTWORK, script, script.with_name('validate_set12.py')] + [
         ROOT / 'tools' / (name + '.py') for name in shared]

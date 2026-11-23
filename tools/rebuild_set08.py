@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build Set 08 v1.6: smooth gold rim/title and solid red outlined Jafar.
+"""Build Set 08 v07: smooth gold rim/title and solid red outlined Jafar.
 
 Uses Python's standard library and the system Cairo/GLU libraries. Native
 backing, placement and all filament/process profiles remain unchanged.
@@ -15,17 +15,17 @@ import xml.etree.ElementTree as ET
 import zipfile
 
 from rebuild_set04 import area, boundary_loops, extrude, inside, orient, simplify_open
-from repair_v1_1 import IDENTITY, NS, cairo_library, read_parts, thumbnail
+from repair_v02 import IDENTITY, NS, cairo_library, read_parts, thumbnail
 
 ROOT = Path(__file__).resolve().parents[1]
 SET = ROOT/'sets/Set_08_Reign_of_Jafar'
-VERSION = 'v1.6'
+VERSION = 'v07'
 NAME = SET.name+'_'+VERSION
-SOURCE = SET/'v1.5'/(SET.name+'_v1.5.3mf')
+SOURCE = SET/'v06'/(SET.name+'_v06.3mf')
 DEST = SET/VERSION
 PROJECT = DEST/(NAME+'.3mf')
 VECTOR = Path(__file__).with_name('set08_clean_artwork.svg')
-ARTWORK = ROOT/'collection/v1.0/Sources/lorcana-keychains/sources/08.png'
+ARTWORK = ROOT/'collection/v01/Sources/lorcana-keychains/sources/08.png'
 STEP, ORIGIN, SIZE = .025, (-1., 43.), (2960, 1800)
 KEYLINE = .45
 PROD = 'http://schemas.microsoft.com/3dmanufacturing/production/2015/06'
@@ -379,7 +379,7 @@ def main():
     obj.find("metadata[@key='name']").set('value', NAME)
     obj.find('metadata[@face_count]').set('face_count', str(sum(len(p['faces']) for p in parts)))
     root.find("m:metadata[@name='Description']", NS).text = (
-        'v1.6; smooth continuous gold rim and solid Reign of; red Jafar with uniform '
+        'v07; smooth continuous gold rim and solid Reign of; red Jafar with uniform '
         '0.45 mm gold keylines, no source gradients or bevel fragments; native '
         '2 mm backing and loop, 6.5 mm bore, plate placement and all profiles retained; '
         'gold keyline top 2.4 mm; gold title/frame and solid red top 2.8 mm; '

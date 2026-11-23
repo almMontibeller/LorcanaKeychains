@@ -1,0 +1,52 @@
+{
+  "filename": "Set_03_Into_the_Inklands_v04.3mf",
+  "project": "sets/Set_03_Into_the_Inklands/v04/Set_03_Into_the_Inklands_v04.3mf",
+  "source": "sets/Set_03_Into_the_Inklands/v03_printed/Set_03_Into_the_Inklands_v03_printed.3mf",
+  "source_sha256": "f2b1d00479620bd9ddd9eac3d71be97427b1b5d8c4ef988fc0c56768a71d00ff",
+  "output_sha256": "f1cb27ea22ff8878a7c07a28b9c1b222cda615f5b7b6dbf79d0ccab554ddf4a5",
+  "reference": "sets/Set_04_Ursulas_Return/v05_printed/Set_04_Ursulas_Return_v05_printed.3mf",
+  "attachment": {
+    "bore_diameters_xy_mm": [
+      5.5,
+      5.5
+    ],
+    "bore_centre_mm": [
+      5.25,
+      19.85499987
+    ],
+    "bore_centre_preserved": true,
+    "outer_diameter_nominal_mm": 10.5,
+    "rim_width_nominal_mm": 2.5,
+    "backing_and_loop_thickness_mm": 2.0,
+    "non_bore_contours_preserved": true,
+    "non_bore_contour_max_deviation_mm": 4.000000330961484e-10,
+    "overall_dimensions_preserved": true
+  },
+  "artwork_meshes_exactly_preserved": true,
+  "filament_and_process_settings_byte_identical": true,
+  "volume_removed_mm3": 15.859118692349512,
+  "tessellation_axis_rotation_degrees": 0,
+  "parts": [
+    {
+      "name": "Cocoa Brown",
+      "slot": 1,
+      "volume_mm3": 4907.119530046747,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    },
+    {
+      "name": "Ice Blue",
+      "slot": 2,
+      "volume_mm3": 141.9100629877996,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    },
+    {
+      "name": "Sunflower Yellow",
+      "slot": 3,
+      "volume_mm3": 1000.4989875497189,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    }
+  ]
+}

@@ -1,582 +1,582 @@
 [
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/File_manifest_v1.1.json",
-    "path": "collection/v1.1/File_manifest_v1.1.json",
+    "path": "collection/v02/File_manifest_v02.json",
     "sha256_before": "5462f5a90760dd639f97990b27baa63edafbaa589f936b384f171e455df09472"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Lorcana_Keychains_v1.1_Preview.png",
-    "path": "collection/v1.1/Lorcana_Keychains_v1.1_Preview.png",
+    "path": "collection/v02/Lorcana_Keychains_v02_Preview.png",
     "sha256_before": "eb731292b9e7873df9ba0e1b6cc0a9a3d882fabb05a1407ac5121a7401eddf05"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/README_Lorcana_Keychains_v1.1.md",
-    "path": "collection/v1.1/README_Lorcana_Keychains_v1.1.md",
+    "path": "collection/v02/README_Lorcana_Keychains_v02.md",
     "sha256_before": "ec623b4f6351efa54e88963438c125675bf0321f60e47216bb0612385f1ba322"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Set_01_The_First_Chapter_v1.1.3mf",
-    "path": "sets/Set_01_The_First_Chapter/v1.1/Set_01_The_First_Chapter_v1.1.3mf",
+    "path": "sets/Set_01_The_First_Chapter/v02/Set_01_The_First_Chapter_v02.3mf",
     "sha256_before": "070ae158bfdf9d33e65a4f48e9a7c486649f741d85de7d95f201409e986bf08c"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Set_01_The_First_Chapter_v1.1_preview.png",
-    "path": "sets/Set_01_The_First_Chapter/v1.1/Set_01_The_First_Chapter_v1.1_preview.png",
+    "path": "sets/Set_01_The_First_Chapter/v02/Set_01_The_First_Chapter_v02_preview.png",
     "sha256_before": "fa414e62f3c6126d92f38de95e88e2bd9bc42222569e70cb8da366a9a81de748"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Set_02_Rise_of_the_Floodborn_v1.1.3mf",
-    "path": "sets/Set_02_Rise_of_the_Floodborn/v1.1/Set_02_Rise_of_the_Floodborn_v1.1.3mf",
+    "path": "sets/Set_02_Rise_of_the_Floodborn/v02/Set_02_Rise_of_the_Floodborn_v02.3mf",
     "sha256_before": "5404252ed44d78cd14fb4999f90abb71c7485722b0893c9c0f8880c256248a11"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Set_02_Rise_of_the_Floodborn_v1.1_preview.png",
-    "path": "sets/Set_02_Rise_of_the_Floodborn/v1.1/Set_02_Rise_of_the_Floodborn_v1.1_preview.png",
+    "path": "sets/Set_02_Rise_of_the_Floodborn/v02/Set_02_Rise_of_the_Floodborn_v02_preview.png",
     "sha256_before": "334c33ee9105c3376172a5ca983f8b6eaa643808ff061bbd318318e298e4a7b6"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Set_03_Into_the_Inklands_v1.1.3mf",
-    "path": "sets/Set_03_Into_the_Inklands/v1.1/Set_03_Into_the_Inklands_v1.1.3mf",
+    "path": "sets/Set_03_Into_the_Inklands/v02/Set_03_Into_the_Inklands_v02.3mf",
     "sha256_before": "78238b735a35214dc4f742d1e5fbe2ce2a9c8be3724fe95848a084bef6683d43"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Set_03_Into_the_Inklands_v1.1_preview.png",
-    "path": "sets/Set_03_Into_the_Inklands/v1.1/Set_03_Into_the_Inklands_v1.1_preview.png",
+    "path": "sets/Set_03_Into_the_Inklands/v02/Set_03_Into_the_Inklands_v02_preview.png",
     "sha256_before": "9090f4549f4979d40a5485285f7f9b5b8dfd2a902732f860389656c7e8cef192"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Set_04_Ursulas_Return_v1.1.3mf",
-    "path": "sets/Set_04_Ursulas_Return/v1.1/Set_04_Ursulas_Return_v1.1.3mf",
+    "path": "sets/Set_04_Ursulas_Return/v02/Set_04_Ursulas_Return_v02.3mf",
     "sha256_before": "1bc0119427790097145c30769867e003dba086aeb8e2231c18848a261ba38198"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Set_04_Ursulas_Return_v1.1_preview.png",
-    "path": "sets/Set_04_Ursulas_Return/v1.1/Set_04_Ursulas_Return_v1.1_preview.png",
+    "path": "sets/Set_04_Ursulas_Return/v02/Set_04_Ursulas_Return_v02_preview.png",
     "sha256_before": "6ce3e5db2e8d1d00db220eee84bb22e509fba84f6047a6fdf212f7beed53c351"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Set_05_Shimmering_Skies_v1.1.3mf",
-    "path": "sets/Set_05_Shimmering_Skies/v1.1/Set_05_Shimmering_Skies_v1.1.3mf",
+    "path": "sets/Set_05_Shimmering_Skies/v02/Set_05_Shimmering_Skies_v02.3mf",
     "sha256_before": "9d0e409eac843ec5c04d2335b917073e785c37a2ed79a24e17f673eaa21d0db4"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Set_05_Shimmering_Skies_v1.1_preview.png",
-    "path": "sets/Set_05_Shimmering_Skies/v1.1/Set_05_Shimmering_Skies_v1.1_preview.png",
+    "path": "sets/Set_05_Shimmering_Skies/v02/Set_05_Shimmering_Skies_v02_preview.png",
     "sha256_before": "60ab19e75d63bcce066b2c2dcf8037948f067e9eaf00ba95b55550514077bc38"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Set_06_Azurite_Sea_v1.1.3mf",
-    "path": "sets/Set_06_Azurite_Sea/v1.1/Set_06_Azurite_Sea_v1.1.3mf",
+    "path": "sets/Set_06_Azurite_Sea/v02/Set_06_Azurite_Sea_v02.3mf",
     "sha256_before": "5c8e22e9c1ea2d09e61457d84f611c318709f4ae7c0b5527650efa5f7e8da799"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Set_06_Azurite_Sea_v1.1_preview.png",
-    "path": "sets/Set_06_Azurite_Sea/v1.1/Set_06_Azurite_Sea_v1.1_preview.png",
+    "path": "sets/Set_06_Azurite_Sea/v02/Set_06_Azurite_Sea_v02_preview.png",
     "sha256_before": "ac19e506ff874a636d60c38552f127c23a71ac506beb1f626146987463112fb4"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Set_07_Archazias_Island_v1.1.3mf",
-    "path": "sets/Set_07_Archazias_Island/v1.1/Set_07_Archazias_Island_v1.1.3mf",
+    "path": "sets/Set_07_Archazias_Island/v02/Set_07_Archazias_Island_v02.3mf",
     "sha256_before": "2748388fbcdab2044aac18763f4c9ae7ea84a474cbf18818ea5b057bf1066e5d"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Set_07_Archazias_Island_v1.1_preview.png",
-    "path": "sets/Set_07_Archazias_Island/v1.1/Set_07_Archazias_Island_v1.1_preview.png",
+    "path": "sets/Set_07_Archazias_Island/v02/Set_07_Archazias_Island_v02_preview.png",
     "sha256_before": "3c3f05caea864a915edc46ded95ef15a8b9b08ff4f072e129e04592110ca6f44"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Set_08_Reign_of_Jafar_v1.1.3mf",
-    "path": "sets/Set_08_Reign_of_Jafar/v1.1/Set_08_Reign_of_Jafar_v1.1.3mf",
+    "path": "sets/Set_08_Reign_of_Jafar/v02/Set_08_Reign_of_Jafar_v02.3mf",
     "sha256_before": "1eb7d80ce58579b57e2b5778a9e6e0c6006bda71cbba9ff8ecc35fefc81a62d0"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Set_08_Reign_of_Jafar_v1.1_preview.png",
-    "path": "sets/Set_08_Reign_of_Jafar/v1.1/Set_08_Reign_of_Jafar_v1.1_preview.png",
+    "path": "sets/Set_08_Reign_of_Jafar/v02/Set_08_Reign_of_Jafar_v02_preview.png",
     "sha256_before": "e0de9f77ba25772075bd61e556a6abccf3b20a5597711852f9ca2c18856483c3"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Set_09_Fabled_v1.1.3mf",
-    "path": "sets/Set_09_Fabled/v1.1/Set_09_Fabled_v1.1.3mf",
+    "path": "sets/Set_09_Fabled/v02/Set_09_Fabled_v02.3mf",
     "sha256_before": "3608ad4d8efbc781e41883735edcb3670b012c7ddb1930ce54fc41facd004a3c"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Set_09_Fabled_v1.1_preview.png",
-    "path": "sets/Set_09_Fabled/v1.1/Set_09_Fabled_v1.1_preview.png",
+    "path": "sets/Set_09_Fabled/v02/Set_09_Fabled_v02_preview.png",
     "sha256_before": "44f9f5a254e62a3bbb11dbb0f39aaa4e6ee8eecf658ba16a7b7edc7649cd5a78"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Set_10_Whispers_in_the_Well_v1.1.3mf",
-    "path": "sets/Set_10_Whispers_in_the_Well/v1.1/Set_10_Whispers_in_the_Well_v1.1.3mf",
+    "path": "sets/Set_10_Whispers_in_the_Well/v02/Set_10_Whispers_in_the_Well_v02.3mf",
     "sha256_before": "846f18d6bd4e8debeb7f865e868603c24dfd686e2072a9b24d0172b5cc9856b9"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Set_10_Whispers_in_the_Well_v1.1_preview.png",
-    "path": "sets/Set_10_Whispers_in_the_Well/v1.1/Set_10_Whispers_in_the_Well_v1.1_preview.png",
+    "path": "sets/Set_10_Whispers_in_the_Well/v02/Set_10_Whispers_in_the_Well_v02_preview.png",
     "sha256_before": "df2b6477d89745c8875b2671d74e467b7ee9ddb991508a6c38ddda2224393598"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Set_11_Winterspell_v1.1.3mf",
-    "path": "sets/Set_11_Winterspell/v1.1/Set_11_Winterspell_v1.1.3mf",
+    "path": "sets/Set_11_Winterspell/v02/Set_11_Winterspell_v02.3mf",
     "sha256_before": "53c734b038deb134a283d669e7e5b3205732675ce2ce01c955e7fb6e6faf1efb"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Set_11_Winterspell_v1.1_preview.png",
-    "path": "sets/Set_11_Winterspell/v1.1/Set_11_Winterspell_v1.1_preview.png",
+    "path": "sets/Set_11_Winterspell/v02/Set_11_Winterspell_v02_preview.png",
     "sha256_before": "401e50753cb92fcd846eab534b1ee0ffe224a6ec82bd7ef5cea9eac617fe0850"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Set_12_Wilds_Unknown_v1.1.3mf",
-    "path": "sets/Set_12_Wilds_Unknown/v1.1/Set_12_Wilds_Unknown_v1.1.3mf",
+    "path": "sets/Set_12_Wilds_Unknown/v02/Set_12_Wilds_Unknown_v02.3mf",
     "sha256_before": "cf26dfc620c3be1746951debb903e5c794e8820be125c7afa5ad72f1306b0f76"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Set_12_Wilds_Unknown_v1.1_preview.png",
-    "path": "sets/Set_12_Wilds_Unknown/v1.1/Set_12_Wilds_Unknown_v1.1_preview.png",
+    "path": "sets/Set_12_Wilds_Unknown/v02/Set_12_Wilds_Unknown_v02_preview.png",
     "sha256_before": "4b946c49ade0718edb3f72c153e9089f77a2a33aa85e52b39341ce7f5f205985"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Set_13_Attack_of_the_Vine_v1.1.3mf",
-    "path": "sets/Set_13_Attack_of_the_Vine/v1.1/Set_13_Attack_of_the_Vine_v1.1.3mf",
+    "path": "sets/Set_13_Attack_of_the_Vine/v02/Set_13_Attack_of_the_Vine_v02.3mf",
     "sha256_before": "29aa7d836b3de5569adbdf5da0052fb41405bd73c3b7b34fe5f41d4807d1f6b4"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Set_13_Attack_of_the_Vine_v1.1_preview.png",
-    "path": "sets/Set_13_Attack_of_the_Vine/v1.1/Set_13_Attack_of_the_Vine_v1.1_preview.png",
+    "path": "sets/Set_13_Attack_of_the_Vine/v02/Set_13_Attack_of_the_Vine_v02_preview.png",
     "sha256_before": "66c299820d24c1c35cbf18274c96e2166b6a92c725d9f88ea7b20b2f1afc3a3e"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Set_14_Hyperia_City_v1.1.3mf",
-    "path": "sets/Set_14_Hyperia_City/v1.1/Set_14_Hyperia_City_v1.1.3mf",
+    "path": "sets/Set_14_Hyperia_City/v02/Set_14_Hyperia_City_v02.3mf",
     "sha256_before": "741eb0402d56a665dc2ca81655d12ed7127302dc63b9bc8b48cfd346b3698714"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Set_14_Hyperia_City_v1.1_preview.png",
-    "path": "sets/Set_14_Hyperia_City/v1.1/Set_14_Hyperia_City_v1.1_preview.png",
+    "path": "sets/Set_14_Hyperia_City/v02/Set_14_Hyperia_City_v02_preview.png",
     "sha256_before": "f36b0b9114b0690cf556f6edf30020f5a9259e8d3edeafb40957a27d5b8d7356"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Sources/bambu_projects.py",
-    "path": "collection/v1.1/Sources/bambu_projects.py",
+    "path": "collection/v02/Sources/bambu_projects.py",
     "sha256_before": "5cf08b95b1a16c33ef2ff8dea94f0f5da7ad2118142bc272b5792abd39186df8"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Sources/build_collection.py",
-    "path": "collection/v1.1/Sources/build_collection.py",
+    "path": "collection/v02/Sources/build_collection.py",
     "sha256_before": "04495ca8fd3cab8b6bf8180e994c9242d431413aa03d9955b3d936f4cf768f9d"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Sources/build_v1_1.py",
-    "path": "collection/v1.1/Sources/build_v1_1.py",
+    "path": "collection/v02/Sources/build_v1_1.py",
     "sha256_before": "0eeb4fd68b79266e3d7b3bdf5a7ca685e3c414db15a99e04c9729e01b5899d39"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Sources/native_export.py",
-    "path": "collection/v1.1/Sources/native_export.py",
+    "path": "collection/v02/Sources/native_export.py",
     "sha256_before": "17f86db050613a079d58e9ab05a65ccb365e6acc83258ae5bfdee7c34e1b31cd"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.1/Validation_v1.1.json",
-    "path": "collection/v1.1/Validation_v1.1.json",
+    "path": "collection/v02/Validation_v02.json",
     "sha256_before": "513e3f62676258565e42361759ebd8e94bcfdce29932521752a7852c8a2e9282"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/README.md",
-    "path": "collection/v1.2/README.md",
+    "path": "collection/v03/README.md",
     "sha256_before": "4f6bcad6767ca77446a40ec77d137ffb594588d5bdb60e33588bfe1dae66518c"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/Repair_details.json",
-    "path": "collection/v1.2/Repair_details.json",
+    "path": "collection/v03/Repair_details.json",
     "sha256_before": "dd89bcde76aaca6047acc593ea0df9cf3629082a0cfffee9503ff476625971e6"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_01_The_First_Chapter_v1.2/01_Purple.stl",
-    "path": "sets/Set_01_The_First_Chapter/v1.2/STL_fallback/Set_01_The_First_Chapter_v1.2/01_Purple.stl",
+    "path": "sets/Set_01_The_First_Chapter/v03/STL_fallback/Set_01_The_First_Chapter_v03/01_Purple.stl",
     "sha256_before": "e1ee033aa18a0262f40cc386bc3b4e4a844243ad121e11f6a8233dfbf5e5ce0e"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_01_The_First_Chapter_v1.2/02_Ivory_White.stl",
-    "path": "sets/Set_01_The_First_Chapter/v1.2/STL_fallback/Set_01_The_First_Chapter_v1.2/02_Ivory_White.stl",
+    "path": "sets/Set_01_The_First_Chapter/v03/STL_fallback/Set_01_The_First_Chapter_v03/02_Ivory_White.stl",
     "sha256_before": "214469d52a5170c40f145ca39aa9e1b436adbef842a0ee94a1473cfbfd72d292"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_02_Rise_of_the_Floodborn_v1.2/01_Marine_Blue.stl",
-    "path": "sets/Set_02_Rise_of_the_Floodborn/v1.2/STL_fallback/Set_02_Rise_of_the_Floodborn_v1.2/01_Marine_Blue.stl",
+    "path": "sets/Set_02_Rise_of_the_Floodborn/v03/STL_fallback/Set_02_Rise_of_the_Floodborn_v03/01_Marine_Blue.stl",
     "sha256_before": "f89390dd74e3252cfda949dc148cf71f48e045772a295f33f01c7018c3d55529"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_02_Rise_of_the_Floodborn_v1.2/02_Ice_Blue.stl",
-    "path": "sets/Set_02_Rise_of_the_Floodborn/v1.2/STL_fallback/Set_02_Rise_of_the_Floodborn_v1.2/02_Ice_Blue.stl",
+    "path": "sets/Set_02_Rise_of_the_Floodborn/v03/STL_fallback/Set_02_Rise_of_the_Floodborn_v03/02_Ice_Blue.stl",
     "sha256_before": "67a6d9930a4df6efb79a28ba2f5154343f4410646359d44856c1f5b87b2e1033"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_02_Rise_of_the_Floodborn_v1.2/03_Ivory_White.stl",
-    "path": "sets/Set_02_Rise_of_the_Floodborn/v1.2/STL_fallback/Set_02_Rise_of_the_Floodborn_v1.2/03_Ivory_White.stl",
+    "path": "sets/Set_02_Rise_of_the_Floodborn/v03/STL_fallback/Set_02_Rise_of_the_Floodborn_v03/03_Ivory_White.stl",
     "sha256_before": "69ed695680048b718a3ec5a28dffdbecb26cc91bd01dfdd5269185d63dabf676"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_03_Into_the_Inklands_v1.2/01_Cocoa_Brown.stl",
-    "path": "sets/Set_03_Into_the_Inklands/v1.2/STL_fallback/Set_03_Into_the_Inklands_v1.2/01_Cocoa_Brown.stl",
+    "path": "sets/Set_03_Into_the_Inklands/v03_printed/STL_fallback/Set_03_Into_the_Inklands_v03/01_Cocoa_Brown.stl",
     "sha256_before": "8dc997a666d342c08d453fd915fd01a95cbe9935715dca6d2d2aad8b1a278871"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_03_Into_the_Inklands_v1.2/02_Ice_Blue.stl",
-    "path": "sets/Set_03_Into_the_Inklands/v1.2/STL_fallback/Set_03_Into_the_Inklands_v1.2/02_Ice_Blue.stl",
+    "path": "sets/Set_03_Into_the_Inklands/v03_printed/STL_fallback/Set_03_Into_the_Inklands_v03/02_Ice_Blue.stl",
     "sha256_before": "079c273ef36b9ba6850e00587de0a198a83495572e4cafa5e57e9bec66584b33"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_03_Into_the_Inklands_v1.2/03_Sunflower_Yellow.stl",
-    "path": "sets/Set_03_Into_the_Inklands/v1.2/STL_fallback/Set_03_Into_the_Inklands_v1.2/03_Sunflower_Yellow.stl",
+    "path": "sets/Set_03_Into_the_Inklands/v03_printed/STL_fallback/Set_03_Into_the_Inklands_v03/03_Sunflower_Yellow.stl",
     "sha256_before": "f898f563b2445ea5e03cd64fd8eca0fae44de1dce7949d2e308a0c9ad2434e3d"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_04_Ursulas_Return_v1.2/01_Purple.stl",
-    "path": "sets/Set_04_Ursulas_Return/v1.2/STL_fallback/Set_04_Ursulas_Return_v1.2/01_Purple.stl",
+    "path": "sets/Set_04_Ursulas_Return/v03/STL_fallback/Set_04_Ursulas_Return_v03/01_Purple.stl",
     "sha256_before": "7ead1312f5fc9dd468588c482b7e99b79e85be4ca6ae16ba6271b2df35a2f662"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_04_Ursulas_Return_v1.2/02_Sunflower_Yellow.stl",
-    "path": "sets/Set_04_Ursulas_Return/v1.2/STL_fallback/Set_04_Ursulas_Return_v1.2/02_Sunflower_Yellow.stl",
+    "path": "sets/Set_04_Ursulas_Return/v03/STL_fallback/Set_04_Ursulas_Return_v03/02_Sunflower_Yellow.stl",
     "sha256_before": "3893a5dd7116e316f6305beedcd3a7e1c6fba0d35fae8da30a90a49162b037e9"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_04_Ursulas_Return_v1.2/03_Ice_Blue.stl",
-    "path": "sets/Set_04_Ursulas_Return/v1.2/STL_fallback/Set_04_Ursulas_Return_v1.2/03_Ice_Blue.stl",
+    "path": "sets/Set_04_Ursulas_Return/v03/STL_fallback/Set_04_Ursulas_Return_v03/03_Ice_Blue.stl",
     "sha256_before": "a62a0b06d590cc466e99ab4f7efced60cbc55bead5b9860a2bb1a41a506d4a18"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_05_Shimmering_Skies_v1.2/01_Purple.stl",
-    "path": "sets/Set_05_Shimmering_Skies/v1.2/STL_fallback/Set_05_Shimmering_Skies_v1.2/01_Purple.stl",
+    "path": "sets/Set_05_Shimmering_Skies/v03/STL_fallback/Set_05_Shimmering_Skies_v03/01_Purple.stl",
     "sha256_before": "647b427d5cf167c3b8fc41fa83835cdc1cf707796ce66fd4c2a644e77ea22e09"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_05_Shimmering_Skies_v1.2/02_Red.stl",
-    "path": "sets/Set_05_Shimmering_Skies/v1.2/STL_fallback/Set_05_Shimmering_Skies_v1.2/02_Red.stl",
+    "path": "sets/Set_05_Shimmering_Skies/v03/STL_fallback/Set_05_Shimmering_Skies_v03/02_Red.stl",
     "sha256_before": "035bbb1c90d02980a82b07d3d68b1e6d53f186bbb0b284b48e54611d1988b5f5"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_05_Shimmering_Skies_v1.2/03_Ivory_White.stl",
-    "path": "sets/Set_05_Shimmering_Skies/v1.2/STL_fallback/Set_05_Shimmering_Skies_v1.2/03_Ivory_White.stl",
+    "path": "sets/Set_05_Shimmering_Skies/v03/STL_fallback/Set_05_Shimmering_Skies_v03/03_Ivory_White.stl",
     "sha256_before": "35c1a9a754c48f865f393d1d19cbe778bdf31e42c0f9bd61d92dab9c6f0b82f8"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_06_Azurite_Sea_v1.2/01_Marine_Blue.stl",
-    "path": "sets/Set_06_Azurite_Sea/v1.2/STL_fallback/Set_06_Azurite_Sea_v1.2/01_Marine_Blue.stl",
+    "path": "sets/Set_06_Azurite_Sea/v03/STL_fallback/Set_06_Azurite_Sea_v03/01_Marine_Blue.stl",
     "sha256_before": "43c777adfb2486775c9de25685bab68e27307e3c7e469cebefb1bc4b701c6e14"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_06_Azurite_Sea_v1.2/02_Ice_Blue.stl",
-    "path": "sets/Set_06_Azurite_Sea/v1.2/STL_fallback/Set_06_Azurite_Sea_v1.2/02_Ice_Blue.stl",
+    "path": "sets/Set_06_Azurite_Sea/v03/STL_fallback/Set_06_Azurite_Sea_v03/02_Ice_Blue.stl",
     "sha256_before": "1e3723e935a90453efefa4fad499934a14a8a03d64bc71caf44f4b13cc9df0e7"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_06_Azurite_Sea_v1.2/03_Sunflower_Yellow.stl",
-    "path": "sets/Set_06_Azurite_Sea/v1.2/STL_fallback/Set_06_Azurite_Sea_v1.2/03_Sunflower_Yellow.stl",
+    "path": "sets/Set_06_Azurite_Sea/v03/STL_fallback/Set_06_Azurite_Sea_v03/03_Sunflower_Yellow.stl",
     "sha256_before": "d40b39abe1cb1022221f2ea2a5f53257d4bda7c0be31da5c0f56b6033c744d04"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_07_Archazias_Island_v1.2/01_Dark_Green.stl",
-    "path": "sets/Set_07_Archazias_Island/v1.2/STL_fallback/Set_07_Archazias_Island_v1.2/01_Dark_Green.stl",
+    "path": "sets/Set_07_Archazias_Island/v03/STL_fallback/Set_07_Archazias_Island_v03/01_Dark_Green.stl",
     "sha256_before": "9bfa4273466446fbd5f6f3739f60cfea81bc025404615e28ec10a682c7d3900b"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_07_Archazias_Island_v1.2/02_Caramel.stl",
-    "path": "sets/Set_07_Archazias_Island/v1.2/STL_fallback/Set_07_Archazias_Island_v1.2/02_Caramel.stl",
+    "path": "sets/Set_07_Archazias_Island/v03/STL_fallback/Set_07_Archazias_Island_v03/02_Caramel.stl",
     "sha256_before": "d0277cb34025ed9ccf02058f7b50ce2d87ca08b218469578089f469ddccfc25e"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_07_Archazias_Island_v1.2/03_Ivory_White.stl",
-    "path": "sets/Set_07_Archazias_Island/v1.2/STL_fallback/Set_07_Archazias_Island_v1.2/03_Ivory_White.stl",
+    "path": "sets/Set_07_Archazias_Island/v03/STL_fallback/Set_07_Archazias_Island_v03/03_Ivory_White.stl",
     "sha256_before": "2e5cf5b362ff878a1d639d2d1427c2405ec4aa643c2a281458ab043392ccad0a"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_08_Reign_of_Jafar_v1.2/01_Charcoal.stl",
-    "path": "sets/Set_08_Reign_of_Jafar/v1.2/STL_fallback/Set_08_Reign_of_Jafar_v1.2/01_Charcoal.stl",
+    "path": "sets/Set_08_Reign_of_Jafar/v03/STL_fallback/Set_08_Reign_of_Jafar_v03/01_Charcoal.stl",
     "sha256_before": "7bcf7c00f6af4af93247ed1b9f1176f13b5febc0702c1d2910de18776084075a"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_08_Reign_of_Jafar_v1.2/02_Pumpkin_Orange.stl",
-    "path": "sets/Set_08_Reign_of_Jafar/v1.2/STL_fallback/Set_08_Reign_of_Jafar_v1.2/02_Pumpkin_Orange.stl",
+    "path": "sets/Set_08_Reign_of_Jafar/v03/STL_fallback/Set_08_Reign_of_Jafar_v03/02_Pumpkin_Orange.stl",
     "sha256_before": "a8e2fea14cf2dfa465d3b59eac2557a5546785a73b4aba229057e7128dd6ef96"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_08_Reign_of_Jafar_v1.2/03_Sunflower_Yellow.stl",
-    "path": "sets/Set_08_Reign_of_Jafar/v1.2/STL_fallback/Set_08_Reign_of_Jafar_v1.2/03_Sunflower_Yellow.stl",
+    "path": "sets/Set_08_Reign_of_Jafar/v03/STL_fallback/Set_08_Reign_of_Jafar_v03/03_Sunflower_Yellow.stl",
     "sha256_before": "271c5e895e9092e070616f3f2e25668182c7f0d100dbcd9f960ed00261505e5e"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_08_Reign_of_Jafar_v1.2/04_Red.stl",
-    "path": "sets/Set_08_Reign_of_Jafar/v1.2/STL_fallback/Set_08_Reign_of_Jafar_v1.2/04_Red.stl",
+    "path": "sets/Set_08_Reign_of_Jafar/v03/STL_fallback/Set_08_Reign_of_Jafar_v03/04_Red.stl",
     "sha256_before": "bfcc6a76e445c2ed3f98687d4d5f604e661e4c7b503ca8b8b737bad07c45c597"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_09_Fabled_v1.2/01_Marine_Blue.stl",
-    "path": "sets/Set_09_Fabled/v1.2/STL_fallback/Set_09_Fabled_v1.2/01_Marine_Blue.stl",
+    "path": "sets/Set_09_Fabled/v03/STL_fallback/Set_09_Fabled_v03/01_Marine_Blue.stl",
     "sha256_before": "feb19ebe9b4579838083ea77148993ffcfcae92c8cd229114e1dd16e77ac3e90"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_09_Fabled_v1.2/02_Sunflower_Yellow.stl",
-    "path": "sets/Set_09_Fabled/v1.2/STL_fallback/Set_09_Fabled_v1.2/02_Sunflower_Yellow.stl",
+    "path": "sets/Set_09_Fabled/v03/STL_fallback/Set_09_Fabled_v03/02_Sunflower_Yellow.stl",
     "sha256_before": "9a6ea92c17c1080483868b17204f4053003cb2ea360e6a536ff3edf5d0dfc7a4"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_09_Fabled_v1.2/03_Purple.stl",
-    "path": "sets/Set_09_Fabled/v1.2/STL_fallback/Set_09_Fabled_v1.2/03_Purple.stl",
+    "path": "sets/Set_09_Fabled/v03/STL_fallback/Set_09_Fabled_v03/03_Purple.stl",
     "sha256_before": "172bc9a414d60587d30f9451edea902c4220f13dc64a35632c43f073259057c0"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_10_Whispers_in_the_Well_v1.2/01_Charcoal.stl",
-    "path": "sets/Set_10_Whispers_in_the_Well/v1.2/STL_fallback/Set_10_Whispers_in_the_Well_v1.2/01_Charcoal.stl",
+    "path": "sets/Set_10_Whispers_in_the_Well/v03/STL_fallback/Set_10_Whispers_in_the_Well_v03/01_Charcoal.stl",
     "sha256_before": "88c76dab4d90468950de9f966f4efa09df0c865810962e1cee053a527dad005a"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_10_Whispers_in_the_Well_v1.2/02_Ash_Gray.stl",
-    "path": "sets/Set_10_Whispers_in_the_Well/v1.2/STL_fallback/Set_10_Whispers_in_the_Well_v1.2/02_Ash_Gray.stl",
+    "path": "sets/Set_10_Whispers_in_the_Well/v03/STL_fallback/Set_10_Whispers_in_the_Well_v03/02_Ash_Gray.stl",
     "sha256_before": "b7a80d833440234dc7babd53a99eb926ed944b3cf9aaa2a48f2179886f5ccf39"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_10_Whispers_in_the_Well_v1.2/03_Sunflower_Yellow.stl",
-    "path": "sets/Set_10_Whispers_in_the_Well/v1.2/STL_fallback/Set_10_Whispers_in_the_Well_v1.2/03_Sunflower_Yellow.stl",
+    "path": "sets/Set_10_Whispers_in_the_Well/v03/STL_fallback/Set_10_Whispers_in_the_Well_v03/03_Sunflower_Yellow.stl",
     "sha256_before": "c2669bcb91fe31956aea829c84f26810cd61f8ef221b370b8aea2854aebcdf98"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_11_Winterspell_v1.2/01_Marine_Blue.stl",
-    "path": "sets/Set_11_Winterspell/v1.2/STL_fallback/Set_11_Winterspell_v1.2/01_Marine_Blue.stl",
+    "path": "sets/Set_11_Winterspell/v03/STL_fallback/Set_11_Winterspell_v03/01_Marine_Blue.stl",
     "sha256_before": "8e40c6d07046c4ea729215c4499f8d760e199812b1acbe83e665ca81e24cfb03"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_11_Winterspell_v1.2/02_Ice_Blue.stl",
-    "path": "sets/Set_11_Winterspell/v1.2/STL_fallback/Set_11_Winterspell_v1.2/02_Ice_Blue.stl",
+    "path": "sets/Set_11_Winterspell/v03/STL_fallback/Set_11_Winterspell_v03/02_Ice_Blue.stl",
     "sha256_before": "1c1cc7eb0bf32308d4a0a033db3898c85e5dbc3d4209a3c3d383772e0b619450"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_11_Winterspell_v1.2/03_Ivory_White.stl",
-    "path": "sets/Set_11_Winterspell/v1.2/STL_fallback/Set_11_Winterspell_v1.2/03_Ivory_White.stl",
+    "path": "sets/Set_11_Winterspell/v03/STL_fallback/Set_11_Winterspell_v03/03_Ivory_White.stl",
     "sha256_before": "a9044d05d824a8b64b5a94e17ea57870b05624da5416cf13fdf2209310ab3ee9"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_12_Wilds_Unknown_v1.2/01_Cocoa_Brown.stl",
-    "path": "sets/Set_12_Wilds_Unknown/v1.2/STL_fallback/Set_12_Wilds_Unknown_v1.2/01_Cocoa_Brown.stl",
+    "path": "sets/Set_12_Wilds_Unknown/v03/STL_fallback/Set_12_Wilds_Unknown_v03/01_Cocoa_Brown.stl",
     "sha256_before": "043636766aa849aa906ab744491b352c66b7f25571c952f031dc223cb676cd9a"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_12_Wilds_Unknown_v1.2/02_Dark_Green.stl",
-    "path": "sets/Set_12_Wilds_Unknown/v1.2/STL_fallback/Set_12_Wilds_Unknown_v1.2/02_Dark_Green.stl",
+    "path": "sets/Set_12_Wilds_Unknown/v03/STL_fallback/Set_12_Wilds_Unknown_v03/02_Dark_Green.stl",
     "sha256_before": "5dcd41c0b772bb6575347b8dd02c77ecccc3b842717cac0d661104a64c0a5179"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_12_Wilds_Unknown_v1.2/03_Ivory_White.stl",
-    "path": "sets/Set_12_Wilds_Unknown/v1.2/STL_fallback/Set_12_Wilds_Unknown_v1.2/03_Ivory_White.stl",
+    "path": "sets/Set_12_Wilds_Unknown/v03/STL_fallback/Set_12_Wilds_Unknown_v03/03_Ivory_White.stl",
     "sha256_before": "7fcb17d1a3b40eda38602aafc67db184bae9f638bca0c017f4d87df8b7170b6a"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_13_Attack_of_the_Vine_v1.2/01_Purple.stl",
-    "path": "sets/Set_13_Attack_of_the_Vine/v1.2/STL_fallback/Set_13_Attack_of_the_Vine_v1.2/01_Purple.stl",
+    "path": "sets/Set_13_Attack_of_the_Vine/v03/STL_fallback/Set_13_Attack_of_the_Vine_v03/01_Purple.stl",
     "sha256_before": "cce4935d85993a39f5d288e4abf8ab50072ac383e64aa3317a4a81df2c08435a"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_13_Attack_of_the_Vine_v1.2/02_Mistletoe_Green.stl",
-    "path": "sets/Set_13_Attack_of_the_Vine/v1.2/STL_fallback/Set_13_Attack_of_the_Vine_v1.2/02_Mistletoe_Green.stl",
+    "path": "sets/Set_13_Attack_of_the_Vine/v03/STL_fallback/Set_13_Attack_of_the_Vine_v03/02_Mistletoe_Green.stl",
     "sha256_before": "876b650216c2d35147de8177a8c500388b571fd36324bb94ef7da14780f80496"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_13_Attack_of_the_Vine_v1.2/03_Sunflower_Yellow.stl",
-    "path": "sets/Set_13_Attack_of_the_Vine/v1.2/STL_fallback/Set_13_Attack_of_the_Vine_v1.2/03_Sunflower_Yellow.stl",
+    "path": "sets/Set_13_Attack_of_the_Vine/v03/STL_fallback/Set_13_Attack_of_the_Vine_v03/03_Sunflower_Yellow.stl",
     "sha256_before": "32ea881fc259032f593a88b98d4ba1344a2e9958e0819e0c1b83b1d45f487a7a"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_14_Hyperia_City_v1.2/01_Cocoa_Brown.stl",
-    "path": "sets/Set_14_Hyperia_City/v1.2/STL_fallback/Set_14_Hyperia_City_v1.2/01_Cocoa_Brown.stl",
+    "path": "sets/Set_14_Hyperia_City/v03/STL_fallback/Set_14_Hyperia_City_v03/01_Cocoa_Brown.stl",
     "sha256_before": "3047e8cb93b4fbe6e0184f6595aff8fdd8c9991017669cc7e19194b8b797b040"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_14_Hyperia_City_v1.2/02_Caramel.stl",
-    "path": "sets/Set_14_Hyperia_City/v1.2/STL_fallback/Set_14_Hyperia_City_v1.2/02_Caramel.stl",
+    "path": "sets/Set_14_Hyperia_City/v03/STL_fallback/Set_14_Hyperia_City_v03/02_Caramel.stl",
     "sha256_before": "b3691a9f889aac7331b56f2e0ef3add9a753632621b0d6317e25bc79f34059ca"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/STL_fallback/Set_14_Hyperia_City_v1.2/03_Ivory_White.stl",
-    "path": "sets/Set_14_Hyperia_City/v1.2/STL_fallback/Set_14_Hyperia_City_v1.2/03_Ivory_White.stl",
+    "path": "sets/Set_14_Hyperia_City/v03/STL_fallback/Set_14_Hyperia_City_v03/03_Ivory_White.stl",
     "sha256_before": "d8b95d4f5ccb0accdd9a41f787990d27c91766a292b8d455e8d39af4388dea0f"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/Set_01_The_First_Chapter_v1.2.3mf",
-    "path": "sets/Set_01_The_First_Chapter/v1.2/Set_01_The_First_Chapter_v1.2.3mf",
+    "path": "sets/Set_01_The_First_Chapter/v03/Set_01_The_First_Chapter_v03.3mf",
     "sha256_before": "3a7c32d158597de20088a073ec45d93962ccd4f552cd51d53fe1539c1bdb056c"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/Set_02_Rise_of_the_Floodborn_v1.2.3mf",
-    "path": "sets/Set_02_Rise_of_the_Floodborn/v1.2/Set_02_Rise_of_the_Floodborn_v1.2.3mf",
+    "path": "sets/Set_02_Rise_of_the_Floodborn/v03/Set_02_Rise_of_the_Floodborn_v03.3mf",
     "sha256_before": "7a2e5b743ef8bf297aec0ac30ad3c7ab752ed6778c18911e26c03202a7c8f1d3"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/Set_03_Into_the_Inklands_v1.2_printed.3mf",
-    "path": "sets/Set_03_Into_the_Inklands/v1.2/Set_03_Into_the_Inklands_v1.2_printed.3mf",
+    "path": "sets/Set_03_Into_the_Inklands/v03_printed/Set_03_Into_the_Inklands_v03_printed.3mf",
     "sha256_before": "f2b1d00479620bd9ddd9eac3d71be97427b1b5d8c4ef988fc0c56768a71d00ff"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/Set_04_Ursulas_Return_v1.2.3mf",
-    "path": "sets/Set_04_Ursulas_Return/v1.2/Set_04_Ursulas_Return_v1.2.3mf",
+    "path": "sets/Set_04_Ursulas_Return/v03/Set_04_Ursulas_Return_v03.3mf",
     "sha256_before": "85bf1d7ebdb156ba461de1adbc6fe258feaeb911e8c58cb8384306b97b7b3e0d"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/Set_05_Shimmering_Skies_v1.2.3mf",
-    "path": "sets/Set_05_Shimmering_Skies/v1.2/Set_05_Shimmering_Skies_v1.2.3mf",
+    "path": "sets/Set_05_Shimmering_Skies/v03/Set_05_Shimmering_Skies_v03.3mf",
     "sha256_before": "47d707a2ad98c73eaf7330d101bd01066102630086276f1de7134091d43770e3"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/Set_06_Azurite_Sea_v1.2.3mf",
-    "path": "sets/Set_06_Azurite_Sea/v1.2/Set_06_Azurite_Sea_v1.2.3mf",
+    "path": "sets/Set_06_Azurite_Sea/v03/Set_06_Azurite_Sea_v03.3mf",
     "sha256_before": "c1f13af902c90b4b3c4e9fb6bf054ebced56f9cdae839c4817df571dec7438b4"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/Set_07_Archazias_Island_v1.2.3mf",
-    "path": "sets/Set_07_Archazias_Island/v1.2/Set_07_Archazias_Island_v1.2.3mf",
+    "path": "sets/Set_07_Archazias_Island/v03/Set_07_Archazias_Island_v03.3mf",
     "sha256_before": "14447dd899601f5fdc489bb0f354325fac37ba2bde70abf345354144873a507f"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/Set_08_Reign_of_Jafar_v1.2.3mf",
-    "path": "sets/Set_08_Reign_of_Jafar/v1.2/Set_08_Reign_of_Jafar_v1.2.3mf",
+    "path": "sets/Set_08_Reign_of_Jafar/v03/Set_08_Reign_of_Jafar_v03.3mf",
     "sha256_before": "75cf23b0f8c015138385aa6a1d8ddc88c1891ae4c9d8a553ff85c14bc7e21b91"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/Set_09_Fabled_v1.2.3mf",
-    "path": "sets/Set_09_Fabled/v1.2/Set_09_Fabled_v1.2.3mf",
+    "path": "sets/Set_09_Fabled/v03/Set_09_Fabled_v03.3mf",
     "sha256_before": "b76b22b1f4094a1e3b273b1a09721cf54e1ca75c1397ef4e638efefd1ab7b00d"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/Set_10_Whispers_in_the_Well_v1.2.3mf",
-    "path": "sets/Set_10_Whispers_in_the_Well/v1.2/Set_10_Whispers_in_the_Well_v1.2.3mf",
+    "path": "sets/Set_10_Whispers_in_the_Well/v03/Set_10_Whispers_in_the_Well_v03.3mf",
     "sha256_before": "4ea89d020bf06436a950b7b8749b9c676fdcc79a8a0975f7b0b24169c57798d3"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/Set_11_Winterspell_v1.2.3mf",
-    "path": "sets/Set_11_Winterspell/v1.2/Set_11_Winterspell_v1.2.3mf",
+    "path": "sets/Set_11_Winterspell/v03/Set_11_Winterspell_v03.3mf",
     "sha256_before": "2e0134c8c6bd334913c086dbd0d3accd2cf1ef01cdb208c888bff38b37ebe0bf"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/Set_12_Wilds_Unknown_v1.2.3mf",
-    "path": "sets/Set_12_Wilds_Unknown/v1.2/Set_12_Wilds_Unknown_v1.2.3mf",
+    "path": "sets/Set_12_Wilds_Unknown/v03/Set_12_Wilds_Unknown_v03.3mf",
     "sha256_before": "a10da7da80c018fb6895b691c37e393aa20b4240a18c1368bf6eaba262526922"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/Set_13_Attack_of_the_Vine_v1.2.3mf",
-    "path": "sets/Set_13_Attack_of_the_Vine/v1.2/Set_13_Attack_of_the_Vine_v1.2.3mf",
+    "path": "sets/Set_13_Attack_of_the_Vine/v03/Set_13_Attack_of_the_Vine_v03.3mf",
     "sha256_before": "1a0b1ebc603847b0de800532308886c74ed2fb49eef98a4ab80abc4dd9b76528"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/Set_14_Hyperia_City_v1.2.3mf",
-    "path": "sets/Set_14_Hyperia_City/v1.2/Set_14_Hyperia_City_v1.2.3mf",
+    "path": "sets/Set_14_Hyperia_City/v03/Set_14_Hyperia_City_v03.3mf",
     "sha256_before": "500d9df4a5b493fc619acbbdb053dc744fd395026505e9427027f3c751cefeae"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2/Validation_v1.2.json",
-    "path": "collection/v1.2/Validation_v1.2.json",
+    "path": "collection/v03/Validation_v03.json",
     "sha256_before": "e7d9b57305cab15b518845dd11463956bf91727790e54bc2b0d3ccfeb498a40a"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.2.zip",
-    "path": "archives/Lorcana_Binder_Keychains_v1.2.zip",
+    "path": "archives/Lorcana_Binder_Keychains_v03.zip",
     "sha256_before": "b1a2d293d4498f0a650b36de3d0754f4314f9dbbd8b71d88fdc8c7b9e442eb71"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.3/Geometry_v1.3.json",
-    "path": "sets/Set_04_Ursulas_Return/v1.3/Geometry_v1.3.json",
+    "path": "sets/Set_04_Ursulas_Return/v04/Geometry_v04.json",
     "sha256_before": "49f7b5df90150f8464465bf2164047210cdb0bfe09c1e804dd18850720b4986d"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.3/README.md",
-    "path": "sets/Set_04_Ursulas_Return/v1.3/README.md",
+    "path": "sets/Set_04_Ursulas_Return/v04/README.md",
     "sha256_before": "2bcf6aa9c19922994b1e53c4dbca7e9d3428c24ac592b4d8e1195d9ba049085f"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.3/STL_fallback/Set_04_Ursulas_Return_v1.3/01_Purple.stl",
-    "path": "sets/Set_04_Ursulas_Return/v1.3/STL_fallback/Set_04_Ursulas_Return_v1.3/01_Purple.stl",
+    "path": "sets/Set_04_Ursulas_Return/v04/STL_fallback/Set_04_Ursulas_Return_v04/01_Purple.stl",
     "sha256_before": "3f528dc5349c3d87a321c78ead4d98b3dfc1b451f81495e93684ae4704df3248"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.3/STL_fallback/Set_04_Ursulas_Return_v1.3/02_Sunflower_Yellow.stl",
-    "path": "sets/Set_04_Ursulas_Return/v1.3/STL_fallback/Set_04_Ursulas_Return_v1.3/02_Sunflower_Yellow.stl",
+    "path": "sets/Set_04_Ursulas_Return/v04/STL_fallback/Set_04_Ursulas_Return_v04/02_Sunflower_Yellow.stl",
     "sha256_before": "5f4e98e4ba4be747d5d4708dc61bb03f1bc587f9ccaba155a79f669379195ee0"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.3/STL_fallback/Set_04_Ursulas_Return_v1.3/03_Ice_Blue.stl",
-    "path": "sets/Set_04_Ursulas_Return/v1.3/STL_fallback/Set_04_Ursulas_Return_v1.3/03_Ice_Blue.stl",
+    "path": "sets/Set_04_Ursulas_Return/v04/STL_fallback/Set_04_Ursulas_Return_v04/03_Ice_Blue.stl",
     "sha256_before": "6c14f29825b27e54dcbed56b4f9567c066a4e4dfd7a8c82ab197ff8ef0d97f34"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.3/Set_04_Ursulas_Return_v1.3.3mf",
-    "path": "sets/Set_04_Ursulas_Return/v1.3/Set_04_Ursulas_Return_v1.3.3mf",
+    "path": "sets/Set_04_Ursulas_Return/v04/Set_04_Ursulas_Return_v04.3mf",
     "sha256_before": "e4d24dbe2593bd0f746a0803f01ca70799cec59a0273ae26fb2afbf02d3a0365"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.3/Set_04_Ursulas_Return_v1.3_preview.png",
-    "path": "sets/Set_04_Ursulas_Return/v1.3/Set_04_Ursulas_Return_v1.3_preview.png",
+    "path": "sets/Set_04_Ursulas_Return/v04/Set_04_Ursulas_Return_v04_preview.png",
     "sha256_before": "5b3b4bfe20abc77bc5563f512d3099546d1ef837ce8d6b53fa3125dddfac98f6"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.3/Set_04_Ursulas_Return_v1.3_sliced_preview.png",
-    "path": "sets/Set_04_Ursulas_Return/v1.3/Set_04_Ursulas_Return_v1.3_sliced_preview.png",
+    "path": "sets/Set_04_Ursulas_Return/v04/Set_04_Ursulas_Return_v04_sliced_preview.png",
     "sha256_before": "9b24a9ef87d7e60217442d440b63cc8b3d328c4bae95c3a2c5b0e492c26377a4"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.3/Validation_v1.3.json",
-    "path": "sets/Set_04_Ursulas_Return/v1.3/Validation_v1.3.json",
+    "path": "sets/Set_04_Ursulas_Return/v04/Validation_v04.json",
     "sha256_before": "f882e3e0a0f8f59ab12d9b43fb4f17544dfef970d4daa5bc1c1e56519dae5735"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.3/footprints.json",
-    "path": "sets/Set_04_Ursulas_Return/v1.3/footprints.json",
+    "path": "sets/Set_04_Ursulas_Return/v04/footprints.json",
     "sha256_before": "737ca656e06c700f13e8258a91b8149cd221c6d8313c42b42015deac34ef1456"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.4/Geometry_v1.4.json",
-    "path": "sets/Set_04_Ursulas_Return/v1.4/Geometry_v1.4.json",
+    "path": "sets/Set_04_Ursulas_Return/v05_printed/Geometry_v05.json",
     "sha256_before": "86ab211a45c5647ecd2ce0c5d9830b1667293376b230d4553faf3f131240d440"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.4/README.md",
-    "path": "sets/Set_04_Ursulas_Return/v1.4/README.md",
+    "path": "sets/Set_04_Ursulas_Return/v05_printed/README.md",
     "sha256_before": "c3720072813ac930d54493cb0e90b96d6e3c6bd4974f080b788b28a7ebe1da3a"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.4/STL_fallback/Set_04_Ursulas_Return_v1.4/01_Purple.stl",
-    "path": "sets/Set_04_Ursulas_Return/v1.4/STL_fallback/Set_04_Ursulas_Return_v1.4/01_Purple.stl",
+    "path": "sets/Set_04_Ursulas_Return/v05_printed/STL_fallback/Set_04_Ursulas_Return_v05/01_Purple.stl",
     "sha256_before": "e415477ac65afe5e317dd5ddd3a9e9a06775befd0e220069311d670ad7738fc7"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.4/STL_fallback/Set_04_Ursulas_Return_v1.4/02_Sunflower_Yellow.stl",
-    "path": "sets/Set_04_Ursulas_Return/v1.4/STL_fallback/Set_04_Ursulas_Return_v1.4/02_Sunflower_Yellow.stl",
+    "path": "sets/Set_04_Ursulas_Return/v05_printed/STL_fallback/Set_04_Ursulas_Return_v05/02_Sunflower_Yellow.stl",
     "sha256_before": "9ba8a12ecf6913db8e8ac68e86ebd995c58ccdcba50de2899a8b705fe2c26f0c"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.4/STL_fallback/Set_04_Ursulas_Return_v1.4/03_Ice_Blue.stl",
-    "path": "sets/Set_04_Ursulas_Return/v1.4/STL_fallback/Set_04_Ursulas_Return_v1.4/03_Ice_Blue.stl",
+    "path": "sets/Set_04_Ursulas_Return/v05_printed/STL_fallback/Set_04_Ursulas_Return_v05/03_Ice_Blue.stl",
     "sha256_before": "55c30b37beb71ea307952c48c87e2bd788bb8fb5d6afc5b029683533f303574c"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.4/Set_04_Ursulas_Return_v1.4.1_printed.3mf",
-    "path": "sets/Set_04_Ursulas_Return/v1.4/Set_04_Ursulas_Return_v1.4.1_printed.3mf",
+    "path": "sets/Set_04_Ursulas_Return/v05_printed/Set_04_Ursulas_Return_v05_printed.3mf",
     "sha256_before": "6824cb195e07f61733010c892d41bafd8ddf5f610065aa63dae8b81116148f48"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.4/Set_04_Ursulas_Return_v1.4_preview.png",
-    "path": "sets/Set_04_Ursulas_Return/v1.4/Set_04_Ursulas_Return_v1.4_preview.png",
+    "path": "sets/Set_04_Ursulas_Return/v05_printed/Set_04_Ursulas_Return_v05_preview.png",
     "sha256_before": "ad3ce0b9b32aae98ffb273f95e59645105809a1eb3aa47161511437d3ccdc374"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.4/Set_04_Ursulas_Return_v1.4_sliced_preview.png",
-    "path": "sets/Set_04_Ursulas_Return/v1.4/Set_04_Ursulas_Return_v1.4_sliced_preview.png",
+    "path": "sets/Set_04_Ursulas_Return/v05_printed/Set_04_Ursulas_Return_v05_sliced_preview.png",
     "sha256_before": "c48a5a755a60a60c161f91365af820f31b9472edc0337811974b8a0b87cde80d"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.4/Validation_v1.4.json",
-    "path": "sets/Set_04_Ursulas_Return/v1.4/Validation_v1.4.json",
+    "path": "sets/Set_04_Ursulas_Return/v05_printed/Validation_v05.json",
     "sha256_before": "edb368ac2f0b2ec1a8a7b8526a3d55209a4fdf30cb842f15ae60649b39d44fc4"
   },
   {
     "previous_path": "Lorcana_Binder_Keychains_v1.4/footprints.json",
-    "path": "sets/Set_04_Ursulas_Return/v1.4/footprints.json",
+    "path": "sets/Set_04_Ursulas_Return/v05_printed/footprints.json",
     "sha256_before": "1a26cea7057a63eaa4525da728cc9b709e6f6e3a5fc70857c13d25edfa9aba55"
   },
   {
@@ -586,137 +586,137 @@
   },
   {
     "previous_path": "originals/Lorcana_Binder_Keychains_v1.0.zip",
-    "path": "archives/Lorcana_Binder_Keychains_v1.0.zip",
+    "path": "archives/Lorcana_Binder_Keychains_v01.zip",
     "sha256_before": "fc6ae223bc2076be2314b1b79c02f058b1aea867b6488c02b502e32ea03ba521"
   },
   {
     "previous_path": "originals/v1.0/File_manifest_v1.0.json",
-    "path": "collection/v1.0/File_manifest_v1.0.json",
+    "path": "collection/v01/File_manifest_v01.json",
     "sha256_before": "b0aaa9ed0e37fef5a0c5baaa968deb4a010d07ae0c064f115a24deb8438ffa93"
   },
   {
     "previous_path": "originals/v1.0/Lorcana_Keychains_v1.0_Preview.png",
-    "path": "collection/v1.0/Lorcana_Keychains_v1.0_Preview.png",
+    "path": "collection/v01/Lorcana_Keychains_v01_Preview.png",
     "sha256_before": "a4e69cb6f14ba045a44e3cb381c061a5db4d3376790eadb47052b0ee6fccbcc2"
   },
   {
     "previous_path": "originals/v1.0/README_Lorcana_Keychains_v1.0.md",
-    "path": "collection/v1.0/README_Lorcana_Keychains_v1.0.md",
+    "path": "collection/v01/README_Lorcana_Keychains_v01.md",
     "sha256_before": "3c9c52f3544d3ef5fe981b757796446d3b5baf94729cd2862720111533f8c6bc"
   },
   {
     "previous_path": "originals/v1.0/Set_03_Into_the_Inklands_v1.0.3mf",
-    "path": "sets/Set_03_Into_the_Inklands/v1.0/Set_03_Into_the_Inklands_v1.0.3mf",
+    "path": "sets/Set_03_Into_the_Inklands/v01/Set_03_Into_the_Inklands_v01.3mf",
     "sha256_before": "74ced867f70450f7ebd82a0b3cae3b6a3f333f3bb0322d9e0ee2b7fb2a146b9d"
   },
   {
     "previous_path": "originals/v1.0/Set_04_Ursulas_Return_v1.0.3mf",
-    "path": "sets/Set_04_Ursulas_Return/v1.0/Set_04_Ursulas_Return_v1.0.3mf",
+    "path": "sets/Set_04_Ursulas_Return/v01/Set_04_Ursulas_Return_v01.3mf",
     "sha256_before": "0752936616a117076d27f1c7f7b03b80678bcb52bc1c197702adf81621b71f75"
   },
   {
     "previous_path": "originals/v1.0/Set_04_Ursulas_Return_v1.0_preview.png",
-    "path": "sets/Set_04_Ursulas_Return/v1.0/Set_04_Ursulas_Return_v1.0_preview.png",
+    "path": "sets/Set_04_Ursulas_Return/v01/Set_04_Ursulas_Return_v01_preview.png",
     "sha256_before": "e03be736d573ac4553dad54b41c29794ce6dc074d15abc670b3d63e860daf340"
   },
   {
     "previous_path": "originals/v1.0/Set_05_Shimmering_Skies_v1.0.3mf",
-    "path": "sets/Set_05_Shimmering_Skies/v1.0/Set_05_Shimmering_Skies_v1.0.3mf",
+    "path": "sets/Set_05_Shimmering_Skies/v01/Set_05_Shimmering_Skies_v01.3mf",
     "sha256_before": "a5a48c642bda7c84f82c3953a0956e6a0d39bc31a895e71e634548d9b344bc1b"
   },
   {
     "previous_path": "originals/v1.0/Set_05_Shimmering_Skies_v1.0_preview.png",
-    "path": "sets/Set_05_Shimmering_Skies/v1.0/Set_05_Shimmering_Skies_v1.0_preview.png",
+    "path": "sets/Set_05_Shimmering_Skies/v01/Set_05_Shimmering_Skies_v01_preview.png",
     "sha256_before": "73a35e9bb9e98f1e770f292a4611a6c6123629b523e5365275c15a3a8ae3ac24"
   },
   {
     "previous_path": "originals/v1.0/Set_06_Azurite_Sea_v1.0.3mf",
-    "path": "sets/Set_06_Azurite_Sea/v1.0/Set_06_Azurite_Sea_v1.0.3mf",
+    "path": "sets/Set_06_Azurite_Sea/v01/Set_06_Azurite_Sea_v01.3mf",
     "sha256_before": "55d0b83e9cd8c9da3597b539f58b26693a0341ca7007a9ae94128d4aad07f7d8"
   },
   {
     "previous_path": "originals/v1.0/Set_06_Azurite_Sea_v1.0_preview.png",
-    "path": "sets/Set_06_Azurite_Sea/v1.0/Set_06_Azurite_Sea_v1.0_preview.png",
+    "path": "sets/Set_06_Azurite_Sea/v01/Set_06_Azurite_Sea_v01_preview.png",
     "sha256_before": "8cd4fecfaaa016c00dc326657d2e795f91da826a0f19a6e36d68f57707d860b0"
   },
   {
     "previous_path": "originals/v1.0/Set_07_Archazias_Island_v1.0.3mf",
-    "path": "sets/Set_07_Archazias_Island/v1.0/Set_07_Archazias_Island_v1.0.3mf",
+    "path": "sets/Set_07_Archazias_Island/v01/Set_07_Archazias_Island_v01.3mf",
     "sha256_before": "410ab36116c3082ef813b8844f6a78a3e82abf29be4fcf546c6071fbfdd3a1ec"
   },
   {
     "previous_path": "originals/v1.0/Set_07_Archazias_Island_v1.0_preview.png",
-    "path": "sets/Set_07_Archazias_Island/v1.0/Set_07_Archazias_Island_v1.0_preview.png",
+    "path": "sets/Set_07_Archazias_Island/v01/Set_07_Archazias_Island_v01_preview.png",
     "sha256_before": "23d396fff93bf819ec9af40a512131f0d06f17b70a8629ff75f6254acf06c253"
   },
   {
     "previous_path": "originals/v1.0/Set_08_Reign_of_Jafar_v1.0.3mf",
-    "path": "sets/Set_08_Reign_of_Jafar/v1.0/Set_08_Reign_of_Jafar_v1.0.3mf",
+    "path": "sets/Set_08_Reign_of_Jafar/v01/Set_08_Reign_of_Jafar_v01.3mf",
     "sha256_before": "e15e0efcddd3ff093cb28e8b29e9b7005df19a415614bfafcd76444df6b8273e"
   },
   {
     "previous_path": "originals/v1.0/Set_08_Reign_of_Jafar_v1.0_preview.png",
-    "path": "sets/Set_08_Reign_of_Jafar/v1.0/Set_08_Reign_of_Jafar_v1.0_preview.png",
+    "path": "sets/Set_08_Reign_of_Jafar/v01/Set_08_Reign_of_Jafar_v01_preview.png",
     "sha256_before": "ae604e8aa0684a6569c567e61fc5734180ea4be7d8dcf06a48a344ff87a7d33a"
   },
   {
     "previous_path": "originals/v1.0/Set_09_Fabled_v1.0.3mf",
-    "path": "sets/Set_09_Fabled/v1.0/Set_09_Fabled_v1.0.3mf",
+    "path": "sets/Set_09_Fabled/v01/Set_09_Fabled_v01.3mf",
     "sha256_before": "15e02f4df243c981ead16ae409b812d94ad2c32439e40116a93f18bb853f1925"
   },
   {
     "previous_path": "originals/v1.0/Set_09_Fabled_v1.0_preview.png",
-    "path": "sets/Set_09_Fabled/v1.0/Set_09_Fabled_v1.0_preview.png",
+    "path": "sets/Set_09_Fabled/v01/Set_09_Fabled_v01_preview.png",
     "sha256_before": "6ef39f6208ae1d6512a7e2f7d587c830ef1f8d3ebd968f4b01de80a08c7c6c66"
   },
   {
     "previous_path": "originals/v1.0/Set_10_Whispers_in_the_Well_v1.0.3mf",
-    "path": "sets/Set_10_Whispers_in_the_Well/v1.0/Set_10_Whispers_in_the_Well_v1.0.3mf",
+    "path": "sets/Set_10_Whispers_in_the_Well/v01/Set_10_Whispers_in_the_Well_v01.3mf",
     "sha256_before": "29d01045c42730f0d08191a96c9761fff277e1d6a8f622ddb556b227862fa743"
   },
   {
     "previous_path": "originals/v1.0/Set_10_Whispers_in_the_Well_v1.0_preview.png",
-    "path": "sets/Set_10_Whispers_in_the_Well/v1.0/Set_10_Whispers_in_the_Well_v1.0_preview.png",
+    "path": "sets/Set_10_Whispers_in_the_Well/v01/Set_10_Whispers_in_the_Well_v01_preview.png",
     "sha256_before": "93a8ed063c79248de0b7ce75e64ff341cea610bbd2e8ae0cb452c97ad39937e0"
   },
   {
     "previous_path": "originals/v1.0/Set_11_Winterspell_v1.0.3mf",
-    "path": "sets/Set_11_Winterspell/v1.0/Set_11_Winterspell_v1.0.3mf",
+    "path": "sets/Set_11_Winterspell/v01/Set_11_Winterspell_v01.3mf",
     "sha256_before": "05c4043e7ed78076c08c57c0154f7b3ce08887345753c28469a8a2e7448d4df0"
   },
   {
     "previous_path": "originals/v1.0/Set_11_Winterspell_v1.0_preview.png",
-    "path": "sets/Set_11_Winterspell/v1.0/Set_11_Winterspell_v1.0_preview.png",
+    "path": "sets/Set_11_Winterspell/v01/Set_11_Winterspell_v01_preview.png",
     "sha256_before": "3ad5754c15bc914cf964948662281f520856ae7b9f49f79318ac69c5e314f50a"
   },
   {
     "previous_path": "originals/v1.0/Set_12_Wilds_Unknown_v1.0.3mf",
-    "path": "sets/Set_12_Wilds_Unknown/v1.0/Set_12_Wilds_Unknown_v1.0.3mf",
+    "path": "sets/Set_12_Wilds_Unknown/v01/Set_12_Wilds_Unknown_v01.3mf",
     "sha256_before": "3db718c076eda0864c4eb2844063bf1dafff2a0c35ce3f07592bdb3d64eddcd6"
   },
   {
     "previous_path": "originals/v1.0/Set_12_Wilds_Unknown_v1.0_preview.png",
-    "path": "sets/Set_12_Wilds_Unknown/v1.0/Set_12_Wilds_Unknown_v1.0_preview.png",
+    "path": "sets/Set_12_Wilds_Unknown/v01/Set_12_Wilds_Unknown_v01_preview.png",
     "sha256_before": "4b1b1f129bffc47af09dc3048183705feca647b32fea68d3cb761d805ec4f8f5"
   },
   {
     "previous_path": "originals/v1.0/Set_13_Attack_of_the_Vine_v1.0.3mf",
-    "path": "sets/Set_13_Attack_of_the_Vine/v1.0/Set_13_Attack_of_the_Vine_v1.0.3mf",
+    "path": "sets/Set_13_Attack_of_the_Vine/v01/Set_13_Attack_of_the_Vine_v01.3mf",
     "sha256_before": "c5ec63b6596397dc039db44f1ef1088737e07bf42ef3fff6e1eed8bedf21e7d8"
   },
   {
     "previous_path": "originals/v1.0/Set_13_Attack_of_the_Vine_v1.0_preview.png",
-    "path": "sets/Set_13_Attack_of_the_Vine/v1.0/Set_13_Attack_of_the_Vine_v1.0_preview.png",
+    "path": "sets/Set_13_Attack_of_the_Vine/v01/Set_13_Attack_of_the_Vine_v01_preview.png",
     "sha256_before": "73f6f082c2258d1c8a9c60e1ef1bf704ba398142ede00b55a0965aeef925667f"
   },
   {
     "previous_path": "originals/v1.0/Set_14_Hyperia_City_v1.0.3mf",
-    "path": "sets/Set_14_Hyperia_City/v1.0/Set_14_Hyperia_City_v1.0.3mf",
+    "path": "sets/Set_14_Hyperia_City/v01/Set_14_Hyperia_City_v01.3mf",
     "sha256_before": "db12f632c30816b7a953479c0a40b9d85ed3cd4052ec24b0f69eb1f07ca9dc86"
   },
   {
     "previous_path": "originals/v1.0/Set_14_Hyperia_City_v1.0_preview.png",
-    "path": "sets/Set_14_Hyperia_City/v1.0/Set_14_Hyperia_City_v1.0_preview.png",
+    "path": "sets/Set_14_Hyperia_City/v01/Set_14_Hyperia_City_v01_preview.png",
     "sha256_before": "2b27467f9f76d67a5709c9ba118e91ec6adddc7fbafff698ac0e5c6be96f0d10"
   },
   {
@@ -746,72 +746,72 @@
   },
   {
     "previous_path": "originals/v1.0/Sources/lorcana-keychains/build_collection.py",
-    "path": "collection/v1.0/Sources/lorcana-keychains/build_collection.py",
+    "path": "collection/v01/Sources/lorcana-keychains/build_collection.py",
     "sha256_before": "04495ca8fd3cab8b6bf8180e994c9242d431413aa03d9955b3d936f4cf768f9d"
   },
   {
     "previous_path": "originals/v1.0/Sources/lorcana-keychains/sources/04.png",
-    "path": "collection/v1.0/Sources/lorcana-keychains/sources/04.png",
+    "path": "collection/v01/Sources/lorcana-keychains/sources/04.png",
     "sha256_before": "6967c060b8eacf141e2587ea9f0dc79d728e1dc792dcc6fe234114437f2e3848"
   },
   {
     "previous_path": "originals/v1.0/Sources/lorcana-keychains/sources/05.png",
-    "path": "collection/v1.0/Sources/lorcana-keychains/sources/05.png",
+    "path": "collection/v01/Sources/lorcana-keychains/sources/05.png",
     "sha256_before": "b056e67c43b0150d2e69a1c7b5a49fd37dbf94824664cfb805160ca231e552fa"
   },
   {
     "previous_path": "originals/v1.0/Sources/lorcana-keychains/sources/06.png",
-    "path": "collection/v1.0/Sources/lorcana-keychains/sources/06.png",
+    "path": "collection/v01/Sources/lorcana-keychains/sources/06.png",
     "sha256_before": "d7c7c7a86a499d6eee86d4fbf422834543e3dd34a031c29ddc6d86c9e457b134"
   },
   {
     "previous_path": "originals/v1.0/Sources/lorcana-keychains/sources/07.png",
-    "path": "collection/v1.0/Sources/lorcana-keychains/sources/07.png",
+    "path": "collection/v01/Sources/lorcana-keychains/sources/07.png",
     "sha256_before": "92e83b937a5e9a3b1eba01bfbe8708eece8b6640fb316ecc3e96327ebbfeb5b1"
   },
   {
     "previous_path": "originals/v1.0/Sources/lorcana-keychains/sources/08.png",
-    "path": "collection/v1.0/Sources/lorcana-keychains/sources/08.png",
+    "path": "collection/v01/Sources/lorcana-keychains/sources/08.png",
     "sha256_before": "989a04edb88fd8451467be70087aaa2ec1b2bc8f713e78be02ed8f31e302a647"
   },
   {
     "previous_path": "originals/v1.0/Sources/lorcana-keychains/sources/09.png",
-    "path": "collection/v1.0/Sources/lorcana-keychains/sources/09.png",
+    "path": "collection/v01/Sources/lorcana-keychains/sources/09.png",
     "sha256_before": "ac2bc1983e155f3684a21ae657b4947f682c9495a1dbe3e0dbcce12684a33c08"
   },
   {
     "previous_path": "originals/v1.0/Sources/lorcana-keychains/sources/10.png",
-    "path": "collection/v1.0/Sources/lorcana-keychains/sources/10.png",
+    "path": "collection/v01/Sources/lorcana-keychains/sources/10.png",
     "sha256_before": "0ea874a3fb28c3ff02fcd9715eb82c40af6f9d293a7be3477ee7780777be0791"
   },
   {
     "previous_path": "originals/v1.0/Sources/lorcana-keychains/sources/11.png",
-    "path": "collection/v1.0/Sources/lorcana-keychains/sources/11.png",
+    "path": "collection/v01/Sources/lorcana-keychains/sources/11.png",
     "sha256_before": "07b442e74238200a20f4c38d3bb76e31ef599fa2b4747a68290864708f1382c9"
   },
   {
     "previous_path": "originals/v1.0/Sources/lorcana-keychains/sources/12.png",
-    "path": "collection/v1.0/Sources/lorcana-keychains/sources/12.png",
+    "path": "collection/v01/Sources/lorcana-keychains/sources/12.png",
     "sha256_before": "173104b737b93f3d831fe8573749341009f849d76776abbb1ef6e846072d8fcc"
   },
   {
     "previous_path": "originals/v1.0/Sources/lorcana-keychains/sources/13.png",
-    "path": "collection/v1.0/Sources/lorcana-keychains/sources/13.png",
+    "path": "collection/v01/Sources/lorcana-keychains/sources/13.png",
     "sha256_before": "b2288738af7236c289cbf2dcfafe36cbb438c75e3dc56c8e2ea87409d4373966"
   },
   {
     "previous_path": "originals/v1.0/Sources/lorcana-keychains/sources/14.png",
-    "path": "collection/v1.0/Sources/lorcana-keychains/sources/14.png",
+    "path": "collection/v01/Sources/lorcana-keychains/sources/14.png",
     "sha256_before": "3b16d358b58141f27c6bd29b75bbf7c999b9ff17a10971bc984ba3706a23f1da"
   },
   {
     "previous_path": "originals/v1.0/Validation_v1.0.json",
-    "path": "collection/v1.0/Validation_v1.0.json",
+    "path": "collection/v01/Validation_v01.json",
     "sha256_before": "82306cde699e7da6dbb0ac14e710c4c09fbb7bc9783a507f027292637b20cd81"
   },
   {
     "previous_path": "originals/v1.1/Set_01_The_First_Chapter_v1.1.3mf",
-    "path": "sets/Set_01_The_First_Chapter/originals/Set_01_The_First_Chapter_v1.1.3mf",
+    "path": "sets/Set_01_The_First_Chapter/originals/Set_01_The_First_Chapter_v02.3mf",
     "sha256_before": "070ae158bfdf9d33e65a4f48e9a7c486649f741d85de7d95f201409e986bf08c"
   },
   {
@@ -821,38 +821,45 @@
   },
   {
     "previous_path": "tools/__pycache__/rebuild_set04.cpython-312.pyc",
-    "path": "tools/__pycache__/rebuild_set04.cpython-312.pyc",
-    "sha256_before": "493f74c165b67983e8548d99e90038a1846eab3f6f05b2ce48d186fe451a203b"
+    "path": null,
+    "sha256_before": "493f74c165b67983e8548d99e90038a1846eab3f6f05b2ce48d186fe451a203b",
+    "status": "Untracked Python bytecode"
   },
   {
     "previous_path": "tools/__pycache__/rebuild_set04.cpython-314.pyc",
-    "path": "tools/__pycache__/rebuild_set04.cpython-314.pyc",
-    "sha256_before": "73811401fad80c615fdb6bc9bcef9f9f03f95bbed9245d71fd10f61005b8b2ce"
+    "path": null,
+    "sha256_before": "73811401fad80c615fdb6bc9bcef9f9f03f95bbed9245d71fd10f61005b8b2ce",
+    "status": "Untracked Python bytecode"
   },
   {
     "previous_path": "tools/__pycache__/repair_v1_1.cpython-312.pyc",
-    "path": "tools/__pycache__/repair_v1_1.cpython-312.pyc",
-    "sha256_before": "5d4eb50144f3eb5a66d152b9a5d5e03f403619ed3b3ee70a264931b1759e8cbc"
+    "path": null,
+    "sha256_before": "5d4eb50144f3eb5a66d152b9a5d5e03f403619ed3b3ee70a264931b1759e8cbc",
+    "status": "Untracked Python bytecode"
   },
   {
     "previous_path": "tools/__pycache__/repair_v1_1.cpython-314.pyc",
-    "path": "tools/__pycache__/repair_v1_1.cpython-314.pyc",
-    "sha256_before": "811da06562fffe26eafce5d7746dbd06c364824f166549f54ab2a42e21c34c19"
+    "path": null,
+    "sha256_before": "811da06562fffe26eafce5d7746dbd06c364824f166549f54ab2a42e21c34c19",
+    "status": "Untracked Python bytecode"
   },
   {
     "previous_path": "tools/__pycache__/validate_bambu.cpython-312.pyc",
-    "path": "tools/__pycache__/validate_bambu.cpython-312.pyc",
-    "sha256_before": "bde75f07e4c7a8a189f87ce619fb134a02f71e21f15c5eed00e4f6eac136aab8"
+    "path": null,
+    "sha256_before": "bde75f07e4c7a8a189f87ce619fb134a02f71e21f15c5eed00e4f6eac136aab8",
+    "status": "Untracked Python bytecode"
   },
   {
     "previous_path": "tools/__pycache__/validate_bambu.cpython-314.pyc",
-    "path": "tools/__pycache__/validate_bambu.cpython-314.pyc",
-    "sha256_before": "f685ee3d9b86f90aa9c90be19bba14c6b6ea561bb8ec85132fe504763142813c"
+    "path": null,
+    "sha256_before": "f685ee3d9b86f90aa9c90be19bba14c6b6ea561bb8ec85132fe504763142813c",
+    "status": "Untracked Python bytecode"
   },
   {
     "previous_path": "tools/__pycache__/validate_set04.cpython-312.pyc",
-    "path": "tools/__pycache__/validate_set04.cpython-312.pyc",
-    "sha256_before": "9450ee77e3b9183211a438e8f23fdfad7e6341fe9fbab478d5495ef2b6cdc8ab"
+    "path": null,
+    "sha256_before": "9450ee77e3b9183211a438e8f23fdfad7e6341fe9fbab478d5495ef2b6cdc8ab",
+    "status": "Untracked Python bytecode"
   },
   {
     "previous_path": "tools/rebuild_set04.py",
@@ -861,7 +868,7 @@
   },
   {
     "previous_path": "tools/repair_v1_1.py",
-    "path": "tools/repair_v1_1.py",
+    "path": "tools/repair_v02.py",
     "sha256_before": "f6465c1e65cf9d0ebc4db6e44555869c6a5066aa49bd59cc0746e92e1aaec524"
   },
   {
@@ -871,7 +878,7 @@
   },
   {
     "previous_path": "tools/set04_clean_letters_v1_4.svg",
-    "path": "tools/set04_clean_letters_v1_4.svg",
+    "path": "tools/set04_clean_letters_v05.svg",
     "sha256_before": "59a98560c3ac0941a2d2e06f6145a5a7943e9e5b394331fabc652f0d788af670"
   },
   {
@@ -886,72 +893,72 @@
   },
   {
     "previous_path": "validation/Set_01_The_First_Chapter_v1.1-import.log",
-    "path": "validation/Set_01_The_First_Chapter/v1.1/Set_01_The_First_Chapter_v1.1-import.log",
+    "path": "validation/Set_01_The_First_Chapter/v02/Set_01_The_First_Chapter_v02-import.log",
     "sha256_before": "8fd3b6f3fdcbcd6f8cd1114bbc137172d069ba6037557b54b5c21480c6e7a0c4"
   },
   {
     "previous_path": "validation/Set_02_Rise_of_the_Floodborn_v1.1-import.log",
-    "path": "validation/Set_02_Rise_of_the_Floodborn/v1.1/Set_02_Rise_of_the_Floodborn_v1.1-import.log",
+    "path": "validation/Set_02_Rise_of_the_Floodborn/v02/Set_02_Rise_of_the_Floodborn_v02-import.log",
     "sha256_before": "81b5efe98fce7d668bbbad6db8d7a80b29d92019a25cda981d905145014f0e34"
   },
   {
     "previous_path": "validation/Set_03_Into_the_Inklands_v1.1-import.log",
-    "path": "validation/Set_03_Into_the_Inklands/v1.1/Set_03_Into_the_Inklands_v1.1-import.log",
+    "path": "validation/Set_03_Into_the_Inklands/v02/Set_03_Into_the_Inklands_v02-import.log",
     "sha256_before": "9dde0f55657f1699bae747ac0e2a1acf6756264ac18f3fe7778b2d06c092d8ae"
   },
   {
     "previous_path": "validation/Set_04_Ursulas_Return_v1.1-import.log",
-    "path": "validation/Set_04_Ursulas_Return/v1.1/Set_04_Ursulas_Return_v1.1-import.log",
+    "path": "validation/Set_04_Ursulas_Return/v02/Set_04_Ursulas_Return_v02-import.log",
     "sha256_before": "4216103ded8cff3ba868ff50691ee60cadab4f8adc5e9c35a5f883cfeef344c0"
   },
   {
     "previous_path": "validation/Set_05_Shimmering_Skies_v1.1-import.log",
-    "path": "validation/Set_05_Shimmering_Skies/v1.1/Set_05_Shimmering_Skies_v1.1-import.log",
+    "path": "validation/Set_05_Shimmering_Skies/v02/Set_05_Shimmering_Skies_v02-import.log",
     "sha256_before": "1c841248fa31cf2ec55b28b2bf42b8ba92a51d827c545a7049607275b1c80da2"
   },
   {
     "previous_path": "validation/Set_06_Azurite_Sea_v1.1-import.log",
-    "path": "validation/Set_06_Azurite_Sea/v1.1/Set_06_Azurite_Sea_v1.1-import.log",
+    "path": "validation/Set_06_Azurite_Sea/v02/Set_06_Azurite_Sea_v02-import.log",
     "sha256_before": "164c0e69b905e0d9a65be75893b2eae11e542827dab21cf49d4f93ac886ed362"
   },
   {
     "previous_path": "validation/Set_07_Archazias_Island_v1.1-import.log",
-    "path": "validation/Set_07_Archazias_Island/v1.1/Set_07_Archazias_Island_v1.1-import.log",
+    "path": "validation/Set_07_Archazias_Island/v02/Set_07_Archazias_Island_v02-import.log",
     "sha256_before": "103050f8be27b60a939709f4cfcb3a47c22793632617f1ccf9a6bfdbf104b780"
   },
   {
     "previous_path": "validation/Set_08_Reign_of_Jafar_v1.1-import.log",
-    "path": "validation/Set_08_Reign_of_Jafar/v1.1/Set_08_Reign_of_Jafar_v1.1-import.log",
+    "path": "validation/Set_08_Reign_of_Jafar/v02/Set_08_Reign_of_Jafar_v02-import.log",
     "sha256_before": "56d48a0e604f624e290dbc838023197f866c9cb8ad3187d5369207ffe97d2d42"
   },
   {
     "previous_path": "validation/Set_09_Fabled_v1.1-import.log",
-    "path": "validation/Set_09_Fabled/v1.1/Set_09_Fabled_v1.1-import.log",
+    "path": "validation/Set_09_Fabled/v02/Set_09_Fabled_v02-import.log",
     "sha256_before": "86eded7ace7acbd28007ff61a3b2395a59949b9641d77f64d607dab3452c5dab"
   },
   {
     "previous_path": "validation/Set_10_Whispers_in_the_Well_v1.1-import.log",
-    "path": "validation/Set_10_Whispers_in_the_Well/v1.1/Set_10_Whispers_in_the_Well_v1.1-import.log",
+    "path": "validation/Set_10_Whispers_in_the_Well/v02/Set_10_Whispers_in_the_Well_v02-import.log",
     "sha256_before": "1d05c049f68e87cfae35e45c6353641857c5b56983a88e40d824fafd405c39b9"
   },
   {
     "previous_path": "validation/Set_11_Winterspell_v1.1-import.log",
-    "path": "validation/Set_11_Winterspell/v1.1/Set_11_Winterspell_v1.1-import.log",
+    "path": "validation/Set_11_Winterspell/v02/Set_11_Winterspell_v02-import.log",
     "sha256_before": "9352cdb7683e60d0ace6ffe7628db38362c407647ded37cb78dfff8ea9f6b087"
   },
   {
     "previous_path": "validation/Set_12_Wilds_Unknown_v1.1-import.log",
-    "path": "validation/Set_12_Wilds_Unknown/v1.1/Set_12_Wilds_Unknown_v1.1-import.log",
+    "path": "validation/Set_12_Wilds_Unknown/v02/Set_12_Wilds_Unknown_v02-import.log",
     "sha256_before": "26da0182aa146aebc00534c6c8a15b957ab658ec828da5c7ddd3c9cde626dc7a"
   },
   {
     "previous_path": "validation/Set_13_Attack_of_the_Vine_v1.1-import.log",
-    "path": "validation/Set_13_Attack_of_the_Vine/v1.1/Set_13_Attack_of_the_Vine_v1.1-import.log",
+    "path": "validation/Set_13_Attack_of_the_Vine/v02/Set_13_Attack_of_the_Vine_v02-import.log",
     "sha256_before": "88b54d46b31020ac7281a427559d7a9972f08b9a517548d3817c5557a900c94a"
   },
   {
     "previous_path": "validation/Set_14_Hyperia_City_v1.1-import.log",
-    "path": "validation/Set_14_Hyperia_City/v1.1/Set_14_Hyperia_City_v1.1-import.log",
+    "path": "validation/Set_14_Hyperia_City/v02/Set_14_Hyperia_City_v02-import.log",
     "sha256_before": "0eb541313d69ea974ccfb6d65c8ae1b23bf8195debe88017f874aeaba899424a"
   },
   {
@@ -976,262 +983,262 @@
   },
   {
     "previous_path": "validation/set01-v1.1-import.log",
-    "path": "validation/Set_01_The_First_Chapter/v1.1/set01-v1.1-import.log",
+    "path": "validation/Set_01_The_First_Chapter/v02/set01-v02-import.log",
     "sha256_before": "8cb7d5dae5ee3275040b670270db91b99297db2708098f7872cff375b11ece02"
   },
   {
     "previous_path": "validation/v1.1-imports.json",
-    "path": "validation/v1.1-imports.json",
+    "path": "validation/v02-imports.json",
     "sha256_before": "1738441c3c5556ba974ac083c95fe5a2c4ceb93c8e081b54e59d8dcc6fa6574c"
   },
   {
     "previous_path": "validation/v1.2/Set_01_The_First_Chapter_v1.2-result.json",
-    "path": "validation/Set_01_The_First_Chapter/v1.2/Set_01_The_First_Chapter_v1.2-result.json",
+    "path": "validation/Set_01_The_First_Chapter/v03/Set_01_The_First_Chapter_v03-result.json",
     "sha256_before": "c83c64b45d4a6c5512c04cb5e018e16fed9a8e1c2e6edb7340e87725c7240271"
   },
   {
     "previous_path": "validation/v1.2/Set_01_The_First_Chapter_v1.2-stl.log",
-    "path": "validation/Set_01_The_First_Chapter/v1.2/Set_01_The_First_Chapter_v1.2-stl.log",
+    "path": "validation/Set_01_The_First_Chapter/v03/Set_01_The_First_Chapter_v03-stl.log",
     "sha256_before": "42652b994bea9a867aa93d94d883773b34bbcb1da412e95fe7009538dcd3ceaf"
   },
   {
     "previous_path": "validation/v1.2/Set_01_The_First_Chapter_v1.2.log",
-    "path": "validation/Set_01_The_First_Chapter/v1.2/Set_01_The_First_Chapter_v1.2.log",
+    "path": "validation/Set_01_The_First_Chapter/v03/Set_01_The_First_Chapter_v03.log",
     "sha256_before": "8cba9ca9de4581fa67d62b6d991df80ab94057a23727cd3679d4eeb9c4bfb914"
   },
   {
     "previous_path": "validation/v1.2/Set_02_Rise_of_the_Floodborn_v1.2-result.json",
-    "path": "validation/Set_02_Rise_of_the_Floodborn/v1.2/Set_02_Rise_of_the_Floodborn_v1.2-result.json",
+    "path": "validation/Set_02_Rise_of_the_Floodborn/v03/Set_02_Rise_of_the_Floodborn_v03-result.json",
     "sha256_before": "cfd199a1aadf1eaf2b67931a4041f1b301ea4a3a9e079dd5517ab5612d61b5f1"
   },
   {
     "previous_path": "validation/v1.2/Set_02_Rise_of_the_Floodborn_v1.2-stl.log",
-    "path": "validation/Set_02_Rise_of_the_Floodborn/v1.2/Set_02_Rise_of_the_Floodborn_v1.2-stl.log",
+    "path": "validation/Set_02_Rise_of_the_Floodborn/v03/Set_02_Rise_of_the_Floodborn_v03-stl.log",
     "sha256_before": "098dbf9326821dd98d8e2e907dd42820d7cbbefafca29f33df3dbe84fb90671d"
   },
   {
     "previous_path": "validation/v1.2/Set_02_Rise_of_the_Floodborn_v1.2.log",
-    "path": "validation/Set_02_Rise_of_the_Floodborn/v1.2/Set_02_Rise_of_the_Floodborn_v1.2.log",
+    "path": "validation/Set_02_Rise_of_the_Floodborn/v03/Set_02_Rise_of_the_Floodborn_v03.log",
     "sha256_before": "574b6a9e41685f428333503dec73af51ecf2f2ed767d74512ad465811d23ad61"
   },
   {
     "previous_path": "validation/v1.2/Set_03_Into_the_Inklands_v1.2-result.json",
-    "path": "validation/Set_03_Into_the_Inklands/v1.2/Set_03_Into_the_Inklands_v1.2-result.json",
+    "path": "validation/Set_03_Into_the_Inklands/v03/Set_03_Into_the_Inklands_v03-result.json",
     "sha256_before": "49d13b13b28492508183140dd7fb19d3b2ac72ffe3bc660dbca5a956b67012a2"
   },
   {
     "previous_path": "validation/v1.2/Set_03_Into_the_Inklands_v1.2-stl.log",
-    "path": "validation/Set_03_Into_the_Inklands/v1.2/Set_03_Into_the_Inklands_v1.2-stl.log",
+    "path": "validation/Set_03_Into_the_Inklands/v03/Set_03_Into_the_Inklands_v03-stl.log",
     "sha256_before": "118ea75e8dbd6a964061a65d6b8d28ad41e037381ed2f9fcda837644aee22572"
   },
   {
     "previous_path": "validation/v1.2/Set_03_Into_the_Inklands_v1.2.log",
-    "path": "validation/Set_03_Into_the_Inklands/v1.2/Set_03_Into_the_Inklands_v1.2.log",
+    "path": "validation/Set_03_Into_the_Inklands/v03/Set_03_Into_the_Inklands_v03.log",
     "sha256_before": "e0bf21fb922364f2c990ce9f1aa2514f64fc25ab7a58674936acdeb7c1b7d054"
   },
   {
     "previous_path": "validation/v1.2/Set_04_Ursulas_Return_v1.2-result.json",
-    "path": "validation/Set_04_Ursulas_Return/v1.2/Set_04_Ursulas_Return_v1.2-result.json",
+    "path": "validation/Set_04_Ursulas_Return/v03/Set_04_Ursulas_Return_v03-result.json",
     "sha256_before": "569c55d5cc02807e258f73b0250da3aa7e10bc54c83874a1efb7f52c9e37065c"
   },
   {
     "previous_path": "validation/v1.2/Set_04_Ursulas_Return_v1.2-stl.log",
-    "path": "validation/Set_04_Ursulas_Return/v1.2/Set_04_Ursulas_Return_v1.2-stl.log",
+    "path": "validation/Set_04_Ursulas_Return/v03/Set_04_Ursulas_Return_v03-stl.log",
     "sha256_before": "3b449df77c8fe66aa130827a0eaad2a0306cef48767843d876ac170f92d12685"
   },
   {
     "previous_path": "validation/v1.2/Set_04_Ursulas_Return_v1.2.log",
-    "path": "validation/Set_04_Ursulas_Return/v1.2/Set_04_Ursulas_Return_v1.2.log",
+    "path": "validation/Set_04_Ursulas_Return/v03/Set_04_Ursulas_Return_v03.log",
     "sha256_before": "1e3a595cd216151482ebda26e7082b189e9ae49769f7707e21e128202f63385b"
   },
   {
     "previous_path": "validation/v1.2/Set_05_Shimmering_Skies_v1.2-result.json",
-    "path": "validation/Set_05_Shimmering_Skies/v1.2/Set_05_Shimmering_Skies_v1.2-result.json",
+    "path": "validation/Set_05_Shimmering_Skies/v03/Set_05_Shimmering_Skies_v03-result.json",
     "sha256_before": "8428d833260071a4d78f3b7a4a017eaa31bbeb4289b6c839d68ddbc095069674"
   },
   {
     "previous_path": "validation/v1.2/Set_05_Shimmering_Skies_v1.2-stl.log",
-    "path": "validation/Set_05_Shimmering_Skies/v1.2/Set_05_Shimmering_Skies_v1.2-stl.log",
+    "path": "validation/Set_05_Shimmering_Skies/v03/Set_05_Shimmering_Skies_v03-stl.log",
     "sha256_before": "fdee8410fe59ba06040146a1c5b36ac6acc54e0f660b8882d99792bd7ca36f76"
   },
   {
     "previous_path": "validation/v1.2/Set_05_Shimmering_Skies_v1.2.log",
-    "path": "validation/Set_05_Shimmering_Skies/v1.2/Set_05_Shimmering_Skies_v1.2.log",
+    "path": "validation/Set_05_Shimmering_Skies/v03/Set_05_Shimmering_Skies_v03.log",
     "sha256_before": "5b7dbcdd23f8ed1feaa6191232eb3f007b72999044bd2bf6a32bf9deda2a2395"
   },
   {
     "previous_path": "validation/v1.2/Set_06_Azurite_Sea_v1.2-result.json",
-    "path": "validation/Set_06_Azurite_Sea/v1.2/Set_06_Azurite_Sea_v1.2-result.json",
+    "path": "validation/Set_06_Azurite_Sea/v03/Set_06_Azurite_Sea_v03-result.json",
     "sha256_before": "2e339f816fb0dbdee4a39c8ac5324358c41c983dab9b5f1d776a8bd9c9372c5d"
   },
   {
     "previous_path": "validation/v1.2/Set_06_Azurite_Sea_v1.2-stl.log",
-    "path": "validation/Set_06_Azurite_Sea/v1.2/Set_06_Azurite_Sea_v1.2-stl.log",
+    "path": "validation/Set_06_Azurite_Sea/v03/Set_06_Azurite_Sea_v03-stl.log",
     "sha256_before": "36931ea76c7190233bce9bce9e2fc233f32da03ff9240a58eb4b2c12241a8019"
   },
   {
     "previous_path": "validation/v1.2/Set_06_Azurite_Sea_v1.2.log",
-    "path": "validation/Set_06_Azurite_Sea/v1.2/Set_06_Azurite_Sea_v1.2.log",
+    "path": "validation/Set_06_Azurite_Sea/v03/Set_06_Azurite_Sea_v03.log",
     "sha256_before": "1fb2327197eb5aa721267a85c183fa05c545c29c01e3c2946f47b9bb11f00fd7"
   },
   {
     "previous_path": "validation/v1.2/Set_07_Archazias_Island_v1.2-result.json",
-    "path": "validation/Set_07_Archazias_Island/v1.2/Set_07_Archazias_Island_v1.2-result.json",
+    "path": "validation/Set_07_Archazias_Island/v03/Set_07_Archazias_Island_v03-result.json",
     "sha256_before": "0ff2b2745d628fccc3e9ca09e7b3a792f2b6de45a7bd49659133104d256f0324"
   },
   {
     "previous_path": "validation/v1.2/Set_07_Archazias_Island_v1.2-stl.log",
-    "path": "validation/Set_07_Archazias_Island/v1.2/Set_07_Archazias_Island_v1.2-stl.log",
+    "path": "validation/Set_07_Archazias_Island/v03/Set_07_Archazias_Island_v03-stl.log",
     "sha256_before": "e3b83c7119cfd31c2c2781dcb9ac54814e304ac0d65492040c01a03013b8f287"
   },
   {
     "previous_path": "validation/v1.2/Set_07_Archazias_Island_v1.2.log",
-    "path": "validation/Set_07_Archazias_Island/v1.2/Set_07_Archazias_Island_v1.2.log",
+    "path": "validation/Set_07_Archazias_Island/v03/Set_07_Archazias_Island_v03.log",
     "sha256_before": "813d2db44383ed75a0c88b818a1b7af1dcfbb49b10254b9aae3cb56a4a2f9bc7"
   },
   {
     "previous_path": "validation/v1.2/Set_08_Reign_of_Jafar_v1.2-result.json",
-    "path": "validation/Set_08_Reign_of_Jafar/v1.2/Set_08_Reign_of_Jafar_v1.2-result.json",
+    "path": "validation/Set_08_Reign_of_Jafar/v03/Set_08_Reign_of_Jafar_v03-result.json",
     "sha256_before": "81140520eca321abda34bdbf3417161a6f5aa914e6f13873e6fcc4005ff7f95a"
   },
   {
     "previous_path": "validation/v1.2/Set_08_Reign_of_Jafar_v1.2-stl.log",
-    "path": "validation/Set_08_Reign_of_Jafar/v1.2/Set_08_Reign_of_Jafar_v1.2-stl.log",
+    "path": "validation/Set_08_Reign_of_Jafar/v03/Set_08_Reign_of_Jafar_v03-stl.log",
     "sha256_before": "3b463fae776536727ee4146057e812652500381765cd02311fc068268aeac820"
   },
   {
     "previous_path": "validation/v1.2/Set_08_Reign_of_Jafar_v1.2.log",
-    "path": "validation/Set_08_Reign_of_Jafar/v1.2/Set_08_Reign_of_Jafar_v1.2.log",
+    "path": "validation/Set_08_Reign_of_Jafar/v03/Set_08_Reign_of_Jafar_v03.log",
     "sha256_before": "163f932e07d11dbba58b1ed086975fef7de1307577f03f508348abd8a86ea986"
   },
   {
     "previous_path": "validation/v1.2/Set_09_Fabled_v1.2-result.json",
-    "path": "validation/Set_09_Fabled/v1.2/Set_09_Fabled_v1.2-result.json",
+    "path": "validation/Set_09_Fabled/v03/Set_09_Fabled_v03-result.json",
     "sha256_before": "9eeb918c4bc8b0150a0ea22c348d96b1d18f8f659a984959fbeb9bf8bc71d03c"
   },
   {
     "previous_path": "validation/v1.2/Set_09_Fabled_v1.2-stl.log",
-    "path": "validation/Set_09_Fabled/v1.2/Set_09_Fabled_v1.2-stl.log",
+    "path": "validation/Set_09_Fabled/v03/Set_09_Fabled_v03-stl.log",
     "sha256_before": "aaecdfc7df8d31e0ae09de374552fb704260ad23aa904788ae8a5b71f8030c14"
   },
   {
     "previous_path": "validation/v1.2/Set_09_Fabled_v1.2.log",
-    "path": "validation/Set_09_Fabled/v1.2/Set_09_Fabled_v1.2.log",
+    "path": "validation/Set_09_Fabled/v03/Set_09_Fabled_v03.log",
     "sha256_before": "fa94ba53386bc36733b4cd4637734eac067fb701a6a8a2dc9eb7d22480d98745"
   },
   {
     "previous_path": "validation/v1.2/Set_10_Whispers_in_the_Well_v1.2-result.json",
-    "path": "validation/Set_10_Whispers_in_the_Well/v1.2/Set_10_Whispers_in_the_Well_v1.2-result.json",
+    "path": "validation/Set_10_Whispers_in_the_Well/v03/Set_10_Whispers_in_the_Well_v03-result.json",
     "sha256_before": "835420fd95542b5c168d74337e76d8489e0f75cad3f7f00074733b97318659bf"
   },
   {
     "previous_path": "validation/v1.2/Set_10_Whispers_in_the_Well_v1.2-stl.log",
-    "path": "validation/Set_10_Whispers_in_the_Well/v1.2/Set_10_Whispers_in_the_Well_v1.2-stl.log",
+    "path": "validation/Set_10_Whispers_in_the_Well/v03/Set_10_Whispers_in_the_Well_v03-stl.log",
     "sha256_before": "e5235ec9f08932d08e193c2fab6bb12489c08aac447f24fa6e51a88cc603b2c8"
   },
   {
     "previous_path": "validation/v1.2/Set_10_Whispers_in_the_Well_v1.2.log",
-    "path": "validation/Set_10_Whispers_in_the_Well/v1.2/Set_10_Whispers_in_the_Well_v1.2.log",
+    "path": "validation/Set_10_Whispers_in_the_Well/v03/Set_10_Whispers_in_the_Well_v03.log",
     "sha256_before": "82da79485c24a87809c362192ec5bae498782e555b51979c4ec9dc87dcd3a31f"
   },
   {
     "previous_path": "validation/v1.2/Set_11_Winterspell_v1.2-result.json",
-    "path": "validation/Set_11_Winterspell/v1.2/Set_11_Winterspell_v1.2-result.json",
+    "path": "validation/Set_11_Winterspell/v03/Set_11_Winterspell_v03-result.json",
     "sha256_before": "d8e73347a2cccbe3ff22ebdcda8d54f577cc083e1b38993034dd70d7015a50cd"
   },
   {
     "previous_path": "validation/v1.2/Set_11_Winterspell_v1.2-stl.log",
-    "path": "validation/Set_11_Winterspell/v1.2/Set_11_Winterspell_v1.2-stl.log",
+    "path": "validation/Set_11_Winterspell/v03/Set_11_Winterspell_v03-stl.log",
     "sha256_before": "bd56dcec0a1409a40a03f73c987c91651ae798e6bb56d9baaafdb0177dbf089d"
   },
   {
     "previous_path": "validation/v1.2/Set_11_Winterspell_v1.2.log",
-    "path": "validation/Set_11_Winterspell/v1.2/Set_11_Winterspell_v1.2.log",
+    "path": "validation/Set_11_Winterspell/v03/Set_11_Winterspell_v03.log",
     "sha256_before": "885eeaf1f88d9c012e761d686775f46ed0e780d93c8cbb3fd15d790caf94cb17"
   },
   {
     "previous_path": "validation/v1.2/Set_12_Wilds_Unknown_v1.2-result.json",
-    "path": "validation/Set_12_Wilds_Unknown/v1.2/Set_12_Wilds_Unknown_v1.2-result.json",
+    "path": "validation/Set_12_Wilds_Unknown/v03/Set_12_Wilds_Unknown_v03-result.json",
     "sha256_before": "8d5110c841fa76d58e27aaa403f143898ddd29ba42f57fc99c90b41b1c8a6e3c"
   },
   {
     "previous_path": "validation/v1.2/Set_12_Wilds_Unknown_v1.2-stl.log",
-    "path": "validation/Set_12_Wilds_Unknown/v1.2/Set_12_Wilds_Unknown_v1.2-stl.log",
+    "path": "validation/Set_12_Wilds_Unknown/v03/Set_12_Wilds_Unknown_v03-stl.log",
     "sha256_before": "96637fc0cd4aaad13349703d1d6a488417dbe9418d1a1241b6aa4ed2d6ef972f"
   },
   {
     "previous_path": "validation/v1.2/Set_12_Wilds_Unknown_v1.2.log",
-    "path": "validation/Set_12_Wilds_Unknown/v1.2/Set_12_Wilds_Unknown_v1.2.log",
+    "path": "validation/Set_12_Wilds_Unknown/v03/Set_12_Wilds_Unknown_v03.log",
     "sha256_before": "89496128c3bae88d13d3bbb5afa6ffdadfccb5be981e2e7f6c65087119ca0749"
   },
   {
     "previous_path": "validation/v1.2/Set_13_Attack_of_the_Vine_v1.2-result.json",
-    "path": "validation/Set_13_Attack_of_the_Vine/v1.2/Set_13_Attack_of_the_Vine_v1.2-result.json",
+    "path": "validation/Set_13_Attack_of_the_Vine/v03/Set_13_Attack_of_the_Vine_v03-result.json",
     "sha256_before": "a3cd818711ae5b8de6c9b1f050c252866d1248b46264b8e49ed19796323f27c9"
   },
   {
     "previous_path": "validation/v1.2/Set_13_Attack_of_the_Vine_v1.2-stl.log",
-    "path": "validation/Set_13_Attack_of_the_Vine/v1.2/Set_13_Attack_of_the_Vine_v1.2-stl.log",
+    "path": "validation/Set_13_Attack_of_the_Vine/v03/Set_13_Attack_of_the_Vine_v03-stl.log",
     "sha256_before": "81195b23a42cdf15bea491088cf879a80cafc10d6e073f85f3b8b4a591c7a5bd"
   },
   {
     "previous_path": "validation/v1.2/Set_13_Attack_of_the_Vine_v1.2.log",
-    "path": "validation/Set_13_Attack_of_the_Vine/v1.2/Set_13_Attack_of_the_Vine_v1.2.log",
+    "path": "validation/Set_13_Attack_of_the_Vine/v03/Set_13_Attack_of_the_Vine_v03.log",
     "sha256_before": "be136d2b8b524bdb2b9bb8e1bfa8ea7638b199d532ff7b2109ce8952925a04c0"
   },
   {
     "previous_path": "validation/v1.2/Set_14_Hyperia_City_v1.2-result.json",
-    "path": "validation/Set_14_Hyperia_City/v1.2/Set_14_Hyperia_City_v1.2-result.json",
+    "path": "validation/Set_14_Hyperia_City/v03/Set_14_Hyperia_City_v03-result.json",
     "sha256_before": "8e7f807b5dedd77330161243288ce304f84a1681758850a51032595da25b7148"
   },
   {
     "previous_path": "validation/v1.2/Set_14_Hyperia_City_v1.2-stl.log",
-    "path": "validation/Set_14_Hyperia_City/v1.2/Set_14_Hyperia_City_v1.2-stl.log",
+    "path": "validation/Set_14_Hyperia_City/v03/Set_14_Hyperia_City_v03-stl.log",
     "sha256_before": "c6357ab82a16656a099f883af53acfc9bafa95e26ab2446c1b22fadf9ce4927c"
   },
   {
     "previous_path": "validation/v1.2/Set_14_Hyperia_City_v1.2.log",
-    "path": "validation/Set_14_Hyperia_City/v1.2/Set_14_Hyperia_City_v1.2.log",
+    "path": "validation/Set_14_Hyperia_City/v03/Set_14_Hyperia_City_v03.log",
     "sha256_before": "b4e4362f5e2233b04401ad4540241dba96601e0a5e8ba1d14726c35f22941d5a"
   },
   {
     "previous_path": "validation/v1.3/plate_1.gcode",
-    "path": "validation/Set_04_Ursulas_Return/v1.3/plate_1.gcode",
+    "path": "validation/Set_04_Ursulas_Return/v04/plate_1.gcode",
     "sha256_before": "9dd406b7ad9be9afb0bf0eb1201ae09676d90d5e63f8efc69f8cecfc8292963f"
   },
   {
     "previous_path": "validation/v1.3/result.json",
-    "path": "validation/Set_04_Ursulas_Return/v1.3/result.json",
+    "path": "validation/Set_04_Ursulas_Return/v04/result.json",
     "sha256_before": "f2d87b62a1387ec06bfb90495245f044e30c3002da989e01134096c383526db7"
   },
   {
     "previous_path": "validation/v1.3/slice.log",
-    "path": "validation/Set_04_Ursulas_Return/v1.3/slice.log",
+    "path": "validation/Set_04_Ursulas_Return/v04/slice.log",
     "sha256_before": "2102fb9340fef13ab2f1eb86b076fd3d3a6e795a79616a70b2a327eba1321398"
   },
   {
     "previous_path": "validation/v1.3/stl-import.log",
-    "path": "validation/Set_04_Ursulas_Return/v1.3/stl-import.log",
+    "path": "validation/Set_04_Ursulas_Return/v04/stl-import.log",
     "sha256_before": "925ecfced5d8750992da7b3dd238728d04f0efbe01102a498161dd19cb014964"
   },
   {
     "previous_path": "validation/v1.4/plate_1.gcode",
-    "path": "validation/Set_04_Ursulas_Return/v1.4/plate_1.gcode",
+    "path": "validation/Set_04_Ursulas_Return/v05/plate_1.gcode",
     "sha256_before": "a215bf3669d54141cbb456aecdfab01c40b6f87d7fc6bff8cc71fa61da0bd94f"
   },
   {
     "previous_path": "validation/v1.4/result.json",
-    "path": "validation/Set_04_Ursulas_Return/v1.4/result.json",
+    "path": "validation/Set_04_Ursulas_Return/v05/result.json",
     "sha256_before": "67c9e3614cb3eb207c029e808ccd4969b0e659db58579d3b3e502fb31e8be94c"
   },
   {
     "previous_path": "validation/v1.4/slice.log",
-    "path": "validation/Set_04_Ursulas_Return/v1.4/slice.log",
+    "path": "validation/Set_04_Ursulas_Return/v05/slice.log",
     "sha256_before": "fdfc80d9d01e3710f8ef88de88d7d9b18310cdd904fa88cd22ae529f7d46b8b7"
   },
   {
     "previous_path": "validation/v1.4/stl-import.log",
-    "path": "validation/Set_04_Ursulas_Return/v1.4/stl-import.log",
+    "path": "validation/Set_04_Ursulas_Return/v05/stl-import.log",
     "sha256_before": "9dd24a363c4ab49346e6490d00060b89d7a49f4600dd82480c4da9e70de3413b"
   }
 ]

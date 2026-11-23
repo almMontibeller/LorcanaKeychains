@@ -1,0 +1,92 @@
+{
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 150,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 59.76029586791992,
+                "Bridge": 9.409461975097656,
+                "Custom": 369.4930114746094,
+                "Flush": 512.5734252929688,
+                "Gap infill": 18.46546745300293,
+                "Inner wall": 122.05586242675781,
+                "Internal solid infill": 240.27613830566406,
+                "Outer wall": 98.16410064697266,
+                "Prime tower": 208.04849243164063,
+                "Sparse infill": 6.419853210449219,
+                "Top surface": 118.81800842285156,
+                "Travel": 281.28131103515625,
+                "Undefined": 264.30145263671875
+            },
+            "filament_change_times": 7,
+            "filaments": [
+                {
+                    "filament_id": "GFA01",
+                    "id": 1,
+                    "main_used_g": 5.238976955413818,
+                    "total_used_g": 6.277400016784668
+                },
+                {
+                    "filament_id": "GFA00",
+                    "id": 2,
+                    "main_used_g": 0.04663936048746109,
+                    "total_used_g": 0.6351533532142639
+                },
+                {
+                    "filament_id": "GFA00",
+                    "id": 3,
+                    "main_used_g": 0.5964518785476685,
+                    "total_used_g": 1.4444271326065063
+                },
+                {
+                    "filament_id": "GFA00",
+                    "id": 4,
+                    "main_used_g": 0.14473137259483337,
+                    "total_used_g": 0.8564504384994507
+                }
+            ],
+            "generate_support_material_time": 22,
+            "id": 1,
+            "infill_time": 696,
+            "layer_filament_change": 0,
+            "main_predication": 929.6610717773438,
+            "make_perimeters_time": 229,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 41.53999710083008,
+                        "height": 3.0,
+                        "width": 71.90499877929688,
+                        "x": 92.05000305175781,
+                        "y": 107.2300033569336,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "Set_08_Reign_of_Jafar_v10",
+                    "triangle_count": 37692
+                }
+            ],
+            "sliced_time": 1537,
+            "sliced_time_with_cache": 554,
+            "total_predication": 2027.796142578125,
+            "triangle_count": 37692,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+}

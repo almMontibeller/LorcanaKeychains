@@ -1,0 +1,147 @@
+{
+  "project": "sets/Set_09_Fabled/v06/Set_09_Fabled_v06.3mf",
+  "filename": "Set_09_Fabled_v06.3mf",
+  "source": "sets/Set_09_Fabled/v05/Set_09_Fabled_v05.3mf",
+  "source_sha256": "efef4f990a4e35c38b8b60848c95f0409bdc6117dc956341d1defc21f3b8e482",
+  "output_sha256": "4dbfa092d327971a4be5fef61ee6c1822476a3c981758ad365da491f7e6b2b73",
+  "geometry": {
+    "loop_and_backing_height_mm": 2.0,
+    "uniform_backing_height": true,
+    "bore_diameters_xy_mm": [
+      6.499999999999999,
+      6.5
+    ],
+    "outer_diameter_nominal_mm": 10.5,
+    "radial_rim_width_nominal_mm": 2.0,
+    "sampled_left_outer_arc_radial_rim_mm": [
+      1.9953899693066761,
+      2.0046282608004766
+    ],
+    "hole_centre_preserved": true,
+    "non_bore_contours_preserved": true,
+    "non_bore_contour_max_deviation_mm": 0.0,
+    "artwork_meshes_exactly_preserved": true,
+    "plate_placement_preserved": true,
+    "filament_and_process_settings_byte_identical": true,
+    "parts": [
+      {
+        "name": "Marine Blue",
+        "volume_mm3": 3890.6446687935872,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Sunflower Yellow",
+        "volume_mm3": 340.91959019894915,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Purple",
+        "volume_mm3": 508.79662923383586,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      }
+    ],
+    "tessellation_axis_rotation_degrees": 17
+  },
+  "underline": null,
+  "toolpath_checks": {
+    "loop_top_layer_mm": 2.0,
+    "loop_top_segments": 138,
+    "loop_segments_above_target_height": 0
+  },
+  "used_filament_slots": [
+    1,
+    2,
+    3
+  ],
+  "bambu_version": "02.08.02.61",
+  "slice_result": {
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 30,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "feature_type_times": {
+          "Bottom surface": 71.21077728271484,
+          "Bridge": 28.9041748046875,
+          "Custom": 369.6363220214844,
+          "Flush": 413.4867858886719,
+          "Gap infill": 8.921038627624512,
+          "Inner wall": 297.48553466796875,
+          "Internal solid infill": 231.93408203125,
+          "Outer wall": 249.82850646972656,
+          "Prime tower": 182.9824676513672,
+          "Sparse infill": 16.332103729248047,
+          "Top surface": 49.89213562011719,
+          "Travel": 272.408935546875,
+          "Undefined": 255.35926818847656
+        },
+        "filament_change_times": 5,
+        "filaments": [
+          {
+            "filament_id": "GFA01",
+            "id": 1,
+            "main_used_g": 4.89008092880249,
+            "total_used_g": 5.928504467010498
+          },
+          {
+            "filament_id": "GFA00",
+            "id": 2,
+            "main_used_g": 0.40737149119377136,
+            "total_used_g": 1.7433133125305176
+          },
+          {
+            "filament_id": "GFA00",
+            "id": 3,
+            "main_used_g": 0.6152112483978271,
+            "total_used_g": 1.3407893180847168
+          }
+        ],
+        "generate_support_material_time": 25,
+        "id": 1,
+        "infill_time": 320,
+        "layer_filament_change": 0,
+        "main_predication": 1201.923095703125,
+        "make_perimeters_time": 308,
+        "obj_cached_cnt": 0,
+        "objects": [
+          {
+            "bbox": {
+              "depth": 33.375003814697266,
+              "height": 3.0,
+              "width": 94.69000244140625,
+              "x": 80.65499877929688,
+              "y": 111.30999755859375,
+              "z": 0.0
+            },
+            "id": 5,
+            "name": "Set_09_Fabled_v06",
+            "triangle_count": 16892
+          }
+        ],
+        "sliced_time": 1084,
+        "sliced_time_with_cache": 388,
+        "total_predication": 2175.97900390625,
+        "triangle_count": 16892,
+        "warning_message": ""
+      }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+      "Bambu Lab H2D 0.4 nozzle",
+      "Bambu Lab H2D Pro 0.4 nozzle",
+      "Bambu Lab H2S 0.4 nozzle",
+      "Bambu Lab P2S 0.4 nozzle",
+      "Bambu Lab H2C 0.4 nozzle",
+      "Bambu Lab X2D 0.4 nozzle",
+      "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+  },
+  "physical_print_verified": false
+}

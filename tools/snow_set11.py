@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build and slice Winterspell v1.8 with a Dark Blue field and raised snow caps."""
+"""Build and slice Winterspell v09 with a Dark Blue field and raised snow caps."""
 
 import argparse
 import copy
@@ -24,13 +24,13 @@ import validate_set11 as audit
 from full_height_narrow_rims import isometric
 from rebuild_set09 import preview
 from refine_loops_and_underline import read_toolpaths, render_slice, toolpath_checks
-from repair_v1_1 import NS, PROD, read_parts, thumbnail
+from repair_v02 import NS, PROD, read_parts, thumbnail
 from standardize_loop_diameters import bounds, digest, mesh_stats, package, write_mesh
 from validate_bambu import bambu_command
 from validate_set09 import regions
 
 ROOT = trace.ROOT
-VERSION = 'v1.8'
+VERSION = 'v09'
 NAME = trace.SET.name + '_' + VERSION
 DEST = trace.SET / VERSION
 BASELINE = colors.DEST / (colors.NAME + '.3mf')
@@ -123,7 +123,7 @@ def write_project(data, baseline, parts, project):
     obj.find("metadata[@key='name']").set('value', project.stem)
     obj.find('metadata[@face_count]').set('face_count', str(sum(len(p['faces']) for p in parts)))
     root.find("m:metadata[@name='Description']", NS).text = (
-        'Winterspell v1.8. Single Dark Blue background, Sunflower Yellow lettering, and raised '
+        'Winterspell v09. Single Dark Blue background, Sunflower Yellow lettering, and raised '
         'Ice Blue snow accents. Original footprint and 6.5 mm eyelet bore. A1 0.4 mm Arachne.')
     data[colors.SETTINGS] = json.dumps(print_settings(json.loads(data[colors.SETTINGS]),
                                       json.loads(baseline[colors.SETTINGS])), indent=4).encode()
@@ -150,8 +150,8 @@ def compare(old, new, path):
                 panels.append(image.convert('RGB'))
     canvas = Image.new('RGB', (1500, 2 * (panels[0].height + 56)), '#f5f5f5')
     draw = ImageDraw.Draw(canvas)
-    for index, (panel, label) in enumerate(zip(panels, ('v1.7 · Three blue tones',
-                                                        'v1.8 · Dark Blue with lettering snow caps'))):
+    for index, (panel, label) in enumerate(zip(panels, ('v08 · Three blue tones',
+                                                        'v09 · Dark Blue with lettering snow caps'))):
         y = index * (panel.height + 56)
         canvas.paste(panel, (0, y + 56))
         draw.text((30, y + 16), label, fill='#193d58', font=font)
@@ -181,7 +181,7 @@ def validate_geometry(baseline, source_parts, new, parts, letters, caps):
         assert letters[letter].covers(actual) and actual.buffer(-.25).area > 1
         cap_details[name] = dict(letter=letter, area_mm2=round(actual.area, 3))
     return dict(parts=stats, total_dimensions_mm=audit.extents(parts),
-                backing_and_letters_match_v1_7=True, field_matches_v1_6=True, bore_mm=6.5,
+                backing_and_letters_match_v08=True, field_matches_v07=True, bore_mm=6.5,
                 cap_height_mm=SNOW_HEIGHT, cap_z_mm=[3., 3.4], caps=cap_details)
 
 
@@ -267,7 +267,7 @@ def main():
         for path in files:
             archive.write(path, path.relative_to(ROOT))
     inputs = files + [BASELINE, GEOMETRY_SOURCE, trace.ARTWORK,
-                      ROOT / 'sets/Set_09_Fabled/v1.5/Set_09_Fabled_v1.5.3mf']
+                      ROOT / 'sets/Set_09_Fabled/v06/Set_09_Fabled_v06.3mf']
     manifest = dict(project=project.name, sha256=digest(project),
                     source_snapshot_sha256=digest(snapshot),
                     inputs_sha256={str(p.relative_to(ROOT)): digest(p) for p in inputs})
