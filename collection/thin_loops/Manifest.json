@@ -1,0 +1,106 @@
+{
+  "loop_thickness_mm": 1.6,
+  "backing_thickness_mm": 2.0,
+  "bore_diameter_mm": 5.5,
+  "outer_diameter_nominal_mm": 10.5,
+  "projects": [
+    {
+      "project": "sets/Set_01_The_First_Chapter/v1.4/Set_01_The_First_Chapter_v1.4.3mf",
+      "source": "sets/Set_01_The_First_Chapter/v1.3/Set_01_The_First_Chapter_v1.3.3mf",
+      "source_sha256": "5ae33fcfdecff76dd4282576525e0127dd71be9675dc805a5aeb5cba3c1ab1aa",
+      "output_sha256": "7c4bd9d4eaa6b701a426e284ef16149a65d3f56d967a73491edd8a5dae9b7ac6",
+      "validation": "sets/Set_01_The_First_Chapter/v1.4/Validation_v1.4.json"
+    },
+    {
+      "project": "sets/Set_02_Rise_of_the_Floodborn/v1.4/Set_02_Rise_of_the_Floodborn_v1.4.3mf",
+      "source": "sets/Set_02_Rise_of_the_Floodborn/v1.3/Set_02_Rise_of_the_Floodborn_v1.3.3mf",
+      "source_sha256": "646dda52eba3fc05b650a3c0e1792a7485ab558d7887c0ee1fc1157f0ac81932",
+      "output_sha256": "488d40d94c60cc14ebc73d7d2a48a3712cea34e3a7b6dcf7779668a25ffc4601",
+      "validation": "sets/Set_02_Rise_of_the_Floodborn/v1.4/Validation_v1.4.json"
+    },
+    {
+      "project": "sets/Set_03_Into_the_Inklands/v1.4/Set_03_Into_the_Inklands_v1.4.3mf",
+      "source": "sets/Set_03_Into_the_Inklands/v1.3/Set_03_Into_the_Inklands_v1.3.3mf",
+      "source_sha256": "f1cb27ea22ff8878a7c07a28b9c1b222cda615f5b7b6dbf79d0ccab554ddf4a5",
+      "output_sha256": "7b2966a8c21260be85018ab607f8e550cee941d5413d5e76cf8793b897864051",
+      "validation": "sets/Set_03_Into_the_Inklands/v1.4/Validation_v1.4.json"
+    },
+    {
+      "project": "sets/Set_04_Ursulas_Return/v1.5/Set_04_Ursulas_Return_v1.5.3mf",
+      "source": "sets/Set_04_Ursulas_Return/v1.4/Set_04_Ursulas_Return_v1.4.1_printed.3mf",
+      "source_sha256": "6824cb195e07f61733010c892d41bafd8ddf5f610065aa63dae8b81116148f48",
+      "output_sha256": "a66c43f0a0a9de8c8dd00343ff1e7fb4b61701292d9ba2fb9c3354ec37b55316",
+      "validation": "sets/Set_04_Ursulas_Return/v1.5/Validation_v1.5.json"
+    },
+    {
+      "project": "sets/Set_05_Shimmering_Skies/v1.6/Set_05_Shimmering_Skies_v1.6.3mf",
+      "source": "sets/Set_05_Shimmering_Skies/v1.5/Set_05_Shimmering_Skies_v1.5.3mf",
+      "source_sha256": "cc5efdc19764c44c96a6b59e688bb4d7b6bf95a40b00974bf6586899daf68653",
+      "output_sha256": "5d8de990754e86c1aef2896ab39ea6f91438d8db4ce1574a98252ad27a0b02b1",
+      "validation": "sets/Set_05_Shimmering_Skies/v1.6/Validation_v1.6.json"
+    },
+    {
+      "project": "sets/Set_06_Azurite_Sea/v1.4/Set_06_Azurite_Sea_v1.4.3mf",
+      "source": "sets/Set_06_Azurite_Sea/v1.3/Set_06_Azurite_Sea_v1.3.3mf",
+      "source_sha256": "a1b66403a2bfee735a7ba31b153e0d2acedb7b44c2b4d989919d5cc9dc3660a6",
+      "output_sha256": "fd69e5a8deaea08a4b4467a525f187aac68a21836fc372b0aa05f4685be3a35f",
+      "validation": "sets/Set_06_Azurite_Sea/v1.4/Validation_v1.4.json"
+    },
+    {
+      "project": "sets/Set_07_Archazias_Island/v1.4/Set_07_Archazias_Island_v1.4.3mf",
+      "source": "sets/Set_07_Archazias_Island/v1.3/Set_07_Archazias_Island_v1.3.3mf",
+      "source_sha256": "61c63f0dcd5f0428a851d8049ad6b4cb161bfc0b246c649d2bd197011c097d87",
+      "output_sha256": "131beb5293c43f09f21aa5f74f5383e6b0b8ed8702ff40637121181d47aef594",
+      "validation": "sets/Set_07_Archazias_Island/v1.4/Validation_v1.4.json"
+    },
+    {
+      "project": "sets/Set_08_Reign_of_Jafar/v1.4/Set_08_Reign_of_Jafar_v1.4.3mf",
+      "source": "sets/Set_08_Reign_of_Jafar/v1.3/Set_08_Reign_of_Jafar_v1.3.3mf",
+      "source_sha256": "efb2453e1e88ece1b86f173132e80131d362ce4e8555c6316f0fbca02d82d224",
+      "output_sha256": "eb2104415f6d74000ff064d0702e73a9cae695fad2b00f55cad209620efa22ab",
+      "validation": "sets/Set_08_Reign_of_Jafar/v1.4/Validation_v1.4.json"
+    },
+    {
+      "project": "sets/Set_09_Fabled/v1.4/Set_09_Fabled_v1.4.3mf",
+      "source": "sets/Set_09_Fabled/v1.3/Set_09_Fabled_v1.3.3mf",
+      "source_sha256": "bef2c897c945dd6db372640dca6ec4115de2bdb945d4f5862fe82692bfcb19d8",
+      "output_sha256": "efef4f990a4e35c38b8b60848c95f0409bdc6117dc956341d1defc21f3b8e482",
+      "validation": "sets/Set_09_Fabled/v1.4/Validation_v1.4.json"
+    },
+    {
+      "project": "sets/Set_10_Whispers_in_the_Well/v1.4/Set_10_Whispers_in_the_Well_v1.4.3mf",
+      "source": "sets/Set_10_Whispers_in_the_Well/v1.3/Set_10_Whispers_in_the_Well_v1.3.3mf",
+      "source_sha256": "5e29e965dcfecccebcea8c3746f010ab9e1eb7eae5785b08802169b6ed4d4bea",
+      "output_sha256": "702c2954af2c491d2e9d1e7f14f86237747b0b66fb37dd5b7457f5d0747fba4b",
+      "validation": "sets/Set_10_Whispers_in_the_Well/v1.4/Validation_v1.4.json"
+    },
+    {
+      "project": "sets/Set_11_Winterspell/v1.4/Set_11_Winterspell_v1.4.3mf",
+      "source": "sets/Set_11_Winterspell/v1.3/Set_11_Winterspell_v1.3.3mf",
+      "source_sha256": "77eabc2515d6039da9c19fda45f0b3e4920261538fda984b4739f652850a1800",
+      "output_sha256": "cdaea2a2c25669b8ee421a60e1d0de7a0b947ceb6db150fe65b1cddf00a47174",
+      "validation": "sets/Set_11_Winterspell/v1.4/Validation_v1.4.json"
+    },
+    {
+      "project": "sets/Set_12_Wilds_Unknown/v1.4/Set_12_Wilds_Unknown_v1.4.3mf",
+      "source": "sets/Set_12_Wilds_Unknown/v1.3/Set_12_Wilds_Unknown_v1.3.3mf",
+      "source_sha256": "5067d391df0ccdfdfc8276aac9c459154b451b6101a8202f823f0e4f02736429",
+      "output_sha256": "ff759baef0739c0a73e0a17f64f3930bd4e33d962c0a97cbdc858c7d7243d97b",
+      "validation": "sets/Set_12_Wilds_Unknown/v1.4/Validation_v1.4.json"
+    },
+    {
+      "project": "sets/Set_13_Attack_of_the_Vine/v1.4/Set_13_Attack_of_the_Vine_v1.4.3mf",
+      "source": "sets/Set_13_Attack_of_the_Vine/v1.3/Set_13_Attack_of_the_Vine_v1.3.3mf",
+      "source_sha256": "77e8917cf6a7684b9b28ab18df3c4d2128da8161c4fe9a2dc085939e600cb40a",
+      "output_sha256": "448674af284f267e073164f39328b29beb11ea01fb9a0993202fc097b14ee67c",
+      "validation": "sets/Set_13_Attack_of_the_Vine/v1.4/Validation_v1.4.json"
+    },
+    {
+      "project": "sets/Set_14_Hyperia_City/v1.4/Set_14_Hyperia_City_v1.4.3mf",
+      "source": "sets/Set_14_Hyperia_City/v1.3/Set_14_Hyperia_City_v1.3.3mf",
+      "source_sha256": "2989665b600d3edfbf56bd5ae2106ed0988f675be586254139a8ab51e8b0d462",
+      "output_sha256": "ff750b8f4fefb618f53cc18810fe78242e7c1461f6277bad5ea3bb807cc39c24",
+      "validation": "sets/Set_14_Hyperia_City/v1.4/Validation_v1.4.json"
+    }
+  ]
+}

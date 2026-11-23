@@ -1,0 +1,46 @@
+[2026-10-16 17:54:03.910836] [0x00007fc840ce2bc0] [trace]   Initializing StaticPrintConfigs
+[2026-10-16 17:54:03.916137] [0x00007fc840ce2bc0] [warning] cli mode, Current BambuStudio Version 02.08.02.61
+[2026-10-16 17:54:03.922222] [0x00007fc840ce2bc0] [warning] no filament colors found in projects
+[2026-10-16 17:54:03.923236] [0x00007fc840ce2bc0] [error]   get_filament_temp_type: parse /app/share/BambuStudio/info/filament_info.json got a nlohmann::detail::parse_error, reason = [json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - unexpected end of input; expected '[', '{', or a literal
+[01_Charcoal.stl]
+size_x = 55.785000
+size_y = 39.375000
+size_z = 2.000000
+min_x = 0.000000
+min_y = 0.000000
+min_z = 0.000000
+max_x = 55.785000
+max_y = 39.375000
+max_z = 2.000000
+number_of_facets = 2940
+manifold = yes
+number_of_parts =  1
+volume = 2643.775635
+[02_Ash_Gray.stl]
+size_x = 41.934998
+size_y = 37.910000
+size_z = 0.800000
+min_x = 12.220001
+min_y = 0.799999
+min_z = 2.000000
+max_x = 54.154999
+max_y = 38.709999
+max_z = 2.800000
+number_of_facets = 4100
+manifold = yes
+number_of_parts =  35
+volume = 199.261719
+[03_Sunflower_Yellow.stl]
+size_x = 44.025002
+size_y = 18.884998
+size_z = 0.800000
+min_x = 10.689999
+min_y = 19.000000
+min_z = 2.000000
+max_x = 54.715000
+max_y = 37.884998
+max_z = 2.800000
+number_of_facets = 4412
+manifold = yes
+number_of_parts =  11
+volume = 196.180328

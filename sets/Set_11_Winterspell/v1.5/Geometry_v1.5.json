@@ -1,0 +1,61 @@
+{
+  "project": "sets/Set_11_Winterspell/v1.5/Set_11_Winterspell_v1.5.3mf",
+  "filename": "Set_11_Winterspell_v1.5.3mf",
+  "source": "sets/Set_11_Winterspell/v1.4/Set_11_Winterspell_v1.4.3mf",
+  "source_sha256": "cdaea2a2c25669b8ee421a60e1d0de7a0b947ceb6db150fe65b1cddf00a47174",
+  "output_sha256": "487a064028bcfc5d47dab68e903092d007fc61a3f3ec49c25da006acc31124b3",
+  "geometry": {
+    "loop_and_backing_height_mm": 2.0,
+    "uniform_backing_height": true,
+    "bore_diameters_xy_mm": [
+      6.5,
+      6.500000000000002
+    ],
+    "outer_diameter_nominal_mm": 10.5,
+    "radial_rim_width_nominal_mm": 2.0,
+    "sampled_left_outer_arc_radial_rim_mm": [
+      1.9975941000187367,
+      2.002680615300167
+    ],
+    "hole_centre_preserved": true,
+    "non_bore_contours_preserved": true,
+    "non_bore_contour_max_deviation_mm": 0.0,
+    "artwork_meshes_exactly_preserved": true,
+    "plate_placement_preserved": true,
+    "filament_and_process_settings_byte_identical": true,
+    "parts": [
+      {
+        "name": "Marine Blue",
+        "volume_mm3": 3502.369089703677,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Ice Blue",
+        "volume_mm3": 403.9433893723649,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Ivory White",
+        "volume_mm3": 497.3923592041438,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      }
+    ],
+    "tessellation_axis_rotation_degrees": 0
+  },
+  "underline": null,
+  "toolpath_checks": {
+    "loop_top_layer_mm": 2.0,
+    "loop_top_segments": 127,
+    "loop_segments_above_target_height": 0
+  },
+  "used_filament_slots": [
+    1,
+    2,
+    3
+  ],
+  "bambu_version": "02.08.02.61",
+  "physical_print_verified": false
+}

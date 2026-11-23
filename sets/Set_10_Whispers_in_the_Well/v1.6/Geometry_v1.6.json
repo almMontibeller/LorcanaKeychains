@@ -1,0 +1,93 @@
+{
+  "parts": [
+    {
+      "name": "Charcoal",
+      "slot": 1,
+      "volume_mm3": 3283.2980304222633,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    },
+    {
+      "name": "Ash Gray",
+      "slot": 2,
+      "volume_mm3": 257.0708550505321,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    },
+    {
+      "name": "Sunflower Yellow",
+      "slot": 3,
+      "volume_mm3": 215.48117367348945,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    }
+  ],
+  "dimensions_mm": [
+    57.166666717,
+    39.722222222,
+    2.8
+  ],
+  "backing_area_before_mm2": 1304.526943920244,
+  "backing_area_after_mm2": 1641.6490152111683,
+  "added_backing_area_mm2": 337.12207129092417,
+  "backing_openings_before": 20,
+  "connected_backing_components": 1,
+  "backing_openings": 1,
+  "eyelet": {
+    "bore_diameter_mm": 6.5,
+    "bore_coordinates_exactly_preserved": true,
+    "centre_mm": [
+      5.249999949999999,
+      19.6875
+    ],
+    "nominal_outer_diameter_mm": 10.5,
+    "radial_rim_mm": 2.0,
+    "height_mm": 2.0,
+    "neck_width_mm": 7.0
+  },
+  "feature_components": {
+    "grey": {
+      "subtitle_I": 1,
+      "subtitle_N": 1,
+      "subtitle_T": 1,
+      "subtitle_H": 1,
+      "subtitle_E": 1,
+      "stone_W": 1,
+      "stone_E": 1,
+      "stone_L1": 1,
+      "stone_L2": 1,
+      "lower_rule": 1
+    },
+    "gold": {
+      "W": 1,
+      "H": 1,
+      "I": 1,
+      "S1": 1,
+      "P": 1,
+      "E1": 1,
+      "R": 1,
+      "S2": 1,
+      "upper_wisp": 1
+    }
+  },
+  "gold_counters": {
+    "W": 0,
+    "H": 0,
+    "I": 0,
+    "S1": 0,
+    "P": 1,
+    "E1": 0,
+    "R": 1,
+    "S2": 0,
+    "upper_wisp": 0
+  },
+  "unsupported_relief_pixels": {
+    "Ash Gray": 0,
+    "Sunflower Yellow": 0
+  },
+  "raster_resolution_mm": 0.025,
+  "volumetric_colour_overlap": false,
+  "self_intersecting_contours": 0,
+  "plate_placement_preserved": true,
+  "filament_and_process_settings_byte_identical": true
+}

@@ -1,0 +1,765 @@
+{
+  "reference": "sets/Set_04_Ursulas_Return/v1.4/Set_04_Ursulas_Return_v1.4.1_printed.3mf",
+  "reference_sha256": "6824cb195e07f61733010c892d41bafd8ddf5f610065aa63dae8b81116148f48",
+  "updated_projects": 13,
+  "bore_diameter_mm": 5.5,
+  "outer_diameter_nominal_mm": 10.5,
+  "rim_width_nominal_mm": 2.5,
+  "thickness_changed": false,
+  "projects": [
+    {
+      "filename": "Set_01_The_First_Chapter_v1.3.3mf",
+      "project": "sets/Set_01_The_First_Chapter/v1.3/Set_01_The_First_Chapter_v1.3.3mf",
+      "source": "sets/Set_01_The_First_Chapter/v1.2/Set_01_The_First_Chapter_v1.2.3mf",
+      "source_sha256": "3a7c32d158597de20088a073ec45d93962ccd4f552cd51d53fe1539c1bdb056c",
+      "output_sha256": "5ae33fcfdecff76dd4282576525e0127dd71be9675dc805a5aeb5cba3c1ab1aa",
+      "reference": "sets/Set_04_Ursulas_Return/v1.4/Set_04_Ursulas_Return_v1.4.1_printed.3mf",
+      "attachment": {
+        "bore_diameters_xy_mm": [
+          5.5,
+          5.5
+        ],
+        "bore_centre_mm": [
+          5.2500014,
+          12.30000062
+        ],
+        "bore_centre_preserved": true,
+        "outer_diameter_nominal_mm": 10.5,
+        "rim_width_nominal_mm": 2.5,
+        "backing_and_loop_thickness_mm": 2.0,
+        "non_bore_contours_preserved": true,
+        "non_bore_contour_max_deviation_mm": 4.00007138523506e-10,
+        "overall_dimensions_preserved": true
+      },
+      "artwork_meshes_exactly_preserved": true,
+      "filament_and_process_settings_byte_identical": true,
+      "volume_removed_mm3": 15.882616869238063,
+      "tessellation_axis_rotation_degrees": 17,
+      "parts": [
+        {
+          "name": "Purple",
+          "slot": 1,
+          "volume_mm3": 3151.918591619382,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        },
+        {
+          "name": "Ivory White",
+          "slot": 2,
+          "volume_mm3": 529.148046209857,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        }
+      ],
+      "slice_passed": true,
+      "filament_slots_used": [
+        1,
+        2
+      ]
+    },
+    {
+      "filename": "Set_02_Rise_of_the_Floodborn_v1.3.3mf",
+      "project": "sets/Set_02_Rise_of_the_Floodborn/v1.3/Set_02_Rise_of_the_Floodborn_v1.3.3mf",
+      "source": "sets/Set_02_Rise_of_the_Floodborn/v1.2/Set_02_Rise_of_the_Floodborn_v1.2.3mf",
+      "source_sha256": "7a2e5b743ef8bf297aec0ac30ad3c7ab752ed6778c18911e26c03202a7c8f1d3",
+      "output_sha256": "646dda52eba3fc05b650a3c0e1792a7485ab558d7887c0ee1fc1157f0ac81932",
+      "reference": "sets/Set_04_Ursulas_Return/v1.4/Set_04_Ursulas_Return_v1.4.1_printed.3mf",
+      "attachment": {
+        "bore_diameters_xy_mm": [
+          5.5,
+          5.500000000000002
+        ],
+        "bore_centre_mm": [
+          5.24999995,
+          16.41500076
+        ],
+        "bore_centre_preserved": true,
+        "outer_diameter_nominal_mm": 10.5,
+        "rim_width_nominal_mm": 2.5,
+        "backing_and_loop_thickness_mm": 2.0,
+        "non_bore_contours_preserved": true,
+        "non_bore_contour_max_deviation_mm": 4.000000330961484e-10,
+        "overall_dimensions_preserved": true
+      },
+      "artwork_meshes_exactly_preserved": true,
+      "filament_and_process_settings_byte_identical": true,
+      "volume_removed_mm3": 15.859114067248811,
+      "tessellation_axis_rotation_degrees": 0,
+      "parts": [
+        {
+          "name": "Marine Blue",
+          "slot": 1,
+          "volume_mm3": 4440.631270910691,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        },
+        {
+          "name": "Ice Blue",
+          "slot": 2,
+          "volume_mm3": 203.15755402851337,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        },
+        {
+          "name": "Ivory White",
+          "slot": 3,
+          "volume_mm3": 743.1134621445918,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        }
+      ],
+      "slice_passed": true,
+      "filament_slots_used": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "filename": "Set_03_Into_the_Inklands_v1.3.3mf",
+      "project": "sets/Set_03_Into_the_Inklands/v1.3/Set_03_Into_the_Inklands_v1.3.3mf",
+      "source": "sets/Set_03_Into_the_Inklands/v1.2/Set_03_Into_the_Inklands_v1.2_printed.3mf",
+      "source_sha256": "f2b1d00479620bd9ddd9eac3d71be97427b1b5d8c4ef988fc0c56768a71d00ff",
+      "output_sha256": "f1cb27ea22ff8878a7c07a28b9c1b222cda615f5b7b6dbf79d0ccab554ddf4a5",
+      "reference": "sets/Set_04_Ursulas_Return/v1.4/Set_04_Ursulas_Return_v1.4.1_printed.3mf",
+      "attachment": {
+        "bore_diameters_xy_mm": [
+          5.5,
+          5.5
+        ],
+        "bore_centre_mm": [
+          5.25,
+          19.85499987
+        ],
+        "bore_centre_preserved": true,
+        "outer_diameter_nominal_mm": 10.5,
+        "rim_width_nominal_mm": 2.5,
+        "backing_and_loop_thickness_mm": 2.0,
+        "non_bore_contours_preserved": true,
+        "non_bore_contour_max_deviation_mm": 4.000000330961484e-10,
+        "overall_dimensions_preserved": true
+      },
+      "artwork_meshes_exactly_preserved": true,
+      "filament_and_process_settings_byte_identical": true,
+      "volume_removed_mm3": 15.859118692349512,
+      "tessellation_axis_rotation_degrees": 0,
+      "parts": [
+        {
+          "name": "Cocoa Brown",
+          "slot": 1,
+          "volume_mm3": 4907.119530046747,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        },
+        {
+          "name": "Ice Blue",
+          "slot": 2,
+          "volume_mm3": 141.9100629877996,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        },
+        {
+          "name": "Sunflower Yellow",
+          "slot": 3,
+          "volume_mm3": 1000.4989875497189,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        }
+      ],
+      "slice_passed": true,
+      "filament_slots_used": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "filename": "Set_05_Shimmering_Skies_v1.5.3mf",
+      "project": "sets/Set_05_Shimmering_Skies/v1.5/Set_05_Shimmering_Skies_v1.5.3mf",
+      "source": "sets/Set_05_Shimmering_Skies/v1.4/Set_05_Shimmering_Skies_v1.4.3mf",
+      "source_sha256": "bfd5e0749ce5a92ee228ba846e6262e5fc83c6639bb4310f93584cd539e5cb04",
+      "output_sha256": "cc5efdc19764c44c96a6b59e688bb4d7b6bf95a40b00974bf6586899daf68653",
+      "reference": "sets/Set_04_Ursulas_Return/v1.4/Set_04_Ursulas_Return_v1.4.1_printed.3mf",
+      "attachment": {
+        "bore_diameters_xy_mm": [
+          5.5,
+          5.5
+        ],
+        "bore_centre_mm": [
+          5.25000135,
+          19.08249952
+        ],
+        "bore_centre_preserved": true,
+        "outer_diameter_nominal_mm": 10.5,
+        "rim_width_nominal_mm": 2.5,
+        "backing_and_loop_thickness_mm": 2.0,
+        "non_bore_contours_preserved": true,
+        "non_bore_contour_max_deviation_mm": 0.0,
+        "overall_dimensions_preserved": true
+      },
+      "artwork_meshes_exactly_preserved": true,
+      "filament_and_process_settings_byte_identical": true,
+      "volume_removed_mm3": 15.879068055539392,
+      "tessellation_axis_rotation_degrees": 0,
+      "parts": [
+        {
+          "name": "Purple \u2014 reinforced star supports",
+          "slot": 1,
+          "volume_mm3": 4754.6706162519795,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        },
+        {
+          "name": "Red \u2014 continuous title panel",
+          "slot": 2,
+          "volume_mm3": 277.12956250014304,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        },
+        {
+          "name": "Ivory White",
+          "slot": 3,
+          "volume_mm3": 856.6637162122043,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        }
+      ],
+      "slice_passed": true,
+      "filament_slots_used": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "filename": "Set_06_Azurite_Sea_v1.3.3mf",
+      "project": "sets/Set_06_Azurite_Sea/v1.3/Set_06_Azurite_Sea_v1.3.3mf",
+      "source": "sets/Set_06_Azurite_Sea/v1.2/Set_06_Azurite_Sea_v1.2.3mf",
+      "source_sha256": "c1f13af902c90b4b3c4e9fb6bf054ebced56f9cdae839c4817df571dec7438b4",
+      "output_sha256": "a1b66403a2bfee735a7ba31b153e0d2acedb7b44c2b4d989919d5cc9dc3660a6",
+      "reference": "sets/Set_04_Ursulas_Return/v1.4/Set_04_Ursulas_Return_v1.4.1_printed.3mf",
+      "attachment": {
+        "bore_diameters_xy_mm": [
+          5.5,
+          5.5
+        ],
+        "bore_centre_mm": [
+          5.25,
+          20.637499845
+        ],
+        "bore_centre_preserved": true,
+        "outer_diameter_nominal_mm": 10.5,
+        "rim_width_nominal_mm": 2.5,
+        "backing_and_loop_thickness_mm": 2.0,
+        "non_bore_contours_preserved": true,
+        "non_bore_contour_max_deviation_mm": 4.000000331000927e-10,
+        "overall_dimensions_preserved": true
+      },
+      "artwork_meshes_exactly_preserved": true,
+      "filament_and_process_settings_byte_identical": true,
+      "volume_removed_mm3": 15.883540718406948,
+      "tessellation_axis_rotation_degrees": 0,
+      "parts": [
+        {
+          "name": "Marine Blue",
+          "slot": 1,
+          "volume_mm3": 4577.9637458613915,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        },
+        {
+          "name": "Ice Blue",
+          "slot": 2,
+          "volume_mm3": 13.304607066592041,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        },
+        {
+          "name": "Sunflower Yellow",
+          "slot": 3,
+          "volume_mm3": 679.8256772522233,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        }
+      ],
+      "slice_passed": true,
+      "filament_slots_used": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "filename": "Set_07_Archazias_Island_v1.3.3mf",
+      "project": "sets/Set_07_Archazias_Island/v1.3/Set_07_Archazias_Island_v1.3.3mf",
+      "source": "sets/Set_07_Archazias_Island/v1.2/Set_07_Archazias_Island_v1.2.3mf",
+      "source_sha256": "14447dd899601f5fdc489bb0f354325fac37ba2bde70abf345354144873a507f",
+      "output_sha256": "61c63f0dcd5f0428a851d8049ad6b4cb161bfc0b246c649d2bd197011c097d87",
+      "reference": "sets/Set_04_Ursulas_Return/v1.4/Set_04_Ursulas_Return_v1.4.1_printed.3mf",
+      "attachment": {
+        "bore_diameters_xy_mm": [
+          5.5,
+          5.5
+        ],
+        "bore_centre_mm": [
+          5.250000050000001,
+          20.407500255
+        ],
+        "bore_centre_preserved": true,
+        "outer_diameter_nominal_mm": 10.5,
+        "rim_width_nominal_mm": 2.5,
+        "backing_and_loop_thickness_mm": 2.0,
+        "non_bore_contours_preserved": true,
+        "non_bore_contour_max_deviation_mm": 3.999929277319008e-10,
+        "overall_dimensions_preserved": true
+      },
+      "artwork_meshes_exactly_preserved": true,
+      "filament_and_process_settings_byte_identical": true,
+      "volume_removed_mm3": 15.880862076394806,
+      "tessellation_axis_rotation_degrees": 0,
+      "parts": [
+        {
+          "name": "Dark Green",
+          "slot": 1,
+          "volume_mm3": 4809.361023510457,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        },
+        {
+          "name": "Caramel",
+          "slot": 2,
+          "volume_mm3": 53.67571143700633,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        },
+        {
+          "name": "Ivory White",
+          "slot": 3,
+          "volume_mm3": 558.3255953448165,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        }
+      ],
+      "slice_passed": true,
+      "filament_slots_used": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "filename": "Set_08_Reign_of_Jafar_v1.3.3mf",
+      "project": "sets/Set_08_Reign_of_Jafar/v1.3/Set_08_Reign_of_Jafar_v1.3.3mf",
+      "source": "sets/Set_08_Reign_of_Jafar/v1.2/Set_08_Reign_of_Jafar_v1.2.3mf",
+      "source_sha256": "75cf23b0f8c015138385aa6a1d8ddc88c1891ae4c9d8a553ff85c14bc7e21b91",
+      "output_sha256": "efb2453e1e88ece1b86f173132e80131d362ce4e8555c6316f0fbca02d82d224",
+      "reference": "sets/Set_04_Ursulas_Return/v1.4/Set_04_Ursulas_Return_v1.4.1_printed.3mf",
+      "attachment": {
+        "bore_diameters_xy_mm": [
+          5.5,
+          5.5
+        ],
+        "bore_centre_mm": [
+          5.25,
+          20.7700005
+        ],
+        "bore_centre_preserved": true,
+        "outer_diameter_nominal_mm": 10.5,
+        "rim_width_nominal_mm": 2.5,
+        "backing_and_loop_thickness_mm": 2.0,
+        "non_bore_contours_preserved": true,
+        "non_bore_contour_max_deviation_mm": 2.999982484652719e-10,
+        "overall_dimensions_preserved": true
+      },
+      "artwork_meshes_exactly_preserved": true,
+      "filament_and_process_settings_byte_identical": true,
+      "volume_removed_mm3": 15.868707186009033,
+      "tessellation_axis_rotation_degrees": 0,
+      "parts": [
+        {
+          "name": "Charcoal",
+          "slot": 1,
+          "volume_mm3": 4083.6695088429165,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        },
+        {
+          "name": "Pumpkin Orange",
+          "slot": 2,
+          "volume_mm3": 160.06211734723595,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        },
+        {
+          "name": "Sunflower Yellow",
+          "slot": 3,
+          "volume_mm3": 126.96974813476307,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        },
+        {
+          "name": "Red",
+          "slot": 4,
+          "volume_mm3": 276.29078708416256,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        }
+      ],
+      "slice_passed": true,
+      "filament_slots_used": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "filename": "Set_09_Fabled_v1.3.3mf",
+      "project": "sets/Set_09_Fabled/v1.3/Set_09_Fabled_v1.3.3mf",
+      "source": "sets/Set_09_Fabled/v1.2/Set_09_Fabled_v1.2.3mf",
+      "source_sha256": "b76b22b1f4094a1e3b273b1a09721cf54e1ca75c1397ef4e638efefd1ab7b00d",
+      "output_sha256": "bef2c897c945dd6db372640dca6ec4115de2bdb945d4f5862fe82692bfcb19d8",
+      "reference": "sets/Set_04_Ursulas_Return/v1.4/Set_04_Ursulas_Return_v1.4.1_printed.3mf",
+      "attachment": {
+        "bore_diameters_xy_mm": [
+          5.5,
+          5.5
+        ],
+        "bore_centre_mm": [
+          5.24999995,
+          16.69000006
+        ],
+        "bore_centre_preserved": true,
+        "outer_diameter_nominal_mm": 10.5,
+        "rim_width_nominal_mm": 2.5,
+        "backing_and_loop_thickness_mm": 2.0,
+        "non_bore_contours_preserved": true,
+        "non_bore_contour_max_deviation_mm": 4.999982652152952e-10,
+        "overall_dimensions_preserved": true
+      },
+      "artwork_meshes_exactly_preserved": true,
+      "filament_and_process_settings_byte_identical": true,
+      "volume_removed_mm3": 15.859116831863957,
+      "tessellation_axis_rotation_degrees": 17,
+      "parts": [
+        {
+          "name": "Marine Blue",
+          "slot": 1,
+          "volume_mm3": 3909.486655739461,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        },
+        {
+          "name": "Sunflower Yellow",
+          "slot": 2,
+          "volume_mm3": 340.91959019894915,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        },
+        {
+          "name": "Purple",
+          "slot": 3,
+          "volume_mm3": 508.79662923383586,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        }
+      ],
+      "slice_passed": true,
+      "filament_slots_used": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "filename": "Set_10_Whispers_in_the_Well_v1.3.3mf",
+      "project": "sets/Set_10_Whispers_in_the_Well/v1.3/Set_10_Whispers_in_the_Well_v1.3.3mf",
+      "source": "sets/Set_10_Whispers_in_the_Well/v1.2/Set_10_Whispers_in_the_Well_v1.2.3mf",
+      "source_sha256": "4ea89d020bf06436a950b7b8749b9c676fdcc79a8a0975f7b0b24169c57798d3",
+      "output_sha256": "5e29e965dcfecccebcea8c3746f010ab9e1eb7eae5785b08802169b6ed4d4bea",
+      "reference": "sets/Set_04_Ursulas_Return/v1.4/Set_04_Ursulas_Return_v1.4.1_printed.3mf",
+      "attachment": {
+        "bore_diameters_xy_mm": [
+          5.5,
+          5.5
+        ],
+        "bore_centre_mm": [
+          5.24999995,
+          19.6875
+        ],
+        "bore_centre_preserved": true,
+        "outer_diameter_nominal_mm": 10.5,
+        "rim_width_nominal_mm": 2.5,
+        "backing_and_loop_thickness_mm": 2.0,
+        "non_bore_contours_preserved": true,
+        "non_bore_contour_max_deviation_mm": 2.00003569261753e-10,
+        "overall_dimensions_preserved": true
+      },
+      "artwork_meshes_exactly_preserved": true,
+      "filament_and_process_settings_byte_identical": true,
+      "volume_removed_mm3": 15.877906878547492,
+      "tessellation_axis_rotation_degrees": 17,
+      "parts": [
+        {
+          "name": "Charcoal",
+          "slot": 1,
+          "volume_mm3": 2627.895874786705,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        },
+        {
+          "name": "Ash Gray",
+          "slot": 2,
+          "volume_mm3": 199.26195514071006,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        },
+        {
+          "name": "Sunflower Yellow",
+          "slot": 3,
+          "volume_mm3": 196.18058277303325,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        }
+      ],
+      "slice_passed": true,
+      "filament_slots_used": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "filename": "Set_11_Winterspell_v1.3.3mf",
+      "project": "sets/Set_11_Winterspell/v1.3/Set_11_Winterspell_v1.3.3mf",
+      "source": "sets/Set_11_Winterspell/v1.2/Set_11_Winterspell_v1.2.3mf",
+      "source_sha256": "2e0134c8c6bd334913c086dbd0d3accd2cf1ef01cdb208c888bff38b37ebe0bf",
+      "output_sha256": "77eabc2515d6039da9c19fda45f0b3e4920261538fda984b4739f652850a1800",
+      "reference": "sets/Set_04_Ursulas_Return/v1.4/Set_04_Ursulas_Return_v1.4.1_printed.3mf",
+      "attachment": {
+        "bore_diameters_xy_mm": [
+          5.5,
+          5.500000000000002
+        ],
+        "bore_centre_mm": [
+          5.25,
+          13.400000075000001
+        ],
+        "bore_centre_preserved": true,
+        "outer_diameter_nominal_mm": 10.5,
+        "rim_width_nominal_mm": 2.5,
+        "backing_and_loop_thickness_mm": 2.0,
+        "non_bore_contours_preserved": true,
+        "non_bore_contour_max_deviation_mm": 4.3999826004892384e-10,
+        "overall_dimensions_preserved": true
+      },
+      "artwork_meshes_exactly_preserved": true,
+      "filament_and_process_settings_byte_identical": true,
+      "volume_removed_mm3": 15.882617586332799,
+      "tessellation_axis_rotation_degrees": 0,
+      "parts": [
+        {
+          "name": "Marine Blue",
+          "slot": 1,
+          "volume_mm3": 3521.211076649488,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        },
+        {
+          "name": "Ice Blue",
+          "slot": 2,
+          "volume_mm3": 403.9433893723649,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        },
+        {
+          "name": "Ivory White",
+          "slot": 3,
+          "volume_mm3": 497.3923592041438,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        }
+      ],
+      "slice_passed": true,
+      "filament_slots_used": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "filename": "Set_12_Wilds_Unknown_v1.3.3mf",
+      "project": "sets/Set_12_Wilds_Unknown/v1.3/Set_12_Wilds_Unknown_v1.3.3mf",
+      "source": "sets/Set_12_Wilds_Unknown/v1.2/Set_12_Wilds_Unknown_v1.2.3mf",
+      "source_sha256": "a10da7da80c018fb6895b691c37e393aa20b4240a18c1368bf6eaba262526922",
+      "output_sha256": "5067d391df0ccdfdfc8276aac9c459154b451b6101a8202f823f0e4f02736429",
+      "reference": "sets/Set_04_Ursulas_Return/v1.4/Set_04_Ursulas_Return_v1.4.1_printed.3mf",
+      "attachment": {
+        "bore_diameters_xy_mm": [
+          5.5,
+          5.5
+        ],
+        "bore_centre_mm": [
+          5.25000135,
+          20.45250032
+        ],
+        "bore_centre_preserved": true,
+        "outer_diameter_nominal_mm": 10.5,
+        "rim_width_nominal_mm": 2.5,
+        "backing_and_loop_thickness_mm": 2.0,
+        "non_bore_contours_preserved": true,
+        "non_bore_contour_max_deviation_mm": 4.999947123014422e-10,
+        "overall_dimensions_preserved": true
+      },
+      "artwork_meshes_exactly_preserved": true,
+      "filament_and_process_settings_byte_identical": true,
+      "volume_removed_mm3": 15.879066697822964,
+      "tessellation_axis_rotation_degrees": 0,
+      "parts": [
+        {
+          "name": "Cocoa Brown",
+          "slot": 1,
+          "volume_mm3": 4912.27242501724,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        },
+        {
+          "name": "Dark Green",
+          "slot": 2,
+          "volume_mm3": 72.90424412998232,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        },
+        {
+          "name": "Ivory White",
+          "slot": 3,
+          "volume_mm3": 1115.1559311935432,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        }
+      ],
+      "slice_passed": true,
+      "filament_slots_used": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "filename": "Set_13_Attack_of_the_Vine_v1.3.3mf",
+      "project": "sets/Set_13_Attack_of_the_Vine/v1.3/Set_13_Attack_of_the_Vine_v1.3.3mf",
+      "source": "sets/Set_13_Attack_of_the_Vine/v1.2/Set_13_Attack_of_the_Vine_v1.2.3mf",
+      "source_sha256": "1a0b1ebc603847b0de800532308886c74ed2fb49eef98a4ab80abc4dd9b76528",
+      "output_sha256": "77e8917cf6a7684b9b28ab18df3c4d2128da8161c4fe9a2dc085939e600cb40a",
+      "reference": "sets/Set_04_Ursulas_Return/v1.4/Set_04_Ursulas_Return_v1.4.1_printed.3mf",
+      "attachment": {
+        "bore_diameters_xy_mm": [
+          5.5,
+          5.5
+        ],
+        "bore_centre_mm": [
+          5.250000050000001,
+          20.4524994
+        ],
+        "bore_centre_preserved": true,
+        "outer_diameter_nominal_mm": 10.5,
+        "rim_width_nominal_mm": 2.5,
+        "backing_and_loop_thickness_mm": 2.0,
+        "non_bore_contours_preserved": true,
+        "non_bore_contour_max_deviation_mm": 6.000178132126166e-11,
+        "overall_dimensions_preserved": true
+      },
+      "artwork_meshes_exactly_preserved": true,
+      "filament_and_process_settings_byte_identical": true,
+      "volume_removed_mm3": 15.880857519207893,
+      "tessellation_axis_rotation_degrees": 0,
+      "parts": [
+        {
+          "name": "Purple",
+          "slot": 1,
+          "volume_mm3": 3375.630988428757,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        },
+        {
+          "name": "Mistletoe Green",
+          "slot": 2,
+          "volume_mm3": 259.7153132619323,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        },
+        {
+          "name": "Sunflower Yellow",
+          "slot": 3,
+          "volume_mm3": 343.48912975808315,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        }
+      ],
+      "slice_passed": true,
+      "filament_slots_used": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "filename": "Set_14_Hyperia_City_v1.3.3mf",
+      "project": "sets/Set_14_Hyperia_City/v1.3/Set_14_Hyperia_City_v1.3.3mf",
+      "source": "sets/Set_14_Hyperia_City/v1.2/Set_14_Hyperia_City_v1.2.3mf",
+      "source_sha256": "500d9df4a5b493fc619acbbdb053dc744fd395026505e9427027f3c751cefeae",
+      "output_sha256": "2989665b600d3edfbf56bd5ae2106ed0988f675be586254139a8ab51e8b0d462",
+      "reference": "sets/Set_04_Ursulas_Return/v1.4/Set_04_Ursulas_Return_v1.4.1_printed.3mf",
+      "attachment": {
+        "bore_diameters_xy_mm": [
+          5.5,
+          5.5
+        ],
+        "bore_centre_mm": [
+          5.250000050000001,
+          20.394999545
+        ],
+        "bore_centre_preserved": true,
+        "outer_diameter_nominal_mm": 10.5,
+        "rim_width_nominal_mm": 2.5,
+        "backing_and_loop_thickness_mm": 2.0,
+        "non_bore_contours_preserved": true,
+        "non_bore_contour_max_deviation_mm": 2.2999913129088554e-10,
+        "overall_dimensions_preserved": true
+      },
+      "artwork_meshes_exactly_preserved": true,
+      "filament_and_process_settings_byte_identical": true,
+      "volume_removed_mm3": 15.882612022447574,
+      "tessellation_axis_rotation_degrees": 0,
+      "parts": [
+        {
+          "name": "Cocoa Brown",
+          "slot": 1,
+          "volume_mm3": 3807.6449542685295,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        },
+        {
+          "name": "Caramel",
+          "slot": 2,
+          "volume_mm3": 288.1874964297962,
+          "degenerate_triangles": 4,
+          "closed_manifold": true
+        },
+        {
+          "name": "Ivory White",
+          "slot": 3,
+          "volume_mm3": 581.8000422396009,
+          "degenerate_triangles": 0,
+          "closed_manifold": true
+        }
+      ],
+      "slice_passed": true,
+      "filament_slots_used": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "project": "Set_11_Winterspell_v1.7.3mf",
+  "sha256": "a93d59b9204847fd9fa322505818854158f2e620153d45bd393a320a926aa934",
+  "artwork_reference": "https://i0.wp.com/disneylorcana.com/wp-content/uploads/2026/08/dlc_s11_logo_en.webp?fit=648%2C300&ssl=1",
+  "source_snapshot_sha256": "59c1d47fc7fcaa9af86202c9499952523d6260028b68839d6444b02f1e1898f2",
+  "inputs_sha256": {
+    "tools/rebuild_set11.py": "3ef7c8a450a03ede2557337417c0f079e7fa5c6cdf937730afe18a93118d4dd7",
+    "tools/validate_set11.py": "e19bc305df63105be2e0a807ec5b5a87e3803e7c6ef985bf261813ff83da8171",
+    "tools/set11_clean_artwork.svg": "50b88c65ade31e6ede02f22ab09fdb877f38934821ab74cbac757e855a7be016",
+    "tools/full_height_narrow_rims.py": "3a45553b13bce8f430a571620fd6303fb922a01cbcb014694e06973c50f4f1de",
+    "tools/rebuild_set04.py": "18efb9ec2eb5438f66c28ff58f179edc6e7468f51dc539635f55384ceba70402",
+    "tools/rebuild_set05.py": "495739140a39c0c35b9220472c9ce82a4d81b5b0f4ef2cc5c5be622d33157bfa",
+    "tools/rebuild_set06.py": "7436b2be1c0e3d166cdab6696502c0ddf3a985b625cddf515ea6f910292c35ae",
+    "tools/rebuild_set07.py": "5e27c6ddb3c582f0f1050fcc8642d74f6d2f5ca7831706bc4b894781df91fdf8",
+    "tools/rebuild_set09.py": "3d62aee3bd1a9ce8edf63a4d8e74043d0e12952b6b437e9de4b3e0f06b7c98ea",
+    "tools/refine_loops_and_underline.py": "de3151b4ab401b08a6c957c3347d21bcd3aa6c969b10149af435f0323f34fe26",
+    "tools/repair_v1_1.py": "3bcdd33f048d310b8a2be2e819640b5e433df9c91443f83a6b8a82f46bf3f20d",
+    "tools/standardize_loop_diameters.py": "2d2548881db361bd83e2f74636b25b5634f95e2caacf5e591b09f7e491d646e3",
+    "tools/validate_bambu.py": "adc34b3b462668b8e881ece60e285ecda2968efe4f0b3a353506ae0c9e8deea5",
+    "tools/validate_set06.py": "140507e8e7b59d65883fa4d2c9d8e61437c0882c0cbbc434324ceab4d74b868f",
+    "tools/validate_set09.py": "5c169af473bfba9207cf3f0c1f212cccb9c3ecc8e84156d66f0a66149cf509f6",
+    "tools/recolor_set11.py": "02dbfccbe1850c6027879c3b66868770b3fa549d7e4f80e94e29499ad746fdcf",
+    "tools/set11_frost_bands.svg": "9c72ba403bc24ba9b0540ee6b0cf768fafd2816216137df7d338e7ca2fe26604",
+    "sets/Set_11_Winterspell/v1.6/Set_11_Winterspell_v1.6.3mf": "4d69eb12f9e89d22118b2ca039ea988d1af31bfed209185a33a98b420dc1000c",
+    "sets/Set_09_Fabled/v1.7/Set_09_Fabled_v1.7.3mf": "22d15d58221be3073a31c16c611f40823478c2c533c758070f986c41bc449327",
+    "collection/v1.0/Sources/lorcana-keychains/sources/11.png": "07b442e74238200a20f4c38d3bb76e31ef599fa2b4747a68290864708f1382c9",
+    "sets/Set_09_Fabled/v1.5/Set_09_Fabled_v1.5.3mf": "4dbfa092d327971a4be5fef61ee6c1822476a3c981758ad365da491f7e6b2b73"
+  }
+}

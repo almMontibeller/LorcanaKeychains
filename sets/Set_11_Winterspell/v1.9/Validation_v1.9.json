@@ -1,0 +1,234 @@
+{
+  "sha256": "3b919a2ccf2c9c461f927f23d127f1dae7fe6d0435d7fb1587b20d7e3bb766ed",
+  "bambu_version": "02.09.01.70",
+  "estimated_minutes": 23.5,
+  "nozzle_mm": 0.4,
+  "layer_height_mm": 0.2,
+  "scale": 1.0,
+  "plate_warnings": "",
+  "physical_print_verified": false,
+  "blue_top_mm": 2.0,
+  "blue_top_core_coverage": 0.99734,
+  "gold_layers": {
+    "2.2": {
+      "deposit_components": 11,
+      "letters": {
+        "W": {
+          "deposited_core_fraction": 0.98755,
+          "deposited_nominal_fraction": 0.97573
+        },
+        "I": {
+          "deposited_core_fraction": 0.9949,
+          "deposited_nominal_fraction": 0.97755
+        },
+        "N": {
+          "deposited_core_fraction": 0.99023,
+          "deposited_nominal_fraction": 0.97872
+        },
+        "T": {
+          "deposited_core_fraction": 0.9891,
+          "deposited_nominal_fraction": 0.98194
+        },
+        "E1": {
+          "deposited_core_fraction": 0.98713,
+          "deposited_nominal_fraction": 0.97937
+        },
+        "R": {
+          "deposited_core_fraction": 0.98734,
+          "deposited_nominal_fraction": 0.96651
+        },
+        "S": {
+          "deposited_core_fraction": 0.99693,
+          "deposited_nominal_fraction": 0.97579
+        },
+        "P": {
+          "deposited_core_fraction": 0.99324,
+          "deposited_nominal_fraction": 0.98267
+        },
+        "E2": {
+          "deposited_core_fraction": 0.99284,
+          "deposited_nominal_fraction": 0.9855
+        },
+        "L1": {
+          "deposited_core_fraction": 0.99715,
+          "deposited_nominal_fraction": 0.98507
+        },
+        "L2": {
+          "deposited_core_fraction": 0.97621,
+          "deposited_nominal_fraction": 0.97423
+        }
+      }
+    },
+    "2.4": {
+      "deposit_components": 11,
+      "letters": {
+        "W": {
+          "deposited_core_fraction": 0.98759,
+          "deposited_nominal_fraction": 0.9758
+        },
+        "I": {
+          "deposited_core_fraction": 0.9949,
+          "deposited_nominal_fraction": 0.97755
+        },
+        "N": {
+          "deposited_core_fraction": 0.99025,
+          "deposited_nominal_fraction": 0.97872
+        },
+        "T": {
+          "deposited_core_fraction": 0.9893,
+          "deposited_nominal_fraction": 0.98207
+        },
+        "E1": {
+          "deposited_core_fraction": 0.98713,
+          "deposited_nominal_fraction": 0.97937
+        },
+        "R": {
+          "deposited_core_fraction": 0.98734,
+          "deposited_nominal_fraction": 0.96648
+        },
+        "S": {
+          "deposited_core_fraction": 0.99693,
+          "deposited_nominal_fraction": 0.97579
+        },
+        "P": {
+          "deposited_core_fraction": 0.99336,
+          "deposited_nominal_fraction": 0.98276
+        },
+        "E2": {
+          "deposited_core_fraction": 0.99292,
+          "deposited_nominal_fraction": 0.98578
+        },
+        "L1": {
+          "deposited_core_fraction": 0.9971,
+          "deposited_nominal_fraction": 0.98504
+        },
+        "L2": {
+          "deposited_core_fraction": 0.97612,
+          "deposited_nominal_fraction": 0.97417
+        }
+      }
+    },
+    "2.6": {
+      "deposit_components": 11,
+      "letters": {
+        "W": {
+          "deposited_core_fraction": 0.99343,
+          "deposited_nominal_fraction": 0.98039
+        },
+        "I": {
+          "deposited_core_fraction": 0.9949,
+          "deposited_nominal_fraction": 0.97755
+        },
+        "N": {
+          "deposited_core_fraction": 0.99471,
+          "deposited_nominal_fraction": 0.98313
+        },
+        "T": {
+          "deposited_core_fraction": 0.98921,
+          "deposited_nominal_fraction": 0.98186
+        },
+        "E1": {
+          "deposited_core_fraction": 0.98711,
+          "deposited_nominal_fraction": 0.97937
+        },
+        "R": {
+          "deposited_core_fraction": 0.98734,
+          "deposited_nominal_fraction": 0.96645
+        },
+        "S": {
+          "deposited_core_fraction": 0.99702,
+          "deposited_nominal_fraction": 0.97587
+        },
+        "P": {
+          "deposited_core_fraction": 0.99324,
+          "deposited_nominal_fraction": 0.98267
+        },
+        "E2": {
+          "deposited_core_fraction": 0.99288,
+          "deposited_nominal_fraction": 0.98575
+        },
+        "L1": {
+          "deposited_core_fraction": 0.99712,
+          "deposited_nominal_fraction": 0.98506
+        },
+        "L2": {
+          "deposited_core_fraction": 0.98763,
+          "deposited_nominal_fraction": 0.98384
+        }
+      }
+    }
+  },
+  "snow_layers": {
+    "2.8": {
+      "deposit_components": 7,
+      "letters": {
+        "W-scroll": {
+          "deposited_core_fraction": 0.9859,
+          "deposited_nominal_fraction": 0.96648
+        },
+        "W-crown": {
+          "deposited_core_fraction": 0.9581,
+          "deposited_nominal_fraction": 0.9301
+        },
+        "T-left": {
+          "deposited_core_fraction": 0.99566,
+          "deposited_nominal_fraction": 0.97102
+        },
+        "R-crown": {
+          "deposited_core_fraction": 0.99229,
+          "deposited_nominal_fraction": 0.91968
+        },
+        "S-curl": {
+          "deposited_core_fraction": 0.96312,
+          "deposited_nominal_fraction": 0.93738
+        },
+        "P-crown": {
+          "deposited_core_fraction": 1.0,
+          "deposited_nominal_fraction": 0.96061
+        },
+        "L-scroll": {
+          "deposited_core_fraction": 0.96095,
+          "deposited_nominal_fraction": 0.92682
+        }
+      }
+    },
+    "3.0": {
+      "deposit_components": 7,
+      "letters": {
+        "W-scroll": {
+          "deposited_core_fraction": 0.99761,
+          "deposited_nominal_fraction": 0.97604
+        },
+        "W-crown": {
+          "deposited_core_fraction": 0.9707,
+          "deposited_nominal_fraction": 0.93873
+        },
+        "T-left": {
+          "deposited_core_fraction": 0.98062,
+          "deposited_nominal_fraction": 0.9627
+        },
+        "R-crown": {
+          "deposited_core_fraction": 0.99209,
+          "deposited_nominal_fraction": 0.91932
+        },
+        "S-curl": {
+          "deposited_core_fraction": 0.98494,
+          "deposited_nominal_fraction": 0.95186
+        },
+        "P-crown": {
+          "deposited_core_fraction": 1.0,
+          "deposited_nominal_fraction": 0.96061
+        },
+        "L-scroll": {
+          "deposited_core_fraction": 0.97573,
+          "deposited_nominal_fraction": 0.93626
+        }
+      }
+    }
+  },
+  "eyelet": {
+    "loop_top_layer_mm": 2.0,
+    "loop_top_segments": 104,
+    "loop_segments_above_target_height": 0
+  }
+}

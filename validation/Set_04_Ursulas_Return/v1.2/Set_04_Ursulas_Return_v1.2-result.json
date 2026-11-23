@@ -1,0 +1,86 @@
+{
+  "error_string": "Success.",
+  "export_time": 0,
+  "layer_height": 0.20000000298023224,
+  "plate_index": 1,
+  "prepare_time": 20,
+  "return_code": 0,
+  "sliced_plates": [
+    {
+      "feature_type_times": {
+        "Bottom surface": 81.98368072509766,
+        "Bridge": 54.17234420776367,
+        "Custom": 369.61846923828125,
+        "Flush": 396.4743347167969,
+        "Gap infill": 27.805452346801758,
+        "Inner wall": 220.0098419189453,
+        "Internal solid infill": 352.09515380859375,
+        "Outer wall": 148.6007080078125,
+        "Prime tower": 184.156982421875,
+        "Sparse infill": 10.972354888916016,
+        "Top surface": 133.71298217773438,
+        "Travel": 270.6890563964844,
+        "Undefined": 253.6572265625
+      },
+      "filament_change_times": 5,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 1,
+          "main_used_g": 6.663225173950195,
+          "total_used_g": 7.654447555541992
+        },
+        {
+          "filament_id": "GFA00",
+          "id": 2,
+          "main_used_g": 0.7375882863998413,
+          "total_used_g": 1.5014317035675049
+        },
+        {
+          "filament_id": "GFA01",
+          "id": 3,
+          "main_used_g": 0.2943761944770813,
+          "total_used_g": 1.412980079650879
+        }
+      ],
+      "generate_support_material_time": 24,
+      "id": 1,
+      "infill_time": 427,
+      "layer_filament_change": 0,
+      "main_predication": 1275.04541015625,
+      "make_perimeters_time": 234,
+      "obj_cached_cnt": 0,
+      "objects": [
+        {
+          "bbox": {
+            "depth": 41.0,
+            "height": 2.799999952316284,
+            "width": 86.46499633789062,
+            "x": 84.77000427246094,
+            "y": 107.5,
+            "z": 0.0
+          },
+          "id": 5,
+          "name": "Ursula\u2019s Return v1.2",
+          "triangle_count": 9624
+        }
+      ],
+      "sliced_time": 1143,
+      "sliced_time_with_cache": 424,
+      "total_predication": 2233.263427734375,
+      "triangle_count": 9624,
+      "warning_message": ""
+    }
+  ],
+  "sparse_infill_density": 15.0,
+  "upward_compatible_machine": [
+    "Bambu Lab H2D 0.4 nozzle",
+    "Bambu Lab H2D Pro 0.4 nozzle",
+    "Bambu Lab H2S 0.4 nozzle",
+    "Bambu Lab P2S 0.4 nozzle",
+    "Bambu Lab H2C 0.4 nozzle",
+    "Bambu Lab X2D 0.4 nozzle",
+    "Bambu Lab A2L 0.4 nozzle"
+  ],
+  "wall_loops": 3
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1381 685">
+  <title>Reign of Jafar — orange serpent face and engraved cobra hood</title>
+  <desc>Registered to archived 08.png. Hood paths are open centre lines, engraved 0.4 mm deep and 0.6 mm wide. The orange rim is a uniform inset derived from the clean frame.</desc>
+  <g id="orange" fill="#E68B31">
+    <path id="serpent_face" d="M 607 66 C 615 45 633 31 649 34 L 670 61 L 708 61 L 728 34 C 748 34 766 49 775 66 L 764 83 L 726 94 L 718 106 L 707 96 L 677 96 L 667 106 L 657 94 L 621 85 Z"/>
+  </g>
+  <g id="face_lines" fill="none" stroke="#F2C547">
+    <path id="forehead_and_muzzle" d="M 670 69 L 691 87 L 710 69"/>
+  </g>
+  <g id="hood" fill="none" stroke="#272B2C">
+    <path id="upper_hood_band" d="M 428 79 C 485 173 580 220 691 222 C 808 221 930 163 1003 79"/>
+    <path id="upper_middle_hood_band" d="M 310 180 C 429 269 552 307 691 310 C 837 308 984 265 1083 179"/>
+    <path id="middle_hood_band" d="M 214 302 C 355 392 524 443 691 449 C 865 444 1048 390 1172 299"/>
+    <path id="lower_middle_hood_band" d="M 270 421 C 406 494 545 536 691 541 C 851 536 1006 494 1120 422"/>
+    <path id="lower_hood_band" d="M 347 530 C 455 581 575 606 691 610 C 824 607 945 580 1048 530"/>
+  </g>
+</svg>

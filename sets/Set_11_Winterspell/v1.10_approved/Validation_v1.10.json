@@ -1,0 +1,285 @@
+{
+  "sha256": "d074e01535cdd57c7118e82e78fda4864a5befe4d9931b70d40eaf173e9dcc01",
+  "bambu_version": "02.09.01.70",
+  "estimated_minutes": 23.6,
+  "nozzle_mm": 0.4,
+  "layer_height_mm": 0.2,
+  "xy_scale": 1.0,
+  "used_filament_slots": [
+    1,
+    2,
+    3
+  ],
+  "plate_warnings": "",
+  "physical_print_verified": false,
+  "eyelet": {
+    "loop_top_layer_mm": 2.0,
+    "loop_top_segments": 104,
+    "loop_segments_above_target_height": 0
+  },
+  "gold_layers": {
+    "2.2": {
+      "deposit_components": 11,
+      "letters": {
+        "W": {
+          "deposited_core_fraction": 0.98755,
+          "deposited_nominal_fraction": 0.97576
+        },
+        "I": {
+          "deposited_core_fraction": 0.9949,
+          "deposited_nominal_fraction": 0.97755
+        },
+        "N": {
+          "deposited_core_fraction": 0.99014,
+          "deposited_nominal_fraction": 0.97865
+        },
+        "T": {
+          "deposited_core_fraction": 0.9891,
+          "deposited_nominal_fraction": 0.98194
+        },
+        "E1": {
+          "deposited_core_fraction": 0.98713,
+          "deposited_nominal_fraction": 0.97937
+        },
+        "R": {
+          "deposited_core_fraction": 0.98734,
+          "deposited_nominal_fraction": 0.96651
+        },
+        "S": {
+          "deposited_core_fraction": 0.99693,
+          "deposited_nominal_fraction": 0.97576
+        },
+        "P": {
+          "deposited_core_fraction": 0.99324,
+          "deposited_nominal_fraction": 0.98267
+        },
+        "E2": {
+          "deposited_core_fraction": 0.99284,
+          "deposited_nominal_fraction": 0.9855
+        },
+        "L1": {
+          "deposited_core_fraction": 0.99714,
+          "deposited_nominal_fraction": 0.98504
+        },
+        "L2": {
+          "deposited_core_fraction": 0.97633,
+          "deposited_nominal_fraction": 0.97433
+        }
+      }
+    },
+    "2.4": {
+      "deposit_components": 11,
+      "letters": {
+        "W": {
+          "deposited_core_fraction": 0.9876,
+          "deposited_nominal_fraction": 0.97586
+        },
+        "I": {
+          "deposited_core_fraction": 0.9949,
+          "deposited_nominal_fraction": 0.97755
+        },
+        "N": {
+          "deposited_core_fraction": 0.99016,
+          "deposited_nominal_fraction": 0.97865
+        },
+        "T": {
+          "deposited_core_fraction": 0.9893,
+          "deposited_nominal_fraction": 0.98207
+        },
+        "E1": {
+          "deposited_core_fraction": 0.98713,
+          "deposited_nominal_fraction": 0.97937
+        },
+        "R": {
+          "deposited_core_fraction": 0.98734,
+          "deposited_nominal_fraction": 0.96648
+        },
+        "S": {
+          "deposited_core_fraction": 0.99693,
+          "deposited_nominal_fraction": 0.97576
+        },
+        "P": {
+          "deposited_core_fraction": 0.99336,
+          "deposited_nominal_fraction": 0.98276
+        },
+        "E2": {
+          "deposited_core_fraction": 0.99292,
+          "deposited_nominal_fraction": 0.98578
+        },
+        "L1": {
+          "deposited_core_fraction": 0.99708,
+          "deposited_nominal_fraction": 0.98501
+        },
+        "L2": {
+          "deposited_core_fraction": 0.97623,
+          "deposited_nominal_fraction": 0.97426
+        }
+      }
+    },
+    "2.6": {
+      "deposit_components": 11,
+      "letters": {
+        "W": {
+          "deposited_core_fraction": 0.99225,
+          "deposited_nominal_fraction": 0.97945
+        },
+        "I": {
+          "deposited_core_fraction": 0.9949,
+          "deposited_nominal_fraction": 0.97755
+        },
+        "N": {
+          "deposited_core_fraction": 0.99631,
+          "deposited_nominal_fraction": 0.98441
+        },
+        "T": {
+          "deposited_core_fraction": 0.98921,
+          "deposited_nominal_fraction": 0.98186
+        },
+        "E1": {
+          "deposited_core_fraction": 0.98711,
+          "deposited_nominal_fraction": 0.97937
+        },
+        "R": {
+          "deposited_core_fraction": 0.98734,
+          "deposited_nominal_fraction": 0.96645
+        },
+        "S": {
+          "deposited_core_fraction": 0.99702,
+          "deposited_nominal_fraction": 0.97584
+        },
+        "P": {
+          "deposited_core_fraction": 0.99324,
+          "deposited_nominal_fraction": 0.98267
+        },
+        "E2": {
+          "deposited_core_fraction": 0.99292,
+          "deposited_nominal_fraction": 0.98578
+        },
+        "L1": {
+          "deposited_core_fraction": 0.99708,
+          "deposited_nominal_fraction": 0.98501
+        },
+        "L2": {
+          "deposited_core_fraction": 0.9865,
+          "deposited_nominal_fraction": 0.98294
+        }
+      }
+    }
+  },
+  "snow_layers": {
+    "2.8": {
+      "deposit_components": 13,
+      "letters": {
+        "W-scroll": {
+          "deposited_core_fraction": 0.9859,
+          "deposited_nominal_fraction": 0.96648
+        },
+        "W-crown": {
+          "deposited_core_fraction": 0.9581,
+          "deposited_nominal_fraction": 0.9301
+        },
+        "T-left": {
+          "deposited_core_fraction": 0.99599,
+          "deposited_nominal_fraction": 0.97007
+        },
+        "R-crown": {
+          "deposited_core_fraction": 0.99229,
+          "deposited_nominal_fraction": 0.91968
+        },
+        "S-curl": {
+          "deposited_core_fraction": 0.96312,
+          "deposited_nominal_fraction": 0.93738
+        },
+        "P-crown": {
+          "deposited_core_fraction": 1.0,
+          "deposited_nominal_fraction": 0.96061
+        },
+        "L-scroll": {
+          "deposited_core_fraction": 0.96095,
+          "deposited_nominal_fraction": 0.92682
+        },
+        "W-long-tip": {
+          "deposited_core_fraction": 0.9624,
+          "deposited_nominal_fraction": 0.9076
+        },
+        "W-inner-tip": {
+          "deposited_core_fraction": 0.95931,
+          "deposited_nominal_fraction": 0.90948
+        },
+        "N-lower-curl": {
+          "deposited_core_fraction": 0.97595,
+          "deposited_nominal_fraction": 0.92261
+        },
+        "E-first-upturned-foot": {
+          "deposited_core_fraction": 0.9828,
+          "deposited_nominal_fraction": 0.95416
+        },
+        "E-second-lower-serif": {
+          "deposited_core_fraction": 0.98791,
+          "deposited_nominal_fraction": 0.97444
+        },
+        "L-short-crown": {
+          "deposited_core_fraction": 0.97276,
+          "deposited_nominal_fraction": 0.93716
+        }
+      }
+    },
+    "3.0": {
+      "deposit_components": 13,
+      "letters": {
+        "W-scroll": {
+          "deposited_core_fraction": 0.99761,
+          "deposited_nominal_fraction": 0.97604
+        },
+        "W-crown": {
+          "deposited_core_fraction": 0.97005,
+          "deposited_nominal_fraction": 0.93906
+        },
+        "T-left": {
+          "deposited_core_fraction": 0.98079,
+          "deposited_nominal_fraction": 0.96164
+        },
+        "R-crown": {
+          "deposited_core_fraction": 0.99229,
+          "deposited_nominal_fraction": 0.91968
+        },
+        "S-curl": {
+          "deposited_core_fraction": 0.98494,
+          "deposited_nominal_fraction": 0.95186
+        },
+        "P-crown": {
+          "deposited_core_fraction": 1.0,
+          "deposited_nominal_fraction": 0.96061
+        },
+        "L-scroll": {
+          "deposited_core_fraction": 0.97573,
+          "deposited_nominal_fraction": 0.93626
+        },
+        "W-long-tip": {
+          "deposited_core_fraction": 0.9713,
+          "deposited_nominal_fraction": 0.91275
+        },
+        "W-inner-tip": {
+          "deposited_core_fraction": 0.9803,
+          "deposited_nominal_fraction": 0.92284
+        },
+        "N-lower-curl": {
+          "deposited_core_fraction": 0.98408,
+          "deposited_nominal_fraction": 0.92767
+        },
+        "E-first-upturned-foot": {
+          "deposited_core_fraction": 0.99773,
+          "deposited_nominal_fraction": 0.96432
+        },
+        "E-second-lower-serif": {
+          "deposited_core_fraction": 0.99607,
+          "deposited_nominal_fraction": 0.98021
+        },
+        "L-short-crown": {
+          "deposited_core_fraction": 0.97423,
+          "deposited_nominal_fraction": 0.93811
+        }
+      }
+    }
+  }
+}

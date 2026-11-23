@@ -1,0 +1,52 @@
+{
+  "filename": "Set_09_Fabled_v1.3.3mf",
+  "project": "sets/Set_09_Fabled/v1.3/Set_09_Fabled_v1.3.3mf",
+  "source": "sets/Set_09_Fabled/v1.2/Set_09_Fabled_v1.2.3mf",
+  "source_sha256": "b76b22b1f4094a1e3b273b1a09721cf54e1ca75c1397ef4e638efefd1ab7b00d",
+  "output_sha256": "bef2c897c945dd6db372640dca6ec4115de2bdb945d4f5862fe82692bfcb19d8",
+  "reference": "sets/Set_04_Ursulas_Return/v1.4/Set_04_Ursulas_Return_v1.4.1_printed.3mf",
+  "attachment": {
+    "bore_diameters_xy_mm": [
+      5.5,
+      5.5
+    ],
+    "bore_centre_mm": [
+      5.24999995,
+      16.69000006
+    ],
+    "bore_centre_preserved": true,
+    "outer_diameter_nominal_mm": 10.5,
+    "rim_width_nominal_mm": 2.5,
+    "backing_and_loop_thickness_mm": 2.0,
+    "non_bore_contours_preserved": true,
+    "non_bore_contour_max_deviation_mm": 4.999982652152952e-10,
+    "overall_dimensions_preserved": true
+  },
+  "artwork_meshes_exactly_preserved": true,
+  "filament_and_process_settings_byte_identical": true,
+  "volume_removed_mm3": 15.859116831863957,
+  "tessellation_axis_rotation_degrees": 17,
+  "parts": [
+    {
+      "name": "Marine Blue",
+      "slot": 1,
+      "volume_mm3": 3909.486655739461,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    },
+    {
+      "name": "Sunflower Yellow",
+      "slot": 2,
+      "volume_mm3": 340.91959019894915,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    },
+    {
+      "name": "Purple",
+      "slot": 3,
+      "volume_mm3": 508.79662923383586,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    }
+  ]
+}

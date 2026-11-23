@@ -1,0 +1,80 @@
+{
+  "error_string": "Success.",
+  "export_time": 0,
+  "layer_height": 0.20000000298023224,
+  "plate_index": 1,
+  "prepare_time": 17,
+  "return_code": 0,
+  "sliced_plates": [
+    {
+      "feature_type_times": {
+        "Bottom surface": 69.4041519165039,
+        "Bridge": 17.418376922607422,
+        "Custom": 369.6327819824219,
+        "Flush": 117.86896514892578,
+        "Gap infill": 13.59251880645752,
+        "Inner wall": 259.6103515625,
+        "Internal solid infill": 248.9000701904297,
+        "Outer wall": 168.9058074951172,
+        "Prime tower": 93.3266372680664,
+        "Sparse infill": 8.029658317565918,
+        "Top surface": 81.08334350585938,
+        "Travel": 219.2399444580078,
+        "Undefined": 202.17755126953125
+      },
+      "filament_change_times": 1,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 1,
+          "main_used_g": 3.9376492500305176,
+          "total_used_g": 4.645442962646484
+        },
+        {
+          "filament_id": "GFA01",
+          "id": 2,
+          "main_used_g": 0.6678284406661987,
+          "total_used_g": 1.2226241827011108
+        }
+      ],
+      "generate_support_material_time": 15,
+      "id": 1,
+      "infill_time": 287,
+      "layer_filament_change": 0,
+      "main_predication": 1061.2095947265625,
+      "make_perimeters_time": 174,
+      "obj_cached_cnt": 0,
+      "objects": [
+        {
+          "bbox": {
+            "depth": 24.594999313354492,
+            "height": 2.799999952316284,
+            "width": 91.74000549316406,
+            "x": 82.13500213623047,
+            "y": 115.70500183105469,
+            "z": 0.0
+          },
+          "id": 5,
+          "name": "The First Chapter v1.2",
+          "triangle_count": 7208
+        }
+      ],
+      "sliced_time": 763,
+      "sliced_time_with_cache": 256,
+      "total_predication": 1649.9755859375,
+      "triangle_count": 7208,
+      "warning_message": ""
+    }
+  ],
+  "sparse_infill_density": 15.0,
+  "upward_compatible_machine": [
+    "Bambu Lab H2D 0.4 nozzle",
+    "Bambu Lab H2D Pro 0.4 nozzle",
+    "Bambu Lab H2S 0.4 nozzle",
+    "Bambu Lab P2S 0.4 nozzle",
+    "Bambu Lab H2C 0.4 nozzle",
+    "Bambu Lab X2D 0.4 nozzle",
+    "Bambu Lab A2L 0.4 nozzle"
+  ],
+  "wall_loops": 3
+}

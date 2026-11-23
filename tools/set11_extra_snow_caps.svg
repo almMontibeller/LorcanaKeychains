@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 648 300">
+  <title>Winterspell additional snow patches</title>
+  <desc>Broad highlights on the W tips, N foot, E serifs and shorter L crown. Each mask is clipped to its letter.</desc>
+  <g id="snow" fill="#a3d8e1">
+    <path id="W-long-tip" data-letter="W" d="M 139 196 C 143 195 145 198 149 200
+      C 152 203 155 204 158 201 C 160 199 164 198 165 202
+      C 166 209 170 220 166 226 C 163 231 155 226 150 219
+      C 143 213 139 204 139 196 Z"/>
+    <path id="W-inner-tip" data-letter="W" d="M 171 178 C 176 177 178 184 182 186
+      C 185 189 188 190 191 186 C 194 183 198 184 199 189
+      C 200 197 207 206 201 211 C 195 215 185 207 179 200
+      C 173 192 170 187 171 178 Z"/>
+    <path id="N-lower-curl" data-letter="N" d="M 252 176 C 255 174 257 177 261 178
+      C 264 181 266 176 270 175 C 274 175 276 180 275 187
+      C 276 193 270 195 265 193 C 259 192 253 189 251 184
+      C 249 181 250 178 252 176 Z"/>
+    <path id="E-first-upturned-foot" data-letter="E1" d="M 327 184 C 329 180 332 182 336 180
+      C 340 177 342 181 346 176 C 348 173 352 168 354 172
+      C 356 179 352 187 347 190 C 340 193 333 195 328 191
+      C 326 189 326 186 327 184 Z"/>
+    <path id="E-second-lower-serif" data-letter="E2" d="M 447 178 C 450 179 452 182 455 181
+      C 459 179 461 181 463 184 C 465 186 468 183 470 185
+      C 473 188 472 193 468 194 C 462 195 455 192 451 192
+      C 447 192 444 186 447 178 Z"/>
+    <path id="L-short-crown" data-letter="L2" d="M 499 91.5 C 503 89.5 511 91.5 516 95.5
+      C 521 99.5 526 105.5 524 110.5 C 522 112.5 520 110.5 517 107.5
+      C 514 104.5 513 107.5 510 105.5 C 508 102.5 503 102.5 501 98.5
+      C 499 96.5 498 94.5 499 91.5 Z"/>
+  </g>
+</svg>

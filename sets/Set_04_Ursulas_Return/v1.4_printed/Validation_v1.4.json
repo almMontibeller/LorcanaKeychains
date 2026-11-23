@@ -1,0 +1,136 @@
+{
+  "filename": "Set_04_Ursulas_Return_v1.4.3mf",
+  "sha256": "6824cb195e07f61733010c892d41bafd8ddf5f610065aa63dae8b81116148f48",
+  "geometry": {
+    "closed_manifold_parts": 3,
+    "positive_volumes_mm3": [
+      5350.328053672703,
+      608.502851493366,
+      244.15591861277477
+    ],
+    "degenerate_triangles": 0,
+    "eyelet_thickness_mm": 1.6,
+    "full_backing_thickness_mm": 2,
+    "process_settings_unchanged": true
+  },
+  "footprints": {
+    "resolution_mm": 0.02,
+    "unsupported_letter_pixels": 0,
+    "colour_overlap_pixels": 0,
+    "hole_extents_mm": [
+      5.5,
+      5.5
+    ]
+  },
+  "bambu_version": "02.08.02.61",
+  "slice_result": {
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 209,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "feature_type_times": {
+          "Bottom surface": 81.96675109863281,
+          "Bridge": 52.97345733642578,
+          "Custom": 369.60589599609375,
+          "Flush": 396.4743347167969,
+          "Gap infill": 17.56548500061035,
+          "Inner wall": 134.5372314453125,
+          "Internal solid infill": 328.18511962890625,
+          "Outer wall": 80.06723022460938,
+          "Prime tower": 184.15997314453125,
+          "Sparse infill": 9.618814468383789,
+          "Top surface": 135.40452575683594,
+          "Travel": 243.95382690429688,
+          "Undefined": 226.93455505371094
+        },
+        "filament_change_times": 5,
+        "filaments": [
+          {
+            "filament_id": "GFA00",
+            "id": 1,
+            "main_used_g": 6.597515106201172,
+            "total_used_g": 7.588737487792969
+          },
+          {
+            "filament_id": "GFA00",
+            "id": 2,
+            "main_used_g": 0.7370833158493042,
+            "total_used_g": 1.5009267330169678
+          },
+          {
+            "filament_id": "GFA01",
+            "id": 3,
+            "main_used_g": 0.30960673093795776,
+            "total_used_g": 1.4282106161117554
+          }
+        ],
+        "generate_support_material_time": 32,
+        "id": 1,
+        "infill_time": 396,
+        "layer_filament_change": 0,
+        "main_predication": 1059.292724609375,
+        "make_perimeters_time": 220,
+        "obj_cached_cnt": 0,
+        "objects": [
+          {
+            "bbox": {
+              "depth": 41.0,
+              "height": 2.799999713897705,
+              "width": 86.46500396728516,
+              "x": 84.7699966430664,
+              "y": 107.5,
+              "z": 0.0
+            },
+            "id": 5,
+            "name": "Ursula\u2019s Return v1.4",
+            "triangle_count": 55852
+          }
+        ],
+        "sliced_time": 1189,
+        "sliced_time_with_cache": 506,
+        "total_predication": 2017.513671875,
+        "triangle_count": 55852,
+        "warning_message": ""
+      }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+      "Bambu Lab H2D 0.4 nozzle",
+      "Bambu Lab H2D Pro 0.4 nozzle",
+      "Bambu Lab H2S 0.4 nozzle",
+      "Bambu Lab P2S 0.4 nozzle",
+      "Bambu Lab H2C 0.4 nozzle",
+      "Bambu Lab X2D 0.4 nozzle",
+      "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+  },
+  "used_filament_slots": [
+    1,
+    2,
+    3
+  ],
+  "fallback_manifold_parts": 3,
+  "rendered_toolpath_segments": {
+    "1.6": 1479,
+    "2.0": 3477,
+    "2.8": 1578
+  },
+  "physical_print_verified": false,
+  "environment_notes": "CLI uses embedded project settings. Relocated Flatpak executable reports missing /app preset resources; the slice succeeds without plate warnings.",
+  "revision_scope": {
+    "changed_letters": [
+      "ursula-r",
+      "ursula-a"
+    ],
+    "backing_and_attachment_mesh_exactly_unchanged": true,
+    "return_mesh_exactly_unchanged": true,
+    "other_letter_paths_exactly_unchanged": true,
+    "r_leg_width_mm": 2.6786,
+    "a_upper_stroke_min_sampled_width_mm": 1.4566
+  }
+}

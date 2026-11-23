@@ -1,0 +1,111 @@
+{
+  "filename": "Set_05_Shimmering_Skies_v1.4.3mf",
+  "source": "sets/Set_05_Shimmering_Skies/v1.3/Set_05_Shimmering_Skies_v1.3.3mf",
+  "source_sha256": "d06f47c6bfc9282c9d629f00a5978ce1fff7a8f036a1fb307c5cd7e0cbd042c0",
+  "output_sha256": "bfd5e0749ce5a92ee228ba846e6262e5fc83c6639bb4310f93584cd539e5cb04",
+  "design": "Six broad rounded star supports, retaining the continuous red panel and ivory artwork",
+  "raster_step_mm": 0.025,
+  "contour_simplification_mm": 0.025,
+  "nominal_purple_letter_outline_mm": 0.45,
+  "red_opening_diameter_mm": 0.6,
+  "original_backing_and_eyelet_unchanged": false,
+  "original_red_mesh_unchanged": true,
+  "original_ivory_mesh_unchanged": true,
+  "filament_and_process_settings_byte_identical": true,
+  "dimensions_mm": [
+    94.95,
+    38.2,
+    3.0
+  ],
+  "parts": [
+    {
+      "name": "Purple \u2014 reinforced star supports",
+      "slot": 1,
+      "triangles": 1712
+    },
+    {
+      "name": "Red \u2014 continuous title panel",
+      "slot": 2,
+      "triangles": 8300
+    },
+    {
+      "name": "Ivory White",
+      "slot": 3,
+      "triangles": 7476
+    }
+  ],
+  "star_supports": {
+    "connections": [
+      {
+        "name": "upper_left",
+        "star": [
+          27.6,
+          32.35
+        ],
+        "anchor": [
+          29.4,
+          25.5
+        ]
+      },
+      {
+        "name": "upper_centre",
+        "star": [
+          33.6,
+          32.3
+        ],
+        "anchor": [
+          33.8,
+          26.5
+        ]
+      },
+      {
+        "name": "upper_right",
+        "star": [
+          38.8,
+          31.7
+        ],
+        "anchor": [
+          39.1,
+          27.5
+        ]
+      },
+      {
+        "name": "lower",
+        "star": [
+          45.45,
+          9.55
+        ],
+        "anchor": [
+          45.9,
+          14.3
+        ]
+      },
+      {
+        "name": "right_upper",
+        "star": [
+          90.45,
+          20.9
+        ],
+        "anchor": [
+          83.8,
+          21.7
+        ]
+      },
+      {
+        "name": "right_lower",
+        "star": [
+          92.25,
+          13.25
+        ],
+        "anchor": [
+          84.0,
+          13.8
+        ]
+      }
+    ],
+    "nominal_neck_width_mm": 3.4,
+    "nominal_anchor_width_mm": 4.5,
+    "root_fillet_radius_mm": 0.7,
+    "backing_thickness_mm": 2.0
+  }
+}

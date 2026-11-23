@@ -1,0 +1,86 @@
+{
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 23,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 53.9582405090332,
+                "Bridge": 10.69022274017334,
+                "Custom": 369.56219482421875,
+                "Flush": 381.7359313964844,
+                "Gap infill": 14.468324661254883,
+                "Inner wall": 243.16192626953125,
+                "Internal solid infill": 189.59249877929688,
+                "Outer wall": 229.22604370117188,
+                "Prime tower": 182.67381286621094,
+                "Sparse infill": 5.512110233306885,
+                "Top surface": 48.54093933105469,
+                "Travel": 267.7667541503906,
+                "Undefined": 250.79119873046875
+            },
+            "filament_change_times": 5,
+            "filaments": [
+                {
+                    "filament_id": "GFA01",
+                    "id": 1,
+                    "main_used_g": 3.4326469898223877,
+                    "total_used_g": 4.471070766448975
+                },
+                {
+                    "filament_id": "GFA01",
+                    "id": 2,
+                    "main_used_g": 0.2502158582210541,
+                    "total_used_g": 1.1840215921401978
+                },
+                {
+                    "filament_id": "GFA00",
+                    "id": 3,
+                    "main_used_g": 0.23780661821365356,
+                    "total_used_g": 0.9940897226333618
+                }
+            ],
+            "generate_support_material_time": 31,
+            "id": 1,
+            "infill_time": 240,
+            "layer_filament_change": 0,
+            "main_predication": 1037.9569091796875,
+            "make_perimeters_time": 206,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 39.375003814697266,
+                        "height": 2.799999952316284,
+                        "width": 55.78499984741211,
+                        "x": 100.11000061035156,
+                        "y": 108.30999755859375,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "Set_10_Whispers_in_the_Well_v1.5",
+                    "triangle_count": 11852
+                }
+            ],
+            "sliced_time": 971,
+            "sliced_time_with_cache": 459,
+            "total_predication": 1979.953369140625,
+            "triangle_count": 11852,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+}

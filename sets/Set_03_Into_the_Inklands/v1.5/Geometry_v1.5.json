@@ -1,0 +1,61 @@
+{
+  "project": "sets/Set_03_Into_the_Inklands/v1.5/Set_03_Into_the_Inklands_v1.5.3mf",
+  "filename": "Set_03_Into_the_Inklands_v1.5.3mf",
+  "source": "sets/Set_03_Into_the_Inklands/v1.4/Set_03_Into_the_Inklands_v1.4.3mf",
+  "source_sha256": "7b2966a8c21260be85018ab607f8e550cee941d5413d5e76cf8793b897864051",
+  "output_sha256": "1c6651089ecaf3052907f1593f381fa01fc9f58943dfdb497daa78365bfb0850",
+  "geometry": {
+    "loop_and_backing_height_mm": 2.0,
+    "uniform_backing_height": true,
+    "bore_diameters_xy_mm": [
+      6.5,
+      6.5
+    ],
+    "outer_diameter_nominal_mm": 10.5,
+    "radial_rim_width_nominal_mm": 2.0,
+    "sampled_left_outer_arc_radial_rim_mm": [
+      1.9961078839462028,
+      2.0046278364317214
+    ],
+    "hole_centre_preserved": true,
+    "non_bore_contours_preserved": true,
+    "non_bore_contour_max_deviation_mm": 0.0,
+    "artwork_meshes_exactly_preserved": true,
+    "plate_placement_preserved": true,
+    "filament_and_process_settings_byte_identical": true,
+    "parts": [
+      {
+        "name": "Cocoa Brown",
+        "volume_mm3": 4888.277543100528,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Ice Blue",
+        "volume_mm3": 141.9100629877996,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Sunflower Yellow",
+        "volume_mm3": 1000.4989875497189,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      }
+    ],
+    "tessellation_axis_rotation_degrees": 0
+  },
+  "underline": null,
+  "toolpath_checks": {
+    "loop_top_layer_mm": 2.0,
+    "loop_top_segments": 106,
+    "loop_segments_above_target_height": 0
+  },
+  "used_filament_slots": [
+    1,
+    2,
+    3
+  ],
+  "bambu_version": "02.08.02.61",
+  "physical_print_verified": false
+}

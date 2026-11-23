@@ -1,0 +1,127 @@
+{
+  "project": "sets/Set_05_Shimmering_Skies/v1.6/Set_05_Shimmering_Skies_v1.6.3mf",
+  "filename": "Set_05_Shimmering_Skies_v1.6.3mf",
+  "source": "sets/Set_05_Shimmering_Skies/v1.5/Set_05_Shimmering_Skies_v1.5.3mf",
+  "source_sha256": "cc5efdc19764c44c96a6b59e688bb4d7b6bf95a40b00974bf6586899daf68653",
+  "output_sha256": "5d8de990754e86c1aef2896ab39ea6f91438d8db4ce1574a98252ad27a0b02b1",
+  "geometry": {
+    "backing_footprint_and_bore_preserved": true,
+    "artwork_clear_of_thinned_region": true,
+    "print_settings_byte_identical": true,
+    "plate_placement_preserved": true,
+    "attachment": {
+      "loop_thickness_mm": 1.6,
+      "backing_thickness_mm": 2.0,
+      "junction_x_mm": 10.2875,
+      "junction": "vertical step; no sloped transition",
+      "tessellation_axis_rotation_degrees": 0
+    },
+    "parts": [
+      {
+        "name": "Purple \u2014 reinforced star supports",
+        "volume_mm3": 4727.897930705418,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Red \u2014 continuous title panel",
+        "volume_mm3": 277.12956250014304,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Ivory White",
+        "volume_mm3": 864.6611140655688,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      }
+    ],
+    "reinforced_star_check": {
+      "minimum_verified_corridor_width_mm": 3.0,
+      "verification_resolution_mm": 0.05,
+      "backing_thickness_mm": 2.0,
+      "connections_to_main_body": 7,
+      "newly_reinforced_connections": 6,
+      "previous_revision_passed": {
+        "upper_left": true,
+        "upper_centre": true,
+        "upper_right": true,
+        "lower": true,
+        "right_upper": true,
+        "right_lower": true,
+        "integrated_flourish_sparkle": true
+      },
+      "reinforced_revision_passed": {
+        "upper_left": true,
+        "upper_centre": true,
+        "upper_right": true,
+        "lower": true,
+        "right_upper": true,
+        "right_lower": true,
+        "integrated_flourish_sparkle": true
+      },
+      "small_star_connection_voids_remaining": 0,
+      "physical_strength_test_performed": false
+    }
+  },
+  "underline": {
+    "width_mm": 0.9,
+    "rounded_end_caps": true,
+    "centreline_x_mm": [
+      28.5,
+      48.3
+    ],
+    "centreline_quadratic_coefficients": [
+      -0.0033796260104256154,
+      0.558194487913497,
+      -3.754231782495416
+    ],
+    "old_line_triangles_removed": 520,
+    "unchanged_artwork_triangles": 6956,
+    "new_line_triangles": 596
+  },
+  "toolpath_checks": {
+    "loop_top_layer_mm": 1.6,
+    "loop_top_segments": 161,
+    "loop_segments_above_target_height": 0,
+    "underline_layers": {
+      "2.2": {
+        "continuous": true,
+        "detached_deposits": 0,
+        "sampled_centreline_points": 200,
+        "candidate_segments": 71
+      },
+      "2.4": {
+        "continuous": true,
+        "detached_deposits": 0,
+        "sampled_centreline_points": 200,
+        "candidate_segments": 100
+      },
+      "2.6": {
+        "continuous": true,
+        "detached_deposits": 0,
+        "sampled_centreline_points": 200,
+        "candidate_segments": 96
+      },
+      "2.8": {
+        "continuous": true,
+        "detached_deposits": 0,
+        "sampled_centreline_points": 200,
+        "candidate_segments": 99
+      },
+      "3.0": {
+        "continuous": true,
+        "detached_deposits": 0,
+        "sampled_centreline_points": 200,
+        "candidate_segments": 114
+      }
+    }
+  },
+  "used_filament_slots": [
+    1,
+    2,
+    3
+  ],
+  "bambu_version": "02.08.02.61",
+  "physical_print_verified": false
+}

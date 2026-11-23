@@ -1,0 +1,141 @@
+{
+  "filename": "Set_06_Azurite_Sea_v1.3.3mf",
+  "sha256": "a1b66403a2bfee735a7ba31b153e0d2acedb7b44c2b4d989919d5cc9dc3660a6",
+  "attachment": {
+    "bore_diameters_xy_mm": [
+      5.5,
+      5.5
+    ],
+    "bore_centre_mm": [
+      5.25,
+      20.637499845
+    ],
+    "bore_centre_preserved": true,
+    "outer_diameter_nominal_mm": 10.5,
+    "rim_width_nominal_mm": 2.5,
+    "backing_and_loop_thickness_mm": 2.0,
+    "non_bore_contours_preserved": true,
+    "non_bore_contour_max_deviation_mm": 4.000000331000927e-10,
+    "overall_dimensions_preserved": true
+  },
+  "geometry": [
+    {
+      "name": "Marine Blue",
+      "slot": 1,
+      "volume_mm3": 4577.9637458613915,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    },
+    {
+      "name": "Ice Blue",
+      "slot": 2,
+      "volume_mm3": 13.304607066592041,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    },
+    {
+      "name": "Sunflower Yellow",
+      "slot": 3,
+      "volume_mm3": 679.8256772522233,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    }
+  ],
+  "artwork_xml_and_meshes_preserved": true,
+  "plate_placement_preserved": true,
+  "filament_and_process_settings_byte_identical": true,
+  "used_filament_slots": [
+    1,
+    2,
+    3
+  ],
+  "bambu_version": "02.08.02.61",
+  "slice_result": {
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 17,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "feature_type_times": {
+          "Bottom surface": 69.91981506347656,
+          "Bridge": 59.91356658935547,
+          "Custom": 369.5655212402344,
+          "Flush": 326.5360412597656,
+          "Gap infill": 18.230690002441406,
+          "Inner wall": 174.6800537109375,
+          "Internal solid infill": 291.33184814453125,
+          "Outer wall": 113.94203186035156,
+          "Prime tower": 168.32257080078125,
+          "Sparse infill": 8.495030403137207,
+          "Top surface": 122.67765045166016,
+          "Travel": 232.42918395996094,
+          "Undefined": 215.45030212402344
+        },
+        "filament_change_times": 4,
+        "filaments": [
+          {
+            "filament_id": "GFA01",
+            "id": 1,
+            "main_used_g": 5.964334487915039,
+            "total_used_g": 7.002757549285889
+          },
+          {
+            "filament_id": "GFA01",
+            "id": 2,
+            "main_used_g": 0.01720558851957321,
+            "total_used_g": 0.9086210131645203
+          },
+          {
+            "filament_id": "GFA00",
+            "id": 3,
+            "main_used_g": 0.8258362412452698,
+            "total_used_g": 1.4558981657028198
+          }
+        ],
+        "generate_support_material_time": 19,
+        "id": 1,
+        "infill_time": 308,
+        "layer_filament_change": 0,
+        "main_predication": 1066.6285400390625,
+        "make_perimeters_time": 143,
+        "obj_cached_cnt": 0,
+        "objects": [
+          {
+            "bbox": {
+              "depth": 41.275001525878906,
+              "height": 2.799999952316284,
+              "width": 79.26499938964844,
+              "x": 88.37000274658203,
+              "y": 107.36000061035156,
+              "z": 0.0
+            },
+            "id": 5,
+            "name": "Azurite Sea v1.3",
+            "triangle_count": 7708
+          }
+        ],
+        "sliced_time": 786,
+        "sliced_time_with_cache": 287,
+        "total_predication": 1939.07373046875,
+        "triangle_count": 7708,
+        "warning_message": ""
+      }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+      "Bambu Lab H2D 0.4 nozzle",
+      "Bambu Lab H2D Pro 0.4 nozzle",
+      "Bambu Lab H2S 0.4 nozzle",
+      "Bambu Lab P2S 0.4 nozzle",
+      "Bambu Lab H2C 0.4 nozzle",
+      "Bambu Lab X2D 0.4 nozzle",
+      "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+  },
+  "physical_print_verified": false,
+  "environment_notes": "Installed Flatpak CLI uses embedded settings despite missing /app preset-resource messages."
+}

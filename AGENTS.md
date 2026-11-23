@@ -1,0 +1,7 @@
+# First-pass logo tracing
+
+- Start with the supplied artwork or an original vector. Use a raster trace as an overlay guide for editing. Redraw pixel stair-steps with straight segments and smooth Bézier curves. Keep intentional corners and the source's spacing, letter openings, ornaments, and punctuation.
+- Decide the filament palette before tracing. Use solid colours for complete letters or words when the source has a gradient. Draw any intentional colour boundaries as paths. Omit pixel speckle, highlights, and shadows that only reproduce raster texture.
+- Compare the edited paths with an overlay on the original and the exported model at matched scale. Inspect tight curves, long diagonals, small lettering, and interior openings at high zoom. Inspect both the raised artwork and the backing outline. The first reviewable version should already pass these checks.
+- Design for the intended print size and nozzle. With the usual 0.4 mm nozzle, aim for at least 0.45 mm at critical strokes and clearances, then check the actual toolpaths. Ensure the backing supports every raised feature and the attachment bore stays open.
+- Slice the exported 3MF with its intended profile before presenting the first pass. Check that every letter, counter, punctuation mark, and required ornament survives at the intended layers. Redraw or widen any feature that drops out, breaks, or fuses, then repeat the overlay and slice checks. Save the editable paths, model preview, and sliced preview with the version.

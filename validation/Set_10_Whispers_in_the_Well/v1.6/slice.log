@@ -1,0 +1,22 @@
+[2026-10-18 00:56:09.718337] [0x00007f17ca3c8bc0] [trace]   Initializing StaticPrintConfigs
+[2026-10-18 00:56:09.723448] [0x00007f17ca3c8bc0] [warning] cli mode, Current BambuStudio Version 02.08.02.61
+[2026-10-18 00:56:09.743398] [0x00007f17ca3c8bc0] [warning] run:2873, can not find system preset file: /app/share/BambuStudio/profiles/BBL/machine_full/Bambu Lab A1 0.4 nozzle.json 
+[2026-10-18 00:56:09.743405] [0x00007f17ca3c8bc0] [warning] run:2895, can not find system preset file: /app/share/BambuStudio/profiles/BBL/process_full/0.20mm Standard @BBL A1.json 
+[2026-10-18 00:56:09.743419] [0x00007f17ca3c8bc0] [warning] no filament colors found in projects
+[2026-10-18 00:56:09.743964] [0x00007f17ca3c8bc0] [warning] load_nozzle_infos_with_compatibility: building nozzle list from filament map and volume types
+[Set_10_Whispers_in_the_Well_v1.6.3mf]
+size_x = 57.166668
+size_y = 39.722222
+size_z = 2.800000
+min_x = -0.000000
+min_y = 0.527778
+min_z = 0.000000
+max_x = 57.166668
+max_y = 40.250000
+max_z = 2.800000
+number_of_facets = 8508
+manifold = yes
+number_of_parts =  20
+volume = 3755.848145
+[2026-10-18 00:56:09.745347] [0x00007f17ca3c8bc0] [error]   get_filament_temp_type: parse /app/share/BambuStudio/info/filament_info.json got a nlohmann::detail::parse_error, reason = [json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - unexpected end of input; expected '[', '{', or a literal
+[2026-10-18 00:56:09.999741] [0x00007f17ca3c8bc0] [warning] tree support default to organic support

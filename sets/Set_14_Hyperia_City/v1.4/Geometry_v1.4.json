@@ -1,0 +1,54 @@
+{
+  "project": "sets/Set_14_Hyperia_City/v1.4/Set_14_Hyperia_City_v1.4.3mf",
+  "filename": "Set_14_Hyperia_City_v1.4.3mf",
+  "source": "sets/Set_14_Hyperia_City/v1.3/Set_14_Hyperia_City_v1.3.3mf",
+  "source_sha256": "2989665b600d3edfbf56bd5ae2106ed0988f675be586254139a8ab51e8b0d462",
+  "output_sha256": "ff750b8f4fefb618f53cc18810fe78242e7c1461f6277bad5ea3bb807cc39c24",
+  "geometry": {
+    "backing_footprint_and_bore_preserved": true,
+    "artwork_clear_of_thinned_region": true,
+    "print_settings_byte_identical": true,
+    "plate_placement_preserved": true,
+    "attachment": {
+      "loop_thickness_mm": 1.6,
+      "backing_thickness_mm": 2.0,
+      "junction_x_mm": 10.5,
+      "junction": "vertical step; no sloped transition",
+      "tessellation_axis_rotation_degrees": 0
+    },
+    "parts": [
+      {
+        "name": "Cocoa Brown",
+        "volume_mm3": 3780.0648359078136,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Caramel",
+        "volume_mm3": 288.1874964297962,
+        "degenerate_triangles": 4,
+        "closed_manifold": true
+      },
+      {
+        "name": "Ivory White",
+        "volume_mm3": 581.8000422396009,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      }
+    ],
+    "reinforced_star_check": null
+  },
+  "underline": null,
+  "toolpath_checks": {
+    "loop_top_layer_mm": 1.6,
+    "loop_top_segments": 160,
+    "loop_segments_above_target_height": 0
+  },
+  "used_filament_slots": [
+    1,
+    2,
+    3
+  ],
+  "bambu_version": "02.08.02.61",
+  "physical_print_verified": false
+}

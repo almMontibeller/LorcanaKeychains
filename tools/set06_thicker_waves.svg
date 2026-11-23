@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="502" viewBox="0 0 850 502">
+  <title>Azurite Sea v1.7 — fuller wave accents</title>
+  <desc>The v1.6 upper crests are retained. The lower swept edges extend
+  downwards by roughly 0.5–0.6 mm to give the ice-blue ribbons more body.
+  Coordinates register directly to the archived 06.png.</desc>
+  <g id="ice" fill="#9BC8DE">
+    <path id="left_wave" d="
+      M 260 344
+      C 274 355 294 357 309 343
+      C 323 355 342 353 355 339
+      C 366 343 378 343 391 340
+      C 378 352 365 357 353 359
+      C 340 366 325 369 310 370
+      C 296 379 281 379 270 371
+      C 262 365 260 354 260 344 Z"/>
+    <path id="right_wave" d="
+      M 638 304
+      C 652 303 665 299 669 291
+      C 689 302 713 307 732 288
+      C 752 304 775 308 789 289
+      C 797 295 804 310 800 320
+      C 788 327 760 317 739 316
+      C 715 318 690 314 673 314
+      C 660 316 647 316 638 316 Z"/>
+  </g>
+</svg>

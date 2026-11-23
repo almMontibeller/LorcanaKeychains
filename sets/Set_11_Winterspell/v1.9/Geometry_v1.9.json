@@ -1,0 +1,35 @@
+{
+  "parts": [
+    {
+      "name": "Dark Blue \u00b7 backing and eyelet",
+      "slot": 1,
+      "volume_mm3": 3479.5187604738553,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    },
+    {
+      "name": "Sunflower Yellow \u00b7 lettering",
+      "slot": 2,
+      "volume_mm3": 372.2802305466709,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    },
+    {
+      "name": "Ice Blue \u00b7 snow on lettering",
+      "slot": 3,
+      "volume_mm3": 17.52214470784141,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    }
+  ],
+  "dimensions_mm": [
+    94.9371,
+    27.2337,
+    3.0
+  ],
+  "backing_height_mm": 2.0,
+  "bore_mm": 6.5,
+  "removed_blue_relief_mm": 0.4,
+  "translated_artwork_mm": -0.4,
+  "original_footprint_and_print_settings": true
+}

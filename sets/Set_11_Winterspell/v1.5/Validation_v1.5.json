@@ -1,0 +1,147 @@
+{
+  "project": "sets/Set_11_Winterspell/v1.5/Set_11_Winterspell_v1.5.3mf",
+  "filename": "Set_11_Winterspell_v1.5.3mf",
+  "source": "sets/Set_11_Winterspell/v1.4/Set_11_Winterspell_v1.4.3mf",
+  "source_sha256": "cdaea2a2c25669b8ee421a60e1d0de7a0b947ceb6db150fe65b1cddf00a47174",
+  "output_sha256": "487a064028bcfc5d47dab68e903092d007fc61a3f3ec49c25da006acc31124b3",
+  "geometry": {
+    "loop_and_backing_height_mm": 2.0,
+    "uniform_backing_height": true,
+    "bore_diameters_xy_mm": [
+      6.5,
+      6.500000000000002
+    ],
+    "outer_diameter_nominal_mm": 10.5,
+    "radial_rim_width_nominal_mm": 2.0,
+    "sampled_left_outer_arc_radial_rim_mm": [
+      1.9975941000187367,
+      2.002680615300167
+    ],
+    "hole_centre_preserved": true,
+    "non_bore_contours_preserved": true,
+    "non_bore_contour_max_deviation_mm": 0.0,
+    "artwork_meshes_exactly_preserved": true,
+    "plate_placement_preserved": true,
+    "filament_and_process_settings_byte_identical": true,
+    "parts": [
+      {
+        "name": "Marine Blue",
+        "volume_mm3": 3502.369089703677,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Ice Blue",
+        "volume_mm3": 403.9433893723649,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Ivory White",
+        "volume_mm3": 497.3923592041438,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      }
+    ],
+    "tessellation_axis_rotation_degrees": 0
+  },
+  "underline": null,
+  "toolpath_checks": {
+    "loop_top_layer_mm": 2.0,
+    "loop_top_segments": 127,
+    "loop_segments_above_target_height": 0
+  },
+  "used_filament_slots": [
+    1,
+    2,
+    3
+  ],
+  "bambu_version": "02.08.02.61",
+  "slice_result": {
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 32,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "feature_type_times": {
+          "Bottom surface": 61.56802749633789,
+          "Bridge": 70.01266479492188,
+          "Custom": 369.61541748046875,
+          "Flush": 314.2834777832031,
+          "Gap infill": 18.883169174194336,
+          "Inner wall": 194.0603790283203,
+          "Internal solid infill": 188.3741912841797,
+          "Outer wall": 214.59141540527344,
+          "Prime tower": 170.70680236816406,
+          "Sparse infill": 8.793128967285156,
+          "Top surface": 63.332374572753906,
+          "Travel": 249.50186157226562,
+          "Undefined": 232.4730682373047
+        },
+        "filament_change_times": 4,
+        "filaments": [
+          {
+            "filament_id": "GFA01",
+            "id": 1,
+            "main_used_g": 4.2757568359375,
+            "total_used_g": 5.314180374145508
+          },
+          {
+            "filament_id": "GFA01",
+            "id": 2,
+            "main_used_g": 0.514762818813324,
+            "total_used_g": 1.2567014694213867
+          },
+          {
+            "filament_id": "GFA01",
+            "id": 3,
+            "main_used_g": 0.6286340355873108,
+            "total_used_g": 1.2702187299728394
+          }
+        ],
+        "generate_support_material_time": 22,
+        "id": 1,
+        "infill_time": 200,
+        "layer_filament_change": 0,
+        "main_predication": 1044.129150390625,
+        "make_perimeters_time": 286,
+        "obj_cached_cnt": 0,
+        "objects": [
+          {
+            "bbox": {
+              "depth": 26.80000114440918,
+              "height": 3.0,
+              "width": 95.01499938964844,
+              "x": 80.49500274658203,
+              "y": 114.5999984741211,
+              "z": 0.0
+            },
+            "id": 5,
+            "name": "Set_11_Winterspell_v1.5",
+            "triangle_count": 17920
+          }
+        ],
+        "sliced_time": 908,
+        "sliced_time_with_cache": 364,
+        "total_predication": 1906.7060546875,
+        "triangle_count": 17920,
+        "warning_message": ""
+      }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+      "Bambu Lab H2D 0.4 nozzle",
+      "Bambu Lab H2D Pro 0.4 nozzle",
+      "Bambu Lab H2S 0.4 nozzle",
+      "Bambu Lab P2S 0.4 nozzle",
+      "Bambu Lab H2C 0.4 nozzle",
+      "Bambu Lab X2D 0.4 nozzle",
+      "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+  },
+  "physical_print_verified": false
+}

@@ -1,0 +1,512 @@
+{
+  "project": "sets/Set_10_Whispers_in_the_Well/v1.9/Set_10_Whispers_in_the_Well_v1.9.3mf",
+  "output_sha256": "1778be25625e2c8db81bb6f238eb49812c33265fdfce8aaa4fdc52aafaa8d6ea",
+  "previous_project": "sets/Set_10_Whispers_in_the_Well/v1.8/Set_10_Whispers_in_the_Well_v1.8.3mf",
+  "previous_project_sha256": "c01335b1807125ba7eed32e2511d6c18c37fdd86511b855003322bd97b176ac7",
+  "geometry": {
+    "meshes": [
+      {
+        "name": "Charcoal",
+        "volume_mm3": 2982.8268819767786,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Ash Gray",
+        "volume_mm3": 232.50780596003946,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Sunflower Yellow",
+        "volume_mm3": 215.48114754196527,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      }
+    ],
+    "outline_height_before_mm": 39.7222214,
+    "outline_height_after_mm": 35.8333326,
+    "removed_bottom_padding_height_mm": 3.8888888000000037,
+    "clearance_below_lowest_letter_mm": 1.249999439999998,
+    "removed_backing_area_mm2": -150.23552243851213,
+    "relief_meshes_identical": true,
+    "eyelet_and_upper_outline_preserved": true,
+    "all_relief_supported": true,
+    "plate_placement_preserved": true,
+    "process_and_filament_settings_byte_identical": true
+  },
+  "toolpath_checks": {
+    "loop_top_layer_mm": 2.0,
+    "loop_top_segments": 100,
+    "loop_segments_above_target_height": 0,
+    "grey_layers": {
+      "2.2": {
+        "features": {
+          "subtitle_I": {
+            "connected_core_coverage": 1.0,
+            "raw_core_coverage": 0.9997150997150998
+          },
+          "subtitle_N": {
+            "connected_core_coverage": 1.0,
+            "raw_core_coverage": 0.992475922953451
+          },
+          "subtitle_T": {
+            "connected_core_coverage": 1.0,
+            "raw_core_coverage": 0.999075215782984
+          },
+          "subtitle_H": {
+            "connected_core_coverage": 1.0,
+            "raw_core_coverage": 1.0
+          },
+          "subtitle_E": {
+            "connected_core_coverage": 1.0,
+            "raw_core_coverage": 0.9997642065550578
+          },
+          "stone_W": {
+            "connected_core_coverage": 1.0,
+            "raw_core_coverage": 0.9916532112785065
+          },
+          "stone_E": {
+            "connected_core_coverage": 0.9968922018348624,
+            "raw_core_coverage": 0.9891628440366973
+          },
+          "stone_L1": {
+            "connected_core_coverage": 1.0,
+            "raw_core_coverage": 0.9967942505255938
+          },
+          "stone_L2": {
+            "connected_core_coverage": 0.9998839839897906,
+            "raw_core_coverage": 0.9959104356401184
+          }
+        },
+        "clear_counters": 0,
+        "connected_deposit_components": 9,
+        "detached_or_merged_components": 0
+      },
+      "2.4": {
+        "features": {
+          "subtitle_I": {
+            "connected_core_coverage": 1.0,
+            "raw_core_coverage": 0.9997150997150998
+          },
+          "subtitle_N": {
+            "connected_core_coverage": 1.0,
+            "raw_core_coverage": 0.992475922953451
+          },
+          "subtitle_T": {
+            "connected_core_coverage": 1.0,
+            "raw_core_coverage": 0.999075215782984
+          },
+          "subtitle_H": {
+            "connected_core_coverage": 1.0,
+            "raw_core_coverage": 0.9998798798798799
+          },
+          "subtitle_E": {
+            "connected_core_coverage": 1.0,
+            "raw_core_coverage": 0.9997642065550578
+          },
+          "stone_W": {
+            "connected_core_coverage": 1.0,
+            "raw_core_coverage": 0.9916532112785065
+          },
+          "stone_E": {
+            "connected_core_coverage": 0.9968922018348624,
+            "raw_core_coverage": 0.9891628440366973
+          },
+          "stone_L1": {
+            "connected_core_coverage": 1.0,
+            "raw_core_coverage": 0.9967942505255938
+          },
+          "stone_L2": {
+            "connected_core_coverage": 0.9998839839897906,
+            "raw_core_coverage": 0.9959104356401184
+          }
+        },
+        "clear_counters": 0,
+        "connected_deposit_components": 9,
+        "detached_or_merged_components": 0
+      },
+      "2.6": {
+        "features": {
+          "subtitle_I": {
+            "connected_core_coverage": 1.0,
+            "raw_core_coverage": 0.9997150997150998
+          },
+          "subtitle_N": {
+            "connected_core_coverage": 1.0,
+            "raw_core_coverage": 0.992475922953451
+          },
+          "subtitle_T": {
+            "connected_core_coverage": 1.0,
+            "raw_core_coverage": 0.999075215782984
+          },
+          "subtitle_H": {
+            "connected_core_coverage": 1.0,
+            "raw_core_coverage": 0.9998798798798799
+          },
+          "subtitle_E": {
+            "connected_core_coverage": 1.0,
+            "raw_core_coverage": 0.9997642065550578
+          },
+          "stone_W": {
+            "connected_core_coverage": 1.0,
+            "raw_core_coverage": 0.9916532112785065
+          },
+          "stone_E": {
+            "connected_core_coverage": 0.9968922018348624,
+            "raw_core_coverage": 0.9891628440366973
+          },
+          "stone_L1": {
+            "connected_core_coverage": 1.0,
+            "raw_core_coverage": 0.9967942505255938
+          },
+          "stone_L2": {
+            "connected_core_coverage": 0.9998839839897906,
+            "raw_core_coverage": 0.9959104356401184
+          }
+        },
+        "clear_counters": 0,
+        "connected_deposit_components": 9,
+        "detached_or_merged_components": 0
+      },
+      "2.8": {
+        "features": {
+          "subtitle_I": {
+            "connected_core_coverage": 1.0,
+            "raw_core_coverage": 0.9997150997150998
+          },
+          "subtitle_N": {
+            "connected_core_coverage": 1.0,
+            "raw_core_coverage": 0.9975922953451043
+          },
+          "subtitle_T": {
+            "connected_core_coverage": 1.0,
+            "raw_core_coverage": 0.999075215782984
+          },
+          "subtitle_H": {
+            "connected_core_coverage": 1.0,
+            "raw_core_coverage": 0.9998798798798799
+          },
+          "subtitle_E": {
+            "connected_core_coverage": 1.0,
+            "raw_core_coverage": 0.9997642065550578
+          },
+          "stone_W": {
+            "connected_core_coverage": 0.9993528069496523,
+            "raw_core_coverage": 0.995703171913156
+          },
+          "stone_E": {
+            "connected_core_coverage": 0.9994495412844037,
+            "raw_core_coverage": 0.9952866972477065
+          },
+          "stone_L1": {
+            "connected_core_coverage": 0.9992693873290889,
+            "raw_core_coverage": 0.995959264615981
+          },
+          "stone_L2": {
+            "connected_core_coverage": 0.9992603979349151,
+            "raw_core_coverage": 0.9952143395788619
+          }
+        },
+        "clear_counters": 0,
+        "connected_deposit_components": 9,
+        "detached_or_merged_components": 0
+      }
+    },
+    "gold_layers": {
+      "2.2": {
+        "features": {
+          "W": {
+            "connected_core_coverage": 0.9990344254160688,
+            "raw_core_coverage": 0.9860662223235479
+          },
+          "H": {
+            "connected_core_coverage": 0.9997591116035941,
+            "raw_core_coverage": 0.9920747717582444
+          },
+          "I": {
+            "connected_core_coverage": 1.0,
+            "raw_core_coverage": 0.9981092049437373
+          },
+          "S1": {
+            "connected_core_coverage": 0.9985055160045649,
+            "raw_core_coverage": 0.9915221998804413
+          },
+          "P": {
+            "connected_core_coverage": 0.9994758604624076,
+            "raw_core_coverage": 0.9942635839496826
+          },
+          "E1": {
+            "connected_core_coverage": 0.9982729439397603,
+            "raw_core_coverage": 0.9793789506407378
+          },
+          "R": {
+            "connected_core_coverage": 0.9977972413069701,
+            "raw_core_coverage": 0.9854722819531128
+          },
+          "S2": {
+            "connected_core_coverage": 0.9976609459569723,
+            "raw_core_coverage": 0.9797372643947018
+          },
+          "upper_wisp": {
+            "connected_core_coverage": 0.9997785528428279,
+            "raw_core_coverage": 0.9935226706527155
+          }
+        },
+        "clear_counters": 2,
+        "connected_deposit_components": 9,
+        "detached_or_merged_components": 0
+      },
+      "2.4": {
+        "features": {
+          "W": {
+            "connected_core_coverage": 0.9990344254160688,
+            "raw_core_coverage": 0.9859321147424464
+          },
+          "H": {
+            "connected_core_coverage": 0.9997591116035941,
+            "raw_core_coverage": 0.9920747717582444
+          },
+          "I": {
+            "connected_core_coverage": 1.0,
+            "raw_core_coverage": 0.9981092049437373
+          },
+          "S1": {
+            "connected_core_coverage": 0.9985055160045649,
+            "raw_core_coverage": 0.9915221998804413
+          },
+          "P": {
+            "connected_core_coverage": 0.9994758604624076,
+            "raw_core_coverage": 0.9942927028128822
+          },
+          "E1": {
+            "connected_core_coverage": 0.9982729439397603,
+            "raw_core_coverage": 0.9793789506407378
+          },
+          "R": {
+            "connected_core_coverage": 0.9977972413069701,
+            "raw_core_coverage": 0.9855509519064352
+          },
+          "S2": {
+            "connected_core_coverage": 0.9976881442597982,
+            "raw_core_coverage": 0.9799276525144831
+          },
+          "upper_wisp": {
+            "connected_core_coverage": 0.9997785528428279,
+            "raw_core_coverage": 0.9935780324420085
+          }
+        },
+        "clear_counters": 2,
+        "connected_deposit_components": 9,
+        "detached_or_merged_components": 0
+      },
+      "2.6": {
+        "features": {
+          "W": {
+            "connected_core_coverage": 0.9991014792066195,
+            "raw_core_coverage": 0.9872329582791315
+          },
+          "H": {
+            "connected_core_coverage": 0.9997591116035941,
+            "raw_core_coverage": 0.9920747717582444
+          },
+          "I": {
+            "connected_core_coverage": 1.0,
+            "raw_core_coverage": 0.9981092049437373
+          },
+          "S1": {
+            "connected_core_coverage": 0.9985055160045649,
+            "raw_core_coverage": 0.9915221998804413
+          },
+          "P": {
+            "connected_core_coverage": 0.9994758604624076,
+            "raw_core_coverage": 0.9942635839496826
+          },
+          "E1": {
+            "connected_core_coverage": 0.9982729439397603,
+            "raw_core_coverage": 0.9793789506407378
+          },
+          "R": {
+            "connected_core_coverage": 0.9977447946714219,
+            "raw_core_coverage": 0.985367388682016
+          },
+          "S2": {
+            "connected_core_coverage": 0.9976881442597982,
+            "raw_core_coverage": 0.9800636440286126
+          },
+          "upper_wisp": {
+            "connected_core_coverage": 0.9997785528428279,
+            "raw_core_coverage": 0.9936887560205946
+          }
+        },
+        "clear_counters": 2,
+        "connected_deposit_components": 9,
+        "detached_or_merged_components": 0
+      },
+      "2.8": {
+        "features": {
+          "W": {
+            "connected_core_coverage": 0.9999329462094492,
+            "raw_core_coverage": 0.9931605133638205
+          },
+          "H": {
+            "connected_core_coverage": 0.998867824536892,
+            "raw_core_coverage": 0.9897622431527473
+          },
+          "I": {
+            "connected_core_coverage": 1.0,
+            "raw_core_coverage": 0.997970854085962
+          },
+          "S1": {
+            "connected_core_coverage": 0.9999456551274387,
+            "raw_core_coverage": 0.9967393076463236
+          },
+          "P": {
+            "connected_core_coverage": 0.9999417622736009,
+            "raw_core_coverage": 0.9968260439112457
+          },
+          "E1": {
+            "connected_core_coverage": 0.9994818831819281,
+            "raw_core_coverage": 0.9901903215778384
+          },
+          "R": {
+            "connected_core_coverage": 0.9992657471023234,
+            "raw_core_coverage": 0.9910840719567839
+          },
+          "S2": {
+            "connected_core_coverage": 0.9921940870889656,
+            "raw_core_coverage": 0.9755487257595126
+          },
+          "upper_wisp": {
+            "connected_core_coverage": 1.0,
+            "raw_core_coverage": 0.9975364003764602
+          }
+        },
+        "clear_counters": 2,
+        "connected_deposit_components": 9,
+        "detached_or_merged_components": 0
+      }
+    },
+    "background_top_connected_core_coverage": 0.9997424667171889,
+    "background_top_deposit_components": 1,
+    "bead_edge_raster_tolerance_mm": 0.075,
+    "no_toolpaths_in_former_underline_region": true
+  },
+  "bambu_version": "02.09.01.70",
+  "physical_print_verified": false,
+  "slice_result": {
+    "error_string": "Success.",
+    "layer_height": 0.20000000298023224,
+    "peak_rss_mb": 120.56640625,
+    "plate_index": 1,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "feature_type_times": {
+          "Bottom surface": 46.838375091552734,
+          "Bridge": 22.942916870117188,
+          "Custom": 369.51446533203125,
+          "Flush": 381.6966247558594,
+          "Gap infill": 6.294129371643066,
+          "Inner wall": 81.89260864257812,
+          "Internal solid infill": 185.37832641601562,
+          "Outer wall": 71.28572845458984,
+          "Prime tower": 182.65426635742188,
+          "Sparse infill": 5.405590534210205,
+          "Top surface": 77.51943969726562,
+          "Travel": 207.05465698242188,
+          "Undefined": 190.12738037109375
+        },
+        "filament_change_times": 5,
+        "filaments": [
+          {
+            "filament_id": "GFA01",
+            "id": 1,
+            "main_used_g": 3.904985189437866,
+            "total_used_g": 4.943408489227295
+          },
+          {
+            "filament_id": "GFA01",
+            "id": 2,
+            "main_used_g": 0.2932702302932739,
+            "total_used_g": 1.226710319519043
+          },
+          {
+            "filament_id": "GFA00",
+            "id": 3,
+            "main_used_g": 0.2562730014324188,
+            "total_used_g": 1.0123249292373657
+          }
+        ],
+        "id": 1,
+        "layer_filament_change": 0,
+        "main_predication": 679.6114501953125,
+        "obj_cached_cnt": 0,
+        "objects": [
+          {
+            "bbox": {
+              "depth": 35.83332824707031,
+              "height": 2.799999952316284,
+              "width": 57.16666793823242,
+              "x": 100.11000061035156,
+              "y": 112.72666931152344,
+              "z": 0.0
+            },
+            "id": 5,
+            "name": "Set_10_Whispers_in_the_Well_v1.9",
+            "triangle_count": 8252
+          }
+        ],
+        "times": {
+          "conflict_check_time": 5,
+          "detect_overhangs_time": 3,
+          "export_gcode_time": 366,
+          "flush_plan_time": 0,
+          "generate_support_material_time": 19,
+          "infill_generate_time": 48,
+          "infill_time": 163,
+          "ironing_time": 0,
+          "make_perimeters_time": 82,
+          "multifilament_segment_2d_time": 0,
+          "other_slice_time": 1,
+          "prepare_infill_time": 115,
+          "region_split_time": 1,
+          "skirt_brim_time": 0,
+          "slice_layers_time": 21,
+          "sliced_time": 656,
+          "sliced_time_with_cache": 366,
+          "support_detect_time": 0,
+          "support_interface_time": 0,
+          "support_normal_generate_time": 0,
+          "support_toolpath_time": 0,
+          "support_tree_generate_time": 0,
+          "toolpath_time": 6,
+          "wall_time": 60,
+          "wipe_tower_time": 11
+        },
+        "total_predication": 1621.549560546875,
+        "triangle_count": 8252,
+        "warning_message": ""
+      }
+    ],
+    "sparse_infill_density": 15.0,
+    "times": {
+      "export_3mf_time": 0,
+      "export_slicedata_time": 0,
+      "export_time": 0,
+      "import_time": 24,
+      "load_slicedata_time": 0,
+      "prepare_time": 26
+    },
+    "upward_compatible_machine": [
+      "Bambu Lab H2D 0.4 nozzle",
+      "Bambu Lab H2D Pro 0.4 nozzle",
+      "Bambu Lab H2S 0.4 nozzle",
+      "Bambu Lab P2S 0.4 nozzle",
+      "Bambu Lab H2C 0.4 nozzle",
+      "Bambu Lab X2D 0.4 nozzle",
+      "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+  }
+}

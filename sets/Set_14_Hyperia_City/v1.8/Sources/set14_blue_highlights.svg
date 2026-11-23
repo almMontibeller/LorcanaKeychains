@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="144 28 371 236">
+  <title>Hyperia City blue edge accents</title>
+  <desc>Editable contour guides for solid blue bands with tapered ends. Fade lengths are in print millimetres.</desc>
+  <g fill="none" stroke="#9BC8DE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path id="hyperia-h-left" data-letter="hyperia-h" data-fade-start-mm="4.5" data-fade-end-mm="9"
+          d="M 166.4 86.5 C 159.05 81.42 154.9 73.43 154.9 64.2 C 154.9 48.7 166.2 37.5 184 37.5 L 215 37.5 L 215 112"/>
+    <path id="hyperia-h-curl" data-letter="hyperia-h" data-fade-start-mm="3.6" data-fade-end-mm="1.5" data-width-mm=".57"
+          d="M 200 81 L 200 49.5 L 184.5 49.5 C 174.1 49.5 170.3 56.2 170.3 62.9 C 170.3 72.5 178.4 79.1 187 75.5 L 187 89.3"/>
+    <path id="hyperia-h-right" data-letter="hyperia-h" data-fade-start-mm="5.4" data-fade-end-mm="6.3"
+          d="M 239 82 L 239 49 C 239 44 238.5 40.7 236 37.5 L 255.5 37.5 L 255.5 90"/>
+    <path id="hyperia-y-left" data-letter="hyperia-y" data-fade-start-mm="1" data-fade-end-mm="2.2"
+          d="M 263.62 94.2 L 261 85.8 L 273.5 81.8 L 279.23 102.2"/>
+    <path id="hyperia-y-right" data-letter="hyperia-y" data-fade-start-mm="1.1" data-fade-end-mm="2.7"
+          d="M 284.52 89.7 L 285.1 84.9 C 285.4 81.5 285.2 79.3 283.9 76.9 L 300.7 71.8 L 295.56 96"/>
+    <path id="hyperia-p" data-letter="hyperia-p" data-fade-start-mm="1" data-fade-end-mm="2.0"
+          d="M 308.5 81 C 308.5 76.2 307.8 72.6 305.5 69.9 L 317.6 66.3 C 332 61.91 344.91 68.17 346.54 85.65"/>
+    <path id="hyperia-p-counter" data-letter="hyperia-p" data-fade-start-mm=".55" data-fade-end-mm=".65" data-width-mm=".53"
+          d="M 321.1 80.9 L 321.1 76.8 C 324.18 76.85 326.65 77.97 328.46 80.04"/>
+    <path id="hyperia-e" data-letter="hyperia-e" data-fade-start-mm="1.0" data-fade-end-mm=".9"
+          d="M 352.14 65.56 C 351.61 62.53 350.76 59.71 349.7 57.3 L 382.7 49.5 L 382.7 58.7"/>
+    <path id="hyperia-r" data-letter="hyperia-r" data-fade-start-mm="1.0" data-fade-end-mm="2.3"
+          d="M 391.3 60.5 C 391.3 55 390.7 51.9 388.4 49.2 L 400.4 46.5 C 415.77 43.19 427.32 52.03 429.31 67.53"/>
+    <path id="hyperia-r-counter" data-letter="hyperia-r" data-fade-start-mm=".48" data-fade-end-mm=".83" data-width-mm=".53"
+          d="M 404.1 61.7 L 404.1 57.2 C 406.84 58.23 409.15 60.05 410.85 62.42"/>
+    <path id="hyperia-i" data-letter="hyperia-i" data-fade-start-mm="1.1" data-fade-end-mm="3"
+          d="M 436.7 54.1 C 436.7 48.4 435.9 45.4 433.8 41.8 L 448.9 39.8 L 448.9 69.5"/>
+    <path id="hyperia-a" data-letter="hyperia-a" data-fade-start-mm="1.1" data-fade-end-mm="3"
+          d="M 466.32 51.47 L 466.6 49.9 C 467.4 45.5 466.8 42.2 464.2 38.7 L 486 37.2 L 491.52 67.7"/>
+    <path id="city-c" data-letter="city-c" data-fade-start-mm="2.9" data-fade-end-mm="1.9"
+          d="M 288.1 173.0 C 297.33 162.1 311.14 156 326 156 C 333.4 155.8 340.7 156.3 347.1 157.5 L 347.41 176"/>
+    <path id="city-c-inner" data-letter="city-c" data-fade-start-mm="1.45" data-fade-end-mm="1.0" data-width-mm=".57"
+          d="M 314.16 172.67 C 319.26 170.98 325.31 170.11 332.3 170.5 L 332.3 178.7"/>
+    <path id="city-i" data-letter="city-i" data-fade-start-mm="1.0" data-fade-end-mm="1.65"
+          d="M 359.25 165.9 C 358.98 162.79 358.1 160.57 356.2 158.1 L 372.6 154.5 L 372.6 169.3"/>
+    <path id="city-t" data-letter="city-t" data-fade-start-mm=".67" data-fade-end-mm=".9"
+          d="M 382.3 158.35 L 382.3 151.7 L 423.4 143.5 L 423.4 153"/>
+    <path id="city-y-left" data-letter="city-y" data-fade-start-mm="1.03" data-fade-end-mm="1.5"
+          d="M 431.68 151.5 L 426.9 143.1 L 440.6 140.9 L 449.24 156.6"/>
+    <path id="city-y-right" data-letter="city-y" data-fade-start-mm=".9" data-fade-end-mm="2"
+          d="M 460.96 149.0 L 461.2 148.4 C 462.7 144.1 462.8 140.3 461.3 137.2 L 480.4 136.1 L 471.46 157"/>
+  </g>
+</svg>

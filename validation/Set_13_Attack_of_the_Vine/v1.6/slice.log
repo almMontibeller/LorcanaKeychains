@@ -1,0 +1,28 @@
+[2026-11-22 13:02:56.099773] [0x00007f5558b57bc0] [warning] [BambuStudio.cpp:1845 run] cli mode, Current BambuStudio Version 02.09.01.70
+[2026-11-22 13:02:56.124604] [0x00007f5558b57bc0] [warning] [BambuStudio.cpp:3155 run] can not find system preset file: /app/share/BambuStudio/profiles/BBL/machine_full/Bambu Lab A1 0.4 nozzle.json 
+[2026-11-22 13:02:56.124613] [0x00007f5558b57bc0] [warning] [BambuStudio.cpp:3177 run] can not find system preset file: /app/share/BambuStudio/profiles/BBL/process_full/0.20mm Standard @BBL A1.json 
+[2026-11-22 13:02:56.124625] [0x00007f5558b57bc0] [warning] [BambuStudio.cpp:4326 run] no filament colors found in projects
+[2026-11-22 13:02:56.125235] [0x00007f5558b57bc0] [warning] [MultiNozzleUtils.cpp:217 load_nozzle_infos_with_compatibility] building nozzle list from filament map and volume types
+[Set_13_Attack_of_the_Vine_v1.6.3mf]
+size_x = 67.897008
+size_y = 40.877487
+size_z = 2.800000
+min_x = 0.000040
+min_y = 0.051197
+min_z = 0.000000
+max_x = 67.897049
+max_y = 40.928684
+max_z = 2.800000
+number_of_facets = 12112
+manifold = yes
+number_of_parts =  18
+volume = 3970.634521
+[2026-11-22 13:02:56.157341] [0x00007f55573836c0] [error]   [SkeletalTrapezoidation.cpp:887 generateTransitionMids] transition on segment lies outside of segment!
+[2026-11-22 13:02:56.157432] [0x00007f55573836c0] [error]   [SkeletalTrapezoidation.cpp:887 generateTransitionMids] transition on segment lies outside of segment!
+[2026-11-22 13:02:56.163646] [0x00007f5555f7e6c0] [error]   [SkeletalTrapezoidation.cpp:887 generateTransitionMids] transition on segment lies outside of segment!
+[2026-11-22 13:02:56.163741] [0x00007f5555f7e6c0] [error]   [SkeletalTrapezoidation.cpp:887 generateTransitionMids] transition on segment lies outside of segment!
+[2026-11-22 13:02:56.165328] [0x00007f55573836c0] [error]   [SkeletalTrapezoidation.cpp:887 generateTransitionMids] transition on segment lies outside of segment!
+[2026-11-22 13:02:56.188352] [0x00007f5556b816c0] [error]   [SkeletalTrapezoidation.cpp:887 generateTransitionMids] transition on segment lies outside of segment!
+[2026-11-22 13:02:56.188368] [0x00007f5556b816c0] [error]   [SkeletalTrapezoidation.cpp:887 generateTransitionMids] transition on segment lies outside of segment!
+[2026-11-22 13:02:56.206232] [0x00007f5555f7e6c0] [error]   [SkeletalTrapezoidation.cpp:887 generateTransitionMids] transition on segment lies outside of segment!
+[2026-11-22 13:02:56.480142] [0x00007f5558b57bc0] [warning] [SupportParameters.hpp:204 SupportParameters] tree support default to organic support

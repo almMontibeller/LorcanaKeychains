@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 648 300">
+  <title>Wilds Unknown lettering accents</title>
+  <desc>Green strokes traced in the coordinate system of the archived title art.</desc>
+  <g fill="none" stroke="#24534A" stroke-width="5.2"
+     stroke-linecap="round" stroke-linejoin="round">
+    <path id="wilds-w-hook" data-letter="wilds-w" d="M 145 15.5 C 151 13.5 157 14.5 163 16 Q 168 16 166 22 C 157 43 154 62 158 79 C 161 92 166 101 173 108"/>
+    <path id="wilds-w-inner" data-letter="wilds-w" d="M 201 43 C 194 57 195 75 200 89 Q 204 99 212 108"/>
+    <path id="wilds-w-right" data-letter="wilds-w" d="M 235 19 C 235 30 245 45 244 63 C 246 81 240 97 231 108"/>
+    <path id="wilds-i-stem" data-letter="wilds-i" d="M 276 18 Q 280 24 277 31 Q 276 35 276 42 L 276 111"/>
+    <path id="wilds-l-stem" data-letter="wilds-l" d="M 314 18 Q 318 24 315 31 Q 314 35 314 42 L 314 111"/>
+    <path id="wilds-l-foot" data-letter="wilds-l" d="M 354.5 93 Q 355 105 348 113"/>
+    <path id="wilds-d-stem" data-letter="wilds-d" d="M 382 26 Q 386 32 383 40 Q 382 43 382 49 L 382 111"/>
+    <path id="wilds-d-bowl" data-letter="wilds-d" d="M 362 25 C 372 14 391 11 405 16 C 423 25 426 46 426 67 C 426 86 421 103 411 111"/>
+    <path id="wilds-s-curve" data-letter="wilds-s" d="M 457 20 C 449 29 450 40 460 50 C 471 61 486 70 490 84 C 494 94 491 104 486 112"/>
+    <path id="wilds-s-tail" data-letter="wilds-s" d="M 450 91 Q 444 105 456 112"/>
+    <path id="unknown-u-curve" data-letter="unknown-u" d="M 88 126 C 99 139 95 161 90 183 C 83 209 76 231 82 249 Q 85 260 94 267"/>
+    <path id="unknown-u-stem" data-letter="unknown-u" d="M 127 128 Q 131 134 128 141 Q 127 145 127 152 L 127 262"/>
+    <path id="unknown-n-first-left" data-letter="unknown-n-first" d="M 161 151 L 161 256"/>
+    <path id="unknown-n-first-right" data-letter="unknown-n-first" d="M 196 151 Q 200 157 197 164 Q 196 168 196 177 L 196 248"/>
+    <path id="unknown-k-stem" data-letter="unknown-k" d="M 230 151 Q 232 157 230.5 164 Q 230 168 230 177 L 230 247"/>
+    <path id="unknown-k-arm" data-letter="unknown-k" d="M 262 139 C 268 149 263 162 256 170"/>
+    <path id="unknown-k-leg" data-letter="unknown-k" d="M 256.8 191.5 C 271 200 261 223 261 243 Q 261 254 266.5 259"/>
+    <path id="unknown-n-second-left" data-letter="unknown-n-second" d="M 291 151 L 291 242"/>
+    <path id="unknown-n-second-right" data-letter="unknown-n-second" d="M 326 151 Q 330 157 327 164 Q 326 168 326 177 L 326 242"/>
+    <path id="unknown-o-left" data-letter="unknown-o" d="M 364 151 C 352 166 352 188 352 206 C 352 222 355 234 363 242"/>
+    <path id="unknown-o-right" data-letter="unknown-o" d="M 388 176 C 400 183 398 198 397 210 Q 396 230 388 242"/>
+    <path id="unknown-w-hook" data-letter="unknown-w" d="M 417 146.8 Q 421 145.8 429 147 Q 434 147 431 152 C 423 172 420 192 422 210 C 424 224 427 236 437 246"/>
+    <path id="unknown-w-inner" data-letter="unknown-w" d="M 456 180 C 451 190 451 207 454 221 Q 458 234 463 245"/>
+    <path id="unknown-w-right" data-letter="unknown-w" d="M 481 152 C 485 166 491 185 489 200 C 491 222 483 241 477 251"/>
+    <path id="unknown-n-last-left" data-letter="unknown-n-last" d="M 516 127 L 516 262"/>
+    <path id="unknown-n-last-right" data-letter="unknown-n-last" d="M 555 124 C 551 137 555 150 557 166 C 559 182 558 193 558 202 C 558 227 557 250 556 271"/>
+  </g>
+</svg>

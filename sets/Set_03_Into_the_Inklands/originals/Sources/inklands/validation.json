@@ -1,0 +1,28 @@
+{
+  "dimensions_mm": [
+    95.03,
+    40.74,
+    3
+  ],
+  "loop_hole_mm": 4.5,
+  "solid_watertight": true,
+  "solid_components": 1,
+  "solid_volume_mm3": 6364.5,
+  "parts": [
+    {
+      "name": "01_Cocoa_Brown_backing",
+      "watertight": true,
+      "volume_mm3": 5180.8
+    },
+    {
+      "name": "02_Ice_Blue_outline",
+      "watertight": true,
+      "volume_mm3": 430.4
+    },
+    {
+      "name": "03_Sunflower_Yellow_lettering",
+      "watertight": true,
+      "volume_mm3": 758.2
+    }
+  ]
+}

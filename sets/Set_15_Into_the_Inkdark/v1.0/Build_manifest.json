@@ -1,0 +1,24 @@
+{
+  "input_sha256": {
+    "sets/Set_14_Hyperia_City/v1.5/Set_14_Hyperia_City_v1.5.3mf": "0e6499803c314b7c1765de98a7abd9c44c2ab535f97654b53c7626d31baa6307",
+    "sets/Set_15_Into_the_Inkdark/originals/en_jbs83nhsz6.webp": "dc31c92c1711e5ca079a187e79d2c72e3ae1515d24df2fd877ec8faa61b8d61b",
+    "sets/Set_15_Into_the_Inkdark/v1.0/Sources/set15_artwork.svg": "b395a9370bc100071ef322abb5e8851c2cd07b1c7036b6534e4fa5afe58b8722",
+    "tools/rebuild_set15.py": "17cb1c573b4fefbdae3a3c117282b458514ba0e59d9869deda73a6548f47a416",
+    "tools/full_height_narrow_rims.py": "3a45553b13bce8f430a571620fd6303fb922a01cbcb014694e06973c50f4f1de",
+    "tools/rebuild_set04.py": "18efb9ec2eb5438f66c28ff58f179edc6e7468f51dc539635f55384ceba70402",
+    "tools/rebuild_set05.py": "495739140a39c0c35b9220472c9ce82a4d81b5b0f4ef2cc5c5be622d33157bfa",
+    "tools/rebuild_set06.py": "7436b2be1c0e3d166cdab6696502c0ddf3a985b625cddf515ea6f910292c35ae",
+    "tools/rebuild_set07.py": "5e27c6ddb3c582f0f1050fcc8642d74f6d2f5ca7831706bc4b894781df91fdf8",
+    "tools/rebuild_set09.py": "3d62aee3bd1a9ce8edf63a4d8e74043d0e12952b6b437e9de4b3e0f06b7c98ea",
+    "tools/rebuild_set12.py": "b139560a6f2e27395e437f718f958d4357078531d6b3da79583382626f4cfb90",
+    "tools/refine_loops_and_underline.py": "de3151b4ab401b08a6c957c3347d21bcd3aa6c969b10149af435f0323f34fe26",
+    "tools/repair_v1_1.py": "3bcdd33f048d310b8a2be2e819640b5e433df9c91443f83a6b8a82f46bf3f20d",
+    "tools/standardize_loop_diameters.py": "2d2548881db361bd83e2f74636b25b5634f95e2caacf5e591b09f7e491d646e3",
+    "tools/validate_bambu.py": "adc34b3b462668b8e881ece60e285ecda2968efe4f0b3a353506ae0c9e8deea5",
+    "tools/validate_set06.py": "140507e8e7b59d65883fa4d2c9d8e61437c0882c0cbbc434324ceab4d74b868f",
+    "tools/validate_set09.py": "5c169af473bfba9207cf3f0c1f212cccb9c3ecc8e84156d66f0a66149cf509f6",
+    "tools/validate_set12.py": "d8c441be3a566c70b56c9b6534c22651e7519598c91f2f2cf561be4e4c50428e"
+  },
+  "source_snapshot_sha256": "3721ee4fe503cbd64f7d8463e139943c363434f01fee818d01094411314084bf",
+  "project_sha256": "60e0c1440f1540aa27b206ba24f81f9bc3cb9e7eab88f5c61f85a640e5ce33fb"
+}

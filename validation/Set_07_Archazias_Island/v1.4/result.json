@@ -1,0 +1,85 @@
+{
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 24,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 73.35924530029297,
+                "Custom": 369.58941650390625,
+                "Flush": 334.34796142578125,
+                "Gap infill": 15.72053337097168,
+                "Inner wall": 159.405029296875,
+                "Internal solid infill": 278.0481872558594,
+                "Outer wall": 168.07235717773438,
+                "Prime tower": 168.15945434570313,
+                "Sparse infill": 11.507701873779297,
+                "Top surface": 106.7739028930664,
+                "Travel": 245.24838256835938,
+                "Undefined": 228.24562072753906
+            },
+            "filament_change_times": 4,
+            "filaments": [
+                {
+                    "filament_id": "GFA01",
+                    "id": 1,
+                    "main_used_g": 6.180661678314209,
+                    "total_used_g": 7.219084739685059
+                },
+                {
+                    "filament_id": "GFA01",
+                    "id": 2,
+                    "main_used_g": 0.06600631028413773,
+                    "total_used_g": 0.7726225256919861
+                },
+                {
+                    "filament_id": "GFA01",
+                    "id": 3,
+                    "main_used_g": 0.7062920331954956,
+                    "total_used_g": 1.6831567287445068
+                }
+            ],
+            "generate_support_material_time": 27,
+            "id": 1,
+            "infill_time": 183,
+            "layer_filament_change": 0,
+            "main_predication": 1033.15771484375,
+            "make_perimeters_time": 232,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 40.814998626708984,
+                        "height": 3.0,
+                        "width": 80.5250015258789,
+                        "x": 87.73500061035156,
+                        "y": 107.59500122070313,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "Set_07_Archazias_Island_v1.4",
+                    "triangle_count": 12338
+                }
+            ],
+            "sliced_time": 828,
+            "sliced_time_with_cache": 355,
+            "total_predication": 1913.2515869140625,
+            "triangle_count": 12338,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+}

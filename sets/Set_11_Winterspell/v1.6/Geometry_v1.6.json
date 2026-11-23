@@ -1,0 +1,79 @@
+{
+  "parts": [
+    {
+      "name": "Marine Blue",
+      "slot": 1,
+      "triangles": 3724,
+      "volume_mm3": 3479.5187604738553,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    },
+    {
+      "name": "Ice Blue",
+      "slot": 2,
+      "triangles": 1580,
+      "volume_mm3": 589.7259793779837,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    },
+    {
+      "name": "Ivory White",
+      "slot": 3,
+      "triangles": 9544,
+      "volume_mm3": 372.28023054713657,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    }
+  ],
+  "dimensions_previous_mm": [
+    95.015,
+    26.8,
+    3.0
+  ],
+  "dimensions_mm": [
+    94.9371,
+    27.2337,
+    3.0
+  ],
+  "backing_openings_previous": 4,
+  "backing_openings": 1,
+  "ice_blue_components": 1,
+  "ivory_components_previous": 17,
+  "ivory_components": 11,
+  "contiguous_glyphs": [
+    "W",
+    "I",
+    "N",
+    "T",
+    "E1",
+    "R",
+    "S",
+    "P",
+    "E2",
+    "L1",
+    "L2"
+  ],
+  "narrowest_letter_gap_mm": 0.5456,
+  "closest_letters": [
+    "N",
+    "T"
+  ],
+  "min_field_clearance_mm": 0.697,
+  "min_marine_border_mm": 0.8459,
+  "relief_fully_supported": true,
+  "volumetric_colour_overlap": false,
+  "eyelet": {
+    "centre_mm": [
+      5.25,
+      13.400000075000001
+    ],
+    "bore_mm": 6.5,
+    "outer_diameter_mm": 10.5,
+    "radial_rim_mm": 2.0,
+    "neck_width_mm": 7.0,
+    "height_mm": 2.0,
+    "bore_coordinates_exactly_preserved": true
+  },
+  "plate_placement_preserved": true,
+  "filament_and_process_settings_byte_identical": true
+}

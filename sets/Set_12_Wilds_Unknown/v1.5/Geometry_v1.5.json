@@ -1,0 +1,61 @@
+{
+  "project": "sets/Set_12_Wilds_Unknown/v1.5/Set_12_Wilds_Unknown_v1.5.3mf",
+  "filename": "Set_12_Wilds_Unknown_v1.5.3mf",
+  "source": "sets/Set_12_Wilds_Unknown/v1.4/Set_12_Wilds_Unknown_v1.4.3mf",
+  "source_sha256": "ff759baef0739c0a73e0a17f64f3930bd4e33d962c0a97cbdc858c7d7243d97b",
+  "output_sha256": "f7c81a11724728707daf860839bb5257290bef910f31ef36c2b63d4a5efc2e98",
+  "geometry": {
+    "loop_and_backing_height_mm": 2.0,
+    "uniform_backing_height": true,
+    "bore_diameters_xy_mm": [
+      6.5,
+      6.5
+    ],
+    "outer_diameter_nominal_mm": 10.5,
+    "radial_rim_width_nominal_mm": 2.0,
+    "sampled_left_outer_arc_radial_rim_mm": [
+      1.9955729982150157,
+      2.0051650717937077
+    ],
+    "hole_centre_preserved": true,
+    "non_bore_contours_preserved": true,
+    "non_bore_contour_max_deviation_mm": 0.0,
+    "artwork_meshes_exactly_preserved": true,
+    "plate_placement_preserved": true,
+    "filament_and_process_settings_byte_identical": true,
+    "parts": [
+      {
+        "name": "Cocoa Brown",
+        "volume_mm3": 4893.430438071955,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Dark Green",
+        "volume_mm3": 72.90424412998232,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Ivory White",
+        "volume_mm3": 1115.1559311935432,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      }
+    ],
+    "tessellation_axis_rotation_degrees": 0
+  },
+  "underline": null,
+  "toolpath_checks": {
+    "loop_top_layer_mm": 2.0,
+    "loop_top_segments": 104,
+    "loop_segments_above_target_height": 0
+  },
+  "used_filament_slots": [
+    1,
+    2,
+    3
+  ],
+  "bambu_version": "02.08.02.61",
+  "physical_print_verified": false
+}

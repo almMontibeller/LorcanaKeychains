@@ -1,0 +1,147 @@
+{
+  "project": "sets/Set_14_Hyperia_City/v1.5/Set_14_Hyperia_City_v1.5.3mf",
+  "filename": "Set_14_Hyperia_City_v1.5.3mf",
+  "source": "sets/Set_14_Hyperia_City/v1.4/Set_14_Hyperia_City_v1.4.3mf",
+  "source_sha256": "ff750b8f4fefb618f53cc18810fe78242e7c1461f6277bad5ea3bb807cc39c24",
+  "output_sha256": "0e6499803c314b7c1765de98a7abd9c44c2ab535f97654b53c7626d31baa6307",
+  "geometry": {
+    "loop_and_backing_height_mm": 2.0,
+    "uniform_backing_height": true,
+    "bore_diameters_xy_mm": [
+      6.5,
+      6.5
+    ],
+    "outer_diameter_nominal_mm": 10.5,
+    "radial_rim_width_nominal_mm": 2.0,
+    "sampled_left_outer_arc_radial_rim_mm": [
+      1.9987942491348196,
+      2.002894767173644
+    ],
+    "hole_centre_preserved": true,
+    "non_bore_contours_preserved": true,
+    "non_bore_contour_max_deviation_mm": 0.0,
+    "artwork_meshes_exactly_preserved": true,
+    "plate_placement_preserved": true,
+    "filament_and_process_settings_byte_identical": true,
+    "parts": [
+      {
+        "name": "Cocoa Brown",
+        "volume_mm3": 3788.8029673224664,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Caramel",
+        "volume_mm3": 288.1874964297962,
+        "degenerate_triangles": 4,
+        "closed_manifold": true
+      },
+      {
+        "name": "Ivory White",
+        "volume_mm3": 581.8000422396009,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      }
+    ],
+    "tessellation_axis_rotation_degrees": 0
+  },
+  "underline": null,
+  "toolpath_checks": {
+    "loop_top_layer_mm": 2.0,
+    "loop_top_segments": 111,
+    "loop_segments_above_target_height": 0
+  },
+  "used_filament_slots": [
+    1,
+    2,
+    3
+  ],
+  "bambu_version": "02.08.02.61",
+  "slice_result": {
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 30,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "feature_type_times": {
+          "Bottom surface": 60.62145233154297,
+          "Bridge": 74.34149169921875,
+          "Custom": 369.44964599609375,
+          "Flush": 328.5538330078125,
+          "Gap infill": 14.59524154663086,
+          "Inner wall": 192.7681121826172,
+          "Internal solid infill": 222.32177734375,
+          "Outer wall": 180.98410034179688,
+          "Prime tower": 171.25460815429688,
+          "Sparse infill": 10.90015697479248,
+          "Top surface": 76.26141357421875,
+          "Travel": 240.1289520263672,
+          "Undefined": 223.2659454345703
+        },
+        "filament_change_times": 4,
+        "filaments": [
+          {
+            "filament_id": "GFA00",
+            "id": 1,
+            "main_used_g": 4.577214241027832,
+            "total_used_g": 5.568436622619629
+          },
+          {
+            "filament_id": "GFA01",
+            "id": 2,
+            "main_used_g": 0.36743268370628357,
+            "total_used_g": 0.9829681515693665
+          },
+          {
+            "filament_id": "GFA01",
+            "id": 3,
+            "main_used_g": 0.7369917035102844,
+            "total_used_g": 1.71385657787323
+          }
+        ],
+        "generate_support_material_time": 20,
+        "id": 1,
+        "infill_time": 247,
+        "layer_filament_change": 0,
+        "main_predication": 1047.9537353515625,
+        "make_perimeters_time": 248,
+        "obj_cached_cnt": 0,
+        "objects": [
+          {
+            "bbox": {
+              "depth": 40.78999710083008,
+              "height": 3.0,
+              "width": 71.91500091552734,
+              "x": 92.04000091552734,
+              "y": 107.6050033569336,
+              "z": 0.0
+            },
+            "id": 5,
+            "name": "Set_14_Hyperia_City_v1.5",
+            "triangle_count": 15864
+          }
+        ],
+        "sliced_time": 1043,
+        "sliced_time_with_cache": 495,
+        "total_predication": 1925.348876953125,
+        "triangle_count": 15864,
+        "warning_message": ""
+      }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+      "Bambu Lab H2D 0.4 nozzle",
+      "Bambu Lab H2D Pro 0.4 nozzle",
+      "Bambu Lab H2S 0.4 nozzle",
+      "Bambu Lab P2S 0.4 nozzle",
+      "Bambu Lab H2C 0.4 nozzle",
+      "Bambu Lab X2D 0.4 nozzle",
+      "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+  },
+  "physical_print_verified": false
+}

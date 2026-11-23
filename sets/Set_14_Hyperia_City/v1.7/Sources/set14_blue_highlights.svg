@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="144 28 371 236">
+  <title>Hyperia City blue upper edges</title>
+  <desc>Source-registered paths along the upper edges of the ivory letter faces. The builder insets the blue band from these edges.</desc>
+  <g fill="none" stroke="#9BC8DE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path id="hyperia-h-left" data-letter="hyperia-h" d="M 158.9 50.1 C 163.6 42.3 172.5 37.5 184 37.5 L 215 37.5"/>
+    <path id="hyperia-h-right" data-letter="hyperia-h" d="M 236 37.5 L 255.5 37.5"/>
+    <path id="hyperia-y-left" data-letter="hyperia-y" d="M 261 85.8 L 273.5 81.8"/>
+    <path id="hyperia-y-right" data-letter="hyperia-y" d="M 283.9 76.9 L 300.7 71.8"/>
+    <path id="hyperia-p" data-letter="hyperia-p" d="M 305.5 69.9 L 317.6 66.3 C 328.46 62.99 338.47 65.74 343.43 74.51"/>
+    <path id="hyperia-e" data-letter="hyperia-e" d="M 349.7 57.3 L 382.7 49.5"/>
+    <path id="hyperia-r" data-letter="hyperia-r" d="M 388.4 49.2 L 400.4 46.5 C 410.42 44.34 418.93 47.43 424.13 54.03"/>
+    <path id="hyperia-i" data-letter="hyperia-i" d="M 433.8 41.8 L 448.9 39.8"/>
+    <path id="hyperia-a" data-letter="hyperia-a" d="M 464.2 38.7 L 486 37.2"/>
+    <path id="city-c" data-letter="city-c" d="M 291.93 168.98 C 300.97 160.58 313.07 156 326 156 C 333.4 155.8 340.7 156.3 347.1 157.5"/>
+    <path id="city-i" data-letter="city-i" d="M 356.2 158.1 L 372.6 154.5"/>
+    <path id="city-t" data-letter="city-t" d="M 382.3 151.7 L 423.4 143.5"/>
+    <path id="city-y-left" data-letter="city-y" d="M 426.9 143.1 L 440.6 140.9"/>
+    <path id="city-y-right" data-letter="city-y" d="M 461.3 137.2 L 480.4 136.1"/>
+  </g>
+</svg>

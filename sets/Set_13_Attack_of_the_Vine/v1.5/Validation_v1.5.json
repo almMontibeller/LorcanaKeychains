@@ -1,0 +1,147 @@
+{
+  "project": "sets/Set_13_Attack_of_the_Vine/v1.5/Set_13_Attack_of_the_Vine_v1.5.3mf",
+  "filename": "Set_13_Attack_of_the_Vine_v1.5.3mf",
+  "source": "sets/Set_13_Attack_of_the_Vine/v1.4/Set_13_Attack_of_the_Vine_v1.4.3mf",
+  "source_sha256": "448674af284f267e073164f39328b29beb11ea01fb9a0993202fc097b14ee67c",
+  "output_sha256": "e815ae5cd4ece6875885a4ae6fa149042f1844235b8c4f9b0f1e9d758b9fe8cc",
+  "geometry": {
+    "loop_and_backing_height_mm": 2.0,
+    "uniform_backing_height": true,
+    "bore_diameters_xy_mm": [
+      6.5,
+      6.5
+    ],
+    "outer_diameter_nominal_mm": 10.5,
+    "radial_rim_width_nominal_mm": 2.0,
+    "sampled_left_outer_arc_radial_rim_mm": [
+      1.9974872086124336,
+      2.0030346230204783
+    ],
+    "hole_centre_preserved": true,
+    "non_bore_contours_preserved": true,
+    "non_bore_contour_max_deviation_mm": 0.0,
+    "artwork_meshes_exactly_preserved": true,
+    "plate_placement_preserved": true,
+    "filament_and_process_settings_byte_identical": true,
+    "parts": [
+      {
+        "name": "Purple",
+        "volume_mm3": 3356.7890014831405,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Mistletoe Green",
+        "volume_mm3": 259.7153132619323,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Sunflower Yellow",
+        "volume_mm3": 343.48912975808315,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      }
+    ],
+    "tessellation_axis_rotation_degrees": 0
+  },
+  "underline": null,
+  "toolpath_checks": {
+    "loop_top_layer_mm": 2.0,
+    "loop_top_segments": 105,
+    "loop_segments_above_target_height": 0
+  },
+  "used_filament_slots": [
+    1,
+    2,
+    3
+  ],
+  "bambu_version": "02.08.02.61",
+  "slice_result": {
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 24,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "feature_type_times": {
+          "Bottom surface": 52.451210021972656,
+          "Bridge": 36.61697006225586,
+          "Custom": 369.4356384277344,
+          "Flush": 391.37176513671875,
+          "Gap infill": 19.247161865234375,
+          "Inner wall": 186.55577087402344,
+          "Internal solid infill": 209.93765258789062,
+          "Outer wall": 163.68775939941406,
+          "Prime tower": 183.03541564941406,
+          "Sparse infill": 8.101778984069824,
+          "Top surface": 96.01249694824219,
+          "Travel": 255.3917999267578,
+          "Undefined": 238.54278564453125
+        },
+        "filament_change_times": 5,
+        "filaments": [
+          {
+            "filament_id": "GFA00",
+            "id": 1,
+            "main_used_g": 4.177372455596924,
+            "total_used_g": 5.168594837188721
+          },
+          {
+            "filament_id": "GFA00",
+            "id": 2,
+            "main_used_g": 0.31320592761039734,
+            "total_used_g": 1.1214040517807007
+          },
+          {
+            "filament_id": "GFA00",
+            "id": 3,
+            "main_used_g": 0.4127987027168274,
+            "total_used_g": 1.3706806898117065
+          }
+        ],
+        "generate_support_material_time": 29,
+        "id": 1,
+        "infill_time": 355,
+        "layer_filament_change": 0,
+        "main_predication": 1003.0408325195312,
+        "make_perimeters_time": 192,
+        "obj_cached_cnt": 0,
+        "objects": [
+          {
+            "bbox": {
+              "depth": 40.90499496459961,
+              "height": 2.799999952316284,
+              "width": 68.01000213623047,
+              "x": 93.99500274658203,
+              "y": 107.55000305175781,
+              "z": 0.0
+            },
+            "id": 5,
+            "name": "Set_13_Attack_of_the_Vine_v1.5",
+            "triangle_count": 11732
+          }
+        ],
+        "sliced_time": 1048,
+        "sliced_time_with_cache": 440,
+        "total_predication": 1955.0345458984375,
+        "triangle_count": 11732,
+        "warning_message": ""
+      }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+      "Bambu Lab H2D 0.4 nozzle",
+      "Bambu Lab H2D Pro 0.4 nozzle",
+      "Bambu Lab H2S 0.4 nozzle",
+      "Bambu Lab P2S 0.4 nozzle",
+      "Bambu Lab H2C 0.4 nozzle",
+      "Bambu Lab X2D 0.4 nozzle",
+      "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+  },
+  "physical_print_verified": false
+}

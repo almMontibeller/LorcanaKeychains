@@ -1,0 +1,254 @@
+[
+  {
+    "dimensions_mm": [
+      95.03,
+      40.74,
+      3
+    ],
+    "loop_hole_mm": 4.5,
+    "solid_watertight": true,
+    "solid_components": 1,
+    "solid_volume_mm3": 6364.5,
+    "parts": [
+      {
+        "name": "01_Cocoa_Brown_backing",
+        "watertight": true,
+        "volume_mm3": 5180.8
+      },
+      {
+        "name": "02_Ice_Blue_outline",
+        "watertight": true,
+        "volume_mm3": 430.4
+      },
+      {
+        "name": "03_Sunflower_Yellow_lettering",
+        "watertight": true,
+        "volume_mm3": 758.2
+      }
+    ],
+    "set": 3,
+    "title": "Into the Inklands",
+    "filename": "Set_03_Into_the_Inklands_v1.0.3mf",
+    "colours": [
+      "Cocoa Brown",
+      "Ice Blue",
+      "Sunflower Yellow"
+    ],
+    "source": "https://www.disneylorcana.com/en-US/product-s3"
+  },
+  {
+    "set": 4,
+    "title": "Ursula\u2019s Return",
+    "filename": "Set_04_Ursulas_Return_v1.0.3mf",
+    "dimensions_mm": [
+      86.46,
+      41.0,
+      2.8
+    ],
+    "loop_hole_mm": 4.5,
+    "colours": [
+      "Purple",
+      "Sunflower Yellow",
+      "Ice Blue"
+    ],
+    "solid_watertight": true,
+    "solid_components": 1,
+    "source": "https://www.disneylorcana.com/en-US/product/ursulas-return"
+  },
+  {
+    "set": 5,
+    "title": "Shimmering Skies",
+    "filename": "Set_05_Shimmering_Skies_v1.0.3mf",
+    "dimensions_mm": [
+      94.94,
+      38.17,
+      3.0
+    ],
+    "loop_hole_mm": 4.5,
+    "colours": [
+      "Purple",
+      "Red",
+      "Sunflower Yellow",
+      "Ivory White"
+    ],
+    "solid_watertight": true,
+    "solid_components": 1,
+    "source": "https://www.disneylorcana.com/en-US/product/shimmering-skies"
+  },
+  {
+    "set": 6,
+    "title": "Azurite Sea",
+    "filename": "Set_06_Azurite_Sea_v1.0.3mf",
+    "dimensions_mm": [
+      79.26,
+      41.28,
+      2.8
+    ],
+    "loop_hole_mm": 4.5,
+    "colours": [
+      "Marine Blue",
+      "Ice Blue",
+      "Sunflower Yellow"
+    ],
+    "solid_watertight": true,
+    "solid_components": 1,
+    "source": "https://www.disneylorcana.com/en-US/product/azurite-sea"
+  },
+  {
+    "set": 7,
+    "title": "Archazia\u2019s Island",
+    "filename": "Set_07_Archazias_Island_v1.0.3mf",
+    "dimensions_mm": [
+      80.53,
+      40.82,
+      3.0
+    ],
+    "loop_hole_mm": 4.5,
+    "colours": [
+      "Dark Green",
+      "Mistletoe Green",
+      "Caramel",
+      "Ivory White"
+    ],
+    "solid_watertight": true,
+    "solid_components": 1,
+    "source": "https://www.disneylorcana.com/en-US/product/archazias-island"
+  },
+  {
+    "set": 8,
+    "title": "Reign of Jafar",
+    "filename": "Set_08_Reign_of_Jafar_v1.0.3mf",
+    "dimensions_mm": [
+      71.9,
+      41.54,
+      3.0
+    ],
+    "loop_hole_mm": 4.5,
+    "colours": [
+      "Charcoal",
+      "Pumpkin Orange",
+      "Sunflower Yellow",
+      "Red"
+    ],
+    "solid_watertight": true,
+    "solid_components": 1,
+    "source": "https://www.disneylorcana.com/en-US/product/reign-of-jafar"
+  },
+  {
+    "set": 9,
+    "title": "Fabled",
+    "filename": "Set_09_Fabled_v1.0.3mf",
+    "dimensions_mm": [
+      94.69,
+      33.38,
+      2.8
+    ],
+    "loop_hole_mm": 4.5,
+    "colours": [
+      "Marine Blue",
+      "Sunflower Yellow",
+      "Ivory White"
+    ],
+    "solid_watertight": true,
+    "solid_components": 1,
+    "source": "https://www.disneylorcana.com/en-US/product/fabled"
+  },
+  {
+    "set": 10,
+    "title": "Whispers in the Well",
+    "filename": "Set_10_Whispers_in_the_Well_v1.0.3mf",
+    "dimensions_mm": [
+      55.78,
+      39.38,
+      2.8
+    ],
+    "loop_hole_mm": 4.5,
+    "colours": [
+      "Charcoal",
+      "Ash Gray",
+      "Sunflower Yellow"
+    ],
+    "solid_watertight": true,
+    "solid_components": 1,
+    "source": "https://www.disneylorcana.com/en-US/product/whispers"
+  },
+  {
+    "set": 11,
+    "title": "Winterspell",
+    "filename": "Set_11_Winterspell_v1.0.3mf",
+    "dimensions_mm": [
+      94.84,
+      26.8,
+      3.0
+    ],
+    "loop_hole_mm": 4.5,
+    "colours": [
+      "Marine Blue",
+      "Ice Blue",
+      "Sunflower Yellow",
+      "Ivory White"
+    ],
+    "solid_watertight": true,
+    "solid_components": 1,
+    "source": "https://www.disneylorcana.com/en-US/product/winterspell"
+  },
+  {
+    "set": 12,
+    "title": "Wilds Unknown",
+    "filename": "Set_12_Wilds_Unknown_v1.0.3mf",
+    "dimensions_mm": [
+      82.58,
+      40.91,
+      3.0
+    ],
+    "loop_hole_mm": 4.5,
+    "colours": [
+      "Cocoa Brown",
+      "Dark Green",
+      "Caramel",
+      "Ivory White"
+    ],
+    "solid_watertight": true,
+    "solid_components": 1,
+    "source": "https://www.disneylorcana.com/en-US/product/wilds-unknown"
+  },
+  {
+    "set": 13,
+    "title": "Attack of the Vine!",
+    "filename": "Set_13_Attack_of_the_Vine_v1.0.3mf",
+    "dimensions_mm": [
+      68.01,
+      40.9,
+      3.0
+    ],
+    "loop_hole_mm": 4.5,
+    "colours": [
+      "Purple",
+      "Mistletoe Green",
+      "Sunflower Yellow"
+    ],
+    "solid_watertight": true,
+    "solid_components": 1,
+    "source": "https://www.disneylorcana.com/en-US/product/attack-of-the-vine"
+  },
+  {
+    "set": 14,
+    "title": "Hyperia City",
+    "filename": "Set_14_Hyperia_City_v1.0.3mf",
+    "dimensions_mm": [
+      71.92,
+      40.79,
+      3.0
+    ],
+    "loop_hole_mm": 4.5,
+    "colours": [
+      "Cocoa Brown",
+      "Caramel",
+      "Ice Blue",
+      "Ivory White"
+    ],
+    "solid_watertight": true,
+    "solid_components": 1,
+    "source": "https://www.disneylorcana.com/en-US/product/hyperia-city"
+  }
+]

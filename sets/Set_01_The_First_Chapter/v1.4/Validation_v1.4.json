@@ -1,0 +1,127 @@
+{
+  "project": "sets/Set_01_The_First_Chapter/v1.4/Set_01_The_First_Chapter_v1.4.3mf",
+  "filename": "Set_01_The_First_Chapter_v1.4.3mf",
+  "source": "sets/Set_01_The_First_Chapter/v1.3/Set_01_The_First_Chapter_v1.3.3mf",
+  "source_sha256": "5ae33fcfdecff76dd4282576525e0127dd71be9675dc805a5aeb5cba3c1ab1aa",
+  "output_sha256": "7c4bd9d4eaa6b701a426e284ef16149a65d3f56d967a73491edd8a5dae9b7ac6",
+  "geometry": {
+    "backing_footprint_and_bore_preserved": true,
+    "artwork_clear_of_thinned_region": true,
+    "print_settings_byte_identical": true,
+    "plate_placement_preserved": true,
+    "attachment": {
+      "loop_thickness_mm": 1.6,
+      "backing_thickness_mm": 2.0,
+      "junction_x_mm": 10.5,
+      "junction": "vertical step; no sloped transition",
+      "tessellation_axis_rotation_degrees": 17
+    },
+    "parts": [
+      {
+        "name": "Purple",
+        "volume_mm3": 3125.646511535708,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Ivory White",
+        "volume_mm3": 529.148046209857,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      }
+    ],
+    "reinforced_star_check": null
+  },
+  "underline": null,
+  "toolpath_checks": {
+    "loop_top_layer_mm": 1.6,
+    "loop_top_segments": 131,
+    "loop_segments_above_target_height": 0
+  },
+  "used_filament_slots": [
+    1,
+    2
+  ],
+  "bambu_version": "02.08.02.61",
+  "slice_result": {
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 18,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "feature_type_times": {
+          "Bottom surface": 68.87132263183594,
+          "Bridge": 17.383163452148438,
+          "Custom": 369.6327819824219,
+          "Flush": 117.86896514892578,
+          "Gap infill": 11.81051254272461,
+          "Inner wall": 249.908935546875,
+          "Internal solid infill": 235.84820556640625,
+          "Outer wall": 168.60321044921875,
+          "Prime tower": 93.31705474853516,
+          "Sparse infill": 8.03725814819336,
+          "Top surface": 68.2539291381836,
+          "Travel": 198.1076202392578,
+          "Undefined": 181.04522705078125
+        },
+        "filament_change_times": 1,
+        "filaments": [
+          {
+            "filament_id": "GFA00",
+            "id": 1,
+            "main_used_g": 3.8851404190063477,
+            "total_used_g": 4.5929341316223145
+          },
+          {
+            "filament_id": "GFA01",
+            "id": 2,
+            "main_used_g": 0.6678453683853149,
+            "total_used_g": 1.2226409912109375
+          }
+        ],
+        "generate_support_material_time": 18,
+        "id": 1,
+        "infill_time": 259,
+        "layer_filament_change": 0,
+        "main_predication": 1001.8416137695312,
+        "make_perimeters_time": 164,
+        "obj_cached_cnt": 0,
+        "objects": [
+          {
+            "bbox": {
+              "depth": 24.59499740600586,
+              "height": 2.799999952316284,
+              "width": 91.73999786376953,
+              "x": 82.13500213623047,
+              "y": 115.70500183105469,
+              "z": 0.0
+            },
+            "id": 5,
+            "name": "Set_01_The_First_Chapter_v1.4",
+            "triangle_count": 9052
+          }
+        ],
+        "sliced_time": 724,
+        "sliced_time_with_cache": 252,
+        "total_predication": 1590.597900390625,
+        "triangle_count": 9052,
+        "warning_message": ""
+      }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+      "Bambu Lab H2D 0.4 nozzle",
+      "Bambu Lab H2D Pro 0.4 nozzle",
+      "Bambu Lab H2S 0.4 nozzle",
+      "Bambu Lab P2S 0.4 nozzle",
+      "Bambu Lab H2C 0.4 nozzle",
+      "Bambu Lab X2D 0.4 nozzle",
+      "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+  },
+  "physical_print_verified": false
+}

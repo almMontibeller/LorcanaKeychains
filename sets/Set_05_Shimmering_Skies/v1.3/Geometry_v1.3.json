@@ -1,0 +1,36 @@
+{
+  "filename": "Set_05_Shimmering_Skies_v1.3.3mf",
+  "source": "sets/Set_05_Shimmering_Skies/v1.2/Set_05_Shimmering_Skies_v1.2.3mf",
+  "source_sha256": "47d707a2ad98c73eaf7330d101bd01066102630086276f1de7134091d43770e3",
+  "output_sha256": "d06f47c6bfc9282c9d629f00a5978ce1fff7a8f036a1fb307c5cd7e0cbd042c0",
+  "design": "Uniform red inset across the complete title, with purple border and letter keylines",
+  "raster_step_mm": 0.025,
+  "contour_simplification_mm": 0.025,
+  "nominal_purple_letter_outline_mm": 0.45,
+  "red_opening_diameter_mm": 0.6,
+  "original_backing_and_eyelet_unchanged": true,
+  "original_ivory_mesh_unchanged": true,
+  "filament_and_process_settings_byte_identical": true,
+  "dimensions_mm": [
+    94.935,
+    38.17,
+    3.0
+  ],
+  "parts": [
+    {
+      "name": "Purple",
+      "slot": 1,
+      "triangles": 2016
+    },
+    {
+      "name": "Red \u2014 continuous title panel",
+      "slot": 2,
+      "triangles": 8300
+    },
+    {
+      "name": "Ivory White",
+      "slot": 3,
+      "triangles": 7476
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="648" height="300" viewBox="0 0 648 300">
+  <title>Winterspell frost bands</title>
+  <desc>Marine and Ice Blue masks are drawn in the original artwork coordinates and clipped to the v1.6 title field.</desc>
+  <g id="marine" fill="#0078bf">
+    <path id="marine-lower-left" d="M 55 108 C 98 111 124 130 157 149
+      C 187 168 216 180 236 209 C 252 230 268 241 297 251 L 55 260 Z"/>
+    <path id="marine-upper-right" d="M 161 24 C 205 72 256 89 307 96
+      C 355 102 400 102 440 119 C 477 134 499 156 527 175
+      C 557 194 582 200 609 196 L 609 24 Z"/>
+  </g>
+  <g id="ice" fill="#a3d8e1">
+    <path id="ice-lower-left" d="M 55 138 C 85 141 109 147 127 161
+      C 144 175 145 198 147 229 L 55 248 Z"/>
+    <path id="ice-upper-right" d="M 388 15 C 421 52 447 77 477 95
+      C 502 108 516 123 530 141 C 553 167 587 177 621 169 L 621 15 Z"/>
+  </g>
+</svg>

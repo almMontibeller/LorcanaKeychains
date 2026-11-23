@@ -1,0 +1,48 @@
+{
+  "project": "sets/Set_09_Fabled/v1.6/Set_09_Fabled_v1.6.3mf",
+  "output_sha256": "3e1c4f9e82ed9af11d64154ee3ba7fe08d4221c9962e9d00b36337b0394d6748",
+  "baseline": "sets/Set_09_Fabled/v1.5/Set_09_Fabled_v1.5.3mf",
+  "baseline_sha256": "4dbfa092d327971a4be5fef61ee6c1822476a3c981758ad365da491f7e6b2b73",
+  "source_artwork": "collection/v1.0/Sources/lorcana-keychains/sources/09.png",
+  "source_artwork_sha256": "ac2bc1983e155f3684a21ae657b4947f682c9495a1dbe3e0dbcce12684a33c08",
+  "vector_sha256": "64c239652a956a053666ef68c954367d0ba4bac0fb37b1585084ebee465e044e",
+  "source_snapshots": {
+    "09.png": "ac2bc1983e155f3684a21ae657b4947f682c9495a1dbe3e0dbcce12684a33c08",
+    "full_height_narrow_rims.py": "3a45553b13bce8f430a571620fd6303fb922a01cbcb014694e06973c50f4f1de",
+    "rebuild_set04.py": "18efb9ec2eb5438f66c28ff58f179edc6e7468f51dc539635f55384ceba70402",
+    "rebuild_set05.py": "495739140a39c0c35b9220472c9ce82a4d81b5b0f4ef2cc5c5be622d33157bfa",
+    "rebuild_set06.py": "7436b2be1c0e3d166cdab6696502c0ddf3a985b625cddf515ea6f910292c35ae",
+    "rebuild_set07.py": "5e27c6ddb3c582f0f1050fcc8642d74f6d2f5ca7831706bc4b894781df91fdf8",
+    "rebuild_set09.py": "3d62aee3bd1a9ce8edf63a4d8e74043d0e12952b6b437e9de4b3e0f06b7c98ea",
+    "refine_loops_and_underline.py": "de3151b4ab401b08a6c957c3347d21bcd3aa6c969b10149af435f0323f34fe26",
+    "repair_v1_1.py": "3bcdd33f048d310b8a2be2e819640b5e433df9c91443f83a6b8a82f46bf3f20d",
+    "set09_clean_artwork.svg": "64c239652a956a053666ef68c954367d0ba4bac0fb37b1585084ebee465e044e",
+    "standardize_loop_diameters.py": "2d2548881db361bd83e2f74636b25b5634f95e2caacf5e591b09f7e491d646e3",
+    "validate_bambu.py": "adc34b3b462668b8e881ece60e285ecda2968efe4f0b3a353506ae0c9e8deea5",
+    "validate_set06.py": "140507e8e7b59d65883fa4d2c9d8e61437c0882c0cbbc434324ceab4d74b868f",
+    "validate_set09.py": "5c169af473bfba9207cf3f0c1f212cccb9c3ecc8e84156d66f0a66149cf509f6"
+  },
+  "parts": [
+    {
+      "name": "Marine Blue",
+      "slot": 1,
+      "volume_mm3": 5395.627240142883,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    },
+    {
+      "name": "Sunflower Yellow",
+      "slot": 2,
+      "volume_mm3": 565.1634290199776,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    },
+    {
+      "name": "Purple",
+      "slot": 3,
+      "volume_mm3": 178.8574999999934,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    }
+  ]
+}

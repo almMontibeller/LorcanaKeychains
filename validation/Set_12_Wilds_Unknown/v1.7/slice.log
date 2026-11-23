@@ -1,0 +1,20 @@
+[2026-11-22 12:48:00.176605] [0x00007f5078af4bc0] [warning] [BambuStudio.cpp:1845 run] cli mode, Current BambuStudio Version 02.09.01.70
+[2026-11-22 12:48:00.255435] [0x00007f5078af4bc0] [warning] [BambuStudio.cpp:3155 run] can not find system preset file: /app/share/BambuStudio/profiles/BBL/machine_full/Bambu Lab A1 0.4 nozzle.json 
+[2026-11-22 12:48:00.255446] [0x00007f5078af4bc0] [warning] [BambuStudio.cpp:3177 run] can not find system preset file: /app/share/BambuStudio/profiles/BBL/process_full/0.20mm Standard @BBL A1.json 
+[2026-11-22 12:48:00.255457] [0x00007f5078af4bc0] [warning] [BambuStudio.cpp:4326 run] no filament colors found in projects
+[2026-11-22 12:48:00.256127] [0x00007f5078af4bc0] [warning] [MultiNozzleUtils.cpp:217 load_nozzle_infos_with_compatibility] building nozzle list from filament map and volume types
+[Set_12_Wilds_Unknown_v1.7.3mf]
+size_x = 82.913590
+size_y = 40.465374
+size_z = 3.000000
+min_x = 0.011443
+min_y = 0.971832
+min_z = 0.000000
+max_x = 82.925034
+max_y = 41.437206
+max_z = 3.000000
+number_of_facets = 47576
+manifold = yes
+number_of_parts =  45
+volume = 6575.143555
+[2026-11-22 12:48:01.071703] [0x00007f5078af4bc0] [warning] [SupportParameters.hpp:204 SupportParameters] tree support default to organic support

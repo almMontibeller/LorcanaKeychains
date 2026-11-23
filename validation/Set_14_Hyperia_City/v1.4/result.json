@@ -1,0 +1,86 @@
+{
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 29,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 60.83063507080078,
+                "Bridge": 74.34368133544922,
+                "Custom": 369.44964599609375,
+                "Flush": 328.5538330078125,
+                "Gap infill": 14.411791801452637,
+                "Inner wall": 192.53207397460938,
+                "Internal solid infill": 221.73606872558594,
+                "Outer wall": 179.68800354003906,
+                "Prime tower": 171.25225830078125,
+                "Sparse infill": 10.521340370178223,
+                "Top surface": 74.92070770263672,
+                "Travel": 238.2308349609375,
+                "Undefined": 221.36782836914063
+            },
+            "filament_change_times": 4,
+            "filaments": [
+                {
+                    "filament_id": "GFA00",
+                    "id": 1,
+                    "main_used_g": 4.5655364990234375,
+                    "total_used_g": 5.556758880615234
+                },
+                {
+                    "filament_id": "GFA01",
+                    "id": 2,
+                    "main_used_g": 0.3674359619617462,
+                    "total_used_g": 0.9829714298248291
+                },
+                {
+                    "filament_id": "GFA01",
+                    "id": 3,
+                    "main_used_g": 0.7370024919509888,
+                    "total_used_g": 1.7138673067092896
+                }
+            ],
+            "generate_support_material_time": 20,
+            "id": 1,
+            "infill_time": 263,
+            "layer_filament_change": 0,
+            "main_predication": 1042.2498779296875,
+            "make_perimeters_time": 239,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 40.78999710083008,
+                        "height": 3.0,
+                        "width": 71.91500091552734,
+                        "x": 92.04000091552734,
+                        "y": 107.6050033569336,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "Set_14_Hyperia_City_v1.4",
+                    "triangle_count": 16370
+                }
+            ],
+            "sliced_time": 1048,
+            "sliced_time_with_cache": 494,
+            "total_predication": 1919.6424560546875,
+            "triangle_count": 16370,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+}

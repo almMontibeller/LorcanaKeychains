@@ -1,0 +1,86 @@
+{
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 42,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 87.07447052001953,
+                "Bridge": 81.36014556884766,
+                "Custom": 369.3884582519531,
+                "Flush": 314.2834777832031,
+                "Gap infill": 19.46684455871582,
+                "Inner wall": 258.415771484375,
+                "Internal solid infill": 271.7015686035156,
+                "Outer wall": 236.59255981445313,
+                "Prime tower": 167.69943237304688,
+                "Sparse infill": 16.003877639770508,
+                "Top surface": 93.88329315185547,
+                "Travel": 257.3408508300781,
+                "Undefined": 240.53903198242188
+            },
+            "filament_change_times": 4,
+            "filaments": [
+                {
+                    "filament_id": "GFA01",
+                    "id": 1,
+                    "main_used_g": 5.684609889984131,
+                    "total_used_g": 6.723033428192139
+                },
+                {
+                    "filament_id": "GFA01",
+                    "id": 2,
+                    "main_used_g": 0.24435767531394958,
+                    "total_used_g": 0.9862962961196899
+                },
+                {
+                    "filament_id": "GFA01",
+                    "id": 3,
+                    "main_used_g": 0.9470406770706177,
+                    "total_used_g": 1.588625431060791
+                }
+            ],
+            "generate_support_material_time": 40,
+            "id": 1,
+            "infill_time": 469,
+            "layer_filament_change": 0,
+            "main_predication": 1296.828125,
+            "make_perimeters_time": 414,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 32.810001373291016,
+                        "height": 2.799999952316284,
+                        "width": 95.31999969482422,
+                        "x": 80.33999633789063,
+                        "y": 111.61000061035156,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "Set_02_Rise_of_the_Floodborn_v1.5",
+                    "triangle_count": 27592
+                }
+            ],
+            "sliced_time": 1362,
+            "sliced_time_with_cache": 394,
+            "total_predication": 2156.397705078125,
+            "triangle_count": 27592,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+}

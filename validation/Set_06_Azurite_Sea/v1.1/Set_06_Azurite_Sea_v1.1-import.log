@@ -1,0 +1,20 @@
+[2026-10-16 17:47:16.088170] [0x00007f32531e3bc0] [trace]   Initializing StaticPrintConfigs
+[2026-10-16 17:47:16.096734] [0x00007f32531e3bc0] [warning] cli mode, Current BambuStudio Version 02.08.02.61
+[2026-10-16 17:47:16.122496] [0x00007f32531e3bc0] [warning] run:2873, can not find system preset file: /app/share/BambuStudio/profiles/BBL/machine_full/Bambu Lab A1 0.4 nozzle.json 
+[2026-10-16 17:47:16.122516] [0x00007f32531e3bc0] [warning] run:2895, can not find system preset file: /app/share/BambuStudio/profiles/BBL/process_full/0.20mm Standard @BBL A1.json 
+[2026-10-16 17:47:16.122552] [0x00007f32531e3bc0] [warning] no filament colors found in projects
+[2026-10-16 17:47:16.123646] [0x00007f32531e3bc0] [warning] load_nozzle_infos_with_compatibility: building nozzle list from filament map and volume types
+[Set_06_Azurite_Sea_v1.1.3mf]
+size_x = 79.264999
+size_y = 41.275001
+size_z = 2.800000
+min_x = 0.000000
+min_y = 0.000000
+min_z = 0.000000
+max_x = 79.264999
+max_y = 41.275002
+max_z = 2.800000
+number_of_facets = 7324
+manifold = yes
+number_of_parts =  8
+volume = 5286.976074

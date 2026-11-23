@@ -1,0 +1,134 @@
+[2026-10-16 17:46:11.439019] [0x00007f6b53a53bc0] [trace]   Initializing StaticPrintConfigs
+[2026-10-16 17:46:11.445470] [0x00007f6b53a53bc0] [warning] cli mode, Current BambuStudio Version 02.08.02.61
+[2026-10-16 17:46:11.445485] [0x00007f6b53a53bc0] [info]    Will start to read model file now, file count :1
+
+[2026-10-16 17:46:11.445494] [0x00007f6b53a53bc0] [info]    allow_multicolor_oneplate 1, allow_rotations 1 skip_modified_gcodes 0 avoid_extrusion_cali_region 0 loaded_filament_ids size 0, clone_objects size 0, skip_useless_pick 0, allow_newer_file 0, allow_mix_temp 0
+[2026-10-16 17:46:11.445498] [0x00007f6b53a53bc0] [info]    plate_to_slice=0, normative_check=1, use_first_fila_as_default=0
+[2026-10-16 17:46:11.445505] [0x00007f6b53a53bc0] [info]    read model file:originals/v1.1/Set_01_The_First_Chapter_v1.1.3mf
+
+[2026-10-16 17:46:11.445733] [0x00007f6b53a53bc0] [info]    model 0x7fff068d23a0, id 3, backup_path empty, set to 17_46_11#4#3
+[2026-10-16 17:46:11.445741] [0x00007f6b53a53bc0] [info]    create /3D/Objects in 17_46_11#4#3
+[2026-10-16 17:46:11.445795] [0x00007f6b53a53bc0] [info]    create /Metadata in 17_46_11#4#3
+[2026-10-16 17:46:11.445802] [0x00007f6b53a53bc0] [info]    create /lock.txt in 17_46_11#4#3
+[2026-10-16 17:46:11.445839] [0x00007f6b53a53bc0] [info]    _load_model_from_file:1799import 3mf IMPORT_STAGE_OPEN, m_load_restore=0
+
+[2026-10-16 17:46:11.445856] [0x00007f6b53a53bc0] [info]    _load_model_from_file:1835import 3mf IMPORT_STAGE_READ_FILES
+
+[2026-10-16 17:46:11.456916] [0x00007f6b53a53bc0] [info]    _load_model_from_file:1991extract 1th file [Content_Types].xml, total=10
+[2026-10-16 17:46:11.456925] [0x00007f6b53a53bc0] [info]    _load_model_from_file:2102, [Content_Types].xml skipped, already parsed or a directory or not supported
+
+[2026-10-16 17:46:11.456930] [0x00007f6b53a53bc0] [info]    _load_model_from_file:1991extract 2th file 3dmodel.model, total=10
+[2026-10-16 17:46:11.456932] [0x00007f6b53a53bc0] [info]    _load_model_from_file:2102, 3D/3dmodel.model skipped, already parsed or a directory or not supported
+
+[2026-10-16 17:46:11.456936] [0x00007f6b53a53bc0] [info]    _load_model_from_file:1991extract 3th file 3dmodel.model.rels, total=10
+[2026-10-16 17:46:11.456938] [0x00007f6b53a53bc0] [info]    _load_model_from_file:2102, 3D/_rels/3dmodel.model.rels skipped, already parsed or a directory or not supported
+
+[2026-10-16 17:46:11.456942] [0x00007f6b53a53bc0] [info]    _load_model_from_file:1991extract 4th file object_1.model, total=10
+[2026-10-16 17:46:11.456944] [0x00007f6b53a53bc0] [info]    _load_model_from_file:2102, 3D/Objects/object_1.model skipped, already parsed or a directory or not supported
+
+[2026-10-16 17:46:11.456948] [0x00007f6b53a53bc0] [info]    _load_model_from_file:1991extract 5th file project_settings.config, total=10
+[2026-10-16 17:46:11.457186] [0x00007f6b53a53bc0] [info]    _extract_project_config_from_archive, extract  _temp_3.config from 3mf Metadata/project_settings.config, ret 1
+
+[2026-10-16 17:46:11.458263] [0x00007f6b53a53bc0] [info]    _extract_project_config_from_archive, load project config file successfully from _temp_3.config
+
+[2026-10-16 17:46:11.458274] [0x00007f6b53a53bc0] [info]    _load_model_from_file:1991extract 6th file model_settings.config, total=10
+[2026-10-16 17:46:11.458344] [0x00007f6b53a53bc0] [info]    _load_model_from_file:1991extract 7th file cut_information.xml, total=10
+[2026-10-16 17:46:11.458377] [0x00007f6b53a53bc0] [info]    _load_model_from_file:1991extract 8th file slice_info.config, total=10
+[2026-10-16 17:46:11.458396] [0x00007f6b53a53bc0] [info]    _load_model_from_file:1991extract 9th file filament_sequence.json, total=10
+[2026-10-16 17:46:11.458413] [0x00007f6b53a53bc0] [info]    _load_model_from_file:1991extract 10th file .rels, total=10
+[2026-10-16 17:46:11.458416] [0x00007f6b53a53bc0] [info]    _load_model_from_file:2102, _rels/.rels skipped, already parsed or a directory or not supported
+
+[2026-10-16 17:46:11.458419] [0x00007f6b53a53bc0] [info]    _load_model_from_file:2154, process group colors, size 0
+
+[2026-10-16 17:46:11.458421] [0x00007f6b53a53bc0] [info]    _load_model_from_file:2176, begin to assemble objects, size 1
+
+[2026-10-16 17:46:11.461801] [0x00007f6b53a53bc0] [info]    _load_model_from_file:2395import 3mf IMPORT_STAGE_LOADING_PLATES, m_plater_data size 1, m_backup_path 17_46_11#4#3
+
+[2026-10-16 17:46:11.461807] [0x00007f6b53a53bc0] [info]    _load_model_from_file:2448, plate 1, thumbnail_file=, no_light_thumbnail_file=
+[2026-10-16 17:46:11.461809] [0x00007f6b53a53bc0] [info]    _load_model_from_file:2452, top_thumbnail_file=, pick_thumbnail_file=
+[2026-10-16 17:46:11.461811] [0x00007f6b53a53bc0] [info]    _load_model_from_file:2510import 3mf IMPORT_STAGE_FINISH
+
+[2026-10-16 17:46:11.461920] [0x00007f6b53a53bc0] [info]    the first file is a 3mf, version 2.8.2.61, got plate count 1
+[2026-10-16 17:46:11.461932] [0x00007f6b53a53bc0] [info]    current_printer_name Bambu Lab A1 0.4 nozzle, current_process_name 0.20mm Standard @BBL A1
+[2026-10-16 17:46:11.461934] [0x00007f6b53a53bc0] [info]    inherits of printer is null, should be system preset
+[2026-10-16 17:46:11.461935] [0x00007f6b53a53bc0] [info]    inherits of process is null, should be system preset
+[2026-10-16 17:46:11.461948] [0x00007f6b53a53bc0] [info]    old printable size from 3mf: {256, 256, 256}
+[2026-10-16 17:46:11.461958] [0x00007f6b53a53bc0] [info]    old extruder_clearance_height_to_rod 25, extruder_clearance_height_to_lid 256, extruder_clearance_max_radius 73 extruder_clearance_dist_to_rod 56.5}
+[2026-10-16 17:46:11.461964] [0x00007f6b53a53bc0] [info]    run:before load settings, file count=0
+
+[2026-10-16 17:46:11.461969] [0x00007f6b53a53bc0] [warning] run:2873, can not find system preset file: /app/share/BambuStudio/profiles/BBL/machine_full/Bambu Lab A1 0.4 nozzle.json 
+[2026-10-16 17:46:11.461972] [0x00007f6b53a53bc0] [warning] run:2895, can not find system preset file: /app/share/BambuStudio/profiles/BBL/process_full/0.20mm Standard @BBL A1.json 
+[2026-10-16 17:46:11.461974] [0x00007f6b53a53bc0] [info]    current printer Bambu Lab A1 0.4 nozzle, new printer , current process 0.20mm Standard @BBL A1, new process 
+[2026-10-16 17:46:11.461976] [0x00007f6b53a53bc0] [info]    current printer inherits Bambu Lab A1 0.4 nozzle, new printer inherits , current process inherits 0.20mm Standard @BBL A1, new process inherits 
+[2026-10-16 17:46:11.461977] [0x00007f6b53a53bc0] [info]    index 0, upward_compatible_printers Bambu Lab H2D 0.4 nozzle
+[2026-10-16 17:46:11.461979] [0x00007f6b53a53bc0] [info]    index 1, upward_compatible_printers Bambu Lab H2D Pro 0.4 nozzle
+[2026-10-16 17:46:11.461980] [0x00007f6b53a53bc0] [info]    index 2, upward_compatible_printers Bambu Lab H2S 0.4 nozzle
+[2026-10-16 17:46:11.461982] [0x00007f6b53a53bc0] [info]    index 3, upward_compatible_printers Bambu Lab P2S 0.4 nozzle
+[2026-10-16 17:46:11.461983] [0x00007f6b53a53bc0] [info]    index 4, upward_compatible_printers Bambu Lab H2C 0.4 nozzle
+[2026-10-16 17:46:11.461984] [0x00007f6b53a53bc0] [info]    index 5, upward_compatible_printers Bambu Lab X2D 0.4 nozzle
+[2026-10-16 17:46:11.461986] [0x00007f6b53a53bc0] [info]    index 6, upward_compatible_printers Bambu Lab A2L 0.4 nozzle
+[2026-10-16 17:46:11.461987] [0x00007f6b53a53bc0] [info]    old 3mf, no compatible printers, set to compatible
+[2026-10-16 17:46:11.461990] [0x00007f6b53a53bc0] [info]    old printer Bambu Lab A1 0.4 nozzle, inherited from Bambu Lab A1 0.4 nozzle, old process 0.20mm Standard @BBL A1, inherited from 0.20mm Standard @BBL A1 ,compatible 1
+[2026-10-16 17:46:11.462001] [0x00007f6b53a53bc0] [warning] no filament colors found in projects
+[2026-10-16 17:46:11.462002] [0x00007f6b53a53bc0] [info]    total 1 models, 0 objects
+
+[2026-10-16 17:46:11.462439] [0x00007f6b53a53bc0] [info]    4160, remove_wrapping_detect 0, old value 0
+[2026-10-16 17:46:11.462495] [0x00007f6b53a53bc0] [info]    old printable size {256, 256, 256}, new printable size {256, 256, 256}, extract the same, no need shrink
+[2026-10-16 17:46:11.462497] [0x00007f6b53a53bc0] [info]    translate_old 0, shrink_to_new_bed 0, old bed size {256, 256, 256}
+[2026-10-16 17:46:11.462502] [0x00007f6b53a53bc0] [info]    reset_size:before size: plate_width 0, plate_depth 0, plate_height 0
+[2026-10-16 17:46:11.462503] [0x00007f6b53a53bc0] [info]    reset_size:after size: plate_width 256, plate_depth 256, plate_height 256
+[2026-10-16 17:46:11.462509] [0x00007f6b53a53bc0] [info]    set_pos_and_size: plate_id 0, before, origin {0,0,0}, plate_width 0, plate_depth 0, plate_height 0
+[2026-10-16 17:46:11.462512] [0x00007f6b53a53bc0] [info]    set_pos_and_size: with_instance_move 0, after, origin {0,0,0}, plate_width 256, plate_depth 256, plate_height 256
+[2026-10-16 17:46:11.462514] [0x00007f6b53a53bc0] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-10-16 17:46:11.462516] [0x00007f6b53a53bc0] [info]    set_pos_and_size: plate_id 1, before, origin {0,0,0}, plate_width 0, plate_depth 0, plate_height 0
+[2026-10-16 17:46:11.462520] [0x00007f6b53a53bc0] [info]    set_pos_and_size: with_instance_move 0, after, origin {307.2,0,0}, plate_width 256, plate_depth 256, plate_height 256
+[2026-10-16 17:46:11.462521] [0x00007f6b53a53bc0] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-10-16 17:46:11.462530] [0x00007f6b53a53bc0] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-10-16 17:46:11.462537] [0x00007f6b53a53bc0] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-10-16 17:46:11.462552] [0x00007f6b53a53bc0] [info]    update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+[2026-10-16 17:46:11.462555] [0x00007f6b53a53bc0] [info]    set_filament_count: filament_count=1
+[2026-10-16 17:46:11.462574] [0x00007f6b53a53bc0] [info]    update_plate_cols:m_plate_count 1, m_plate_cols change to 1
+[2026-10-16 17:46:11.462577] [0x00007f6b53a53bc0] [info]    set_pos_and_size: plate_id 0, before, origin {0,0,0}, plate_width 256, plate_depth 256, plate_height 256
+[2026-10-16 17:46:11.462580] [0x00007f6b53a53bc0] [info]    set_pos_and_size: with_instance_move 0, after, origin {0,0,0}, plate_width 256, plate_depth 256, plate_height 256
+[2026-10-16 17:46:11.462583] [0x00007f6b53a53bc0] [info]    set_pos_and_size: plate_id 1, before, origin {307.2,0,0}, plate_width 256, plate_depth 256, plate_height 256
+[2026-10-16 17:46:11.462585] [0x00007f6b53a53bc0] [info]    set_pos_and_size: with_instance_move 0, after, origin {307.2,0,0}, plate_width 256, plate_depth 256, plate_height 256
+[2026-10-16 17:46:11.462586] [0x00007f6b53a53bc0] [info]    PartPlate same shape, skip directly
+[2026-10-16 17:46:11.462594] [0x00007f6b53a53bc0] [info]    load_from_3mf_structure: plate 0, gcode_file , is_sliced_valid 0, toolpath_outside 0, is_support_used 0 is_label_object_enabled 0
+[2026-10-16 17:46:11.462603] [0x00007f6b53a53bc0] [warning] load_nozzle_infos_with_compatibility: building nozzle list from filament map and volume types
+[2026-10-16 17:46:11.462607] [0x00007f6b53a53bc0] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-10-16 17:46:11.462624] [0x00007f6b53a53bc0] [info]    add_instance: plate 0 , m_ready_for_slice changes to 1
+[2026-10-16 17:46:11.462644] [0x00007f6b53a53bc0] [info]    plate 1, object bbox: min {82.135, 115.705, 0} - max {173.875, 140.3, 2.8}
+[2026-10-16 17:46:11.463090] [0x00007f6b53a53bc0] [info]    plate 1, has wipe tower, wipe bbox: min {12, 217, 0} - max {42.028, 247.028, 0}
+[2026-10-16 17:46:11.463094] [0x00007f6b53a53bc0] [info]    plate 1,  has_wipe_tower 1, wipe_x 15, wipe_y 220, width 24.028, depth 24.028
+[2026-10-16 17:46:11.463097] [0x00007f6b53a53bc0] [info]    will start transforms, commands count 0
+
+[2026-10-16 17:46:11.463098] [0x00007f6b53a53bc0] [info]    finished model pre-process commands
+
+[2026-10-16 17:46:11.463102] [0x00007f6b53a53bc0] [info]    before arrange, need_arrange=0, duplicate_count 0, filament_color_changed 0
+[Set_01_The_First_Chapter_v1.1.3mf]
+size_x = 91.740002
+size_y = 24.595000
+size_z = 2.800000
+min_x = 0.005001
+min_y = 0.005000
+min_z = 0.000000
+max_x = 91.745003
+max_y = 24.600000
+max_z = 2.800000
+number_of_facets = 7208
+manifold = yes
+number_of_parts =  19
+volume = 3696.947754
+[2026-10-16 17:46:11.463400] [0x00007f6b53a53bc0] [info]    cli_callback_mgr_t::stop enter.
+[2026-10-16 17:46:11.463402] [0x00007f6b53a53bc0] [info]    cli_callback_mgr_t::stop not started before, return directly.
+[2026-10-16 17:46:11.463403] [0x00007f6b53a53bc0] [info]    run, Finished
+
+[2026-10-16 17:46:11.463486] [0x00007f6b53a53bc0] [info]    record_exit_reson:604, saved config to result.json
+
+[2026-10-16 17:46:11.463498] [0x00007f6b53a53bc0] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-10-16 17:46:11.463500] [0x00007f6b53a53bc0] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-10-16 17:46:11.463507] [0x00007f6b53a53bc0] [info]    update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+[2026-10-16 17:46:11.463510] [0x00007f6b53a53bc0] [info]    update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+[2026-10-16 17:46:11.463554] [0x00007f6b53a53bc0] [info]    _BBS_Backup_Manager inital and interval = 60
+[2026-10-16 17:46:11.463629] [0x00007f6b53a53bc0] [info]    remove_backup 17_46_11#4#3, true
+[2026-10-16 17:46:11.463727] [0x00007f6b532fc6c0] [info]    process_task{ type:RemoveBackup, id:3, path:17_46_11#4#3, object:0, extra:1}

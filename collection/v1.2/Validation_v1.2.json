@@ -1,0 +1,1499 @@
+[
+  {
+    "filename": "Set_01_The_First_Chapter_v1.2.3mf",
+    "bambu_version": "02.08.02.61",
+    "import_exit_code": 0,
+    "manifold": true,
+    "model_info": {
+      "size_x": "91.740002",
+      "size_y": "24.595000",
+      "size_z": "2.800000",
+      "number_of_facets": "7208",
+      "volume": "3696.947754"
+    },
+    "slice_result": {
+      "error_string": "Success.",
+      "export_time": 0,
+      "layer_height": 0.20000000298023224,
+      "plate_index": 1,
+      "prepare_time": 17,
+      "return_code": 0,
+      "sliced_plates": [
+        {
+          "feature_type_times": {
+            "Bottom surface": 69.4041519165039,
+            "Bridge": 17.418376922607422,
+            "Custom": 369.6327819824219,
+            "Flush": 117.86896514892578,
+            "Gap infill": 13.59251880645752,
+            "Inner wall": 259.6103515625,
+            "Internal solid infill": 248.9000701904297,
+            "Outer wall": 168.9058074951172,
+            "Prime tower": 93.3266372680664,
+            "Sparse infill": 8.029658317565918,
+            "Top surface": 81.08334350585938,
+            "Travel": 219.2399444580078,
+            "Undefined": 202.17755126953125
+          },
+          "filament_change_times": 1,
+          "filaments": [
+            {
+              "filament_id": "GFA00",
+              "id": 1,
+              "main_used_g": 3.9376492500305176,
+              "total_used_g": 4.645442962646484
+            },
+            {
+              "filament_id": "GFA01",
+              "id": 2,
+              "main_used_g": 0.6678284406661987,
+              "total_used_g": 1.2226241827011108
+            }
+          ],
+          "generate_support_material_time": 15,
+          "id": 1,
+          "infill_time": 287,
+          "layer_filament_change": 0,
+          "main_predication": 1061.2095947265625,
+          "make_perimeters_time": 174,
+          "obj_cached_cnt": 0,
+          "objects": [
+            {
+              "bbox": {
+                "depth": 24.594999313354492,
+                "height": 2.799999952316284,
+                "width": 91.74000549316406,
+                "x": 82.13500213623047,
+                "y": 115.70500183105469,
+                "z": 0.0
+              },
+              "id": 5,
+              "name": "The First Chapter v1.2",
+              "triangle_count": 7208
+            }
+          ],
+          "sliced_time": 763,
+          "sliced_time_with_cache": 256,
+          "total_predication": 1649.9755859375,
+          "triangle_count": 7208,
+          "warning_message": ""
+        }
+      ],
+      "sparse_infill_density": 15.0,
+      "upward_compatible_machine": [
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+      ],
+      "wall_loops": 3
+    },
+    "filament_channels_used": [
+      1,
+      2
+    ],
+    "stl_parts_import_verified": 2,
+    "gui_open_verified": false,
+    "environment_notes": "CLI used with the installed Flatpak runtime. The desktop display is unavailable in this session. The relocated CLI reports missing /app resources; embedded project settings were used and slicing succeeded."
+  },
+  {
+    "filename": "Set_02_Rise_of_the_Floodborn_v1.2.3mf",
+    "bambu_version": "02.08.02.61",
+    "import_exit_code": 0,
+    "manifold": true,
+    "model_info": {
+      "size_x": "95.320000",
+      "size_y": "32.810001",
+      "size_z": "2.800000",
+      "number_of_facets": "27204",
+      "volume": "5402.755859"
+    },
+    "slice_result": {
+      "error_string": "Success.",
+      "export_time": 0,
+      "layer_height": 0.20000000298023224,
+      "plate_index": 1,
+      "prepare_time": 44,
+      "return_code": 0,
+      "sliced_plates": [
+        {
+          "feature_type_times": {
+            "Bottom surface": 86.876220703125,
+            "Bridge": 81.6978759765625,
+            "Custom": 369.3884582519531,
+            "Flush": 314.2834777832031,
+            "Gap infill": 19.75872230529785,
+            "Inner wall": 259.5953063964844,
+            "Internal solid infill": 278.8599853515625,
+            "Outer wall": 233.900390625,
+            "Prime tower": 167.69248962402344,
+            "Sparse infill": 15.855050086975098,
+            "Top surface": 95.27649688720703,
+            "Travel": 259.4975280761719,
+            "Undefined": 242.69570922851562
+          },
+          "filament_change_times": 4,
+          "filaments": [
+            {
+              "filament_id": "GFA01",
+              "id": 1,
+              "main_used_g": 5.725992202758789,
+              "total_used_g": 6.764415740966797
+            },
+            {
+              "filament_id": "GFA01",
+              "id": 2,
+              "main_used_g": 0.24434895813465118,
+              "total_used_g": 0.9862875938415527
+            },
+            {
+              "filament_id": "GFA01",
+              "id": 3,
+              "main_used_g": 0.947043240070343,
+              "total_used_g": 1.5886279344558716
+            }
+          ],
+          "generate_support_material_time": 37,
+          "id": 1,
+          "infill_time": 485,
+          "layer_filament_change": 0,
+          "main_predication": 1306.3062744140625,
+          "make_perimeters_time": 402,
+          "obj_cached_cnt": 0,
+          "objects": [
+            {
+              "bbox": {
+                "depth": 32.810001373291016,
+                "height": 2.799999952316284,
+                "width": 95.31999969482422,
+                "x": 80.33999633789062,
+                "y": 111.61000061035156,
+                "z": 0.0
+              },
+              "id": 5,
+              "name": "Rise of the Floodborn v1.2",
+              "triangle_count": 27204
+            }
+          ],
+          "sliced_time": 1360,
+          "sliced_time_with_cache": 385,
+          "total_predication": 2165.868896484375,
+          "triangle_count": 27204,
+          "warning_message": ""
+        }
+      ],
+      "sparse_infill_density": 15.0,
+      "upward_compatible_machine": [
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+      ],
+      "wall_loops": 3
+    },
+    "filament_channels_used": [
+      1,
+      2,
+      3
+    ],
+    "stl_parts_import_verified": 3,
+    "gui_open_verified": false,
+    "environment_notes": "CLI used with the installed Flatpak runtime. The desktop display is unavailable in this session. The relocated CLI reports missing /app resources; embedded project settings were used and slicing succeeded."
+  },
+  {
+    "filename": "Set_03_Into_the_Inklands_v1.2.3mf",
+    "bambu_version": "02.08.02.61",
+    "import_exit_code": 0,
+    "manifold": true,
+    "model_info": {
+      "size_x": "93.095001",
+      "size_y": "39.700000",
+      "size_z": "3.000000",
+      "number_of_facets": "20816",
+      "volume": "6065.390625"
+    },
+    "slice_result": {
+      "error_string": "Success.",
+      "export_time": 0,
+      "layer_height": 0.20000000298023224,
+      "plate_index": 1,
+      "prepare_time": 38,
+      "return_code": 0,
+      "sliced_plates": [
+        {
+          "feature_type_times": {
+            "Bottom surface": 74.51780700683594,
+            "Bridge": 76.84092712402344,
+            "Custom": 369.4029846191406,
+            "Flush": 330.38580322265625,
+            "Gap infill": 23.226865768432617,
+            "Inner wall": 218.46160888671875,
+            "Internal solid infill": 354.4156494140625,
+            "Outer wall": 207.82196044921875,
+            "Prime tower": 168.43646240234375,
+            "Sparse infill": 19.09530258178711,
+            "Top surface": 122.9603500366211,
+            "Travel": 250.13311767578125,
+            "Undefined": 233.3167724609375
+          },
+          "filament_change_times": 4,
+          "filaments": [
+            {
+              "filament_id": "GFA00",
+              "id": 1,
+              "main_used_g": 5.927336692810059,
+              "total_used_g": 6.9185590744018555
+            },
+            {
+              "filament_id": "GFA01",
+              "id": 2,
+              "main_used_g": 0.17537379264831543,
+              "total_used_g": 1.1222285032272339
+            },
+            {
+              "filament_id": "GFA00",
+              "id": 3,
+              "main_used_g": 1.2175753116607666,
+              "total_used_g": 1.8476372957229614
+            }
+          ],
+          "generate_support_material_time": 32,
+          "id": 1,
+          "infill_time": 577,
+          "layer_filament_change": 0,
+          "main_predication": 1322.455078125,
+          "make_perimeters_time": 395,
+          "obj_cached_cnt": 0,
+          "objects": [
+            {
+              "bbox": {
+                "depth": 39.70000076293945,
+                "height": 3.0,
+                "width": 93.09500122070312,
+                "x": 81.44999694824219,
+                "y": 108.16500091552734,
+                "z": 0.0
+              },
+              "id": 5,
+              "name": "Into the Inklands v1.2",
+              "triangle_count": 20816
+            }
+          ],
+          "sliced_time": 1630,
+          "sliced_time_with_cache": 581,
+          "total_predication": 2198.864013671875,
+          "triangle_count": 20816,
+          "warning_message": ""
+        }
+      ],
+      "sparse_infill_density": 15.0,
+      "upward_compatible_machine": [
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+      ],
+      "wall_loops": 3
+    },
+    "filament_channels_used": [
+      1,
+      2,
+      3
+    ],
+    "stl_parts_import_verified": 3,
+    "gui_open_verified": false,
+    "environment_notes": "CLI used with the installed Flatpak runtime. The desktop display is unavailable in this session. The relocated CLI reports missing /app resources; embedded project settings were used and slicing succeeded."
+  },
+  {
+    "filename": "Set_04_Ursulas_Return_v1.2.3mf",
+    "bambu_version": "02.08.02.61",
+    "import_exit_code": 0,
+    "manifold": true,
+    "model_info": {
+      "size_x": "86.464997",
+      "size_y": "41.000000",
+      "size_z": "2.800000",
+      "number_of_facets": "9624",
+      "volume": "6237.738770"
+    },
+    "slice_result": {
+      "error_string": "Success.",
+      "export_time": 0,
+      "layer_height": 0.20000000298023224,
+      "plate_index": 1,
+      "prepare_time": 20,
+      "return_code": 0,
+      "sliced_plates": [
+        {
+          "feature_type_times": {
+            "Bottom surface": 81.98368072509766,
+            "Bridge": 54.17234420776367,
+            "Custom": 369.61846923828125,
+            "Flush": 396.4743347167969,
+            "Gap infill": 27.805452346801758,
+            "Inner wall": 220.0098419189453,
+            "Internal solid infill": 352.09515380859375,
+            "Outer wall": 148.6007080078125,
+            "Prime tower": 184.156982421875,
+            "Sparse infill": 10.972354888916016,
+            "Top surface": 133.71298217773438,
+            "Travel": 270.6890563964844,
+            "Undefined": 253.6572265625
+          },
+          "filament_change_times": 5,
+          "filaments": [
+            {
+              "filament_id": "GFA00",
+              "id": 1,
+              "main_used_g": 6.663225173950195,
+              "total_used_g": 7.654447555541992
+            },
+            {
+              "filament_id": "GFA00",
+              "id": 2,
+              "main_used_g": 0.7375882863998413,
+              "total_used_g": 1.5014317035675049
+            },
+            {
+              "filament_id": "GFA01",
+              "id": 3,
+              "main_used_g": 0.2943761944770813,
+              "total_used_g": 1.412980079650879
+            }
+          ],
+          "generate_support_material_time": 24,
+          "id": 1,
+          "infill_time": 427,
+          "layer_filament_change": 0,
+          "main_predication": 1275.04541015625,
+          "make_perimeters_time": 234,
+          "obj_cached_cnt": 0,
+          "objects": [
+            {
+              "bbox": {
+                "depth": 41.0,
+                "height": 2.799999952316284,
+                "width": 86.46499633789062,
+                "x": 84.77000427246094,
+                "y": 107.5,
+                "z": 0.0
+              },
+              "id": 5,
+              "name": "Ursula\u2019s Return v1.2",
+              "triangle_count": 9624
+            }
+          ],
+          "sliced_time": 1143,
+          "sliced_time_with_cache": 424,
+          "total_predication": 2233.263427734375,
+          "triangle_count": 9624,
+          "warning_message": ""
+        }
+      ],
+      "sparse_infill_density": 15.0,
+      "upward_compatible_machine": [
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+      ],
+      "wall_loops": 3
+    },
+    "filament_channels_used": [
+      1,
+      2,
+      3
+    ],
+    "stl_parts_import_verified": 3,
+    "gui_open_verified": false,
+    "environment_notes": "CLI used with the installed Flatpak runtime. The desktop display is unavailable in this session. The relocated CLI reports missing /app resources; embedded project settings were used and slicing succeeded."
+  },
+  {
+    "filename": "Set_05_Shimmering_Skies_v1.2.3mf",
+    "bambu_version": "02.08.02.61",
+    "import_exit_code": 0,
+    "manifold": true,
+    "model_info": {
+      "size_x": "94.934998",
+      "size_y": "38.169998",
+      "size_z": "3.000000",
+      "number_of_facets": "15476",
+      "volume": "5732.771484"
+    },
+    "slice_result": {
+      "error_string": "Success.",
+      "export_time": 0,
+      "layer_height": 0.20000000298023224,
+      "plate_index": 1,
+      "prepare_time": 29,
+      "return_code": 0,
+      "sliced_plates": [
+        {
+          "feature_type_times": {
+            "Bottom surface": 70.74639129638672,
+            "Bridge": 69.7731704711914,
+            "Custom": 369.4761047363281,
+            "Flush": 340.8865661621094,
+            "Gap infill": 20.026805877685547,
+            "Inner wall": 236.57240295410156,
+            "Internal solid infill": 255.6892547607422,
+            "Outer wall": 207.99598693847656,
+            "Prime tower": 171.51707458496094,
+            "Sparse infill": 11.220531463623047,
+            "Top surface": 113.35147857666016,
+            "Travel": 281.993896484375,
+            "Undefined": 265.10443115234375
+          },
+          "filament_change_times": 4,
+          "filaments": [
+            {
+              "filament_id": "GFA00",
+              "id": 1,
+              "main_used_g": 5.779810905456543,
+              "total_used_g": 6.771032810211182
+            },
+            {
+              "filament_id": "GFA00",
+              "id": 2,
+              "main_used_g": 0.2218465507030487,
+              "total_used_g": 0.7728632092475891
+            },
+            {
+              "filament_id": "GFA01",
+              "id": 3,
+              "main_used_g": 1.082112193107605,
+              "total_used_g": 2.272819757461548
+            }
+          ],
+          "generate_support_material_time": 44,
+          "id": 1,
+          "infill_time": 422,
+          "layer_filament_change": 0,
+          "main_predication": 1242.3944091796875,
+          "make_perimeters_time": 287,
+          "obj_cached_cnt": 0,
+          "objects": [
+            {
+              "bbox": {
+                "depth": 38.16999816894531,
+                "height": 3.0,
+                "width": 94.93499755859375,
+                "x": 80.53500366210938,
+                "y": 108.91500091552734,
+                "z": 0.0
+              },
+              "id": 5,
+              "name": "Shimmering Skies v1.2",
+              "triangle_count": 15476
+            }
+          ],
+          "sliced_time": 1377,
+          "sliced_time_with_cache": 580,
+          "total_predication": 2132.384765625,
+          "triangle_count": 15476,
+          "warning_message": ""
+        }
+      ],
+      "sparse_infill_density": 15.0,
+      "upward_compatible_machine": [
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+      ],
+      "wall_loops": 3
+    },
+    "filament_channels_used": [
+      1,
+      2,
+      3
+    ],
+    "stl_parts_import_verified": 3,
+    "gui_open_verified": false,
+    "environment_notes": "CLI used with the installed Flatpak runtime. The desktop display is unavailable in this session. The relocated CLI reports missing /app resources; embedded project settings were used and slicing succeeded."
+  },
+  {
+    "filename": "Set_06_Azurite_Sea_v1.2.3mf",
+    "bambu_version": "02.08.02.61",
+    "import_exit_code": 0,
+    "manifold": true,
+    "model_info": {
+      "size_x": "79.264999",
+      "size_y": "41.275001",
+      "size_z": "2.800000",
+      "number_of_facets": "7324",
+      "volume": "5286.976074"
+    },
+    "slice_result": {
+      "error_string": "Success.",
+      "export_time": 0,
+      "layer_height": 0.20000000298023224,
+      "plate_index": 1,
+      "prepare_time": 17,
+      "return_code": 0,
+      "sliced_plates": [
+        {
+          "feature_type_times": {
+            "Bottom surface": 70.15550994873047,
+            "Bridge": 59.61273956298828,
+            "Custom": 369.5655212402344,
+            "Flush": 326.5360412597656,
+            "Gap infill": 18.35950469970703,
+            "Inner wall": 174.45521545410156,
+            "Internal solid infill": 299.6853332519531,
+            "Outer wall": 112.8487777709961,
+            "Prime tower": 168.32257080078125,
+            "Sparse infill": 8.50147533416748,
+            "Top surface": 122.61367797851562,
+            "Travel": 234.4744415283203,
+            "Undefined": 217.4955596923828
+          },
+          "filament_change_times": 4,
+          "filaments": [
+            {
+              "filament_id": "GFA01",
+              "id": 1,
+              "main_used_g": 5.988840103149414,
+              "total_used_g": 7.02726411819458
+            },
+            {
+              "filament_id": "GFA01",
+              "id": 2,
+              "main_used_g": 0.017208095639944077,
+              "total_used_g": 0.9086235165596008
+            },
+            {
+              "filament_id": "GFA00",
+              "id": 3,
+              "main_used_g": 0.8258368372917175,
+              "total_used_g": 1.4558987617492676
+            }
+          ],
+          "generate_support_material_time": 16,
+          "id": 1,
+          "infill_time": 323,
+          "layer_filament_change": 0,
+          "main_predication": 1075.7139892578125,
+          "make_perimeters_time": 153,
+          "obj_cached_cnt": 0,
+          "objects": [
+            {
+              "bbox": {
+                "depth": 41.275001525878906,
+                "height": 2.799999952316284,
+                "width": 79.26499938964844,
+                "x": 88.37000274658203,
+                "y": 107.36000061035156,
+                "z": 0.0
+              },
+              "id": 5,
+              "name": "Azurite Sea v1.2",
+              "triangle_count": 7324
+            }
+          ],
+          "sliced_time": 821,
+          "sliced_time_with_cache": 300,
+          "total_predication": 1948.1591796875,
+          "triangle_count": 7324,
+          "warning_message": ""
+        }
+      ],
+      "sparse_infill_density": 15.0,
+      "upward_compatible_machine": [
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+      ],
+      "wall_loops": 3
+    },
+    "filament_channels_used": [
+      1,
+      2,
+      3
+    ],
+    "stl_parts_import_verified": 3,
+    "gui_open_verified": false,
+    "environment_notes": "CLI used with the installed Flatpak runtime. The desktop display is unavailable in this session. The relocated CLI reports missing /app resources; embedded project settings were used and slicing succeeded."
+  },
+  {
+    "filename": "Set_07_Archazias_Island_v1.2.3mf",
+    "bambu_version": "02.08.02.61",
+    "import_exit_code": 0,
+    "manifold": true,
+    "model_info": {
+      "size_x": "80.525001",
+      "size_y": "40.814999",
+      "size_z": "3.000000",
+      "number_of_facets": "11312",
+      "volume": "5437.243652"
+    },
+    "slice_result": {
+      "error_string": "Success.",
+      "export_time": 0,
+      "layer_height": 0.20000000298023224,
+      "plate_index": 1,
+      "prepare_time": 24,
+      "return_code": 0,
+      "sliced_plates": [
+        {
+          "feature_type_times": {
+            "Bottom surface": 73.51820373535156,
+            "Custom": 369.58941650390625,
+            "Flush": 334.34796142578125,
+            "Gap infill": 16.1125431060791,
+            "Inner wall": 159.76007080078125,
+            "Internal solid infill": 286.5225830078125,
+            "Outer wall": 167.86117553710938,
+            "Prime tower": 168.16156005859375,
+            "Sparse infill": 11.736984252929688,
+            "Top surface": 108.47354888916016,
+            "Travel": 246.2118682861328,
+            "Undefined": 229.2091064453125
+          },
+          "filament_change_times": 4,
+          "filaments": [
+            {
+              "filament_id": "GFA01",
+              "id": 1,
+              "main_used_g": 6.24003267288208,
+              "total_used_g": 7.278456211090088
+            },
+            {
+              "filament_id": "GFA01",
+              "id": 2,
+              "main_used_g": 0.066006600856781,
+              "total_used_g": 0.77262282371521
+            },
+            {
+              "filament_id": "GFA01",
+              "id": 3,
+              "main_used_g": 0.7062235474586487,
+              "total_used_g": 1.6830884218215942
+            }
+          ],
+          "generate_support_material_time": 29,
+          "id": 1,
+          "infill_time": 177,
+          "layer_filament_change": 0,
+          "main_predication": 1045.210205078125,
+          "make_perimeters_time": 244,
+          "obj_cached_cnt": 0,
+          "objects": [
+            {
+              "bbox": {
+                "depth": 40.814998626708984,
+                "height": 3.0,
+                "width": 80.5250015258789,
+                "x": 87.73500061035156,
+                "y": 107.59500122070312,
+                "z": 0.0
+              },
+              "id": 5,
+              "name": "Archazia\u2019s Island v1.2",
+              "triangle_count": 11312
+            }
+          ],
+          "sliced_time": 1047,
+          "sliced_time_with_cache": 566,
+          "total_predication": 1925.306396484375,
+          "triangle_count": 11312,
+          "warning_message": ""
+        }
+      ],
+      "sparse_infill_density": 15.0,
+      "upward_compatible_machine": [
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+      ],
+      "wall_loops": 3
+    },
+    "filament_channels_used": [
+      1,
+      2,
+      3
+    ],
+    "stl_parts_import_verified": 3,
+    "gui_open_verified": false,
+    "environment_notes": "CLI used with the installed Flatpak runtime. The desktop display is unavailable in this session. The relocated CLI reports missing /app resources; embedded project settings were used and slicing succeeded."
+  },
+  {
+    "filename": "Set_08_Reign_of_Jafar_v1.2.3mf",
+    "bambu_version": "02.08.02.61",
+    "import_exit_code": 0,
+    "manifold": true,
+    "model_info": {
+      "size_x": "71.904999",
+      "size_y": "41.540001",
+      "size_z": "2.800000",
+      "number_of_facets": "18656",
+      "volume": "4662.859863"
+    },
+    "slice_result": {
+      "error_string": "Success.",
+      "export_time": 0,
+      "layer_height": 0.20000000298023224,
+      "plate_index": 1,
+      "prepare_time": 38,
+      "return_code": 0,
+      "sliced_plates": [
+        {
+          "feature_type_times": {
+            "Bottom surface": 60.190643310546875,
+            "Bridge": 40.20685958862305,
+            "Custom": 369.38140869140625,
+            "Flush": 512.573486328125,
+            "Gap infill": 9.132438659667969,
+            "Inner wall": 92.88875579833984,
+            "Internal solid infill": 234.2672119140625,
+            "Outer wall": 151.53997802734375,
+            "Prime tower": 248.66827392578125,
+            "Sparse infill": 7.8472466468811035,
+            "Top surface": 68.27191162109375,
+            "Travel": 289.62628173828125,
+            "Undefined": 272.7728271484375
+          },
+          "filament_change_times": 7,
+          "filaments": [
+            {
+              "filament_id": "GFA01",
+              "id": 1,
+              "main_used_g": 5.324771881103516,
+              "total_used_g": 6.657806873321533
+            },
+            {
+              "filament_id": "GFA00",
+              "id": 2,
+              "main_used_g": 0.1859566867351532,
+              "total_used_g": 0.7774037718772888
+            },
+            {
+              "filament_id": "GFA00",
+              "id": 3,
+              "main_used_g": 0.15316089987754822,
+              "total_used_g": 1.0163458585739136
+            },
+            {
+              "filament_id": "GFA00",
+              "id": 4,
+              "main_used_g": 0.3247177004814148,
+              "total_used_g": 1.033842921257019
+            }
+          ],
+          "generate_support_material_time": 69,
+          "id": 1,
+          "infill_time": 273,
+          "layer_filament_change": 0,
+          "main_predication": 929.002197265625,
+          "make_perimeters_time": 338,
+          "obj_cached_cnt": 0,
+          "objects": [
+            {
+              "bbox": {
+                "depth": 41.53999710083008,
+                "height": 2.799999952316284,
+                "width": 71.90499877929688,
+                "x": 92.05000305175781,
+                "y": 107.2300033569336,
+                "z": 0.0
+              },
+              "id": 5,
+              "name": "Reign of Jafar v1.2",
+              "triangle_count": 18656
+            }
+          ],
+          "sliced_time": 1276,
+          "sliced_time_with_cache": 560,
+          "total_predication": 2067.77197265625,
+          "triangle_count": 18656,
+          "warning_message": ""
+        }
+      ],
+      "sparse_infill_density": 15.0,
+      "upward_compatible_machine": [
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+      ],
+      "wall_loops": 3
+    },
+    "filament_channels_used": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "stl_parts_import_verified": 4,
+    "gui_open_verified": false,
+    "environment_notes": "CLI used with the installed Flatpak runtime. The desktop display is unavailable in this session. The relocated CLI reports missing /app resources; embedded project settings were used and slicing succeeded."
+  },
+  {
+    "filename": "Set_09_Fabled_v1.2.3mf",
+    "bambu_version": "02.08.02.61",
+    "import_exit_code": 0,
+    "manifold": true,
+    "model_info": {
+      "size_x": "94.690002",
+      "size_y": "33.375000",
+      "size_z": "3.000000",
+      "number_of_facets": "16496",
+      "volume": "4775.064453"
+    },
+    "slice_result": {
+      "error_string": "Success.",
+      "export_time": 0,
+      "layer_height": 0.20000000298023224,
+      "plate_index": 1,
+      "prepare_time": 29,
+      "return_code": 0,
+      "sliced_plates": [
+        {
+          "feature_type_times": {
+            "Bottom surface": 71.54680633544922,
+            "Bridge": 28.903701782226562,
+            "Custom": 369.6363220214844,
+            "Flush": 413.4867858886719,
+            "Gap infill": 9.421114921569824,
+            "Inner wall": 298.1083679199219,
+            "Internal solid infill": 234.72914123535156,
+            "Outer wall": 248.71141052246094,
+            "Prime tower": 182.982177734375,
+            "Sparse infill": 16.62879180908203,
+            "Top surface": 50.883880615234375,
+            "Travel": 273.86212158203125,
+            "Undefined": 256.81243896484375
+          },
+          "filament_change_times": 5,
+          "filaments": [
+            {
+              "filament_id": "GFA01",
+              "id": 1,
+              "main_used_g": 4.936086654663086,
+              "total_used_g": 5.974510192871094
+            },
+            {
+              "filament_id": "GFA00",
+              "id": 2,
+              "main_used_g": 0.40737271308898926,
+              "total_used_g": 1.7433146238327026
+            },
+            {
+              "filament_id": "GFA00",
+              "id": 3,
+              "main_used_g": 0.6152188181877136,
+              "total_used_g": 1.3407968282699585
+            }
+          ],
+          "generate_support_material_time": 25,
+          "id": 1,
+          "infill_time": 321,
+          "layer_filament_change": 0,
+          "main_predication": 1207.80517578125,
+          "make_perimeters_time": 274,
+          "obj_cached_cnt": 0,
+          "objects": [
+            {
+              "bbox": {
+                "depth": 33.375003814697266,
+                "height": 3.0,
+                "width": 94.69000244140625,
+                "x": 80.65499877929688,
+                "y": 111.30999755859375,
+                "z": 0.0
+              },
+              "id": 5,
+              "name": "Fabled v1.2",
+              "triangle_count": 16496
+            }
+          ],
+          "sliced_time": 1046,
+          "sliced_time_with_cache": 383,
+          "total_predication": 2181.86083984375,
+          "triangle_count": 16496,
+          "warning_message": ""
+        }
+      ],
+      "sparse_infill_density": 15.0,
+      "upward_compatible_machine": [
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+      ],
+      "wall_loops": 3
+    },
+    "filament_channels_used": [
+      1,
+      2,
+      3
+    ],
+    "stl_parts_import_verified": 3,
+    "gui_open_verified": false,
+    "environment_notes": "CLI used with the installed Flatpak runtime. The desktop display is unavailable in this session. The relocated CLI reports missing /app resources; embedded project settings were used and slicing succeeded."
+  },
+  {
+    "filename": "Set_10_Whispers_in_the_Well_v1.2.3mf",
+    "bambu_version": "02.08.02.61",
+    "import_exit_code": 0,
+    "manifold": true,
+    "model_info": {
+      "size_x": "55.785000",
+      "size_y": "39.375000",
+      "size_z": "2.800000",
+      "number_of_facets": "11452",
+      "volume": "3039.216064"
+    },
+    "slice_result": {
+      "error_string": "Success.",
+      "export_time": 0,
+      "layer_height": 0.20000000298023224,
+      "plate_index": 1,
+      "prepare_time": 23,
+      "return_code": 0,
+      "sliced_plates": [
+        {
+          "feature_type_times": {
+            "Bottom surface": 54.338890075683594,
+            "Bridge": 11.177001953125,
+            "Custom": 369.56219482421875,
+            "Flush": 381.7359313964844,
+            "Gap infill": 18.8049259185791,
+            "Inner wall": 252.3720703125,
+            "Internal solid infill": 199.07875061035156,
+            "Outer wall": 226.92431640625,
+            "Prime tower": 182.66412353515625,
+            "Sparse infill": 5.803425312042236,
+            "Top surface": 63.83509063720703,
+            "Travel": 288.51708984375,
+            "Undefined": 271.5415344238281
+          },
+          "filament_change_times": 5,
+          "filaments": [
+            {
+              "filament_id": "GFA01",
+              "id": 1,
+              "main_used_g": 3.4761855602264404,
+              "total_used_g": 4.514608860015869
+            },
+            {
+              "filament_id": "GFA01",
+              "id": 2,
+              "main_used_g": 0.2502143681049347,
+              "total_used_g": 1.1840200424194336
+            },
+            {
+              "filament_id": "GFA00",
+              "id": 3,
+              "main_used_g": 0.23779331147670746,
+              "total_used_g": 0.9940763711929321
+            }
+          ],
+          "generate_support_material_time": 30,
+          "id": 1,
+          "infill_time": 256,
+          "layer_filament_change": 0,
+          "main_predication": 1095.8992919921875,
+          "make_perimeters_time": 217,
+          "obj_cached_cnt": 0,
+          "objects": [
+            {
+              "bbox": {
+                "depth": 39.375003814697266,
+                "height": 2.799999952316284,
+                "width": 55.78499984741211,
+                "x": 100.11000061035156,
+                "y": 108.30999755859375,
+                "z": 0.0
+              },
+              "id": 5,
+              "name": "Whispers in the Well v1.2",
+              "triangle_count": 11452
+            }
+          ],
+          "sliced_time": 813,
+          "sliced_time_with_cache": 273,
+          "total_predication": 2037.8858642578125,
+          "triangle_count": 11452,
+          "warning_message": ""
+        }
+      ],
+      "sparse_infill_density": 15.0,
+      "upward_compatible_machine": [
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+      ],
+      "wall_loops": 3
+    },
+    "filament_channels_used": [
+      1,
+      2,
+      3
+    ],
+    "stl_parts_import_verified": 3,
+    "gui_open_verified": false,
+    "environment_notes": "CLI used with the installed Flatpak runtime. The desktop display is unavailable in this session. The relocated CLI reports missing /app resources; embedded project settings were used and slicing succeeded."
+  },
+  {
+    "filename": "Set_11_Winterspell_v1.2.3mf",
+    "bambu_version": "02.08.02.61",
+    "import_exit_code": 0,
+    "manifold": true,
+    "model_info": {
+      "size_x": "95.014999",
+      "size_y": "26.799999",
+      "size_z": "3.000000",
+      "number_of_facets": "17528",
+      "volume": "4438.428711"
+    },
+    "slice_result": {
+      "error_string": "Success.",
+      "export_time": 0,
+      "layer_height": 0.20000000298023224,
+      "plate_index": 1,
+      "prepare_time": 31,
+      "return_code": 0,
+      "sliced_plates": [
+        {
+          "feature_type_times": {
+            "Bottom surface": 61.93492126464844,
+            "Bridge": 70.50537872314453,
+            "Custom": 369.61541748046875,
+            "Flush": 314.2834777832031,
+            "Gap infill": 19.697269439697266,
+            "Inner wall": 195.9765167236328,
+            "Internal solid infill": 196.42752075195312,
+            "Outer wall": 214.67816162109375,
+            "Prime tower": 170.6968231201172,
+            "Sparse infill": 8.211150169372559,
+            "Top surface": 63.98150634765625,
+            "Travel": 251.5660400390625,
+            "Undefined": 234.53724670410156
+          },
+          "filament_change_times": 4,
+          "filaments": [
+            {
+              "filament_id": "GFA01",
+              "id": 1,
+              "main_used_g": 4.323163032531738,
+              "total_used_g": 5.361586570739746
+            },
+            {
+              "filament_id": "GFA01",
+              "id": 2,
+              "main_used_g": 0.5147644281387329,
+              "total_used_g": 1.2567030191421509
+            },
+            {
+              "filament_id": "GFA01",
+              "id": 3,
+              "main_used_g": 0.6286211609840393,
+              "total_used_g": 1.2702058553695679
+            }
+          ],
+          "generate_support_material_time": 25,
+          "id": 1,
+          "infill_time": 205,
+          "layer_filament_change": 0,
+          "main_predication": 1058.003173828125,
+          "make_perimeters_time": 298,
+          "obj_cached_cnt": 0,
+          "objects": [
+            {
+              "bbox": {
+                "depth": 26.80000114440918,
+                "height": 3.0,
+                "width": 95.01499938964844,
+                "x": 80.49500274658203,
+                "y": 114.5999984741211,
+                "z": 0.0
+              },
+              "id": 5,
+              "name": "Winterspell v1.2",
+              "triangle_count": 17528
+            }
+          ],
+          "sliced_time": 1106,
+          "sliced_time_with_cache": 544,
+          "total_predication": 1920.5699462890625,
+          "triangle_count": 17528,
+          "warning_message": ""
+        }
+      ],
+      "sparse_infill_density": 15.0,
+      "upward_compatible_machine": [
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+      ],
+      "wall_loops": 3
+    },
+    "filament_channels_used": [
+      1,
+      2,
+      3
+    ],
+    "stl_parts_import_verified": 3,
+    "gui_open_verified": false,
+    "environment_notes": "CLI used with the installed Flatpak runtime. The desktop display is unavailable in this session. The relocated CLI reports missing /app resources; embedded project settings were used and slicing succeeded."
+  },
+  {
+    "filename": "Set_12_Wilds_Unknown_v1.2.3mf",
+    "bambu_version": "02.08.02.61",
+    "import_exit_code": 0,
+    "manifold": true,
+    "model_info": {
+      "size_x": "82.574997",
+      "size_y": "40.910000",
+      "size_z": "3.000000",
+      "number_of_facets": "13700",
+      "volume": "6116.205078"
+    },
+    "slice_result": {
+      "error_string": "Success.",
+      "export_time": 0,
+      "layer_height": 0.20000000298023224,
+      "plate_index": 1,
+      "prepare_time": 25,
+      "return_code": 0,
+      "sliced_plates": [
+        {
+          "feature_type_times": {
+            "Bottom surface": 106.42149353027344,
+            "Bridge": 22.45045280456543,
+            "Custom": 369.62554931640625,
+            "Flush": 330.7639465332031,
+            "Gap infill": 32.23585510253906,
+            "Inner wall": 463.7843933105469,
+            "Internal solid infill": 381.8511047363281,
+            "Outer wall": 317.35845947265625,
+            "Prime tower": 169.67776489257812,
+            "Sparse infill": 11.928898811340332,
+            "Top surface": 123.14588165283203,
+            "Travel": 351.9859924316406,
+            "Undefined": 334.94708251953125
+          },
+          "filament_change_times": 4,
+          "filaments": [
+            {
+              "filament_id": "GFA00",
+              "id": 1,
+              "main_used_g": 6.064463138580322,
+              "total_used_g": 7.055685043334961
+            },
+            {
+              "filament_id": "GFA01",
+              "id": 2,
+              "main_used_g": 0.09119577705860138,
+              "total_used_g": 0.5027318596839905
+            },
+            {
+              "filament_id": "GFA01",
+              "id": 3,
+              "main_used_g": 1.4221487045288086,
+              "total_used_g": 2.6573715209960938
+            }
+          ],
+          "generate_support_material_time": 33,
+          "id": 1,
+          "infill_time": 491,
+          "layer_filament_change": 0,
+          "main_predication": 1786.12646484375,
+          "make_perimeters_time": 303,
+          "obj_cached_cnt": 0,
+          "objects": [
+            {
+              "bbox": {
+                "depth": 40.90999984741211,
+                "height": 3.0,
+                "width": 82.57499694824219,
+                "x": 86.71500396728516,
+                "y": 107.54499816894531,
+                "z": 0.0
+              },
+              "id": 5,
+              "name": "Wilds Unknown v1.2",
+              "triangle_count": 13700
+            }
+          ],
+          "sliced_time": 1203,
+          "sliced_time_with_cache": 328,
+          "total_predication": 2664.15478515625,
+          "triangle_count": 13700,
+          "warning_message": ""
+        }
+      ],
+      "sparse_infill_density": 15.0,
+      "upward_compatible_machine": [
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+      ],
+      "wall_loops": 3
+    },
+    "filament_channels_used": [
+      1,
+      2,
+      3
+    ],
+    "stl_parts_import_verified": 3,
+    "gui_open_verified": false,
+    "environment_notes": "CLI used with the installed Flatpak runtime. The desktop display is unavailable in this session. The relocated CLI reports missing /app resources; embedded project settings were used and slicing succeeded."
+  },
+  {
+    "filename": "Set_13_Attack_of_the_Vine_v1.2.3mf",
+    "bambu_version": "02.08.02.61",
+    "import_exit_code": 0,
+    "manifold": true,
+    "model_info": {
+      "size_x": "68.010002",
+      "size_y": "40.904999",
+      "size_z": "2.800000",
+      "number_of_facets": "11340",
+      "volume": "3994.717285"
+    },
+    "slice_result": {
+      "error_string": "Success.",
+      "export_time": 0,
+      "layer_height": 0.20000000298023224,
+      "plate_index": 1,
+      "prepare_time": 22,
+      "return_code": 0,
+      "sliced_plates": [
+        {
+          "feature_type_times": {
+            "Bottom surface": 52.83910369873047,
+            "Bridge": 36.61178207397461,
+            "Custom": 369.4356384277344,
+            "Flush": 391.37176513671875,
+            "Gap infill": 19.296588897705078,
+            "Inner wall": 187.41258239746094,
+            "Internal solid infill": 217.6389923095703,
+            "Outer wall": 162.3819580078125,
+            "Prime tower": 183.03564453125,
+            "Sparse infill": 8.108612060546875,
+            "Top surface": 96.47684478759766,
+            "Travel": 254.83921813964844,
+            "Undefined": 237.99020385742188
+          },
+          "filament_change_times": 5,
+          "filaments": [
+            {
+              "filament_id": "GFA00",
+              "id": 1,
+              "main_used_g": 4.221734046936035,
+              "total_used_g": 5.212956428527832
+            },
+            {
+              "filament_id": "GFA00",
+              "id": 2,
+              "main_used_g": 0.31320396065711975,
+              "total_used_g": 1.1214021444320679
+            },
+            {
+              "filament_id": "GFA00",
+              "id": 3,
+              "main_used_g": 0.41280195116996765,
+              "total_used_g": 1.3706839084625244
+            }
+          ],
+          "generate_support_material_time": 27,
+          "id": 1,
+          "infill_time": 376,
+          "layer_filament_change": 0,
+          "main_predication": 1010.6431274414062,
+          "make_perimeters_time": 194,
+          "obj_cached_cnt": 0,
+          "objects": [
+            {
+              "bbox": {
+                "depth": 40.90499496459961,
+                "height": 2.799999952316284,
+                "width": 68.01000213623047,
+                "x": 93.99500274658203,
+                "y": 107.55000305175781,
+                "z": 0.0
+              },
+              "id": 5,
+              "name": "Attack of the Vine! v1.2",
+              "triangle_count": 11340
+            }
+          ],
+          "sliced_time": 1044,
+          "sliced_time_with_cache": 414,
+          "total_predication": 1962.63720703125,
+          "triangle_count": 11340,
+          "warning_message": ""
+        }
+      ],
+      "sparse_infill_density": 15.0,
+      "upward_compatible_machine": [
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+      ],
+      "wall_loops": 3
+    },
+    "filament_channels_used": [
+      1,
+      2,
+      3
+    ],
+    "stl_parts_import_verified": 3,
+    "gui_open_verified": false,
+    "environment_notes": "CLI used with the installed Flatpak runtime. The desktop display is unavailable in this session. The relocated CLI reports missing /app resources; embedded project settings were used and slicing succeeded."
+  },
+  {
+    "filename": "Set_14_Hyperia_City_v1.2.3mf",
+    "bambu_version": "02.08.02.61",
+    "import_exit_code": 0,
+    "manifold": true,
+    "model_info": {
+      "size_x": "71.915001",
+      "size_y": "40.790001",
+      "size_z": "3.000000",
+      "number_of_facets": "15464",
+      "volume": "4693.514160"
+    },
+    "slice_result": {
+      "error_string": "Success.",
+      "export_time": 0,
+      "layer_height": 0.20000000298023224,
+      "plate_index": 1,
+      "prepare_time": 28,
+      "return_code": 0,
+      "sliced_plates": [
+        {
+          "feature_type_times": {
+            "Bottom surface": 61.00224304199219,
+            "Bridge": 74.3609619140625,
+            "Custom": 369.44964599609375,
+            "Flush": 328.5538330078125,
+            "Gap infill": 14.963566780090332,
+            "Inner wall": 193.70077514648438,
+            "Internal solid infill": 229.27748107910156,
+            "Outer wall": 179.85147094726562,
+            "Prime tower": 171.2542724609375,
+            "Sparse infill": 11.011491775512695,
+            "Top surface": 76.78083801269531,
+            "Travel": 239.58255004882812,
+            "Undefined": 222.71954345703125
+          },
+          "filament_change_times": 4,
+          "filaments": [
+            {
+              "filament_id": "GFA00",
+              "id": 1,
+              "main_used_g": 4.623279571533203,
+              "total_used_g": 5.614501953125
+            },
+            {
+              "filament_id": "GFA01",
+              "id": 2,
+              "main_used_g": 0.3674360513687134,
+              "total_used_g": 0.9829714894294739
+            },
+            {
+              "filament_id": "GFA01",
+              "id": 3,
+              "main_used_g": 0.7369802594184875,
+              "total_used_g": 1.713845133781433
+            }
+          ],
+          "generate_support_material_time": 21,
+          "id": 1,
+          "infill_time": 255,
+          "layer_filament_change": 0,
+          "main_predication": 1055.572021484375,
+          "make_perimeters_time": 269,
+          "obj_cached_cnt": 0,
+          "objects": [
+            {
+              "bbox": {
+                "depth": 40.78999710083008,
+                "height": 3.0,
+                "width": 71.91500091552734,
+                "x": 92.04000091552734,
+                "y": 107.6050033569336,
+                "z": 0.0
+              },
+              "id": 5,
+              "name": "Hyperia City v1.2",
+              "triangle_count": 15464
+            }
+          ],
+          "sliced_time": 1072,
+          "sliced_time_with_cache": 497,
+          "total_predication": 1932.966796875,
+          "triangle_count": 15464,
+          "warning_message": ""
+        }
+      ],
+      "sparse_infill_density": 15.0,
+      "upward_compatible_machine": [
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+      ],
+      "wall_loops": 3
+    },
+    "filament_channels_used": [
+      1,
+      2,
+      3
+    ],
+    "stl_parts_import_verified": 3,
+    "gui_open_verified": false,
+    "environment_notes": "CLI used with the installed Flatpak runtime. The desktop display is unavailable in this session. The relocated CLI reports missing /app resources; embedded project settings were used and slicing succeeded."
+  }
+]

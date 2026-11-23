@@ -1,0 +1,396 @@
+{
+  "project": "Set_12_Wilds_Unknown_v1.7.3mf",
+  "output_sha256": "9966d11a91b87f52e7f5aebcc30d9e581ca0a11b444b5a057906c7a3ca9d17e2",
+  "baseline": "sets/Set_12_Wilds_Unknown/v1.6/Set_12_Wilds_Unknown_v1.6.3mf",
+  "baseline_sha256": "3e6e0bf170c0fc29f16461002a41945f0666cde5970fa436c290fcfc66da8a26",
+  "geometry": {
+    "dimensions_mm": [
+      82.914,
+      40.465,
+      3.0
+    ],
+    "parts": [
+      {
+        "name": "Cocoa Brown",
+        "slot": 1,
+        "volume_mm3": 5292.782191176918,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Dark Green",
+        "slot": 2,
+        "volume_mm3": 174.2510431726696,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Ivory White",
+        "slot": 3,
+        "volume_mm3": 1108.1204663788706,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      }
+    ],
+    "nominal_stroke_width_mm": 0.7176,
+    "stroke_count": 26,
+    "strokes_per_letter": {
+      "wilds-w": 3,
+      "wilds-i": 1,
+      "wilds-l": 2,
+      "wilds-d": 2,
+      "wilds-s": 2,
+      "unknown-u": 2,
+      "unknown-n-first": 2,
+      "unknown-k": 3,
+      "unknown-n-second": 2,
+      "unknown-o": 2,
+      "unknown-w": 3,
+      "unknown-n-last": 2
+    },
+    "narrowest_ivory_margin_mm": 0.602,
+    "minimum_stroke_gap_mm": 0.8299,
+    "inlay_depth_mm": 0.4,
+    "ivory_support_thickness_mm": 0.6,
+    "face_and_inlays_flush": true,
+    "backing_and_foliage_geometry_preserved": true,
+    "letter_footprint_preserved": true,
+    "plate_placement_preserved": true,
+    "embedded_settings_byte_identical": true
+  },
+  "toolpaths": {
+    "loop_top_layer_mm": 2.0,
+    "loop_top_segments": 102,
+    "loop_segments_above_target_height": 0,
+    "raster_step_mm": 0.025,
+    "green_edge_audit_tolerance_mm": 0.13,
+    "bead_coverage_tolerance_mm": 0.075,
+    "lower_relief_layers": {
+      "2.2": {
+        "foliage_components": 6,
+        "ivory_components": 12
+      },
+      "2.4": {
+        "foliage_components": 6,
+        "ivory_components": 12
+      },
+      "2.6": {
+        "foliage_components": 6,
+        "ivory_components": 12
+      }
+    },
+    "inlay_layers": {
+      "2.8": {
+        "green_components": 26,
+        "ivory_components": 12,
+        "green_outside_intended_strokes": 0,
+        "clear_counters": 2,
+        "inlays": {
+          "wilds-w-hook": {
+            "raw_core_coverage": 0.99172,
+            "centerline_samples": 328,
+            "centerline_complete": true
+          },
+          "wilds-w-inner": {
+            "raw_core_coverage": 0.99471,
+            "centerline_samples": 194,
+            "centerline_complete": true
+          },
+          "wilds-w-right": {
+            "raw_core_coverage": 0.99296,
+            "centerline_samples": 259,
+            "centerline_complete": true
+          },
+          "wilds-i-stem": {
+            "raw_core_coverage": 0.99991,
+            "centerline_samples": 260,
+            "centerline_complete": true
+          },
+          "wilds-l-stem": {
+            "raw_core_coverage": 1.0,
+            "centerline_samples": 260,
+            "centerline_complete": true
+          },
+          "wilds-l-foot": {
+            "raw_core_coverage": 0.99549,
+            "centerline_samples": 61,
+            "centerline_complete": true
+          },
+          "wilds-d-stem": {
+            "raw_core_coverage": 1.0,
+            "centerline_samples": 238,
+            "centerline_complete": true
+          },
+          "wilds-d-bowl": {
+            "raw_core_coverage": 0.99705,
+            "centerline_samples": 422,
+            "centerline_complete": true
+          },
+          "wilds-s-curve": {
+            "raw_core_coverage": 0.9977,
+            "centerline_samples": 303,
+            "centerline_complete": true
+          },
+          "wilds-s-tail": {
+            "raw_core_coverage": 0.99781,
+            "centerline_samples": 69,
+            "centerline_complete": true
+          },
+          "unknown-u-curve": {
+            "raw_core_coverage": 0.99276,
+            "centerline_samples": 411,
+            "centerline_complete": true
+          },
+          "unknown-u-stem": {
+            "raw_core_coverage": 0.99994,
+            "centerline_samples": 373,
+            "centerline_complete": true
+          },
+          "unknown-n-first-left": {
+            "raw_core_coverage": 1.0,
+            "centerline_samples": 291,
+            "centerline_complete": true
+          },
+          "unknown-n-first-right": {
+            "raw_core_coverage": 0.99983,
+            "centerline_samples": 271,
+            "centerline_complete": true
+          },
+          "unknown-k-stem": {
+            "raw_core_coverage": 0.99905,
+            "centerline_samples": 267,
+            "centerline_complete": true
+          },
+          "unknown-k-arm": {
+            "raw_core_coverage": 0.99111,
+            "centerline_samples": 94,
+            "centerline_complete": true
+          },
+          "unknown-k-leg": {
+            "raw_core_coverage": 0.99645,
+            "centerline_samples": 199,
+            "centerline_complete": true
+          },
+          "unknown-n-second-left": {
+            "raw_core_coverage": 1.0,
+            "centerline_samples": 253,
+            "centerline_complete": true
+          },
+          "unknown-n-second-right": {
+            "raw_core_coverage": 0.99936,
+            "centerline_samples": 255,
+            "centerline_complete": true
+          },
+          "unknown-o-left": {
+            "raw_core_coverage": 0.99525,
+            "centerline_samples": 267,
+            "centerline_complete": true
+          },
+          "unknown-o-right": {
+            "raw_core_coverage": 0.99364,
+            "centerline_samples": 198,
+            "centerline_complete": true
+          },
+          "unknown-w-hook": {
+            "raw_core_coverage": 0.99325,
+            "centerline_samples": 329,
+            "centerline_complete": true
+          },
+          "unknown-w-inner": {
+            "raw_core_coverage": 0.99258,
+            "centerline_samples": 187,
+            "centerline_complete": true
+          },
+          "unknown-w-right": {
+            "raw_core_coverage": 0.99301,
+            "centerline_samples": 284,
+            "centerline_complete": true
+          },
+          "unknown-n-last-left": {
+            "raw_core_coverage": 1.0,
+            "centerline_samples": 374,
+            "centerline_complete": true
+          },
+          "unknown-n-last-right": {
+            "raw_core_coverage": 0.99513,
+            "centerline_samples": 409,
+            "centerline_complete": true
+          }
+        },
+        "ivory_core_coverage": {
+          "wilds-w": 0.9998,
+          "wilds-i": 0.99989,
+          "wilds-l": 0.99987,
+          "wilds-d": 0.99912,
+          "wilds-s": 0.99874,
+          "unknown-u": 0.99779,
+          "unknown-n-first": 0.99847,
+          "unknown-k": 0.99987,
+          "unknown-n-second": 0.999,
+          "unknown-o": 0.99663,
+          "unknown-w": 0.99977,
+          "unknown-n-last": 0.99845
+        },
+        "combined_glyph_core_coverage": 0.99922
+      },
+      "3.0": {
+        "green_components": 26,
+        "ivory_components": 12,
+        "green_outside_intended_strokes": 0,
+        "clear_counters": 2,
+        "inlays": {
+          "wilds-w-hook": {
+            "raw_core_coverage": 0.99427,
+            "centerline_samples": 328,
+            "centerline_complete": true
+          },
+          "wilds-w-inner": {
+            "raw_core_coverage": 0.988,
+            "centerline_samples": 194,
+            "centerline_complete": true
+          },
+          "wilds-w-right": {
+            "raw_core_coverage": 0.9943,
+            "centerline_samples": 259,
+            "centerline_complete": true
+          },
+          "wilds-i-stem": {
+            "raw_core_coverage": 0.99991,
+            "centerline_samples": 260,
+            "centerline_complete": true
+          },
+          "wilds-l-stem": {
+            "raw_core_coverage": 0.99991,
+            "centerline_samples": 260,
+            "centerline_complete": true
+          },
+          "wilds-l-foot": {
+            "raw_core_coverage": 0.99029,
+            "centerline_samples": 61,
+            "centerline_complete": true
+          },
+          "wilds-d-stem": {
+            "raw_core_coverage": 0.99991,
+            "centerline_samples": 238,
+            "centerline_complete": true
+          },
+          "wilds-d-bowl": {
+            "raw_core_coverage": 0.99561,
+            "centerline_samples": 422,
+            "centerline_complete": true
+          },
+          "wilds-s-curve": {
+            "raw_core_coverage": 0.99786,
+            "centerline_samples": 303,
+            "centerline_complete": true
+          },
+          "wilds-s-tail": {
+            "raw_core_coverage": 1.0,
+            "centerline_samples": 69,
+            "centerline_complete": true
+          },
+          "unknown-u-curve": {
+            "raw_core_coverage": 0.99417,
+            "centerline_samples": 411,
+            "centerline_complete": true
+          },
+          "unknown-u-stem": {
+            "raw_core_coverage": 0.99994,
+            "centerline_samples": 373,
+            "centerline_complete": true
+          },
+          "unknown-n-first-left": {
+            "raw_core_coverage": 1.0,
+            "centerline_samples": 291,
+            "centerline_complete": true
+          },
+          "unknown-n-first-right": {
+            "raw_core_coverage": 0.99983,
+            "centerline_samples": 271,
+            "centerline_complete": true
+          },
+          "unknown-k-stem": {
+            "raw_core_coverage": 0.99879,
+            "centerline_samples": 267,
+            "centerline_complete": true
+          },
+          "unknown-k-arm": {
+            "raw_core_coverage": 0.99438,
+            "centerline_samples": 94,
+            "centerline_complete": true
+          },
+          "unknown-k-leg": {
+            "raw_core_coverage": 0.99645,
+            "centerline_samples": 199,
+            "centerline_complete": true
+          },
+          "unknown-n-second-left": {
+            "raw_core_coverage": 1.0,
+            "centerline_samples": 253,
+            "centerline_complete": true
+          },
+          "unknown-n-second-right": {
+            "raw_core_coverage": 0.99918,
+            "centerline_samples": 255,
+            "centerline_complete": true
+          },
+          "unknown-o-left": {
+            "raw_core_coverage": 0.99559,
+            "centerline_samples": 267,
+            "centerline_complete": true
+          },
+          "unknown-o-right": {
+            "raw_core_coverage": 0.99433,
+            "centerline_samples": 198,
+            "centerline_complete": true
+          },
+          "unknown-w-hook": {
+            "raw_core_coverage": 0.99219,
+            "centerline_samples": 329,
+            "centerline_complete": true
+          },
+          "unknown-w-inner": {
+            "raw_core_coverage": 0.99489,
+            "centerline_samples": 187,
+            "centerline_complete": true
+          },
+          "unknown-w-right": {
+            "raw_core_coverage": 0.99048,
+            "centerline_samples": 284,
+            "centerline_complete": true
+          },
+          "unknown-n-last-left": {
+            "raw_core_coverage": 1.0,
+            "centerline_samples": 374,
+            "centerline_complete": true
+          },
+          "unknown-n-last-right": {
+            "raw_core_coverage": 0.99615,
+            "centerline_samples": 409,
+            "centerline_complete": true
+          }
+        },
+        "ivory_core_coverage": {
+          "wilds-w": 0.9996,
+          "wilds-i": 0.99981,
+          "wilds-l": 0.99951,
+          "wilds-d": 0.99991,
+          "wilds-s": 0.99996,
+          "unknown-u": 0.99999,
+          "unknown-n-first": 0.99923,
+          "unknown-k": 0.99865,
+          "unknown-n-second": 0.9994,
+          "unknown-o": 0.99985,
+          "unknown-w": 0.99968,
+          "unknown-n-last": 0.99944
+        },
+        "combined_glyph_core_coverage": 0.99972
+      }
+    }
+  },
+  "bambu_version": "02.09.01.70",
+  "plate_warnings": "",
+  "estimated_print_minutes": 36.7,
+  "filament_changes": 6,
+  "physical_print_verified": false
+}

@@ -1,0 +1,23 @@
+[2026-10-17 16:26:29.513636] [0x00007f2b46909bc0] [trace]   Initializing StaticPrintConfigs
+[2026-10-17 16:26:29.518851] [0x00007f2b46909bc0] [warning] cli mode, Current BambuStudio Version 02.08.02.61
+[2026-10-17 16:26:29.665833] [0x00007f2b46909bc0] [warning] run:2873, can not find system preset file: /app/share/BambuStudio/profiles/BBL/machine_full/Bambu Lab A1 0.4 nozzle.json 
+[2026-10-17 16:26:29.665845] [0x00007f2b46909bc0] [warning] run:2895, can not find system preset file: /app/share/BambuStudio/profiles/BBL/process_full/0.20mm Standard @BBL A1.json 
+[2026-10-17 16:26:29.665862] [0x00007f2b46909bc0] [warning] no filament colors found in projects
+[2026-10-17 16:26:29.666478] [0x00007f2b46909bc0] [warning] load_nozzle_infos_with_compatibility: building nozzle list from filament map and volume types
+[Set_08_Reign_of_Jafar_v1.9.3mf]
+size_x = 71.904999
+size_y = 41.540001
+size_z = 3.000000
+min_x = 0.000000
+min_y = 0.000000
+min_z = 0.000000
+max_x = 71.904999
+max_y = 41.540001
+max_z = 3.000000
+number_of_facets = 37692
+manifold = yes
+number_of_parts =  22
+volume = 4689.016113
+[2026-10-17 16:26:29.670182] [0x00007f2b46909bc0] [error]   get_filament_temp_type: parse /app/share/BambuStudio/info/filament_info.json got a nlohmann::detail::parse_error, reason = [json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - unexpected end of input; expected '[', '{', or a literal
+[2026-10-17 16:26:30.530629] [0x00007f2b449f56c0] [warning] Detected missing Voronoi vertex, input polygons will be rotated back and forth.
+[2026-10-17 16:26:30.595531] [0x00007f2b46909bc0] [warning] tree support default to organic support

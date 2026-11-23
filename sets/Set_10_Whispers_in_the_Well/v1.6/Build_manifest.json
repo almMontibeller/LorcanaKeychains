@@ -1,0 +1,50 @@
+{
+  "project": "sets/Set_10_Whispers_in_the_Well/v1.6/Set_10_Whispers_in_the_Well_v1.6.3mf",
+  "output_sha256": "2a241baf692e4c590dfe1c56b79920006796028a67c6202b5e27972c1b23d9e2",
+  "baseline": "sets/Set_10_Whispers_in_the_Well/v1.5/Set_10_Whispers_in_the_Well_v1.5.3mf",
+  "baseline_sha256": "31b00190e1be74844a42ee98a17a78814ccb289d3699ce11b95343c30d72e9bd",
+  "source_artwork": "collection/v1.0/Sources/lorcana-keychains/sources/10.png",
+  "source_artwork_sha256": "0ea874a3fb28c3ff02fcd9715eb82c40af6f9d293a7be3477ee7780777be0791",
+  "vector_sha256": "947bcecfdf537ea11afc93e5f6c512f8178c9da646d4485a9f41fce15a3d18d5",
+  "source_snapshots": {
+    "10.png": "0ea874a3fb28c3ff02fcd9715eb82c40af6f9d293a7be3477ee7780777be0791",
+    "full_height_narrow_rims.py": "3a45553b13bce8f430a571620fd6303fb922a01cbcb014694e06973c50f4f1de",
+    "rebuild_set04.py": "18efb9ec2eb5438f66c28ff58f179edc6e7468f51dc539635f55384ceba70402",
+    "rebuild_set05.py": "495739140a39c0c35b9220472c9ce82a4d81b5b0f4ef2cc5c5be622d33157bfa",
+    "rebuild_set06.py": "7436b2be1c0e3d166cdab6696502c0ddf3a985b625cddf515ea6f910292c35ae",
+    "rebuild_set07.py": "5e27c6ddb3c582f0f1050fcc8642d74f6d2f5ca7831706bc4b894781df91fdf8",
+    "rebuild_set09.py": "3d62aee3bd1a9ce8edf63a4d8e74043d0e12952b6b437e9de4b3e0f06b7c98ea",
+    "rebuild_set10.py": "a0c8570885ca1f3dc92158ef6b88682f3cafdb3fc3fe548c2e2aa2d4994b2682",
+    "refine_loops_and_underline.py": "de3151b4ab401b08a6c957c3347d21bcd3aa6c969b10149af435f0323f34fe26",
+    "repair_v1_1.py": "3bcdd33f048d310b8a2be2e819640b5e433df9c91443f83a6b8a82f46bf3f20d",
+    "set10_clean_artwork.svg": "947bcecfdf537ea11afc93e5f6c512f8178c9da646d4485a9f41fce15a3d18d5",
+    "standardize_loop_diameters.py": "2d2548881db361bd83e2f74636b25b5634f95e2caacf5e591b09f7e491d646e3",
+    "validate_bambu.py": "adc34b3b462668b8e881ece60e285ecda2968efe4f0b3a353506ae0c9e8deea5",
+    "validate_set06.py": "140507e8e7b59d65883fa4d2c9d8e61437c0882c0cbbc434324ceab4d74b868f",
+    "validate_set09.py": "5c169af473bfba9207cf3f0c1f212cccb9c3ecc8e84156d66f0a66149cf509f6",
+    "validate_set10.py": "9e8c4109198164dc55e223d163414dbb36ea1ace8c78d455a1e6d1a22db19f97"
+  },
+  "parts": [
+    {
+      "name": "Charcoal",
+      "slot": 1,
+      "volume_mm3": 3283.2980304222633,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    },
+    {
+      "name": "Ash Gray",
+      "slot": 2,
+      "volume_mm3": 257.0708550505321,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    },
+    {
+      "name": "Sunflower Yellow",
+      "slot": 3,
+      "volume_mm3": 215.48117367348945,
+      "degenerate_triangles": 0,
+      "closed_manifold": true
+    }
+  ]
+}

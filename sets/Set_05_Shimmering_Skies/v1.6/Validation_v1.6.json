@@ -1,0 +1,213 @@
+{
+  "project": "sets/Set_05_Shimmering_Skies/v1.6/Set_05_Shimmering_Skies_v1.6.3mf",
+  "filename": "Set_05_Shimmering_Skies_v1.6.3mf",
+  "source": "sets/Set_05_Shimmering_Skies/v1.5/Set_05_Shimmering_Skies_v1.5.3mf",
+  "source_sha256": "cc5efdc19764c44c96a6b59e688bb4d7b6bf95a40b00974bf6586899daf68653",
+  "output_sha256": "5d8de990754e86c1aef2896ab39ea6f91438d8db4ce1574a98252ad27a0b02b1",
+  "geometry": {
+    "backing_footprint_and_bore_preserved": true,
+    "artwork_clear_of_thinned_region": true,
+    "print_settings_byte_identical": true,
+    "plate_placement_preserved": true,
+    "attachment": {
+      "loop_thickness_mm": 1.6,
+      "backing_thickness_mm": 2.0,
+      "junction_x_mm": 10.2875,
+      "junction": "vertical step; no sloped transition",
+      "tessellation_axis_rotation_degrees": 0
+    },
+    "parts": [
+      {
+        "name": "Purple \u2014 reinforced star supports",
+        "volume_mm3": 4727.897930705418,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Red \u2014 continuous title panel",
+        "volume_mm3": 277.12956250014304,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      {
+        "name": "Ivory White",
+        "volume_mm3": 864.6611140655688,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      }
+    ],
+    "reinforced_star_check": {
+      "minimum_verified_corridor_width_mm": 3.0,
+      "verification_resolution_mm": 0.05,
+      "backing_thickness_mm": 2.0,
+      "connections_to_main_body": 7,
+      "newly_reinforced_connections": 6,
+      "previous_revision_passed": {
+        "upper_left": true,
+        "upper_centre": true,
+        "upper_right": true,
+        "lower": true,
+        "right_upper": true,
+        "right_lower": true,
+        "integrated_flourish_sparkle": true
+      },
+      "reinforced_revision_passed": {
+        "upper_left": true,
+        "upper_centre": true,
+        "upper_right": true,
+        "lower": true,
+        "right_upper": true,
+        "right_lower": true,
+        "integrated_flourish_sparkle": true
+      },
+      "small_star_connection_voids_remaining": 0,
+      "physical_strength_test_performed": false
+    }
+  },
+  "underline": {
+    "width_mm": 0.9,
+    "rounded_end_caps": true,
+    "centreline_x_mm": [
+      28.5,
+      48.3
+    ],
+    "centreline_quadratic_coefficients": [
+      -0.0033796260104256154,
+      0.558194487913497,
+      -3.754231782495416
+    ],
+    "old_line_triangles_removed": 520,
+    "unchanged_artwork_triangles": 6956,
+    "new_line_triangles": 596
+  },
+  "toolpath_checks": {
+    "loop_top_layer_mm": 1.6,
+    "loop_top_segments": 161,
+    "loop_segments_above_target_height": 0,
+    "underline_layers": {
+      "2.2": {
+        "continuous": true,
+        "detached_deposits": 0,
+        "sampled_centreline_points": 200,
+        "candidate_segments": 71
+      },
+      "2.4": {
+        "continuous": true,
+        "detached_deposits": 0,
+        "sampled_centreline_points": 200,
+        "candidate_segments": 100
+      },
+      "2.6": {
+        "continuous": true,
+        "detached_deposits": 0,
+        "sampled_centreline_points": 200,
+        "candidate_segments": 96
+      },
+      "2.8": {
+        "continuous": true,
+        "detached_deposits": 0,
+        "sampled_centreline_points": 200,
+        "candidate_segments": 99
+      },
+      "3.0": {
+        "continuous": true,
+        "detached_deposits": 0,
+        "sampled_centreline_points": 200,
+        "candidate_segments": 114
+      }
+    }
+  },
+  "used_filament_slots": [
+    1,
+    2,
+    3
+  ],
+  "bambu_version": "02.08.02.61",
+  "slice_result": {
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 33,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "feature_type_times": {
+          "Bottom surface": 73.68272399902344,
+          "Bridge": 85.0003662109375,
+          "Custom": 369.4761047363281,
+          "Flush": 340.8865661621094,
+          "Gap infill": 15.15463638305664,
+          "Inner wall": 205.66172790527344,
+          "Internal solid infill": 250.41151428222656,
+          "Outer wall": 197.2112579345703,
+          "Prime tower": 168.5320281982422,
+          "Sparse infill": 16.778865814208984,
+          "Top surface": 89.60269927978516,
+          "Travel": 244.9893341064453,
+          "Undefined": 228.09988403320312
+        },
+        "filament_change_times": 4,
+        "filaments": [
+          {
+            "filament_id": "GFA00",
+            "id": 1,
+            "main_used_g": 5.895572662353516,
+            "total_used_g": 6.886794567108154
+          },
+          {
+            "filament_id": "GFA00",
+            "id": 2,
+            "main_used_g": 0.33334997296333313,
+            "total_used_g": 0.8843666315078735
+          },
+          {
+            "filament_id": "GFA01",
+            "id": 3,
+            "main_used_g": 1.0925003290176392,
+            "total_used_g": 2.283207654953003
+          }
+        ],
+        "generate_support_material_time": 57,
+        "id": 1,
+        "infill_time": 487,
+        "layer_filament_change": 0,
+        "main_predication": 1153.5096435546875,
+        "make_perimeters_time": 377,
+        "obj_cached_cnt": 0,
+        "objects": [
+          {
+            "bbox": {
+              "depth": 38.20000457763672,
+              "height": 3.0,
+              "width": 94.95000457763672,
+              "x": 80.51749420166016,
+              "y": 108.90249633789062,
+              "z": 0.0
+            },
+            "id": 5,
+            "name": "Set_05_Shimmering_Skies_v1.6",
+            "triangle_count": 18692
+          }
+        ],
+        "sliced_time": 1400,
+        "sliced_time_with_cache": 433,
+        "total_predication": 2040.5147705078125,
+        "triangle_count": 18692,
+        "warning_message": ""
+      }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+      "Bambu Lab H2D 0.4 nozzle",
+      "Bambu Lab H2D Pro 0.4 nozzle",
+      "Bambu Lab H2S 0.4 nozzle",
+      "Bambu Lab P2S 0.4 nozzle",
+      "Bambu Lab H2C 0.4 nozzle",
+      "Bambu Lab X2D 0.4 nozzle",
+      "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+  },
+  "physical_print_verified": false
+}

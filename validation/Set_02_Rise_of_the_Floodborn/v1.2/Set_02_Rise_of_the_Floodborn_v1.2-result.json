@@ -1,0 +1,86 @@
+{
+  "error_string": "Success.",
+  "export_time": 0,
+  "layer_height": 0.20000000298023224,
+  "plate_index": 1,
+  "prepare_time": 44,
+  "return_code": 0,
+  "sliced_plates": [
+    {
+      "feature_type_times": {
+        "Bottom surface": 86.876220703125,
+        "Bridge": 81.6978759765625,
+        "Custom": 369.3884582519531,
+        "Flush": 314.2834777832031,
+        "Gap infill": 19.75872230529785,
+        "Inner wall": 259.5953063964844,
+        "Internal solid infill": 278.8599853515625,
+        "Outer wall": 233.900390625,
+        "Prime tower": 167.69248962402344,
+        "Sparse infill": 15.855050086975098,
+        "Top surface": 95.27649688720703,
+        "Travel": 259.4975280761719,
+        "Undefined": 242.69570922851562
+      },
+      "filament_change_times": 4,
+      "filaments": [
+        {
+          "filament_id": "GFA01",
+          "id": 1,
+          "main_used_g": 5.725992202758789,
+          "total_used_g": 6.764415740966797
+        },
+        {
+          "filament_id": "GFA01",
+          "id": 2,
+          "main_used_g": 0.24434895813465118,
+          "total_used_g": 0.9862875938415527
+        },
+        {
+          "filament_id": "GFA01",
+          "id": 3,
+          "main_used_g": 0.947043240070343,
+          "total_used_g": 1.5886279344558716
+        }
+      ],
+      "generate_support_material_time": 37,
+      "id": 1,
+      "infill_time": 485,
+      "layer_filament_change": 0,
+      "main_predication": 1306.3062744140625,
+      "make_perimeters_time": 402,
+      "obj_cached_cnt": 0,
+      "objects": [
+        {
+          "bbox": {
+            "depth": 32.810001373291016,
+            "height": 2.799999952316284,
+            "width": 95.31999969482422,
+            "x": 80.33999633789062,
+            "y": 111.61000061035156,
+            "z": 0.0
+          },
+          "id": 5,
+          "name": "Rise of the Floodborn v1.2",
+          "triangle_count": 27204
+        }
+      ],
+      "sliced_time": 1360,
+      "sliced_time_with_cache": 385,
+      "total_predication": 2165.868896484375,
+      "triangle_count": 27204,
+      "warning_message": ""
+    }
+  ],
+  "sparse_infill_density": 15.0,
+  "upward_compatible_machine": [
+    "Bambu Lab H2D 0.4 nozzle",
+    "Bambu Lab H2D Pro 0.4 nozzle",
+    "Bambu Lab H2S 0.4 nozzle",
+    "Bambu Lab P2S 0.4 nozzle",
+    "Bambu Lab H2C 0.4 nozzle",
+    "Bambu Lab X2D 0.4 nozzle",
+    "Bambu Lab A2L 0.4 nozzle"
+  ],
+  "wall_loops": 3
+}

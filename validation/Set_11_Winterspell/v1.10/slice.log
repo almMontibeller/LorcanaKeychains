@@ -1,0 +1,21 @@
+[2026-11-22 13:14:34.903998] [0x00007f663da79bc0] [warning] [BambuStudio.cpp:1845 run] cli mode, Current BambuStudio Version 02.09.01.70
+[2026-11-22 13:14:34.944249] [0x00007f663da79bc0] [warning] [BambuStudio.cpp:3155 run] can not find system preset file: /app/share/BambuStudio/profiles/BBL/machine_full/Bambu Lab A1 0.4 nozzle.json 
+[2026-11-22 13:14:34.944261] [0x00007f663da79bc0] [warning] [BambuStudio.cpp:3177 run] can not find system preset file: /app/share/BambuStudio/profiles/BBL/process_full/0.20mm Standard @BBL A1.json 
+[2026-11-22 13:14:34.944275] [0x00007f663da79bc0] [warning] [BambuStudio.cpp:4326 run] no filament colors found in projects
+[2026-11-22 13:14:34.945167] [0x00007f663da79bc0] [warning] [MultiNozzleUtils.cpp:217 load_nozzle_infos_with_compatibility] building nozzle list from filament map and volume types
+[Set_11_Winterspell_v1.10.3mf]
+size_x = 94.937096
+size_y = 27.233702
+size_z = 3.000000
+min_x = 0.000000
+min_y = -0.150976
+min_z = 0.000000
+max_x = 94.937096
+max_y = 27.082726
+max_z = 3.000000
+number_of_facets = 15516
+manifold = yes
+number_of_parts =  25
+volume = 3880.214600
+[2026-11-22 13:14:35.422406] [0x00007f663c7056c0] [warning] [Voronoi.cpp:33 construct_voronoi] Detected missing Voronoi vertex, input polygons will be rotated back and forth.
+[2026-11-22 13:14:35.430408] [0x00007f663da79bc0] [warning] [SupportParameters.hpp:204 SupportParameters] tree support default to organic support

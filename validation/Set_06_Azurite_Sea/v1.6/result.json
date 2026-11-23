@@ -1,0 +1,86 @@
+{
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 21,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 69.75892639160156,
+                "Bridge": 47.48851776123047,
+                "Custom": 369.466552734375,
+                "Flush": 326.5360412597656,
+                "Gap infill": 15.735386848449707,
+                "Inner wall": 151.45986938476563,
+                "Internal solid infill": 278.6242370605469,
+                "Outer wall": 91.2252197265625,
+                "Prime tower": 168.32119750976563,
+                "Sparse infill": 6.720714569091797,
+                "Top surface": 121.9011459350586,
+                "Travel": 227.7943878173828,
+                "Undefined": 210.9144744873047
+            },
+            "filament_change_times": 4,
+            "filaments": [
+                {
+                    "filament_id": "GFA01",
+                    "id": 1,
+                    "main_used_g": 5.9363017082214355,
+                    "total_used_g": 6.974725723266602
+                },
+                {
+                    "filament_id": "GFA01",
+                    "id": 2,
+                    "main_used_g": 0.010873835533857346,
+                    "total_used_g": 0.9022892713546753
+                },
+                {
+                    "filament_id": "GFA00",
+                    "id": 3,
+                    "main_used_g": 0.7836443781852722,
+                    "total_used_g": 1.4137063026428223
+                }
+            ],
+            "generate_support_material_time": 20,
+            "id": 1,
+            "infill_time": 280,
+            "layer_filament_change": 0,
+            "main_predication": 985.727783203125,
+            "make_perimeters_time": 125,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 41.275001525878906,
+                        "height": 2.799999713897705,
+                        "width": 79.26499938964844,
+                        "x": 88.37000274658203,
+                        "y": 107.36000061035156,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "Azurite Sea v1.6",
+                    "triangle_count": 10468
+                }
+            ],
+            "sliced_time": 795,
+            "sliced_time_with_cache": 337,
+            "total_predication": 1858.171630859375,
+            "triangle_count": 10468,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 3
+}
